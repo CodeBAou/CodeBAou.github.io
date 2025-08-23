@@ -1,0 +1,18 @@
+.section_inicio{
+
+    width:47vw;
+    display:flex;
+    flex-direction:row;
+    border:1px solid yellow;
+    margin-right:5vw;
+
+    /* overflow: scroll; */
+    /* overflow: auto;        /** permite scroll */
+    /*  scrollbar-width: none; /* Firefox */
+    /* -ms-overflow-style: none; /* IE y Edge antiguos */
+}
+
+
+.mi-div::-webkit-scrollbar {
+ /*  display: none; /* Chrome, Safari */
+}

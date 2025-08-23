@@ -1,0 +1,9 @@
+.layout_inicio{
+    height:87vh;
+    width:100vw;
+    margin-top:5vh;
+    display:flex;
+    flex-direction:row;
+    background-color: black;
+    justify-content: space-between;
+}

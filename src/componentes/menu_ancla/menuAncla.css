@@ -1,0 +1,29 @@
+.menu-lateral{
+    width:30vw;
+    height:70vh;
+    border:1px solid red;
+}
+
+.menu-lateral > ul {
+    list-style:none;
+    display:flex;
+    flex-direction: column;
+    align-items:left;
+    justify-content:space-around;
+    height:100%;
+}
+
+.menu-lateral > ul > li{
+  
+}
+
+.menu-lateral > ul > li > a{
+    font-size:4rem;
+    font-family:lombok;
+    text-decoration:none;
+    color:var( --primary-color);
+}
+
+.menu-lateral > ul > li > a:hover{
+    color:var(--tertiary-color);
+}
