@@ -1,0 +1,79 @@
+[
+  {
+    "name":"soporte web",
+    "ancla":"soporte-web",
+    "enlace":"#",
+    "descripcion":"El servicio de soporte web está destinado a mantener una página web en funcionamiento y actualizada, solucionando cualquier problema que surja de forma rápida.",
+    "servicio":[
+        "Puntual (Pago único)",
+        "Mensual",
+        "sitios web (otras tecnologias)"
+    ],
+    "duracion":[
+        "Puntual (Evaluación)",
+        "Mensual 1h"
+    ],
+    "precio":[
+      "Puntual (Evaluación y presupuesto)",
+      "Mensual ( 35€/mes)"
+    ],
+    "tecnologias_icons":[
+        { 
+          "path": "/icon/wordpress.svg",
+          "alt": "Icono Logo de wordpress",
+          "width":50,
+          "height":80
+        },
+         { 
+          "path": "/icon/WooCommerce.svg",
+          "alt": "Icono Logo plugin woocommerce de wordpress",
+          "width":50,
+          "height":80
+        },
+        { 
+          "path": "/icon/react.svg",
+          "alt": "Icono Logo de React",
+          "width":50,
+          "height":80
+        }
+    ]
+},
+
+
+  {
+    "name":"SEO BASICO",
+    "ancla":"seo-basico",
+    "enlace":"#",
+    "descripcion":"Este es un servicio de SEO on Page, este servicio se centra en corregir los problemas que perjudican al posicionamiento en buscadores. Se crea un estudio de palabras clave, se corrigen problemas en el contenido, se soluccionan problemas en el diseño, se optimiza la velocidad de carga de la web, por último se realiza una evaluación y informe.",
+    "servicio":[
+        "Puntual (pago único)",
+        "Mensual (Mejoras mensualmente)"
+    ],
+    "duracion":[
+        "web básica 1h mensual",
+        "web "
+    ],
+    "precio":[],
+    "tecnologias_icons":[
+        { 
+          "path": "/icon/wordpress.svg",
+          "alt": "Icono Logo de wordpress",
+          "width":50,
+          "height":80
+        },
+         { 
+          "path": "/icon/WooCommerce.svg",
+          "alt": "Icono Logo plugin woocommerce de wordpress",
+          "width":50,
+          "height":80
+        },
+        { 
+          "path": "/icon/react.svg",
+          "alt": "Icono Logo de React",
+          "width":50,
+          "height":80
+        }
+    ]
+}
+
+]

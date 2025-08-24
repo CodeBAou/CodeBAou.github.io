@@ -1,15 +1,21 @@
 .section_inicio{
 
     width:47vw;
+    height:71vh;
     display:flex;
-    flex-direction:row;
-    border:1px solid yellow;
+    flex-direction:row-reverse;
+    /* border:1px solid yellow; 
     margin-right:5vw;
-
+    margin-bottom:7vh;
+    background-color: rgb(0, 0, 0, 0.2);
     /* overflow: scroll; */
     /* overflow: auto;        /** permite scroll */
     /*  scrollbar-width: none; /* Firefox */
     /* -ms-overflow-style: none; /* IE y Edge antiguos */
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-right:5vw;
+    margin-bottom:7vh;
 }
 
 
