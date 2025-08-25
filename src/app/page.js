@@ -5,6 +5,7 @@ import Content_section_detalles from '@/componentes/content_section_detalles/Con
 import Content_section_description from '@/componentes/content_section_description/Content_section_description';
 import Data_servicos_descripcion_corta from '@/data/page_inicio/Data_servicios_descripción_corta.json';
 import Section_header from '@/componentes/section_header/Section_header.jsx';
+import Content_section_contacto from '@/componentes/content_section_contacto/Content_section_contacto';
 
 export default function Page(){
 
@@ -43,6 +44,10 @@ export default function Page(){
                              
                             })
                         }
+
+                    <Layout_section_inicio>
+                        <Content_section_contacto/>
+                    </Layout_section_inicio>
 
                 </div>
          </Layout_page_inicio>  
