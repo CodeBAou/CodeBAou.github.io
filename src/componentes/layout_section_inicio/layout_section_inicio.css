@@ -16,6 +16,13 @@
     background-color: rgba(0, 0, 0, 0.6);
     margin-right:5vw;
     margin-bottom:7vh;
+
+      filter: drop-shadow(
+        0 0 10px rgba(0,0,0,0.3)
+    );
+   box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.73);
+-moz-box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.3);
 }
 
 

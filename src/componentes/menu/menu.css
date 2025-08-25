@@ -1,5 +1,4 @@
 
-
 nav.menu{
     margin-right:5vw;
     height:5vh;
@@ -9,6 +8,14 @@ nav.menu{
     padding-left:2vw;
     padding-right:2vw;
     opacity: 0.7;
+     margin-bottom:0;
+     border:1px solid var(--tertiary-color);
+    filter: drop-shadow(
+        0 0 10px rgba(0,0,0,0.9)
+    );
+   box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.73);
+-webkit-box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.73);
+-moz-box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.73);
 }
 
 nav.menu > ul {
