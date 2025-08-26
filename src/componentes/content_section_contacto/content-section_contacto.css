@@ -5,12 +5,12 @@
     display:flex;
     flex-direction:column;
     justify-content: center;
-    align-items: center;
+    align-items:center;
 }
 
 .section_contacto > h2{
     color:var(--primary-color);
-    font-size: 3rem;
+    font-size:var( --font-size-large);
     font-family:'lombok';
 }
 
@@ -48,7 +48,7 @@
 }
 
 .section_contacto > div > div.content_datos_contacto > div > h3{
-    font-size: 2.1rem;
+   font-size:var( --font-size-large);
     color:var(--tertiary-color);
     font-family:'lombok';
 }
@@ -69,4 +69,52 @@
     width:60px;
     margin-left:2vw;
     
+}
+
+@media(max-width:1200px){
+
+    .section_contacto{
+    
+    }
+
+    .section_contacto > h2{
+        font-size:1.5rem;
+    }
+
+    .section_contacto > div{
+
+    }
+
+    .section_contacto > div > div.content_datos_contacto > div > h3{
+        font-size:1.2rem;
+    }
+
+    .section_contacto > div > div.content_datos_contacto > div > div > p{
+        font-size:1rem;
+
+    }
+
+    .section_contacto > div > div.content_datos_contacto > div > div > img{
+
+        width:40px;
+    }
+}
+
+
+@media(max-width:780px){
+
+     .section_contacto > div{
+        width:80%;
+        margin-bottom:2vh;
+    }
+
+     .section_contacto > div > div.content_datos_contacto > div > div > img{
+
+        width:30px;
+     }
+
+      .section_contacto > div > div.content_datos_contacto > div > div > p{
+        font-size:1.2rem;
+      }
+
 }

@@ -1,7 +1,6 @@
 .menu-lateral{
     width:30vw;
     height:70vh;
-    border:1px solid red;
 }
 
 .menu-lateral > ul {
@@ -18,7 +17,7 @@
 }
 
 .menu-lateral > ul > li > a{
-    font-size:3vw;
+    font-size:2vw;
     font-family:lombok;
     text-decoration:none;
     color:var( --primary-color);
@@ -26,4 +25,17 @@
 
 .menu-lateral > ul > li > a:hover{
     color:var(--tertiary-color);
+}
+
+
+@media(max-width:1200px){
+  .menu-lateral > ul > li > a{
+    font-size:1.8rem;
+  }
+}
+
+@media(max-width:780px){
+  .menu-lateral{
+    display:none;
+  }
 }

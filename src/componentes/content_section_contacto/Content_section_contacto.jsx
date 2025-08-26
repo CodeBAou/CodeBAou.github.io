@@ -5,9 +5,9 @@ export default function Content_section_contacto(){
 
     return(
 
-        <div className="section_contacto">
+        <div id="contacto" className="section_contacto">
 
-            <h2>Contacto</h2>
+            <h2 >Contacto</h2>
 
             <div>
 
@@ -31,6 +31,14 @@ export default function Content_section_contacto(){
                         <div>
                             <img src="/icon/email.svg" alt="icono de correo electronico" />
                             <p>borisafou@gmail.com</p>
+                        </div>
+                    </div>
+
+                     <div>
+                        <h3>Horario</h3> 
+                        <div>
+                            <img src="/icon/horario.svg" alt="icono de horario" />
+                            <p>8:30 14:00 15:00 - 17:30</p>
                         </div>
                     </div>
 

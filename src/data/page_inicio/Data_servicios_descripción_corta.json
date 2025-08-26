@@ -3,7 +3,9 @@
     "name":"soporte web",
     "ancla":"soporte-web",
     "enlace":"#",
-    "descripcion":"El servicio de soporte web está destinado a mantener una página web en funcionamiento y actualizada, solucionando cualquier problema que surja de forma rápida.",
+    "descripcion":[
+      "El servicio de soporte web está destinado a mantener una página web en funcionamiento y actualizada, solucionando cualquier problema que surja de forma rápida."
+    ],
     "servicio":[
         "Puntual (Pago único)",
         "Mensual",
@@ -35,25 +37,49 @@
           "alt": "Icono Logo de React",
           "width":50,
           "height":80
+        },
+        { 
+          "path": "/icon/electron.svg",
+          "alt": "Icono Logo de electron",
+          "width":50,
+          "height":80
+        },
+        { 
+          "path": "/icon/js.svg",
+          "alt": "Icono Logo de javascript",
+          "width":50,
+          "height":80
+        },
+        { 
+          "path": "/icon/desarrollo.svg",
+          "alt": "Icono Logo, un editor con codigo de programación.",
+          "width":50,
+          "height":80
         }
     ]
 },
-
-
-  {
-    "name":"SEO BASICO",
-    "ancla":"seo-basico",
+{
+    "name":"diseño",
+    "ancla":"diseño-web",
     "enlace":"#",
-    "descripcion":"Este es un servicio de SEO on Page, este servicio se centra en corregir los problemas que perjudican al posicionamiento en buscadores. Se crea un estudio de palabras clave, se corrigen problemas en el contenido, se soluccionan problemas en el diseño, se optimiza la velocidad de carga de la web, por último se realiza una evaluación y informe.",
+    "descripcion":[
+      "El servicio va destinado tanto para la construcción de una marca como un diseño de una página web. ",
+      "Se trata de un documento que define las pautas de diseño para la marca (identidad visual, elementos gráficos, identidad verbal), y de la página web (prototipo web, diseño web).",
+      "Se trabaja en la parte que necesite el cliente y con el cliente, puedes pedir un logo, o diseño web o todo, contruir la marca y el diseño web."
+    ],
     "servicio":[
-        "Puntual (pago único)",
-        "Mensual (Mejoras mensualmente)"
+        "Diseño de marca",
+        "Diseño web",
+        "Marca + web"
     ],
     "duracion":[
-        "web básica 1h mensual",
-        "web "
+        "-",
+        "-",
+        "-"
     ],
-    "precio":[],
+    "precio":[
+      "presupuesto"
+    ],
     "tecnologias_icons":[
         { 
           "path": "/icon/wordpress.svg",
@@ -64,6 +90,186 @@
          { 
           "path": "/icon/WooCommerce.svg",
           "alt": "Icono Logo plugin woocommerce de wordpress",
+          "width":50,
+          "height":80
+        },
+        { 
+          "path": "/icon/react.svg",
+          "alt": "Icono Logo de React",
+          "width":50,
+          "height":80
+        },
+        { 
+          "path": "/icon/GIMP.svg",
+          "alt": "Icono Logo del editor Gimp.",
+          "width":50,
+          "height":80
+        }
+    ]
+},
+{
+    "name":"Desarrollo WordPress",
+    "ancla":"desarrollo-web-wordpress",
+    "enlace":"#",
+    "descripcion":[
+      "Desarrollo de una página web para tu negocio o tienda en WordPress. ",
+      "Esta web está construida con WordPress, un gestor de contenido que te permite editar y crear contenido de forma fácil tu mismo.",
+      "Con WordPress puedes tener tu tienda online y gestionar los productos y pedidos para vender fácilmente en internet."
+  ],
+    "servicio":[
+        "Web corporativa",
+        "Web marca personal",
+        "web blog",
+        "tienda online woocommerce"
+    ],
+    "duracion":[
+        "-",
+        "-",
+        "-"
+    ],
+    "precio":["Presupuesto"],
+    "tecnologias_icons":[
+        { 
+          "path": "/icon/wordpress.svg",
+          "alt": "Icono Logo de wordpress",
+          "width":50,
+          "height":80
+        },
+         { 
+          "path": "/icon/WooCommerce.svg",
+          "alt": "Icono Logo plugin woocommerce de wordpress",
+          "width":50,
+          "height":80
+        },
+          { 
+          "path": "/icon/desarrollo.svg",
+          "alt": "Icono Logo editor con codigo de programación",
+          "width":50,
+          "height":80
+        }
+    ]
+},
+{
+    "name":"Desarrollo A medida",
+    "ancla":"desarrollo-a-medida",
+    "enlace":"#",
+    "descripcion":[
+      "Se desarrolla una web o app de escritorio o app que se ajuste a las necesidades del cliente.",
+      "Puede ser una web, web app, app para escritorio o una app movil.",
+      "El precio puede variar en función del tamaño y complejidad del desarrollo y es necesario realizar un calculo presupuestario."
+  ],
+    "servicio":[
+        "Web",
+        "Escritorio",
+        "Mobile"
+    ],
+    "duracion":[
+        "-"
+    ],
+    "precio":["Presupuesto"],
+    "tecnologias_icons":[
+        { 
+          "path": "/icon/wordpress.svg",
+          "alt": "Icono Logo de wordpress",
+          "width":50,
+          "height":80
+        },
+         { 
+          "path": "/icon/react.svg",
+          "alt": "Icono Logo de React",
+          "width":50,
+          "height":80
+        },
+        { 
+          "path": "/icon/PHP.svg",
+          "alt": "Icono Logo de PHP",
+          "width":50,
+          "height":80
+        },
+        { 
+          "path": "/icon/electron.svg",
+          "alt": "Icono Logo de Electron",
+          "width":50,
+          "height":80
+        },
+        { 
+          "path": "/icon/desarrollo.svg",
+          "alt": "Icono Logo editor con codigo de programación.",
+          "width":50,
+          "height":80
+        }
+    ]
+},
+{
+    "name":"SEO",
+    "ancla":"seo",
+    "enlace":"#",
+    "descripcion":[
+      "El SEO son medidas que se toman en la propia página web para mejorar la puntuación en el ranking de los buscadores y salir lo mas arriba posible.",
+      "Se analizan las búsquedas de los usuarios para adaptar tu web a esas búsquedas, se optimiza el contenido, la velocidad de carga, la accesibilidad, la estructura de la web y se analiza la competencia.",
+      "Este servicio se puede contractar como mejora puntual de la página web, o mensualmente donde se mejora el posicionamiento de forma continuada adaptándonos a los cambios y aumentar el tráfico."
+  ],
+    "servicio":[
+        "Seo Básico",
+        "Seo Avanzado",
+        "Seo Woo"
+    ],
+    "duracion":[
+        "Seo básico 8h",
+        "Seo avanzado (presupuesto)",
+        "Seo woocommerce (presupuesto)"
+    ],
+    "precio":[
+
+    ],
+    "tecnologias_icons":[
+        { 
+          "path": "/icon/wordpress.svg",
+          "alt": "Icono Logo de wordpress",
+          "width":50,
+          "height":80
+        },
+         { 
+          "path": "/icon/seo.svg",
+          "alt": "Icono Logo, un portatil que pone 'SEO' en la pantalla.",
+          "width":50,
+          "height":80
+        },
+        { 
+          "path": "/icon/react.svg",
+          "alt": "Icono Logo de React",
+          "width":50,
+          "height":80
+        }
+    ]
+},
+{
+    "name":"SEM",
+    "ancla":"sem",
+    "enlace":"#",
+    "descripcion":[
+      "El servicio SEM aumentar el tráfico mediante publicidad de pago."
+  ],
+    "servicio":[
+        "Posicionamiento puja",
+        "Anuncio google"
+    ],
+    "duracion":[
+        "Depende del cliente"
+    ],
+    "precio":[
+        "presupuesto"
+    ],
+    "tecnologias_icons":[
+        { 
+          "path": "/icon/wordpress.svg",
+          "alt": "Icono Logo de wordpress",
+          "width":50,
+          "height":80
+        },
+         { 
+          "path": "/icon/seo.svg",
+          "alt": "Icono Logo un portatil que pone 'SEO' en la pantalla",
           "width":50,
           "height":80
         },

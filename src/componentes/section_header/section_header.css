@@ -1,4 +1,5 @@
 .section-header{
+   
     height:80vh;
     width:47vw;
     display:flex;
@@ -71,3 +72,61 @@
     scale:1.25;
     z-index:-1;
 }*/
+
+.logoDWBA{
+    display:none;
+}
+
+@media(max-width:1200px){
+    .section-header{
+        position:relative;
+        width:100%;
+        max-width: 100%;
+        height:auto;
+        padding-bottom:10vh;
+    }
+
+    .section-header > h1{
+        width:100%;
+        font-size:2.2rem;
+    }
+
+    .section-header > .apps_list{
+        display:flex;
+        width:100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-header > .apps_list > img{
+        width:15%;
+    }
+
+    .section-header > .tecnologias_list{
+        width:100%;
+        max-width:100%;
+
+    }
+}
+
+
+@media(max-width:780px){
+    .section-header{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+     .section-header > h1{
+        margin-bottom:6vh;
+        margin-top:5vh;
+        text-align:center;
+     }
+
+    .logoDWBA{
+        display:block;
+        width:20vh;
+        height: 20vh;
+        margin:0;
+    }
+}

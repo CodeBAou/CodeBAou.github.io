@@ -37,22 +37,51 @@
     color:white;
     font-size:0.68vw;
     font-family:'optimist';
-    margin-left:30px;
-    
+    margin-left:30px;  
 }
 
 .detalles > .content-icons{
     position:relative;
-  
     display:flex;
     flex-direction:row;
     justify-content: center;
 }
 
-
 .detalles > .content-icons{
-
+    display:flex;
+    flex-wrap: wrap;
 }
+
 .detalles > .content-icons > img{
     margin:8px;
+}
+
+@media(max-width:1200px){
+    .detalles{
+        width:45%;
+    }
+
+    .detalles > .content-icons > img{
+        width:30px;
+        height:40px;
+        margin:4px;
+    }
+
+    .detalles > h3{
+        font-size:1rem;
+        margin-bottom:5px;
+    }
+
+    .detalles > p{
+        font-size:1rem;
+        margin-bottom:2px;
+        margin-top:5px;
+        margin-left:2px;
+    }
+
+    .detalles ul li{
+        margin-top:5px;
+        margin-bottom:5px;
+        margin-left:5px;
+    }
 }

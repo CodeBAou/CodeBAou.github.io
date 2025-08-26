@@ -25,7 +25,24 @@
 -moz-box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.3);
 }
 
-
 .mi-div::-webkit-scrollbar {
  /*  display: none; /* Chrome, Safari */
+}
+
+@media(max-width:1200px){
+    .section_inicio{
+      position:relative;
+      width:100%;
+      margin-right: 0;
+    }
+
+}
+
+
+@media(max-width:780px){
+     .section_inicio{
+      width:100%;
+      display:flex;
+      height:auto;
+     }
 }

@@ -8,3 +8,10 @@ header{
     align-items:end;
     margin:0;
 }
+
+
+@media(max-width:780px){
+    header{
+        height:0px;
+    }
+}

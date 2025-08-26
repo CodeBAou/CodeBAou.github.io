@@ -5,7 +5,8 @@ export default function Section_header(){
 
     return(
        <div className="section-header">
-            <h1>DWBA, desarrollo, diseño y marketing</h1>
+            <img class="logoDWBA" src="/image/LOGO_DWBA_Transparente.webp" alt="Logo_DWBA"/>
+            <h1 id="dwba">DWBA, desarrollo, diseño y marketing digital</h1>
             <p>Ourense</p>
             <div className="apps_list">
                 <img className="app_imagen" src="/image/Logo-de-la-app-pixelgrino-de-DWBA.png" alt="El logo de la app pixelgrino de DWBA" />
