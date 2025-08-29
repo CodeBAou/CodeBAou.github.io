@@ -11,9 +11,7 @@ export default function Content_section_contacto(){
 
             <div>
 
-                <div className="content_imagen_dwba">
-                    <img src="/image/LOGO_DWBA_Transparente.webp" alt="" />
-                </div>
+             
 
                 <div className="content_datos_contacto">
 
@@ -38,7 +36,7 @@ export default function Content_section_contacto(){
                         <h3>Horario</h3> 
                         <div>
                             <img src="/icon/horario.svg" alt="icono de horario" />
-                            <p>8:30 14:00 15:00 - 17:30</p>
+                            <p>8:30 - 14:00 | 15:00 - 17:30</p>
                         </div>
                     </div>
 

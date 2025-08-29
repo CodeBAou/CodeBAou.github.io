@@ -1,5 +1,4 @@
 .section-header{
-   
     height:80vh;
     width:47vw;
     display:flex;
@@ -31,7 +30,7 @@
 .section-header > .apps_list{
    position:relative;
    width:40%;  
-   padding-top:5vh;
+   padding-top:4vh;
 }
 
 .section-header > .apps_list > img{
@@ -40,7 +39,6 @@
     filter: drop-shadow(
         0 0 10px rgba(0,0,0,0.8)
     );
- 
 }
 
 .section-header > .tecnologias_list{
@@ -49,17 +47,15 @@
     justify-content: space-between;
     position:relative;
     width:70%;
-    padding-top:10vh;
+    padding-top:5vh;
     flex-wrap: wrap;
-
-     filter: drop-shadow(
+    filter: drop-shadow(
         0 0 10px rgba(0,0,0,0.8)
     );
 }
 
 .section-header > .tecnologias_list > img{
     width: 50px;
-
 }
 
 /** .section-header > .apps_list > img::after{

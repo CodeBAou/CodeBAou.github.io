@@ -1,0 +1,35 @@
+.apps-content{
+   display:flex;
+   flex-direction:row;
+   justify-content: center;
+   align-items:center;
+   background-color: red;
+   width:100vw;
+   height:100vh;
+  
+   margin:0;
+   padding:0;
+   overflow:scroll;
+    
+   overflow-x: hidden;     /* permite scroll horizontal */
+   overflow-y: hidden;
+   background-image: url('/image/textura_servicios_1920_magenta.webp');
+   opacity: 0.8;
+   position:absolute;
+   z-index:-1;
+
+   margin-top:-8vh;
+
+}
+
+.apps-content > img{
+   width:300px;
+   height:300px;
+}
+
+
+@media(max-width:780px){
+    .apps-content{
+        height:100vh;
+    }
+}

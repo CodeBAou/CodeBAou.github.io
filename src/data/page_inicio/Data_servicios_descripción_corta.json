@@ -56,6 +56,9 @@
           "width":50,
           "height":80
         }
+    ],
+    "images_muestra_servicios":[
+      "/image/Capturas-de-errores-console-y-error-404-para-servicio-soporte-web.webp"
     ]
 },
 {
@@ -105,6 +108,11 @@
           "width":50,
           "height":80
         }
+    ],
+    "images_muestra_servicios":[
+      "/image/Muestra_diseños-interfaces-pagina-web-responsive_DWBA.webp",
+      "/image/Muestra-paleta-colores-diseño-pagina-web_DWBA.webp",
+      "/image/Muestra-prototipo-diseño-pagina-web_DWBA.webp"
     ]
 },
 {
@@ -147,6 +155,10 @@
           "width":50,
           "height":80
         }
+    ],
+    "images_muestra_servicios":[
+      "/image/Captura-web-wordpress-outubro-diseño-desarrollo-dwba.webp",
+      "/image/capturas-escritorio-wordpress.webp"
     ]
 },
 {
@@ -198,6 +210,9 @@
           "width":50,
           "height":80
         }
+    ],
+    "images_muestra_servicios":[
+      "/image/Desarrollo_a_medida_plugin_dwba_pixelgrino.webp"
     ]
 },
 {
@@ -240,45 +255,17 @@
           "alt": "Icono Logo de React",
           "width":50,
           "height":80
-        }
-    ]
-},
-{
-    "name":"SEM",
-    "ancla":"sem",
-    "enlace":"#",
-    "descripcion":[
-      "El servicio SEM aumentar el tráfico mediante publicidad de pago."
-  ],
-    "servicio":[
-        "Posicionamiento puja",
-        "Anuncio google"
-    ],
-    "duracion":[
-        "Depende del cliente"
-    ],
-    "precio":[
-        "presupuesto"
-    ],
-    "tecnologias_icons":[
-        { 
-          "path": "/icon/wordpress.svg",
-          "alt": "Icono Logo de wordpress",
-          "width":50,
-          "height":80
-        },
-         { 
-          "path": "/icon/seo.svg",
-          "alt": "Icono Logo un portatil que pone 'SEO' en la pantalla",
-          "width":50,
-          "height":80
         },
         { 
-          "path": "/icon/react.svg",
+          "path": "/icon/crecimiento.svg",
           "alt": "Icono Logo de React",
           "width":50,
           "height":80
         }
+    ],
+    "images_muestra_servicios":[
+      "/image/Estadisticas-LightHouse-98-puntos-buen-redimiento-velocidad-de-carga.webp",
+      "/image/Estadisticas-google-search-console-impresiones-subiendo-click-subiendo.webp"
     ]
 }
 
