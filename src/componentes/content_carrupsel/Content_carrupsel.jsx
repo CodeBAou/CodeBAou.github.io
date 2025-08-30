@@ -10,7 +10,7 @@ export default function Content_carrupsel({ images }) {
   const isDragging             = useRef(false);
   const startX                 = useRef(0);
   const scrollLeft             = useRef(0);
-  const [isMobile,setIsMobile] = useState(null);
+  const [isMobile,setIsMobile] = useState(1920);
 
   useEffect(() => {
 
