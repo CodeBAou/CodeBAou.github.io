@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect, useRef } from 'react';
 import './content_carrupsel.css';
 
@@ -8,7 +10,7 @@ export default function Content_carrupsel({ images }) {
   const isDragging             = useRef(false);
   const startX                 = useRef(0);
   const scrollLeft             = useRef(0);
-  const [isMobile,setIsMobile] = useState(window.innerWidth);
+  const [isMobile,setIsMobile] = useState(null);
 
   useEffect(() => {
 
@@ -41,23 +43,25 @@ export default function Content_carrupsel({ images }) {
     carousel.addEventListener('mouseup', handleMouseUp);
     carousel.addEventListener('mousemove', handleMouseMove);
 
-    // eventos globales (importante para no quedarse trabado)
-    window.addEventListener("mouseup", handleMouseUp);
+    if (typeof window !== "undefined") {
 
-    //Detectar mobile
-    window.addEventListener("resize", (event) => {
-      setIsMobile(window.innerWidth);
-    })
+       // eventos globales (importante para no quedarse trabado)
+      window.addEventListener("mouseup", handleMouseUp);
 
-
+      //Detectar mobile
+      window.addEventListener("resize", (event) => {
+        setIsMobile(window.innerWidth);
+      })
+    }
+   
     return () => {
       carousel.removeEventListener('mousedown', handleMouseDown);
       carousel.removeEventListener('mouseleave', handleMouseLeave);
       carousel.removeEventListener('mouseup', handleMouseUp);
       carousel.removeEventListener('mousemove', handleMouseMove);
     };
-  }, []);
 
+  }, []);
 
 
   if(isMobile > "780"){
@@ -97,7 +101,5 @@ export default function Content_carrupsel({ images }) {
     )
 
   }
-  
-
   
 }

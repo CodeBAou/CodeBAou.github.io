@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, {useState, useEffect} from 'react'
 import Data_Servicios from '../../data/page_inicio/Data_servicios_descripción_corta.json';
 import Content_carrupser from '@/componentes/content_carrupsel/Content_carrupsel.jsx';
