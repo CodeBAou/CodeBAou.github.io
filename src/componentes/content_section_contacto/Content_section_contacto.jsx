@@ -28,7 +28,7 @@ export default function Content_section_contacto(){
                         <h3>EMAIL</h3> 
                         <div>
                             <img src="/icon/email.svg" alt="icono de correo electronico" />
-                            <p>borisafou@gmail.com</p>
+                            <p>dwba.soporte@gmail.com</p>
                         </div>
                     </div>
 

@@ -55,6 +55,10 @@
     text-decoration:wavy;
 }
 
+.enlace-entrar{
+    display:none;
+}
+
 @media(max-width:1200px){
     
     .description{
@@ -76,4 +80,11 @@
         margin-top:4vh;
         
     }
+}
+
+
+@media(max-width:789px){
+     .description > .content-text > p{
+        font-size:1.1rem;
+     }
 }

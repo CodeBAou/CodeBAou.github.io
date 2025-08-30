@@ -13,7 +13,7 @@ export default function Content_section_description({titulo, descripcion,nombreE
                 }
             </div>  
             <div>
-                <a href={enlace}> Detalles {nombreEnlace}</a>
+                <a  className="enlace-entrar" href={enlace}> Detalles {nombreEnlace}</a>
             </div>   
         </div>
     )

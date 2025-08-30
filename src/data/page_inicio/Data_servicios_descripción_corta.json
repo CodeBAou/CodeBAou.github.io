@@ -4,7 +4,8 @@
     "ancla":"soporte-web",
     "enlace":"#",
     "descripcion":[
-      "El servicio de soporte web está destinado a mantener una página web en funcionamiento y actualizada, solucionando cualquier problema que surja de forma rápida."
+      "El servicio de soporte, soluccionar una incidencia (error) en la página web, se puede contratar de forma puntual.",
+      "El servicio de mantenimiento web está destinado a mantener una web operativa, actualizada, optimizada y prevenir nuevos errores en el futuro, se contrata de forma mensual."
     ],
     "servicio":[
         "Puntual (Pago único)",
@@ -17,7 +18,7 @@
     ],
     "precio":[
       "Puntual (Evaluación y presupuesto)",
-      "Mensual ( 35€/mes)"
+      "Mensual ( -)"
     ],
     "tecnologias_icons":[
         { 
@@ -66,14 +67,14 @@
     "ancla":"diseño-web",
     "enlace":"#",
     "descripcion":[
-      "El servicio va destinado tanto para la construcción de una marca como un diseño de una página web. ",
-      "Se trata de un documento que define las pautas de diseño para la marca (identidad visual, elementos gráficos, identidad verbal), y de la página web (prototipo web, diseño web).",
-      "Se trabaja en la parte que necesite el cliente y con el cliente, puedes pedir un logo, o diseño web o todo, contruir la marca y el diseño web."
+      "Creación de Marca con estrategias para crear un vínculo emocional con el cliente, aumentar la credibilidad y garantizar una presencia duradera en la mente del consumidor. ",
+      "Diseño de contenido y producto.",
+      "Diseño UX/UI interfaz de aplicaciones y diseño web con buena experiencia de usuario y apariencia moderna y profesional."
     ],
     "servicio":[
         "Diseño de marca",
-        "Diseño web",
-        "Marca + web"
+        "Diseño ux/ui interfaz",
+        "Diseño ux/ui web"
     ],
     "duracion":[
         "-",
@@ -120,9 +121,9 @@
     "ancla":"desarrollo-web-wordpress",
     "enlace":"#",
     "descripcion":[
-      "Desarrollo de una página web para tu negocio o tienda en WordPress. ",
-      "Esta web está construida con WordPress, un gestor de contenido que te permite editar y crear contenido de forma fácil tu mismo.",
-      "Con WordPress puedes tener tu tienda online y gestionar los productos y pedidos para vender fácilmente en internet."
+      "Desarrollo de página corporativa para tu presencia en internet y gestor de contenido.",
+      "Desarrollo de blog o web para un servicio específico con gestor de contenido.",
+      "Desarrollo de una tienda online ecommerce para vender en internet con gestor de pedidos, productos, envíos y integración de sistema de pago."
   ],
     "servicio":[
         "Web corporativa",
@@ -166,9 +167,9 @@
     "ancla":"desarrollo-a-medida",
     "enlace":"#",
     "descripcion":[
-      "Se desarrolla una web o app de escritorio o app que se ajuste a las necesidades del cliente.",
-      "Puede ser una web, web app, app para escritorio o una app movil.",
-      "El precio puede variar en función del tamaño y complejidad del desarrollo y es necesario realizar un calculo presupuestario."
+      "Un plan de desarrollo específico que resuelva la necesidad de tu negocio.",
+      "Desarrollo de una web profesional basada en las necesidades específicas del cliente.",
+      "App movil, app de escritorio, desarrollo de plugin, modificación core de wordpress, etc. "
   ],
     "servicio":[
         "Web",
@@ -220,9 +221,9 @@
     "ancla":"seo",
     "enlace":"#",
     "descripcion":[
-      "El SEO son medidas que se toman en la propia página web para mejorar la puntuación en el ranking de los buscadores y salir lo mas arriba posible.",
-      "Se analizan las búsquedas de los usuarios para adaptar tu web a esas búsquedas, se optimiza el contenido, la velocidad de carga, la accesibilidad, la estructura de la web y se analiza la competencia.",
-      "Este servicio se puede contractar como mejora puntual de la página web, o mensualmente donde se mejora el posicionamiento de forma continuada adaptándonos a los cambios y aumentar el tráfico."
+      "SEO Básico, una optimización de SEO puntual en tu página web, para que los algoritmos de Google no te penalicen en el ranking pageRank de los resultados de búsqueda.",
+      "SEO Avanzado, se trabaja mensualmente analizando el tráfico, mercado y competencia para posicionar tu web y captar la mayor cantidad de usuarios locales para tu negocio.",
+      "SEM posicionamiento por puja (pago) y estrategia para aumentar tráfico mediante inversión."
   ],
     "servicio":[
         "Seo Básico",

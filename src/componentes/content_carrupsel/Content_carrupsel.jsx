@@ -2,12 +2,18 @@ import React, { useState, useEffect, useRef } from 'react';
 import './content_carrupsel.css';
 
 export default function Content_carrupsel({ images }) {
-  const carouselRef = useRef(null);
-  const isDragging  = useRef(false);
-  const startX      = useRef(0);
-  const scrollLeft  = useRef(0);
+
+  const carrouselDadRef        = useRef(null);
+  const carouselRef            = useRef(null);
+  const isDragging             = useRef(false);
+  const startX                 = useRef(0);
+  const scrollLeft             = useRef(0);
+  const [isMobile,setIsMobile] = useState(window.innerWidth);
 
   useEffect(() => {
+
+    //CARRUPSEL
+
     const carousel = carouselRef.current;
     if (!carousel) return;
 
@@ -26,7 +32,7 @@ export default function Content_carrupsel({ images }) {
       e.preventDefault();
 
       const x             = e.pageX - carousel.offsetLeft;
-      const walk          = (x - startX.current) * 1.5; // velocidad del arrastre
+      const walk          = (x - startX.current) * 1.8; // velocidad del arrastre
       carousel.scrollLeft = scrollLeft.current - walk;
     };
 
@@ -34,6 +40,15 @@ export default function Content_carrupsel({ images }) {
     carousel.addEventListener('mouseleave', handleMouseLeave);
     carousel.addEventListener('mouseup', handleMouseUp);
     carousel.addEventListener('mousemove', handleMouseMove);
+
+    // eventos globales (importante para no quedarse trabado)
+    window.addEventListener("mouseup", handleMouseUp);
+
+    //Detectar mobile
+    window.addEventListener("resize", (event) => {
+      setIsMobile(window.innerWidth);
+    })
+
 
     return () => {
       carousel.removeEventListener('mousedown', handleMouseDown);
@@ -43,9 +58,11 @@ export default function Content_carrupsel({ images }) {
     };
   }, []);
 
-  return (
 
-    <>
+
+  if(isMobile > "780"){
+
+    return (
 
        <div className="carrupsel"> {/**carrupsel full */}
 
@@ -59,24 +76,28 @@ export default function Content_carrupsel({ images }) {
           ))}
         </div>
       </div>
+   
+    )
 
+  }else {
 
-      {/** carrupsel mobile */}
-
-       <div className="carrupsel-mobile"> {/**carrupsel full */}
+    return(
+      <div className="carrupsel-mobile"> {/**carrupsel full */}
 
           <div className="content-items-mobile" ref={carouselRef}>
             {images.map((src, i) => (
                 <div
-                  key={i}
-                  className="carrupsel-item-mobile"
-                  style={{ backgroundImage: `url(${src})` }}
+                key={i}
+                className="carrupsel-item-mobile"
+                style={{ backgroundImage: `url(${src})` }}
                 />
             ))}
           </div>
       </div>
-    
-    </>
-   
-  );
+    )
+
+  }
+  
+
+  
 }

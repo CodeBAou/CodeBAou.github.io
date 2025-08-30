@@ -31,7 +31,6 @@
     width:10px;
 }
 
-
 .carrupsel > .content-items::-webkit-scrollbar-track{
     background:rba(0,0,0);
 }
@@ -40,10 +39,8 @@
     background:rgb(0,0,0);
 }
 
-
-
-
 @media(max-width:780px){
+
     .carrupsel {
         display:none;
         
@@ -66,8 +63,9 @@
 
     .carrupsel-mobile > .content-items-mobile > .carrupsel-item-mobile{
         position:relative;
-        min-width:765px;
+       min-width: 100vw;
         height:99%;
+        background-size: cover;
     }
 } 
 
