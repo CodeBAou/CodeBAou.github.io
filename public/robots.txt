@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /  # Bloquea todo por defecto
+Allow: /$
+Allow: /servicios$
+Allow: /apps$
+Sitemap: https://dwba.es/sitemap.xml
