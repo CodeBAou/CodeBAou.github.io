@@ -84,7 +84,16 @@
 
 
 @media(max-width:789px){
-     .description > .content-text > p{
+
+    .description{
+        justify-content:flex-start;
+    }
+
+    .description > .content-text > h2{
+        margin-top:1rem;
+    }
+
+    .description > .content-text > p{
         font-size:1.1rem;
-     }
+    }
 }
