@@ -114,20 +114,17 @@
         align-items:center;
     }
 
-    .section-header > .logoDWBA{
-        width:300px;
-        height:300px;
-    }
+  
 
     .section-header > h1#dwba{
         margin-bottom:2vh;
         margin-top:5vh;
         text-align:center;
-        font-size:1.8rem;
+        font-size:1.6rem;
     }
 
     .section-header > p{
-        font-size:1.8rem;
+        font-size:1.4rem;
     }
 
     .section-header > .apps_list{
@@ -135,13 +132,17 @@
     }
 
     .section-header > .apps_list > img{
-
+        width:50px;
     }
 
     .logoDWBA{
         display:block;
-        width:20vh;
-        height: 20vh;
+        width:80%;
         margin:0;
+        margin-bottom:2vh;
+    }
+
+    .section-header > .tecnologias_list > .tecnologias_imagen{
+        width:40px;
     }
 }
