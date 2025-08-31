@@ -89,11 +89,16 @@
         justify-content:flex-start;
     }
 
+    .description > h2{
+        font-size:1.6rem;
+        margin-bottom:2vh;
+    }
+
     .description > .content-text > h2{
         margin-top:1rem;
     }
 
     .description > .content-text > p{
-        font-size:1.1rem;
+        font-size:1rem;
     }
 }
