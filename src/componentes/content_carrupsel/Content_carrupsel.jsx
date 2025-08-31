@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './content_carrupsel.css';
 
-export default function Content_carrupsel({ images }) {
+export default function Content_carrupsel({ images, imagesMobile }) {
 
   const carrouselDadRef        = useRef(null);
   const carouselRef            = useRef(null);
@@ -44,7 +44,8 @@ export default function Content_carrupsel({ images }) {
     carousel.addEventListener('mousemove', handleMouseMove);
 
     if (typeof window !== "undefined") {
-
+      
+      setIsMobile(window.innerWidth);
        // eventos globales (importante para no quedarse trabado)
       window.addEventListener("mouseup", handleMouseUp);
 
@@ -89,7 +90,7 @@ export default function Content_carrupsel({ images }) {
       <div className="carrupsel-mobile"> {/**carrupsel full */}
 
           <div className="content-items-mobile" ref={carouselRef}>
-            {images.map((src, i) => (
+            {imagesMobile.map((src, i) => (
                 <div
                 key={i}
                 className="carrupsel-item-mobile"

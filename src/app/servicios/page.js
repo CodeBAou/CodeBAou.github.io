@@ -15,7 +15,7 @@ export default function Page(){
 
                         return <li key={index} className="openli">
                             <div className="carrupsel_content">
-                               <Content_carrupser images={servicio.images_muestra_servicios}/>
+                               <Content_carrupser images={servicio.images_muestra_servicios} imagesMobile={servicio.imagesMobile}/>
                             </div>
                             <div className="title_content">
                                 <h2>{servicio.name}</h2>

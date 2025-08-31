@@ -59,7 +59,10 @@
         }
     ],
     "images_muestra_servicios":[
-      "/image/Capturas-de-errores-console-y-error-404-para-servicio-soporte-web.webp"
+      "/image/servicios/Capturas-de-errores-console-y-error-404-para-servicio-soporte-web.webp"
+    ],
+    "imagesMobile":[
+      "/image/servicios/mobile/Capturas-de-errores-console-y-error-404-para-servicio-soporte-web_mobile_500px.webp"
     ]
 },
 {
@@ -111,10 +114,16 @@
         }
     ],
     "images_muestra_servicios":[
-      "/image/Muestra_diseños-interfaces-pagina-web-responsive_DWBA.webp",
-      "/image/Muestra-paleta-colores-diseño-pagina-web_DWBA.webp",
-      "/image/Muestra-prototipo-diseño-pagina-web_DWBA.webp"
+      "/image/servicios/Muestra-diseños-interfaces-pagina-web-responsive_DWBA.webp",
+      "/image/servicios/Muestra-paleta-colores-diseño-pagina-web_DWBA.webp",
+      "/image/servicios/Muestra-diseño-web-y-diseño-catálogo.webp"
+    ],
+    "imagesMobile":[
+      "/image/servicios/mobile/Muestra-diseños-interfaces-pagina-web-responsive_DWBA_mobile_500px.webp",
+      "/image/servicios/mobile/Muestra-paleta-colores-diseño-pagina-web_DWBA_mobile_500px.webp",
+      "/image/servicios/mobile/Muestra-diseño-web-y-diseño-catálogo_mobile_500px.webp"
     ]
+    
 },
 {
     "name":"Desarrollo WordPress",
@@ -158,8 +167,12 @@
         }
     ],
     "images_muestra_servicios":[
-      "/image/Captura-web-wordpress-outubro-diseño-desarrollo-dwba.webp",
-      "/image/capturas-escritorio-wordpress.webp"
+      "/image/servicios/Captura-web-wordpress-outubro-diseño-desarrollo-dwba.webp",
+      "/image/servicios/capturas-escritorio-wordpress.webp"
+    ],
+    "imagesMobile":[
+      "/image/servicios/mobile/Captura-web-wordpress-outubro-diseño-desarrollo-dwba_mobile_500px.webp",
+      "/image/servicios/mobile/capturas-escritorio-wordpress_mobile_500px.webp"
     ]
 },
 {
@@ -213,7 +226,12 @@
         }
     ],
     "images_muestra_servicios":[
-      "/image/Desarrollo_a_medida_plugin_dwba_pixelgrino.webp"
+      "/image/servicios/Plugin-wordpress-pixelgrino-de-dwba-entrega-fotos-clientes.webp",
+      "/image/servicios/Desarrollo_a_medida_plugin_dwba_pixelgrino.webp"
+    ],
+    "imagesMobile":[
+      "/image/servicios/mobile/Plugin-wordpress-pixelgrino-de-dwba-entrega-fotos-clientes_mobile_500px.webp",
+      "/image/servicios/mobile/Desarrollo_a_medida_plugin_dwba_pixelgrino_mobile_500px.webp"
     ]
 },
 {
@@ -265,8 +283,12 @@
         }
     ],
     "images_muestra_servicios":[
-      "/image/Estadisticas-LightHouse-98-puntos-buen-redimiento-velocidad-de-carga.webp",
-      "/image/Estadisticas-google-search-console-impresiones-subiendo-click-subiendo.webp"
+      "/image/servicios/Estadisticas-LightHouse-98-puntos-buen-redimiento-velocidad-de-carga.webp",
+      "/image/servicios/Estadisticas-google-search-console-impresiones-subiendo-click-subiendo.webp"
+    ],
+    "imagesMobile":[
+      "/image/servicios/mobile/Estadisticas-LightHouse-98-puntos-buen-redimiento-velocidad-de-carga_mobile_500px.webp",
+      "/image/servicios/mobile/Estadisticas-google-search-console-impresiones-subiendo-click-subiendo_mobile_500px.webp"
     ]
 }
 
