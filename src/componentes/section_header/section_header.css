@@ -142,26 +142,9 @@
         margin-bottom:2vh;
         margin-top:5vh;
         text-align:center;
-<<<<<<< HEAD
-        font-size:1.6rem;
-    }
-
-    .section-header > p{
-        font-size:1.4rem;
-    }
-
-    .section-header > .apps_list{
-        padding-top:0.5vh;
-    }
-
-    .section-header > .apps_list > img{
-        width:50px;
-    }
-=======
         margin-bottom:0;
         font-size:2rem;
      }
->>>>>>> develop
 
       .section-header> p{
         font-size:3rem;

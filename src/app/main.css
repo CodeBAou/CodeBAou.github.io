@@ -6,13 +6,13 @@
     --font-size-small:2rem;
 }
 
-<<<<<<< HEAD
 html, body {
   margin: 0;
   padding: 0;
   overflow:hidden;
   height:100%;
-=======
+
+}
 @keyframes alert{
     0%{
        
@@ -40,7 +40,6 @@ html, body {
 .oferta > img.Imagenoferta{
     position:relative;
     width:600px;
->>>>>>> develop
 }
 
 @font-face{
