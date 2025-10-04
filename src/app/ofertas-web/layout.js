@@ -2,17 +2,8 @@ import Header from '@/componentes/header/Header.jsx';
 
 export const metadata = {
   title: 'DWBA Servicios paginas web',
-<<<<<<< HEAD
-  description: 'Servicios de desarrollo de paginas web con CMS o a medida, apps movil, app escritorio y marketing digital en ourense',
-  icons: {
-    icon: '/image/LOGO_DWBA_simbolo.webp',       // favicon clásico
-    apple: '/image/LOGO_DWBA_simbolo.png', // para iOS
-    shortcut: '/image/LOGO_DWBA_simbolo.webp_32' // opcional
-  }
-=======
   description: 'Todos los servicios para páginas web, apps y marketing digital.',
   icons: '/icon/LOGO_DWBA_simbolo_32.webp'
->>>>>>> develop
 }
 
 export default function RootLayout({ children }) {
