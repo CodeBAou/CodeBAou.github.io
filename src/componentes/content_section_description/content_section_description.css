@@ -1,6 +1,6 @@
 .description{
     position:relative;
-    width:100%;
+   /* width:100%; */
     max-height:100%;
     display:flex;
     flex-direction:column;
@@ -25,7 +25,7 @@
 
 .description > .content-text > p{
     color:white;
-    font-size:1vw;
+    font-size:1.35rem;
     font-family:'optimist';
     text-align:left;
 }
@@ -63,6 +63,8 @@
     
     .description{
         padding:1%;
+       
+        width:55%;
     }
 
     .description > h2{
@@ -84,7 +86,40 @@
 
 
 @media(max-width:789px){
+
+    .description{
+        width:auto;
+        max-width:none;
+        height:auto;
+        position:relative;
+        max-width:55%;
+        min-width:0;
+        padding-top:5vh;
+        min-height:0;
+
+    }
+
+     .description > h2{
+        font-size:1.3rem;
+        margin:0;
+        padding:0;
+        margin-bottom:5vh;
+        margin-top:1rem;
+     }
+
+     .description > .content-text{
+        min-height:none;
+        max-height:none;
+        display:flex;
+       
+     }
+
      .description > .content-text > p{
-        font-size:1.1rem;
+       position:relative;
+       width:100%;
+       font-size:1.2rem;
+       margin:0;
+       padding:0;
+       
      }
 }

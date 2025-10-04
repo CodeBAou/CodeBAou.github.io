@@ -27,6 +27,9 @@ export default function Section_header(){
                 <img className="tecnologias_imagen" src="/icon/wordpress.svg" alt="Logo de wordpress"/>
                 <img className="tecnologias_imagen" src="/icon/WooCommerce.svg" alt="Logo de woocommerce"/>
             </div>
+            <div className="desplazamiento_content">
+                <img className="icon_desplazamiento" src="/icon/desplazamiento.svg" alt="Icon para indicar scroll"/>
+            </div>
        </div>
     )
 }

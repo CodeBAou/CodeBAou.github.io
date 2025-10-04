@@ -1,9 +1,10 @@
 .section-header{
     height:80vh;
-    width:47vw;
+    width:100%;
     display:flex;
     flex-direction:column;
     align-items: end;
+    margin-bottom:10vh;
 }
 
 .section-header > h1{
@@ -19,7 +20,7 @@
 }
 
 .section-header > p{
-    font-size:4rem;
+    font-size:2rem;
     margin:0;
     margin-top:1vh;
     margin-bottom:4vh;
@@ -73,18 +74,36 @@
     display:none;
 }
 
+.desplazamiento_content{
+    width:70%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:7vh;
+}
+
+.desplazamiento_content > img{
+    width:5rem;
+}
+
 @media(max-width:1200px){
     .section-header{
         position:relative;
         width:100%;
-        max-width: 100%;
-        height:auto;
-        padding-bottom:10vh;
+        height:80vh;
+        min-height:80vh;
     }
 
     .section-header > h1{
         width:100%;
-        font-size:2.2rem;
+        font-size:2.8rem;
+        margin-top:10vh;
+        margin-bottom:10vh;
+    }
+
+    .section-header > p{
+        margin-bottom:5vh;
     }
 
     .section-header > .apps_list{
@@ -111,18 +130,53 @@
         display:flex;
         flex-direction: column;
         align-items:center;
+        min-height:100vh;
+        max-height: 100vh;
+        margin-bottom:0;
     }
 
      .section-header > h1{
         margin-bottom:6vh;
         margin-top:5vh;
         text-align:center;
+        margin-bottom:0;
+        font-size:2rem;
      }
+
+      .section-header> p{
+        font-size:3rem;
+        margin-top:3vh;
+      }
 
     .logoDWBA{
         display:block;
         width:20vh;
         height: 20vh;
         margin:0;
+    }
+    .section-header > .tecnologias_list{
+        max-width:100vw;
+        padding:0;
+        margin-top:0;
+        margin-bottom:0;
+    }
+
+    .section-header > .apps_list{
+        margin:0;
+        padding:0;
+        margin-bottom:3vh;
+    }
+
+    .section-header > .tecnologias_list > img{
+        width:30px;
+    }
+
+    .section-header > .desplazamiento_content {
+        margin-top:0;
+        padding:0;
+    }
+
+    .section-header > .desplazamiento_content > img{
+        height:auto;
     }
 }
