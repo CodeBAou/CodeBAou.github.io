@@ -7,11 +7,7 @@ footer{
    flex-direction:column;
    padding-top:5vh;
    font-size:1.2rem;
-<<<<<<< HEAD
-   padding-bottom:5vh;
-=======
    padding-bottom:20vh;
->>>>>>> develop
 }
 
 footer > div.content_enlaces > div{

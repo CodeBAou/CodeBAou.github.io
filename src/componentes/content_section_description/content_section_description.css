@@ -88,23 +88,6 @@
 @media(max-width:789px){
 
     .description{
-<<<<<<< HEAD
-        justify-content:flex-start;
-    }
-
-    .description > h2{
-        font-size:1.6rem;
-        margin-bottom:2vh;
-    }
-
-    .description > .content-text > h2{
-        margin-top:1rem;
-    }
-
-    .description > .content-text > p{
-        font-size:1rem;
-    }
-=======
         width:auto;
         max-width:none;
         height:auto;
@@ -139,5 +122,4 @@
        padding:0;
        
      }
->>>>>>> develop
 }
