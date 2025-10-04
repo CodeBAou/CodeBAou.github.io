@@ -5,8 +5,8 @@ import Menu from '@/componentes/menu/Menu.jsx';
 import './main.css';
 
 export const metadata = {
-  title: 'DWBA',
-  description: 'Ayudo a negocios y marcas a crecer desde Ourense, ofreciendo servicios de desarrollo web, aplicaciones móviles, diseño digital y marketing online. Trabajo estrategias de SEO, SEM, gestión de redes sociales y recomendaciones personalizadas para atraer tráfico de calidad a tu web y potenciar tu presencia en Internet.',
+  title: '★ Desarrollo Web, Apps y Marketing Digital en Ourense | 𝝿 DWBA ',
+  description: 'Ayudo a negocios y marcas a crecer desde Ourense con un desarrollo profesional que cubre necesidades, mejora la productividad y aplica estrategias para aprovechar al máximo las oportunidades en el ámbito de marketing',
   icons: {
     icon: '/image/LOGO_DWBA_simbolo.webp',       // favicon clásico
     apple: '/image/LOGO_DWBA_simbolo.png', // para iOS
