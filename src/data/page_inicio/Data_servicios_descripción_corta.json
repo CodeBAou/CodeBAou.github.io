@@ -53,7 +53,13 @@
       "/image/servicios/Muestra-diseños-interfaces-pagina-web-responsive_DWBA.webp",
       "/image/servicios/Muestra-diseño-web-y-diseño-catálogo.webp",
       "/image/servicios/Muestra-paleta-colores-diseño-pagina-web_DWBA.webp" 
+    ],
+    "imagesMobile":[
+      "/image/servicios/mobile/Muestra-diseños-interfaces-pagina-web-responsive_DWBA_mobile_500px.webp",
+      "/image/servicios/mobile/Muestra-paleta-colores-diseño-pagina-web_DWBA_mobile_500px.webp",
+      "/image/servicios/mobile/Muestra-diseño-web-y-diseño-catálogo_mobile_500px.webp"
     ]
+    
 },
 {
     "name":"Desarrollo Web",
@@ -103,6 +109,10 @@
     "images_muestra_servicios":[
       "/image/servicios/Captura-web-wordpress-outubro-diseño-desarrollo-dwba.webp",
       "/image/servicios/capturas-escritorio-wordpress.webp"
+    ],
+    "imagesMobile":[
+      "/image/servicios/mobile/Captura-web-wordpress-outubro-diseño-desarrollo-dwba_mobile_500px.webp",
+      "/image/servicios/mobile/capturas-escritorio-wordpress_mobile_500px.webp"
     ]
 },
   {
@@ -275,6 +285,9 @@
     ],
     "images_muestra_servicios":[
       "/image/servicios/Captura_plan_de_marketing_en_google_ADS.webp"
+    ],
+    "imagesMobile":[
+      "/image/servicios/mobile/Captura_plan_de_marketing_en_google_ADS_mobile_500px.webp"
     ]
 }
 
