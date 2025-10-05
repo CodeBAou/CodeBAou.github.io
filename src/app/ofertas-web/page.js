@@ -1,7 +1,6 @@
 'use client'
 import React, {useState, useEffect} from 'react'
 
-
 import './ofertas.css';
 
 export default function Page(){

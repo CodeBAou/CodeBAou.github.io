@@ -144,31 +144,30 @@
         display:flex;
         flex-direction: column;
         align-items:center;
+        justify-content:space-around;
         min-height:100vh;
         max-height: 100vh;
         margin-bottom:0;
+        max-height:100vh;
     }
 
-  
-
     .section-header > h1#dwba{
-        margin-bottom:2vh;
-        margin-top:5vh;
         text-align:center;
+        margin-top:0;
         margin-bottom:0;
         font-size:2rem;
      }
 
       .section-header> p{
-        font-size:3rem;
-        margin-top:3vh;
+        font-size:2rem;
+        
       }
 
     .logoDWBA{
         display:block;
-        width:80%;
+        width:30%;
         margin:0;
-        margin-bottom:2vh;
+        margin-bottom:0;
     }
 
     .section-header > .tecnologias_list > .tecnologias_imagen{
@@ -177,14 +176,13 @@
     .section-header > .tecnologias_list{
         max-width:100vw;
         padding:0;
-        margin-top:15vh;
-        margin-bottom:15vh;
+     
     }
 
     .section-header > .apps_list{
         margin:0;
         padding:0;
-        margin-bottom:0;
+        margin-bottom:-5vh;
     }
 
     .section-header > .tecnologias_list > img{
@@ -197,6 +195,6 @@
     }
 
     .section-header > .desplazamiento_content > img{
-        height:auto;
+        width:30px;
     }
 }
