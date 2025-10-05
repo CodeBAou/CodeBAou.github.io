@@ -1,7 +1,7 @@
 User-agent: *
 Disallow: /  # Bloquea todo por defecto
-Disallow: /servicios$
-Disallow: /servicios$
+Disallow: /servicios
+Disallow: /apps
 
 Allow: /
 Allow: /ofertas-web
