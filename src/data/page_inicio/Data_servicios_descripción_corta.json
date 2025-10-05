@@ -50,15 +50,16 @@
         }
     ],
     "images_muestra_servicios":[
+      "/image/servicios/Muestra-diseños-interfaces-pagina-web-responsive_DWBA.webp",
       "/image/servicios/Muestra-diseño-web-y-diseño-catálogo.webp",
-      "/image/servicios/Muestra-paleta-colores-diseño-pagina-web_DWBA.webp",
-      "/image/servicios/Muestra-diseños-interfaces-pagina-web-responsive_DWBAA.webp"
+      "/image/servicios/Muestra-paleta-colores-diseño-pagina-web_DWBA.webp" 
     ]
 },
 {
     "name":"Desarrollo Web",
     "ancla":"desarrollo-web",
     "enlace":"#",
+    
     "descripcion":[
       "Si estás buscando una empresa de desalrrollo web y necesitas una página web o tienda online para tu negocio.",
       "Desarrollo de un proyecto web a medida.",
