@@ -1,284 +1,133 @@
 .ofertas-web-limitadas{
-    max-width:100%;
-    min-height:88vh;
-    background-color: rgb(255,255,255,0.1);
-    -webkit-backdrop-filter: blur(3px) saturate(20%);
-    backdrop-filter: blur(3px) saturate(20%);
-    padding-top:5vh;
+    min-width:100vw;
+    max-width:100vw;
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
+    align-items: center;
+}
+
+.ofertas-web-limitadas > section{
+    display:flex;
+    flex-direction:column;
     align-items:center;
-    overflow:scroll;
-    
+    width:765px;
+    max-width:765px;
+    justify-items: center;
+    background-color: rgba(0,0,0,0.7);
+    margin-top:5em;
+    padding:4em;
 }
 
-.ofertas-web-limitadas > div{
-    display:flex;
-    height:auto;
+.ofertas-web-limitadas > section > img{
+    max-width:100vw;
 }
 
-.ofertas-web-limitadas > img{
-    opacity: 0.8;
-    margin-bottom:2rem;
+.ofertas-web-limitadas > section > h1{
+    margin-top:3em;
+    font-size:2.5rem;
+    color:var(--primary-color);
 }
 
-.ofertas-web-limitadas  h1{
-    color: var(--tertiary-color);
-    font-size:2.8rem;
-    margin-left:5rem;
+.ofertas-web-limitadas  h2{
+    color:var(--primary-color);
+    font-size:2.3rem;
 }
-
-.ofertas-web-limitadas h2{
-    color:var(--tertiary-color);
-    font-size:2rem;
-    margin-top:5rem;
-    margin-left:3rem;
-    margin-left:5rem;
-}
-
 
 .ofertas-web-limitadas  h3{
     color:var(--primary-color);
-    margin-left:5rem;
     font-size:1.8rem;
+    padding:0;
+    margin:0;
+}
+
+.ofertas-web-limitadas > section > article{
+    margin-top:3em;
 }
 
 .ofertas-web-limitadas  p{
-    color:var(--second-color);
-    font-size:1.3rem;
-    margin-left:5rem;
-}
-
-.ofertas-web-limitadas > ul{
-    list-style:georgian;
-    margin-bottom:5vh;
-    background-color: rgba(0,0,0,0.5);
-    max-width: 768px;
-    background-color:blur(10px);
-    margin:0;
-    padding:0;
-    padding-top:5vh;
-    padding-bottom:5vh;
-    width:768px;
-}
-
-.ofertas-web-limitadas > ul > li{
-    font-size:1.2rem;
-    color:var(--second-color);
-    margin-left:5vw;
-    
-}
-
-.ofertas-web-limitadas  .linkweb {
-    font-size:1rem;
-}
-
-.ofertas-web-limitadas  .linkweb:hover{
-    text-decoration:underline;
+    color:white;
+    font-size:1.4em;
 }
 
 
-.ofertas-web-limitadas a{
+.ofertas-web-limitadas > section > ul{
+    color:white;
+    list-style:none;
+    font-size:1.3em;
+}
+
+.ofertas-web-limitadas > section.contacto-content{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.ofertas-web-limitadas > section.contacto-content *{
+    margin-right:1em;
+}
+
+.ofertas-web-limitadas  a {
+    padding:20px;
     text-decoration:none;
-    color:white;
-}
-
-.ofertas-web-limitadas .page{
-    display:flex;
-    flex-direction:column;
-    background-color: black;
-    display:flex;
-    max-width: 768px;
-    min-width:768px;
-    background-color: rgba(0,0,0,0.4);
-    padding-bottom:10rem;
-    margin-bottom:5rem;
-}
-
-.ofertas-web-limitadas .page > .precio{
-    color:yellow;
-    font-size:3rem;
-}
-
-.ofertas-web-limitadas .portafolio{
-    display:flex;
-    flex-direction:column;
-    background-color: black;
-    max-width: 768px;
-    min-width:768px;
-    background-color: rgba(0,0,0,0.4);
-    margin-bottom:5vh;
-    margin-top:5vh;
-    height:auto;
-    min-height:500px;
-    align-self:center;
-   justify-items: center;
-    
-}
-
-.ofertas-web-limitadas .contacto-content{
-     display:flex;
-    flex-direction:column;
-    background-color: black;
-    display:flex;margin-left:10px;
-    max-width: 768px;
-    min-width:768px;
-    background-color: rgba(0,0,0,0.4);
-    padding-bottom:5rem;
-    text-align:center;
-}
-
-.ofertas-web-limitadas .contacto-content > h2{
-    margin:0;
-    margin-top:2rem;
-    font-size:2rem;
-    margin-bottom:2rem;
-
-}   
-
-.ofertas-web-limitadas .contacto-content > p{
-    font-size:1.4rem;
-    color:white;
-    margin:0;
-}
-
-.ofertas-web-limitadas a{
-    padding:5px;
+    color:var(--primary-color);
+    font-size:1.4em;
     border:1px solid var(--primary-color);
-    width:100px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:2rem;
-    text-align: center;
+    margin-top:5rem;
+    margin-bottom:5em;
 }
 
-.contacto-content{
-    margin:0;
-    padding:0;
+.logo_dwba{
+    width:200px;
+    margin-top:2em;
 }
 
-@media(max-width:768px){
+@media(max-width:765px){
 
-    .ofertas-web-limitadas * {
-        margin:0;
-        max-width:90%;
+     .ofertas-web-limitadas{
         padding:0;
-
-    }
-
-   .ofertas-web-limitadas{
-     width:100vw;
-     margin:0;
-     padding:0;
-      padding-top:5rem;
-   }
-
-    .ofertas-web-limitadas img{
-        margin:0;
-        padding:0;
-        position:relative;
-        width:100%;
-        margin-top:5rem;
-        margin-bottom:5rem;
         max-width:100vw;
+     }
+    .ofertas-web-limitadas > section.contacto-content{
+        flex-direction:column;
     }
 
-   .ofertas-web-limitadas div{
-      display:flex;
-      flex-direction:row;
-      min-width:0;
-      max-width:100%;
+    .ofertas-web-limitadas > section{
+        max-width:100%;
+        align-items:center;
+        justify-self: center;
+        padding:0;
+        margin:0;
+    }
 
-   }
-   .ofertas-web-limitadas h2{
-    
-   }
+    .ofertas-web-limitadas > section > img{
+        display:flex;
+        max-width:95%;
+        margin:0;
+        margin-bottom:2em;
+    }
 
-   .ofertas-web-limitadas h3{
-    
-   }
-   .ofertas-web-limitadas > h1{
-        font-size:2rem;
-        margin-bottom:5rem;
-        
-   }
+    .ofertas-web-limitadas > section > h2{
+        text-align:center;
+        margin-top:3em;
+        max-width:98%;
+    }
 
-   .ofertas-web-limitadas h2{
-         font-size:1.7rem;
-        margin-left:0;
-        
-        margin-top:3vh;
-   }
-
-   .ofertas-web-limitadas h3{
-        font-size:1rem;
-        margin-left:0;
-        max-width:90%;
-        margin-top:3vh;
-   }
+     .ofertas-web-limitadas > section > h3{
+        text-align:center;
+        max-width:98%;
+     }
 
     .ofertas-web-limitadas p{
-        font-size:1rem;
-        margin:0;
         max-width:90%;
-        margin-left:5%;
-        margin-top:2vh;
-    }
-
-    .ofertas-web-limitadas > ul{
-        min-width:0;
-        width:100%;
         position:relative;
-        font-size:1rem;
-        margin:0;
-        padding:0;
-   }
-
-    .ofertas-web-limitadas > ul > li{
-        position:relative;
-        width:100%;
-        padding:0;
-        margin:0;
-        margin-top:2rem;
-        font-size:1rem !important;
-        text-align:center;
+        font-size:1.2em;
+        padding-left:5px;
     }
 
-    .ofertas-web-limitadas > div{
-     
+    .ofertas-web-limitadas ul li{
+        font-size:1.4em;
+        margin-bottom:30px;
     }
 
-    .ofertas-web-limitadas .page{
-        width:100vw;
-        min-width:100%;
-    }
-
-    .ofertas-web-limitadas .page > h3{
-        margin-left:2rem;
-    }
-
-    .ofertas-web-limitadas .page > p{
-        margin-left:2rem;
-    }
-
-    .ofertas-web-limitadas .portafolio{
-        min-width:0;
-        width:100vw;
-        text-align:center;
-    }
-
-
-    .ofertas-web-limitadas .contacto-content{
-        min-width:0;
-        margin:0;
-        padding:0;
-        width:100vw;
-        padding-bottom:10rem;
-    }
-
-    .ofertas-web-limitadas .page > .precio{
-        color:yellow;
-        font-size:1.2rem;
-    }
-
+   
 }

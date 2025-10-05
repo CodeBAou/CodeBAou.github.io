@@ -53,11 +53,7 @@
       "/image/Muestra_diseños-interfaces-pagina-web-responsive_DWBA.webp",
       "/image/Muestra-paleta-colores-diseño-pagina-web_DWBA.webp",
       "/image/Muestra-prototipo-diseño-pagina-web_DWBA.webp"
-    ],
-    "enlace":{
-      "nombre":"Ver servicio de diseño",
-      "url":""
-    }
+    ]
 },
 {
     "name":"Desarrollo Web",
@@ -68,7 +64,7 @@
       "Desarrollo de un proyecto web a medida.",
       "Desarrollo de una web estática pequeña para iniciación y de bajo coste.",
       "Desarrollo de una página web con gestor de contenido, CMS WordPress.",
-      "Desarrollo de una página web tienda online, para que puedas vender en internet con gestor de contenido y sistema de envíos."
+      "Desarrollo de una tienda online, para que puedas vender en internet con gestor de productos, envios y sisitema de pago online."
   ],
     "servicio":[
         "web Corporativa",
@@ -177,8 +173,8 @@
     "enlace":"#",
     "descripcion":[
       "Si estás buscando una empresa para el posicionamiento en buscadores, podemos posicionar tu web para aparecer primero en Google.",
-      "SEO Básico, una optimización de SEO puntual en tu página web, para que los algoritmos de Google no te penalicen en el ranking pageRank de los resultados de búsqueda.",
-      "SEO Avanzado, se trabaja mensualmente analizando el tráfico, mercado y competencia para posicionar tu web y captar la mayor cantidad de usuarios locales para tu negocio."
+      "El servicio de SEO Básico, una optimización de SEO puntual en tu página web, para que los algoritmos de Google no te penalicen en el ranking pageRank de los resultados de búsqueda. Google puntúa tu página web tanto en el contenido como en la calidad técnica, es importante cumplir los estándares para que no te penalice en los resultados de búsqueda.",
+      "El servicio de SEO Avanzado, se trabaja mensualmente analizando el tráfico, mercado y competencia para posicionar tu web y captar la mayor cantidad de usuarios locales para tu negocio. Por otro lado se aplican las mejoras técnicas en la web para que los algoritmos de Google no te penalicen."
   ],
     "servicio":[
         "Seo Básico",
@@ -231,7 +227,8 @@
     "enlace":"#",
     "descripcion":[
       "Si estás buscando una agencia de marketing digital para posicionarte, podemos ayudarte a realizar tu campaña y llegar a mas gente.",
-      "Mediante google ads, realizamos campañas para posicionarte junto a clientes potenciales dentro de internet."
+      "Mediante google ads, realizamos campañas para posicionarte junto a clientes potenciales dentro de internet.",
+      "Esto no va dirigido solo a grandes empresas, el marketing digital es asequible para todo el mundo, y es posible crear campañas pequeñas y que sean rentables."
   ],
     "servicio":[
         "Campaña marketing"
@@ -269,8 +266,7 @@
         }
     ],
     "images_muestra_servicios":[
-      "/image/Estadisticas-LightHouse-98-puntos-buen-redimiento-velocidad-de-carga.webp",
-      "/image/Estadisticas-google-search-console-impresiones-subiendo-click-subiendo.webp"
+      "/image/Captura_plan_de_marketing_en_google_ADS.webp"
     ]
 }
 
