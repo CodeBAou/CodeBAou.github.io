@@ -3,8 +3,8 @@ import './layout_section_inicio.css';
 
 export default function Layout_section_inicio({children}){
     return(
-        <div className="section_inicio">
+        <article className="section_inicio">
             {children}
-        </div>
+        </article>
     )
 }

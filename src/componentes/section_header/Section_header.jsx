@@ -5,7 +5,7 @@ export default function Section_header(){
 
     return(
        <div className="section-header">
-            <img class="logoDWBA" src="/image/LOGO_DWBA_Transparente.webp" alt="Logo_DWBA"/>
+            <img className="logoDWBA" src="/image/LOGO_DWBA_Transparente.webp" alt="Enlace de una oferta para crear una pagina web desde 31 euros a 123 euros (tienda online)"/>
             <h1 id="dwba">DWBA, desarrollo, diseño y marketing digital</h1>
             <p>Ourense</p>
             <div className="apps_list">
