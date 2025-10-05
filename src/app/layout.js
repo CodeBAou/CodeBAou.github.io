@@ -19,6 +19,8 @@ export default function RootLayout({ children }) {
           href="https://dwba.es/"
           key="canonical"
         />
+
+        <link rel="icon" href="/icon/LOGO_DWBA_simbolo_32.webp"></link>
           <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
