@@ -19,6 +19,20 @@ export default function RootLayout({ children }) {
           href="https://dwba.es/"
           key="canonical"
         />
+          <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "DWBA",
+              "url": "https://dwba.es",
+              "logo": "https://dwba.es/icon/LOGO_DWBA_simbolo_32.webp",
+              "sameAs": [
+              ]
+            })
+          }}
+        />
       </head>
       <body>
         <Header>
