@@ -69,9 +69,9 @@
     "descripcion":[
       "Si estás buscando una empresa de desalrrollo web y necesitas una página web o tienda online para tu negocio.",
       "Desarrollo de un proyecto web a medida.",
-      "Desarrollo de una web estática pequeña para iniciación y de bajo coste.",
-      "Desarrollo de una página web con gestor de contenido, CMS WordPress.",
-      "Desarrollo de una tienda online, para que puedas vender en internet con gestor de productos, envios y sisitema de pago online."
+      "Desarrollo de una web estática pequeña, ideal para iniciar, y de bajo coste.",
+      "Desarrollo de una página web con gestor de contenido (CMS WordPress).",
+      "Desarrollo de una tienda online, para que puedas vender en internet con gestión de productos, envíos y sistema de pago online."
   ],
     "servicio":[
         "web Corporativa",
@@ -120,7 +120,7 @@
     "ancla":"soporte-web",
     "enlace":"#",
     "descripcion":[
-      "Si estás buscando una empresa para el mantenimiento de tu página web puedes contratar este servicio de forma mensual para no tener preocupaciones y mantener tu web en funcionamiento sin complicaciones."
+      "Si estás buscando una empresa para el mantenimiento de tu página web, puedes contratar este servicio de forma mensual para no tener preocupaciones y mantener tu web en funcionamiento sin complicaciones."
     ],
     "servicio":[
         "Puntual",
@@ -188,7 +188,7 @@
     "descripcion":[
       "Si estás buscando una empresa para el posicionamiento en buscadores, podemos posicionar tu web para aparecer primero en Google.",
       "El servicio de SEO Básico, una optimización de SEO puntual en tu página web, para que los algoritmos de Google no te penalicen en el ranking pageRank de los resultados de búsqueda. Google puntúa tu página web tanto en el contenido como en la calidad técnica, es importante cumplir los estándares para que no te penalice en los resultados de búsqueda.",
-      "El servicio de SEO Avanzado, se trabaja mensualmente analizando el tráfico, mercado y competencia para posicionar tu web y captar la mayor cantidad de usuarios locales para tu negocio. Por otro lado se aplican las mejoras técnicas en la web para que los algoritmos de Google no te penalicen."
+      "El servicio de SEO Avanzado se realiza de forma mensual, analizando el tráfico, el mercado y la competencia para posicionar tu web y captar la mayor cantidad de usuarios locales para tu negocio. Además, se aplican mejoras técnicas en la web para que los algoritmos de Google no te penalicen."
   ],
     "servicio":[
         "Seo Básico",
@@ -244,9 +244,9 @@
     "ancla":"seo",
     "enlace":"#",
     "descripcion":[
-      "Si estás buscando una agencia de marketing digital para posicionarte, podemos ayudarte a realizar tu campaña y llegar a mas gente.",
-      "Mediante google ads, realizamos campañas para posicionarte junto a clientes potenciales dentro de internet.",
-      "Esto no va dirigido solo a grandes empresas, el marketing digital es asequible para todo el mundo, y es posible crear campañas pequeñas y que sean rentables."
+      "Si estás buscando una agencia de marketing digital para posicionarte, podemos ayudarte a crear tu campaña y llegar a más personas.",
+      "Mediante Google Ads, realizamos campañas para posicionarte frente a tus clientes potenciales en internet.",
+      "Esto no va dirigido solo a grandes empresas. El marketing digital es accesible para todos, y es posible crear campañas pequeñas que sean rentables."
   ],
     "servicio":[
         "Campaña marketing"

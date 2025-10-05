@@ -11,11 +11,11 @@ export default function Page(){
             <section>
                 <h1> OFERTA DISEÑO WEB </h1>
                 <img src="/image/OFERTA-LIMITADA-DESARROLLO-WEB-PRECIOS.webp" alt="Resumen de la oferta, pagina web corporativa por 31 euros al mes, pagina web servicios por 79 euros y tienda online por 123 euros al mes. " loading="lazy"/>
-                <p> Esta promoción para el diseño web es un paquete para el desarrollo y servicios a un precio reducido y estará disponible de forma temporal.</p>
-                <p> incluye</p>
+                <p> Esta promoción de diseño web ofrece un paquete completo de desarrollo y servicios a un precio reducido, disponible por tiempo limitado.</p>
+               
                 <ul>
                     <li>El descuento de esta promoción será temporal.</li>
-                    <li>Servicio de SEO Basico incluido.</li>
+                    <li>Servicio de SEO Básico incluido.</li>
                     <li>Servicio de mantenimiento incluido.</li>
                     <li>Paga mensualmente si quieres.</li>
                     <li>1 año de permanencia (solo con el pago mensual)</li>
@@ -28,7 +28,7 @@ export default function Page(){
                 <p>La mayor parte del mercado busca a través de internet información sobre las empresas que existen en su zona para comparar y elegir, por eso es importante como mínimo tener una
                     presencia básica en internet.
                 </p>
-                <p>Esta promoción te permite mostrar quien eres y que ofreces a usuarios que están buscando tus servicios a través de internet.</p>
+                <p>Esta promoción te permite mostrar quién eres y qué ofreces a usuarios que están buscando tus servicios a través de internet.</p>
                 <ul>
                     <li>Desarrollo</li>
                     <li>Mantenimiento</li>
@@ -39,7 +39,7 @@ export default function Page(){
             <section>
                 <h2>Oferta para una página para servicios</h2>
                 <img src="/image/Ejemplos_de_web_servicios_de_DWBA.webp" alt="" loading="lazy"/>       
-                <p>Esta promoción te permite mostrar quien eres y que ofreces y contar con alguna funcionalidad avanzada como mostrar un menu online o un sistema de reservas entre otros.</p>          
+                <p>Esta promoción te permite mostrar quién eres y qué ofreces y contar con alguna funcionalidad avanzada como mostrar un menú online o un sistema de reservas, entre otros.</p>          
                 <ul>
                     <li>Desarrollo.</li>
                     <li>Desarrollo de una funcionalidad avanzada.</li>
@@ -51,10 +51,10 @@ export default function Page(){
              <section>
                 <h2>Oferta para una tienda online ecommerce</h2>
                 <img src="/image/Ejemplos_de_web_tienda_online_de_DWBA.webp" alt="" loading="lazy"/>  
-                <p>Esta promoción te permite mostrar quien eres y que ofreces y contar con un sistema completo para verder en internet.</p>
+                <p>Esta promoción te permite mostrar quién eres y qué ofreces y contar con un sistema completo para vender en internet.</p>
                 <ul>
                     <li>Desarrollo.</li>
-                    <li>Sistema para gestión de productos, pagos y envios.</li>
+                    <li>Sistema para gestión de productos, pagos y envíos.</li>
                     <li>Mantenimiento.</li>
                     <li>SEO, aumento de la visibilidad en los buscadores.</li>
                 </ul>
@@ -76,11 +76,11 @@ export default function Page(){
                 </article>
                 <article>
                     <h3>Estás visible las 24 horas</h3>
-                    <p>Tu negocio está disponible todo el dia, todos los dias. Así es posible mostrarte a los usuarios que buscan tus servicio en cualquier momento.</p>
+                    <p>Tu negocio está disponible todo el día, todos los días. Así es posible mostrarte a los usuarios que buscan tus servicio en cualquier momento.</p>
                 </article>
                  <article>
                     <h3>Generas nuevos clientes y ventas</h3>
-                    <p>Una web bien diseñada capta contacto, reservas o ventas autómaticas. Es como tener un comercial activo las 24h.</p>
+                    <p>Una web bien diseñada capta contacto, reservas o ventas automáticas. Es como tener un comercial activo las 24h.</p>
                 </article>
                  <article>
                     <h3>Amplias la visibilidad en Google</h3>
@@ -95,7 +95,7 @@ export default function Page(){
                 </article>
                 <article>
                     <h3>Vender tu mismo tus productos</h3>
-                    <p>No dependes de las condiciones que te pogan otras plataformas si vendes desde tu propia página.</p>
+                    <p>No dependes de las condiciones que te pongan otras plataformas si vendes desde tu propia página.</p>
                     <p>Pagos automatizados y autogestión con todo el control sobre el proceso.</p>
                 </article>
                  <article>
@@ -105,14 +105,15 @@ export default function Page(){
                 </article>
                   <article>
                     <h3>Capacidad de análisis</h3>
-                    <p>El tráfico, interación del usuario y conversiones se pueden medir, esto hace que una empresa obtenga una información valiosa que ayuda en la toma de decisiones en el mercado.</p>
+                    <p>El tráfico, interacción del usuario y conversiones se pueden medir, esto hace que una empresa obtenga una información valiosa que ayuda en la toma de decisiones en el mercado.</p>
                     <p>Tener herramientas de análisis.</p>
-                    <p>Con la información obtenida es mas fácil mejorar estrategias para aumentar los resutados.</p>
+                    <p>Con la información obtenida es más fácil mejorar estrategias para aumentar los resultados.</p>
                 </article>
            </section>
 
             <section className="contacto-content">
                 <h2>Contacta</h2>
+                <p>Más visibilidad = Más clientes potenciales = Mayor conversión</p>
                 <p>Contacta y pregunta sin compromiso cualquier duda que tengas.</p>
                 <a href="https://dwba.es/#contacto" >Contactar</a>
             </section>

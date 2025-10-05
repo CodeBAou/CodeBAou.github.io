@@ -9,7 +9,7 @@ export default function Content_section_oferta(){
 
                 <h2>Ofertas limitadas, consigue tu página web!</h2>
 
-                <p>Estos paquetes permiten obtener tu web con precios rebajos y servicios incluidos como mantenimiento y seo básico. Estarán disponibles temporalmente.
+                <p>Estos paquetes permiten ahorrar dinero, obtener tu web con servicios incluidos como mantenimiento y seo básico. Estarán disponibles temporalmente.
                 </p> 
 
                 <ul>
