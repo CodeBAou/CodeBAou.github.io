@@ -6,6 +6,14 @@
     align-items: center;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow:none !important;
+  height:none !important;
+
+}
+
 .ofertas-web-limitadas > section{
     display:flex;
     flex-direction:column;

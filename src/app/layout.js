@@ -1,5 +1,5 @@
 import Header from '@/componentes/header/Header.jsx';
-import Menu_ancla from '@/componentes/menu_ancla/Menu_ancla.jsx';
+
 import Menu from '@/componentes/menu/Menu.jsx';
 
 import './main.css';
@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
+    <html >
       <head>
           <link
           rel="canonical"
