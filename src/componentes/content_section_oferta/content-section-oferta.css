@@ -73,3 +73,10 @@
     animation-iteration-count: infinite;
     animation-duration: 2s; 
 }
+
+
+@media(max-width:765px){
+    .content-oferta > ul > li{
+        font-size: 1.3em;
+    }
+}

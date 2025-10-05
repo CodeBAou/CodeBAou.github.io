@@ -6,6 +6,5 @@ export default function Layout_section_inicio({children}){
         <div className="layout_inicio">
             {children}
         </div>
-        
     )
 }
