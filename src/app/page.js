@@ -21,6 +21,10 @@ export default function Page(){
                 <div className="content-scroll-page">
 
                     <Section_header/>
+                    
+                        <Layout_section_inicio key={`section-OFERTA`}>
+                            <p>Desarrollo profesional de páginas web, app y funcionalidades para tu negocio. Creación de estrategias de marketing digital para captar nuevos clientes a través de internet.</p>
+                        </Layout_section_inicio>
 
                         <Layout_section_inicio key={`section-OFERTA`}>
                                 <Content_section_oferta/>

@@ -7,11 +7,9 @@ export default function Content_section_contacto(){
 
         <div id="contacto" className="section_contacto">
 
-            <h2 >Contacto</h2>
+            <h2 >Información de contacto</h2>
 
             <div>
-
-             
 
                 <div className="content_datos_contacto">
 
@@ -42,8 +40,18 @@ export default function Content_section_contacto(){
 
                 </div>
 
+              
+, 
             </div>
 
+              <div className="content_datos_localización">
+                    <div>
+                        <h3>Áreas de servicio</h3>
+                        <p>Ofrecemos servicios de diseño web, desarrollo y marketing digital en toda España.</p>
+                        <p>Trabajamos especialmente en zonas cercanas como <strong>A Cañiza</strong>, <strong>Celanova</strong>, <strong>Ribadavia</strong>, <strong>Ourense</strong>, <strong>Ponteareas</strong>, <strong>Salvaterra de Miño</strong>, <strong>Xinzo de Limia</strong> y <strong>Verín</strong>.</p>
+                        <p><strong>Dirección:</strong> Fermín Bouza Brei, 22, 32200 Cortegada, Ourense.</p>
+                    </div>
+                </div>
         </div>
     )
     

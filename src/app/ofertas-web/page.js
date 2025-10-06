@@ -7,7 +7,7 @@ export default function Page(){
 
     return(
         <div className="ofertas-web-limitadas">
-
+              <img className="logo_dwba" src="/image/logo_DWBA.png" alt="Logo DWBA"/>
             <section>
                 <h1> OFERTA DISEÑO WEB </h1>
                 <img src="/image/OFERTA-LIMITADA-DESARROLLO-WEB-PRECIOS.webp" alt="Resumen de la oferta, pagina web corporativa por 31 euros al mes, pagina web servicios por 79 euros y tienda online por 123 euros al mes. " loading="lazy"/>

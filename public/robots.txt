@@ -2,7 +2,7 @@ User-agent: *
 
 Disallow: /servicios
 Disallow: /apps
-
+Disallow: /terminos-y-condiciones
 Allow: /
 Allow: /ofertas-web
 

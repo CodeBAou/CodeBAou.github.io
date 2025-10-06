@@ -50,11 +50,14 @@ html, body {
 
 .ofertas-web-limitadas > section > article{
     margin-top:3em;
+    width:60%;
 }
 
 .ofertas-web-limitadas  p{
     color:white;
     font-size:1.4em;
+    margin-top:2em;
+    margin-bottom:2em;
 }
 
 
@@ -66,12 +69,13 @@ html, body {
 
 .ofertas-web-limitadas > section.contacto-content{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     align-items:center;
 }
 
 .ofertas-web-limitadas > section.contacto-content *{
     margin-right:1em;
+    
 }
 
 .ofertas-web-limitadas  a {

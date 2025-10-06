@@ -14,9 +14,7 @@ export default function Content_section_footer(){
 
                 <div className="footer_paginas_Legales">
                     <ul>
-                        <li><a href="#">Legal</a></li>
-                        <li><a href="#">Terminos y Condiciones</a></li>
-                        <li><a href="#">Politica de cookies</a></li>
+                        <li><a href="https://dwba.es/terminos-y-condiciones">Terminos y Condiciones</a></li>
                     </ul>
                 </div>
 

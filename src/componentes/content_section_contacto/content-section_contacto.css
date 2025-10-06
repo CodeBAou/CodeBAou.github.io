@@ -19,7 +19,7 @@
 
 .section_contacto > div{
    /* background-color: aqua;*/
-    width:60%;
+    width:70%;
     display:flex;
     flex-direction:row;
     padding:10%;
@@ -39,9 +39,7 @@
 }
 
 .section_contacto > div > div.content_datos_contacto{
-
-    flex-grow: 4;;
-    
+    flex-grow: 4;
 }
 
 .section_contacto > div > div.content_datos_contacto > div{
@@ -51,14 +49,13 @@
 }
 
 .section_contacto > div > div.content_datos_contacto > div > h3{
-   font-size:var( --font-size-large);
+    font-size:var( --font-size-large);
     color:var(--tertiary-color);
     font-family:'lombok';
 }
 
 .section_contacto > div > div.content_datos_contacto > div > div{
     position:relative;
-   
     display:flex;
     flex-direction: row;
 }
@@ -71,8 +68,21 @@
 .section_contacto > div > div.content_datos_contacto > div > div > img{
     width:60px;
     margin-left:2vw;
-    
 }
+
+.section_contacto .content_datos_localización h3{
+    color:var(--primary-color);
+    text-align:center;
+    margin-top:2em;
+    font-size:2.2em;
+}
+
+.section_contacto .content_datos_localización p{
+    color:white;
+    font-size:1.4rem;
+}
+
+
 
 @media(max-width:1200px){
 
@@ -85,7 +95,7 @@
     }
 
     .section_contacto > div{
-
+        width:80%;
     }
 
     .section_contacto > div > div.content_datos_contacto > div > h3{
@@ -93,7 +103,7 @@
     }
 
     .section_contacto > div > div.content_datos_contacto > div > div > p{
-        font-size:1rem;
+        font-size:1.4rem;
 
     }
 
@@ -106,10 +116,34 @@
 
 @media(max-width:780px){
 
+    .section_contacto{
+        width:100%;
+        position:relative;
+    }
+
+    .section_contacto > h2{
+        text-align:center;
+    }
+
+    .section_contacto .content_datos_localización h3{
+        color:var(--primary-color);
+        text-align:center;
+        margin-top:2em;
+        font-size:2.2em;
+    }
+
+     .section_contacto .content_datos_localización p{
+        font-size:1.5em;
+     }
+
      .section_contacto > div{
-        width:80%;
+        width:100%;
+        padding:0;
+        margin:0;
         margin-bottom:2vh;
     }
+
+     .section_contacto > div > div.content_datos_contacto > div 
 
      .section_contacto > div > div.content_datos_contacto > div > div > img{
 
