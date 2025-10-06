@@ -1,7 +1,8 @@
 .detalles{
    
-    width:30%;
+    width:40%;
     height:100%;
+    min-width:23%;
     display:flex;
     flex-direction:column;
     justify-content: start;
@@ -22,8 +23,10 @@
 }
 
 .detalles > p{
-    width:100%;
-    text-align:center;
+    display:flex;
+    flex-grow: 1;
+    justify-content: left;
+    text-align:left;
     color:white;
     font-size:1rem;
     font-family:'optimist';
@@ -63,7 +66,8 @@
     .detalles{
         display:flex;
         height:auto;
-        width:45%;
+        max-width:30%;
+      
     }
 
     .detalles > .content-icons > img{
@@ -81,6 +85,8 @@
     .detalles > p{
         font-size:1rem;
         margin-bottom:2vh;
+        padding:0;
+        padding-left:10px;
     }
 
     .detalles ul li{
@@ -113,6 +119,7 @@
     .detalles > p{
         font-size:1rem;
         margin-bottom:2vh;
+        text-align: left;
     }
 
     .detalles ul li{
