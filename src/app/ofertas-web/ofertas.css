@@ -50,7 +50,8 @@ html, body {
 
 .ofertas-web-limitadas > section > article{
     margin-top:3em;
-    width:60%;
+    position:relative;
+    width:100%;
 }
 
 .ofertas-web-limitadas  p{
@@ -92,6 +93,9 @@ html, body {
     width:200px;
     margin-top:2em;
 }
+
+
+
 
 @media(max-width:765px){
 

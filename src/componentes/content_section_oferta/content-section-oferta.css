@@ -19,7 +19,7 @@
 }
 
 .content-oferta > img.Imagenoferta{   
-    width:90%;
+    width:100%;
     opacity:0.8;
     border:1px solid rgba(251, 236, 139,0.1);
     animation-name: bordercallaction;
@@ -77,6 +77,15 @@
 
 
 @media(max-width:765px){
+
+    .content-oferta{
+        padding:0.5em;
+    }
+    
+    .content-oferta > p{
+            font-size:1.3em;
+    }
+
     .content-oferta > ul > li{
         font-size: 1.3em;
     }

@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html >
       <head>
       
-        <GoogleAnalyticsHeadScript/>
+       
         
         <link
           rel="canonical"
@@ -43,6 +43,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
+        <GoogleAnalyticsHeadScript/>
         <Header>
             <Menu/>
         </Header>
