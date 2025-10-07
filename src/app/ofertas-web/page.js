@@ -29,6 +29,7 @@ export default function Page(){
                     presencia básica en internet.
                 </p>
                 <p>Esta promoción te permite mostrar quién eres y qué ofreces a usuarios que están buscando tus servicios a través de internet.</p>
+                <p className="oferta_precio">Desde 31€/mes </p>
                 <ul>
                     <li>Desarrollo</li>
                     <li>Mantenimiento</li>
@@ -37,9 +38,10 @@ export default function Page(){
             </section>
 
             <section>
-                <h2>Oferta para una página para servicios</h2>
+                <h2>Oferta para una página web de servicios</h2>
                 <img src="/image/Ejemplos_de_web_servicios_de_DWBA.webp" alt="" loading="lazy"/>       
                 <p>Esta promoción te permite mostrar quién eres y qué ofreces y contar con alguna funcionalidad avanzada como mostrar un menú online o un sistema de reservas, entre otros.</p>          
+                <p className="oferta_precio">Desde 79€/mes</p>
                 <ul>
                     <li>Desarrollo.</li>
                     <li>Desarrollo de una funcionalidad avanzada.</li>
@@ -52,6 +54,7 @@ export default function Page(){
                 <h2>Oferta para una tienda online ecommerce</h2>
                 <img src="/image/Ejemplos_de_web_tienda_online_de_DWBA.webp" alt="" loading="lazy"/>  
                 <p>Esta promoción te permite mostrar quién eres y qué ofreces y contar con un sistema completo para vender en internet.</p>
+                <p className="oferta_precio">Desde 123€/mes</p>
                 <ul>
                     <li>Desarrollo.</li>
                     <li>Sistema para gestión de productos, pagos y envíos.</li>

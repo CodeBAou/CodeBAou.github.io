@@ -66,6 +66,9 @@ html, body {
     color:white;
     list-style:none;
     font-size:1.3em;
+    padding:0;
+    width:100%;
+    padding-left:20%;
 }
 
 .ofertas-web-limitadas > section.contacto-content{
@@ -89,13 +92,28 @@ html, body {
     margin-bottom:5em;
 }
 
-.logo_dwba{
+.ofertas-web-limitadas  .logo_dwba{
     width:200px;
-    margin-top:2em;
+    position:fixed;
+    left:10vw;
+    top:40vh;
+    opacity:0.3;
+    border-radius:26px;
 }
 
+.ofertas-web-limitadas .oferta_precio{
+    width:100%;
+    padding-left:30%;
+    color:yellow;
+    font-size:3em;
+    opacity:0.6;
+}
 
-
+@media(max-width:1200px){
+     .ofertas-web-limitadas  .logo_dwba{
+        display:none;
+    }
+}
 
 @media(max-width:765px){
 
@@ -126,6 +144,7 @@ html, body {
         text-align:center;
         margin-top:3em;
         max-width:98%;
+        font-size:1.6em;
     }
 
      .ofertas-web-limitadas > section > h3{
@@ -140,10 +159,34 @@ html, body {
         padding-left:5px;
     }
 
-    .ofertas-web-limitadas ul li{
-        font-size:1.4em;
-        margin-bottom:30px;
+    .ofertas-web-limitadas{
+        padding:0;
+        margin:0;
     }
 
+    .ofertas-web-limitadas > section > ul{
+        padding-left:10px;
+    }
+
+    .ofertas-web-limitadas ul li{
+        font-size:0.8em;
+        margin-bottom:30px;
+        padding-left:0;
+        width:100%;
+    }
+
+    .ofertas-web-limitadas  .logo_dwba{
+        display:none;
+    }
+
+    .ofertas-web-limitadas .oferta_precio{
+        position:relative;
+        width:100%;
+        padding:0;
+        text-align:left;
+        font-size:1.5em;
+    }
+
+    
    
 }

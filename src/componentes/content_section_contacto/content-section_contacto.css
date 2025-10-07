@@ -86,9 +86,17 @@
 }
 
 .qrcontacto{
-        width:150px !important;
+        width:80px !important;
+        
         height:auto;
+        padding:0;
+        padding-left:0;
 }
+
+ .numeroTelefono{
+        min-width:160px;
+        padding-left:10px;    
+ }  
 
 @media(max-width:1200px){
 
@@ -164,6 +172,10 @@
 
       .qrcontacto{
         display:none;
+      }
+
+      .numeroTelefono{
+        padding:0;
       }
 
 }

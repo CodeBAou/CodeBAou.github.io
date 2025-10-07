@@ -18,7 +18,7 @@ export default function Content_section_contacto(){
                         <div>
                             <img src="/icon/movil.svg" alt="Icono de movil" />
                             <img src="/icon/whatssap.svg" alt="Icono de whatssap" />
-                            <p>+34 644 81 42 58</p>
+                            <p className="numeroTelefono">+34 644 81 42 58</p>
                             <img className="qrcontacto" src="/image/qr_whatssap_contacto.webp" alt="QR para contacto de whatssap de dwba"/>
                         </div>
                     </div>
