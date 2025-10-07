@@ -1,7 +1,8 @@
+import { usePathname } from 'next/navigation';
+import { useEffect } from 'react';
 import Header from '@/componentes/header/Header.jsx';
-
 import Menu from '@/componentes/menu/Menu.jsx';
-
+import Script from "next/script";//google analytics
 import './main.css';
 
 export const metadata = {
@@ -11,10 +12,34 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
+  const pathname = usePathname();
+  //Para indicar a analytics la ruta que se esta analizando 
+  useEffect(() => {
+    if (typeof window.gtag !== 'undefined') {
+      window.gtag('config', 'G-SJ7H1DSCKC', { page_path: pathname });
+    }
+  }, [pathname]);
+
   return (
     <html >
       <head>
-          <link
+       
+          {/* Google tag (gtag.js) //google analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-SJ7H1DSCKC"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-SJ7H1DSCKC');
+          `}
+        </Script>
+
+        <link
           rel="canonical"
           href="https://dwba.es/"
           key="canonical"
