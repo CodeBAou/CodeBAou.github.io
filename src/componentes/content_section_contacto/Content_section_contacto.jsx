@@ -45,11 +45,11 @@ export default function Content_section_contacto(){
 , 
             </div>
 
-              <div className="content_datos_localización">
+                <div className="content_datos_localizacion">
                     <div>
                         <h3>Áreas de servicio</h3>
-                        <p>Ofrecemos servicios de diseño web, desarrollo y marketing digital en toda España.</p>
-                        <p>Trabajamos especialmente en zonas cercanas como <strong>A Cañiza</strong>, <strong>Celanova</strong>, <strong>Ribadavia</strong>, <strong>Ourense</strong>, <strong>Ponteareas</strong>, <strong>Salvaterra de Miño</strong>, <strong>Xinzo de Limia</strong> y <strong>Verín</strong>.</p>
+                        <p>Servicios de diseño web, desarrollo y marketing digital en toda España de forma online.</p>
+                        <p>Zonas cercanas: <strong>A Cañiza</strong>, <strong>Celanova</strong>, <strong>Ribadavia</strong>, <strong>Ourense</strong>, <strong>Ponteareas</strong>, <strong>Salvaterra de Miño</strong>, <strong>Xinzo de Limia</strong> y <strong>Verín</strong>.</p>
                         <p><strong>Dirección:</strong> Fermín Bouza Brei, 22, 32200 Cortegada, Ourense.</p>
                     </div>
                 </div>

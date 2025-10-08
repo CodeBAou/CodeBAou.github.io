@@ -73,16 +73,16 @@
     margin-left:2vw;
 }
 
-.section_contacto .content_datos_localización h3{
+.section_contacto .content_datos_localizacion h3{
     color:var(--primary-color);
     text-align:center;
     margin-top:2em;
     font-size:2.2em;
 }
 
-.section_contacto .content_datos_localización p{
+.section_contacto .content_datos_localizacion p{
     color:white;
-    font-size:1.4rem;
+    font-size:1.2rem;
 }
 
 .qrcontacto{
@@ -127,7 +127,11 @@
         width:40px;
     }
 
-   
+     .content_datos_localizacion p{
+        font-size:1.1em;
+        color:white;
+     }
+
 }
 
 
@@ -160,7 +164,7 @@
         margin-bottom:2vh;
     }
 
-     .section_contacto > div > div.content_datos_contacto > div 
+     
 
      .section_contacto > div > div.content_datos_contacto > div > div > img{
 
@@ -177,6 +181,10 @@
 
       .numeroTelefono{
         padding:0;
+      }
+
+      .section_contacto .content_datos_localizacion p{
+        font-size:1.1em;
       }
 
 }

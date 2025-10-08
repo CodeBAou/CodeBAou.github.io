@@ -7,7 +7,9 @@ export default function Page(){
 
     return(
         <div className="ofertas-web-limitadas">
-            <img className="logo_dwba" src="/image/logo_DWBA.png" alt="Logo DWBA"/>
+
+            <img className="logo_dwba" src="/image/logo_DWBA_sin_fondo.webp" alt="Logo DWBA"/>
+
             <section>
                 <h1>Oferta DWBA: Crea la página web profesional que tu negocio necesita</h1>
                 <h2>Incluye servicios de SEO y mantenimiento <b>GRATIS</b></h2>
