@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
           key="canonical"
         />
 
-        <link rel="icon" href="/icon/LOGO_DWBA_simbolo_32.webp"></link>
+        <link rel="icon" href="/icon/LOGO_DWBA_simbolo_32.webp"/>
           <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
