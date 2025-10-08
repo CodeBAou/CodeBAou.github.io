@@ -7,10 +7,22 @@ export default function Page(){
 
     return(
         <div className="ofertas-web-limitadas">
-              <img className="logo_dwba" src="/image/logo_DWBA.png" alt="Logo DWBA"/>
+            <img className="logo_dwba" src="/image/logo_DWBA.png" alt="Logo DWBA"/>
             <section>
-                <h1> OFERTA DISEÑO WEB </h1>
-                <img src="/image/OFERTA-LIMITADA-DESARROLLO-WEB-PRECIOS.webp" alt="Resumen de la oferta, pagina web corporativa por 31 euros al mes, pagina web servicios por 79 euros y tienda online por 123 euros al mes. " loading="lazy"/>
+                <h1>Oferta DWBA: Crea la página web profesional que tu negocio necesita</h1>
+                <h2>Incluye servicios de SEO y mantenimiento <b>GRATIS</b></h2>
+                <h3>Si tienes un negocio en Ourense o Pontevedra, aprovecha esta oferta limitada y ahorra en tu nueva web</h3>
+                <figure>
+                    <img 
+                        src     = "/image/OFERTA-LIMITADA-DESARROLLO-WEB-PRECIOS.webp" alt="Resumen de la oferta, pagina web corporativa por 31 euros al mes, pagina web servicios por 79 euros y tienda online por 123 euros al mes. " 
+                        loading = "lazy" 
+                    />
+                    <figcaption>
+                        Oferta limitada dwba, construye tu pagina web con mantenimiento y seo incluido desde 31€ al mes
+                    </figcaption>
+                </figure>
+              
+
                 <p> Esta promoción de diseño web ofrece un paquete completo de desarrollo y servicios a un precio reducido, disponible por tiempo limitado.</p>
                
                 <ul>
@@ -18,49 +30,111 @@ export default function Page(){
                     <li>Servicio de SEO Básico incluido.</li>
                     <li>Servicio de mantenimiento incluido.</li>
                     <li>Paga mensualmente si quieres.</li>
+                    <li>Se incluye hosting, dominio y correo con tu propio dominio</li>
                     <li>1 año de permanencia (solo con el pago mensual)</li>
                 </ul>
+
+
+                <ul className="gratis-content">
+                    <li>SERVICIO SEO <span>GRATIS</span></li>
+                    <li>+</li>
+                    <li>SERVICIO DE SOPORTE <span>GRATIS</span></li>
+                </ul>
+
+
             </section>
 
             <section>
                 <h2>Oferta para una página web corporativa</h2>
-                <img src="/image/Ejemplos_de_web_corporativas_de_DWBA.webp" alt="" loading="lazy"/>
+                <figure>
+                    <img src="/image/Ejemplos_de_web_corporativas_de_DWBA.webp" alt="" loading="lazy"/>
+                    <figcaption>
+                        Capturas de las paginas de inicio de dos páginas corporativas como ejemplo de la oferta.
+                    </figcaption>
+                </figure>
+                
                 <p>La mayor parte del mercado busca a través de internet información sobre las empresas que existen en su zona para comparar y elegir, por eso es importante como mínimo tener una
                     presencia básica en internet.
                 </p>
                 <p>Esta promoción te permite mostrar quién eres y qué ofreces a usuarios que están buscando tus servicios a través de internet.</p>
-                <p className="oferta_precio">Desde 31€/mes </p>
+               
                 <ul>
                     <li>Desarrollo</li>
                     <li>Mantenimiento</li>
                     <li>SEO</li>
                 </ul>
+
+                <ul className="gratis-content">
+                    <li>DESARROLLO</li>
+                    <li>+</li>
+                    <li>SERVICIO SEO <span>GRATIS</span></li>
+                    <li>+</li>
+                    <li>SERVICIO DE SOPORTE <span>GRATIS</span></li>
+                </ul>
+
+                <p className="oferta_precio">Desde 31€/mes </p>
+
+
             </section>
 
             <section>
                 <h2>Oferta para una página web de servicios</h2>
-                <img src="/image/Ejemplos_de_web_servicios_de_DWBA.webp" alt="" loading="lazy"/>       
+                <figure>
+                    <img src="/image/Ejemplos_de_web_servicios_de_DWBA.webp" alt="" loading="lazy"/> 
+                    <figcaption>
+                        Una captura de una página de inicio de una web con la funcionalidad de reservas online mediate calendario.
+                    </figcaption> 
+                </figure>
+                   
                 <p>Esta promoción te permite mostrar quién eres y qué ofreces y contar con alguna funcionalidad avanzada como mostrar un menú online o un sistema de reservas, entre otros.</p>          
-                <p className="oferta_precio">Desde 79€/mes</p>
+               
                 <ul>
                     <li>Desarrollo.</li>
                     <li>Desarrollo de una funcionalidad avanzada.</li>
                     <li>Mantenimiento.</li>
                     <li>SEO, aumento de la visibilidad en los buscadores.</li>
                 </ul>
+
+                <ul className="gratis-content">
+                    <li>DESARROLLO</li>
+                    <li>+</li>
+                    <li>SERVICIO SEO <span>GRATIS</span></li>
+                    <li>+</li>
+                    <li>SERVICIO DE SOPORTE <span>GRATIS</span></li>
+                </ul>
+
+                 <p className="oferta_precio">Desde 79€/mes</p>
             </section>
          
              <section>
+
                 <h2>Oferta para una tienda online ecommerce</h2>
-                <img src="/image/Ejemplos_de_web_tienda_online_de_DWBA.webp" alt="" loading="lazy"/>  
+                <figure>
+                    <img src="/image/Ejemplos_de_web_tienda_online_de_DWBA.webp" alt="" loading="lazy"/>  
+                    <figcaption>
+                        Captura de la página de productos de una tienda online para una charcutería de Madrid.
+                    </figcaption>
+                </figure>
+                
                 <p>Esta promoción te permite mostrar quién eres y qué ofreces y contar con un sistema completo para vender en internet.</p>
-                <p className="oferta_precio">Desde 123€/mes</p>
+                
                 <ul>
                     <li>Desarrollo.</li>
                     <li>Sistema para gestión de productos, pagos y envíos.</li>
                     <li>Mantenimiento.</li>
                     <li>SEO, aumento de la visibilidad en los buscadores.</li>
                 </ul>
+
+                <ul className="gratis-content">
+                    <li>DESARROLLO</li>
+                    <li>+</li>
+                    <li>SERVICIO SEO <span>GRATIS</span></li>
+                    <li>+</li>
+                    <li>SERVICIO DE SOPORTE <span>GRATIS</span></li>
+                </ul>
+
+                <p className="oferta_precio">Desde 123€/mes</p>
+
             </section>
 
            <section className="portafolio">
@@ -72,7 +146,7 @@ export default function Page(){
            </section>
 
            <section className="beneficios">
-                <h2>Beneficios de tener una pagina web cuidada y actualizada</h2>
+                <h2>Beneficios de tener una pagina web,bien cuidada y actualizada</h2>
                 <article>
                     <h3>Presencia profesional y credibilidad</h3>
                     <p>Una página web es la carta de presentación de tu organización, transmite confianza, seriedad y mejora tu imagen frente a clientes o empresas.</p>
@@ -115,7 +189,7 @@ export default function Page(){
            </section>
 
             <section className="contacto-content">
-                <h2>Contacta</h2>
+                <h2>Contacto</h2>
                 <p>Más visibilidad = Más clientes potenciales = Mayor conversión</p>
                 <p>Contacta y pregunta sin compromiso cualquier duda que tengas.</p>
                 <a href="https://dwba.es/#contacto" >Contactar</a>
