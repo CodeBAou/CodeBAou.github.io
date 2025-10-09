@@ -5,8 +5,8 @@ import GoogleAnalyticsHeadScript from '@/componentes/googleAnalyticsHeadScript/g
 import './main.css';
 
 export const metadata = {
-  title: 'π DWBA ★ PAGINAS WEB ★ ECOMMERCE ★ MMARKETING DIGITAL | CORTEGADA, OURENSE ',
-  description: 'Desarrollo de páginas web profesionales para tu negocio y servicios digitales para mejorar tu visibilidad online. Cortegada | A Cañiza | Celanova | Ourense provincia.',
+  title: 'DWBA █ Diseño y desarrollo web profesional en Ourense y Pontevedra ',
+  description: 'Creamos páginas web profesionales y estrategias digitales para negocios en Ourense, Pontevedra y alrededores. Aumenta tu visibilidad online. Cortegada | A Cañiza | Celanova | Ourense provincia.',
   icons: '/icon/LOGO_DWBA_simbolo_32.webp'
 }
 

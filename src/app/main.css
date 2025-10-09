@@ -34,6 +34,7 @@ body{
     margin:0;
     padding:0;
     background-image: url('/image/TEXTURA_FONDO_LOGO_PUZZLE_1920.webp');
+    max-width:1920px;
 }
 
 .content-scroll-page{
