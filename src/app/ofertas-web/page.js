@@ -148,7 +148,7 @@ export default function Page(){
            </section>
 
            <section className="beneficios">
-                <h2>Beneficios de tener una pagina web,bien cuidada y actualizada</h2>
+                <h2>Beneficios de tener una pagina web, bien cuidada y actualizada</h2>
                 <article>
                     <h3>Presencia profesional y credibilidad</h3>
                     <p>Una página web es la carta de presentación de tu organización, transmite confianza, seriedad y mejora tu imagen frente a clientes o empresas.</p>
