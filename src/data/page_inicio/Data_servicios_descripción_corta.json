@@ -67,11 +67,12 @@
     "enlace":"#",
     
     "descripcion":[
-      "Si estás buscando una empresa de desalrrollo web y necesitas una página web o tienda online para tu negocio.",
-      "Desarrollo de un proyecto web a medida.",
-      "Desarrollo de una web estática pequeña, ideal para iniciar, y de bajo coste.",
-      "Desarrollo de una página web con gestor de contenido (CMS WordPress).",
-      "Desarrollo de una tienda online, para que puedas vender en internet con gestión de productos, envíos y sistema de pago online."
+      "Si estás buscando una agencia web y lanzar tu página web en internet.",
+      "Desarrollar una web a medida que se ajuste a tus necesidades.",
+      "Desarrollar una web corporativa con gestor de contenido (CMS WordPress)",
+      "Desarrollar una web con gestor de contenido (CMS WordPress), te facilita la autogestión de tu web.",
+      "Desarrollar una tienda online para tu negocio y que puedas vender en internet.",
+      "Desarrollar un plugin a medida que se ajuste a tus necesidades para el CMS WordPress."
   ],
     "servicio":[
         "web Corporativa",
@@ -186,7 +187,7 @@
     "ancla":"seo",
     "enlace":"#",
     "descripcion":[
-      "Si estás buscando una empresa para el posicionamiento en buscadores, podemos posicionar tu web para aparecer primero en Google.",
+      "Si estás buscando una agencia web para el posicionamiento en buscadores, podemos ayudarte con tus apariciones en las búsquedas de Google.",
       "El servicio de SEO Básico, una optimización de SEO puntual en tu página web, para que los algoritmos de Google no te penalicen en el ranking pageRank de los resultados de búsqueda. Google puntúa tu página web tanto en el contenido como en la calidad técnica, es importante cumplir los estándares para que no te penalice en los resultados de búsqueda.",
       "El servicio de SEO Avanzado se realiza de forma mensual, analizando el tráfico, el mercado y la competencia para posicionar tu web y captar la mayor cantidad de usuarios locales para tu negocio. Además, se aplican mejoras técnicas en la web para que los algoritmos de Google no te penalicen."
   ],
@@ -244,9 +245,10 @@
     "ancla":"seo",
     "enlace":"#",
     "descripcion":[
-      "Si estás buscando una agencia de marketing digital para posicionarte, podemos ayudarte a crear tu campaña y llegar a más personas.",
+      "Si estás buscando una agencia de marketing digital para posicionamiento en buscadores, podemos ayudarte a crear tu campaña y llegar a más personas.",
       "Mediante Google Ads, realizamos campañas para posicionarte frente a tus clientes potenciales en internet.",
-      "Esto no va dirigido solo a grandes empresas. El marketing digital es accesible para todos, y es posible crear campañas pequeñas que sean rentables."
+      "Esto no va dirigido solo a grandes empresas. Es posible adoptar estrategías mas pequeñas y que sean muy efectivas.",
+      "No solo se trata de invertir dinero para aparecer, existen muchas estrategias que se pueden implementar que mejoran tanto la imagen de la marca como su posicionamiento y alcance en internet."
   ],
     "servicio":[
         "Campaña marketing"

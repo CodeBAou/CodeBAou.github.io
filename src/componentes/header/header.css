@@ -10,8 +10,15 @@ header{
 }
 
 
+@media(max-width:1200px){
+    header{
+        width:98vw;
+    }
+}
+
 @media(max-width:780px){
     header{
         height:0px;
+        width:98vw;
     }
 }

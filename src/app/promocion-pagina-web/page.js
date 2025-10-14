@@ -1,7 +1,7 @@
 'use client'
 import React, {useState, useEffect} from 'react'
-
-import './ofertas.css';
+import './promocion.css';
+import Content_section_oferta from '@/componentes/content_section_oferta/Content-section-oferta';
 
 export default function Page(){
 
@@ -10,48 +10,14 @@ export default function Page(){
 
             <img className="logo_dwba" src="/image/logo_DWBA_sin_fondo.webp" alt="Logo DWBA"/>
 
-            <section>
-                <h1>Oferta DWBA: Crea la página web profesional que tu negocio necesita</h1>
-                <h2>Incluye servicios de SEO y mantenimiento <b>GRATIS</b></h2>
-                <h3>Si tienes un negocio en Ourense o Pontevedra, aprovecha esta oferta limitada y ahorra en tu nueva web</h3>
-                <figure>
-                    <img 
-                        src     = "/image/OFERTA-LIMITADA-DESARROLLO-WEB-PRECIOS.webp" alt="Resumen de la oferta, pagina web corporativa por 31 euros al mes, pagina web servicios por 79 euros y tienda online por 123 euros al mes. " 
-                        loading = "lazy" 
-                    />
-                    <figcaption>
-                        Oferta limitada dwba, construye tu pagina web con mantenimiento y seo incluido desde 31€ al mes
-                    </figcaption>
-                </figure>
-              
-
-                <p> Esta promoción de diseño web ofrece un paquete completo de desarrollo y servicios a un precio reducido, disponible por tiempo limitado.</p>
-               
-                <ul>
-                    <li>El descuento de esta promoción será temporal.</li>
-                    <li>Servicio de SEO Básico incluido.</li>
-                    <li>Servicio de mantenimiento incluido.</li>
-                    <li>Paga mensualmente si quieres.</li>
-                    <li>Se incluye hosting, dominio y correo con tu propio dominio</li>
-                    <li>1 año de permanencia (solo con el pago mensual)</li>
-                </ul>
-
-
-                <ul className="gratis-content">
-                    <li>SERVICIO SEO <span>GRATIS</span></li>
-                    <li>+</li>
-                    <li>SERVICIO DE SOPORTE <span>GRATIS</span></li>
-                </ul>
-
-
-            </section>
+            <Content_section_oferta enlaceofertadisplay={false} />
 
             <section>
-                <h2>Oferta para una página web corporativa</h2>
+                <h2>Promoción para una página web corporativa</h2>
                 <figure>
                     <img src="/image/Ejemplos_de_web_corporativas_de_DWBA.webp" alt="" loading="lazy"/>
                     <figcaption>
-                        Capturas de las paginas de inicio de dos páginas corporativas como ejemplo de la oferta.
+                        Capturas de dos páginas corporativas como ejemplo para esta promoción.
                     </figcaption>
                 </figure>
                 
@@ -61,9 +27,9 @@ export default function Page(){
                 <p>Esta promoción te permite mostrar quién eres y qué ofreces a usuarios que están buscando tus servicios a través de internet.</p>
                
                 <ul>
-                    <li>Desarrollo</li>
+                    <li>Desarrollo de una nueva página web</li>
                     <li>Mantenimiento</li>
-                    <li>SEO</li>
+                    <li>SEO, para posicionar tu web en las búsquedas de Google</li>
                 </ul>
 
                 <ul className="gratis-content">
@@ -75,8 +41,6 @@ export default function Page(){
                 </ul>
 
                 <p className="oferta_precio">Desde 31€/mes </p>
-
-
             </section>
 
             <section>
@@ -140,7 +104,7 @@ export default function Page(){
             </section>
 
            <section className="portafolio">
-                <h2>Ultimas páginas web creadas</h2>        
+                <h2>Últimas páginas web creadas</h2>        
                 <h3>Web tienda online de ejemplo</h3>
                 <a href="https://charcuteriauria.es/" className="linkweb" target="_blank" >Visitar Web</a>     
                 <h3>Web corporativa online de ejemplo</h3>
@@ -148,7 +112,7 @@ export default function Page(){
            </section>
 
            <section className="beneficios">
-                <h2>Beneficios de tener una pagina web, bien cuidada y actualizada</h2>
+                <h2>Beneficios al tener una página web, bien cuidada, actualizada y optimizada para el posicionamiento web.</h2>
                 <article>
                     <h3>Presencia profesional y credibilidad</h3>
                     <p>Una página web es la carta de presentación de tu organización, transmite confianza, seriedad y mejora tu imagen frente a clientes o empresas.</p>

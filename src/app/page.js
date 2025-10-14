@@ -8,10 +8,10 @@ import Data_servicos_descripcion_corta from '@/data/page_inicio/Data_servicios_d
 import Section_header from '@/componentes/section_header/Section_header.jsx';
 import Content_section_contacto from '@/componentes/content_section_contacto/Content_section_contacto';
 import Content_section_footer from '@/componentes/content_section_footer/Content_section_footer';
-import  Content_section_oferta from '@/componentes/content_section_oferta/content-section-oferta';
-export default function Page(){
+import Content_section_oferta from '@/componentes/content_section_oferta/Content-section-oferta';
 
-  
+
+export default function Page(){
 
     return(
          <Layout_page_inicio>
@@ -20,9 +20,9 @@ export default function Page(){
 
                 <div className="content-scroll-page">
 
-                    <Section_header/>
+                        <Section_header/>
                     
-                        <Layout_section_inicio key={`section-OFERTA`}>
+                        <Layout_section_inicio key={`section-description`}>
                             <p>Desarrollo profesional de páginas web, app y funcionalidades para tu negocio. Creación de estrategias de marketing digital para captar nuevos clientes a través de internet.</p>
                         </Layout_section_inicio>
 
@@ -35,6 +35,7 @@ export default function Page(){
                                 Data_servicos_descripcion_corta.map( (servicio_data,index) => {
 
                                     return <Layout_section_inicio key={`section-${index}`}>
+
                                                 <Content_section_description
                                                     titulo={servicio_data.name}
                                                     descripcion={servicio_data.descripcion}
