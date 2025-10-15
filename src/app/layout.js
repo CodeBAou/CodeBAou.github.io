@@ -1,12 +1,12 @@
 import Header from '@/componentes/header/Header.jsx';
 import Menu from '@/componentes/menu/Menu.jsx';
 import GoogleAnalyticsHeadScript from '@/componentes/googleAnalyticsHeadScript/googleAnalyticsHeadScript';
-
+import Content_section_footer from '@/componentes/content_section_footer/Content_section_footer';
 import './main.css';
 
 export const metadata = {
-  title: 'DWBA - Diseño Web en Ourense y Pontevedra.',
-  description: 'Nos centramos en ofrecer servicios web y ayudarte a crecer en internet. ■ DISEÑO WEB ■ DESARROLLO ■ MARKETING DIGITAL ■ OTROS.',
+  title: 'DWBA | CRECE EN INTERNET - Diseño Web y Marketing Digital | OURENSE - PONTEVEDRA',
+  description: 'Nos centramos en ofrecer servicios web y ayudarte a crecer en internet. ■ DISEÑO WEB ■ DESARROLLO ■ MARKETING DIGITAL ■ DISEÑO WORDPRESS ■ DISEÑO',
   icons: {
     icon: 'https://dwba.es/icon/LOGO_DWBA_simbolo_48.png',
   }
@@ -45,6 +45,7 @@ export default function RootLayout({ children }) {
             <Menu/>
         </Header>
         {children}
+        
       </body>
     </html>
   )

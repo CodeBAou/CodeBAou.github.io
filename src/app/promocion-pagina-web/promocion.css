@@ -8,11 +8,11 @@
 }
 
 html, body {
-  margin: 0;
-  padding: 0;
-  overflow:none !important;
-  height:auto !important;
-  max-width:none;
+    margin: 0;
+    padding: 0;
+    overflow:none !important;
+    height:auto !important;
+    max-width:none;
 }
 
 .ofertas-web-limitadas > section{
@@ -48,7 +48,7 @@ html, body {
 }
 
 .ofertas-web-limitadas > section > h1{
-    margin-top:3em;
+    margin-top:var(--font-sizes-title-h1-large);
     font-size:2.5rem;
     color:var(--primary-color);
     text-align:center;
@@ -56,29 +56,29 @@ html, body {
 .ofertas-web-limitadas > section > h2{
     text-align:center;
     width:100%;
-    font-size:2rem;
+    font-size:var(--font-sizes-title-h2-large);
 }
 
 .ofertas-web-limitadas > section > h3{
     text-align:center;
-    font-size:1.5rem;
+    font-size:var( --font-sizes-title-h3-large);
     margin-bottom:3em;
     color:white;
 }
 
 .ofertas-web-limitadas  h2{
     color:var(--primary-color);
-    font-size:2.6rem;
+    font-size:var(--font-sizes-title-h2-large);
 }
 
 .ofertas-web-limitadas  h3{
     color:var(--primary-color);
-    font-size:1.8rem;
+    font-size:var(--font-sizes-title-h3-large);
     padding:0;
     margin:0;
 }
 
-.ofertas-web-limitadas > section > article{
+.ofertas-web-limitadas > section > div{
     margin-top:3em;
     position:relative;
     width:100%;
@@ -91,11 +91,10 @@ html, body {
     margin-bottom:2em;
 }
 
-
 .ofertas-web-limitadas > section > ul{
     color:white;
     list-style:none;
-    font-size:1.3em;
+    font-size:var(--font-sizes-p-large);
     padding:0;
     width:100%;
     padding-left:20%;
@@ -109,14 +108,13 @@ html, body {
 
 .ofertas-web-limitadas > section.contacto-content *{
     margin-right:1em;
-    
 }
 
 .ofertas-web-limitadas  a {
     padding:20px;
     text-decoration:none;
     color:var(--primary-color);
-    font-size:1.4em;
+    font-size:var(--font-sizes-p-large);
     border:1px solid var(--primary-color);
     margin-top:5rem;
     margin-bottom:5em;
@@ -151,11 +149,9 @@ html, body {
     max-width:100%;
 }
 
-
 .gratis-content > li > span{
     color:green;
 }
-
 
 .ofertas-web-limitadas > section.portafolio > a{
     margin-top:2em;
@@ -163,7 +159,6 @@ html, body {
 }
 
 @media(max-width:1200px){
-
 
     .ofertas-web-limitadas{
         overflow:hidden;
@@ -233,24 +228,20 @@ html, body {
         text-align:left;
         margin-top:3em;
         max-width:98%;
-        font-size:1.6em;
-    }
-
-    .ofertas-web-limitadas > section > h3{
-        text-align:left !important;
+        font-size:var(--font-sizes-title-h2-small);
     }
 
     .ofertas-web-limitadas > section > h3{
         text-align:center;
         max-width:98%;
-        font-size:1.3em;
+        font-size:var(--font-sizes-title-h3-small);
         margin-top:2em;
     }
 
     .ofertas-web-limitadas p{
         max-width:90%;
         position:relative;
-        font-size:1.2em;
+        font-size:var(--font-sizes-p-small);
         padding-left:5px;
     }
 
@@ -294,10 +285,6 @@ html, body {
     .beneficios h3{
         font-size:1.3em;
         text-align:left;
-    }
-
-    .gratis-content > li > span{
-
     }
 
     .ofertas-web-limitadas .contacto-content  h2{

@@ -27,7 +27,7 @@ export default function Page(){
                 <p>Esta promoción te permite mostrar quién eres y qué ofreces a usuarios que están buscando tus servicios a través de internet.</p>
                
                 <ul>
-                    <li>Desarrollo de una nueva página web</li>
+                    <li>Diseño web wordpress</li>
                     <li>Mantenimiento</li>
                     <li>SEO, para posicionar tu web en las búsquedas de Google</li>
                 </ul>
@@ -55,7 +55,7 @@ export default function Page(){
                 <p>Esta promoción te permite mostrar quién eres y qué ofreces y contar con alguna funcionalidad avanzada como mostrar un menú online o un sistema de reservas, entre otros.</p>          
                
                 <ul>
-                    <li>Desarrollo.</li>
+                    <li>Diseño web wordpress</li>.
                     <li>Desarrollo de una funcionalidad avanzada.</li>
                     <li>Mantenimiento.</li>
                     <li>SEO, aumento de la visibilidad en los buscadores.</li>
@@ -75,8 +75,11 @@ export default function Page(){
              <section>
 
                 <h2>Oferta para una tienda online ecommerce</h2>
+
                 <figure>
+
                     <img src="/image/Ejemplos_de_web_tienda_online_de_DWBA.webp" alt="" loading="lazy"/>  
+                    
                     <figcaption>
                         Captura de la página de productos de una tienda online para una charcutería de Madrid.
                     </figcaption>
@@ -85,7 +88,7 @@ export default function Page(){
                 <p>Esta promoción te permite mostrar quién eres y qué ofreces y contar con un sistema completo para vender en internet.</p>
                 
                 <ul>
-                    <li>Desarrollo.</li>
+                    <li>Diseño Web WordPress</li>
                     <li>Sistema para gestión de productos, pagos y envíos.</li>
                     <li>Mantenimiento.</li>
                     <li>SEO, aumento de la visibilidad en los buscadores.</li>
@@ -156,8 +159,10 @@ export default function Page(){
 
             <section className="contacto-content">
                 <h2>Contacto</h2>
-                <p>Más visibilidad = Más clientes potenciales = Mayor conversión</p>
-                <p>Contacta y pregunta sin compromiso cualquier duda que tengas.</p>
+                <p>Esta promoción está pensada para ayudar al pequeño negocio a beneficiarse de internet con una menor inversión.</p>
+                <p>Enviamos las condiciones del servicio sin compromiso por email.</p>
+                <p>¿Listo para crecer en internet?</p>
+                <p>Hablemos de tu proyecto.</p>
                 <a href="https://dwba.es/#contacto" >Contactar</a>
             </section>
 

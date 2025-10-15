@@ -4,10 +4,12 @@
     "ancla":"servicio-de-diseño-web",
     "enlace":"#",
     "descripcion":[
-      "Si estás buscando una agencia de diseño web, este servicio es para diseñar desde una página web hasta logos, interfaces o imágenes como contenido.",
+      "Si estás buscando una agencia de diseño web, este servicio es para ofrecer servicios de diseño para marca y páginas web.",
+      "Diseño web wordpress,cubrimos la creación temas propios, diseñamos bloques de Gutenberg y creamos diseño para otros temas ya instalados.",
       "Diseños inspirados en estudios, marcas importantes y novedades en el mundo del diseño.",
       "Diseño UX/UI.",
-      "Responsive Design (diseño adaptativo para diferentes dispositivos)"
+      "Responsive Design (diseño adaptativo para diferentes dispositivos)",
+      "■ Paginas web  ■ Interfaces software  ■ Aquitectura contenido  ■ Plantillas Emails  ■ QR Servicios  ■ Marca  ■ Iconos/Logos" 
     ],
     "servicio":[
         "Diseño de logos",
@@ -67,19 +69,21 @@
     "enlace":"#",
     
     "descripcion":[
-      "Si estás buscando una agencia web y lanzar tu página web en internet.",
-      "Desarrollar una web a medida que se ajuste a tus necesidades.",
+      "Si estás buscando una agencia para desarrollar un proyecto web wordpress o a medida.",
+      "Desarrollar una web a medida que se ajuste a tus necesidades con wordpress.",
       "Desarrollar una web corporativa con gestor de contenido (CMS WordPress)",
       "Desarrollar una web con gestor de contenido (CMS WordPress), te facilita la autogestión de tu web.",
       "Desarrollar una tienda online para tu negocio y que puedas vender en internet.",
-      "Desarrollar un plugin a medida que se ajuste a tus necesidades para el CMS WordPress."
+      "Desarrollar un plugin a medida como una solucción a una necesidad bajo el CMS WordPress.",
+      "Desarrollar una web a medida basada en React y Node."
   ],
     "servicio":[
         "web Corporativa",
         "web Servicio",
         "web Ecommerce",
         "web Blog",
-        "web Marca Personal"
+        "web Marca Personal",
+        "web a medida"
     ],
     "duracion":[
         "-",
