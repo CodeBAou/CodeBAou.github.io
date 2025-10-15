@@ -1,27 +1,17 @@
 .section_inicio{
-    width:1000px;
-    min-width:800px;
-   /* min-height:800px;*/
     height:auto;
+    max-width:1000px;
     display:flex;
     flex-direction:row-reverse;
-    /* border:1px solid yellow; 
-    margin-right:5vw;
-    margin-bottom:7vh;
-    background-color: rgb(0, 0, 0, 0.2);
-    /* overflow: scroll; */
-    /* overflow: auto;        /** permite scroll */
-    /*  scrollbar-width: none; /* Firefox */
-    /* -ms-overflow-style: none; /* IE y Edge antiguos */
     justify-content: flex-end;
     background-color: rgba(0, 0, 0, 0.6);
     margin-bottom:7vh;
     filter: drop-shadow(
         0 0 10px rgba(0,0,0,0.3)
     );
-   box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.5);
--webkit-box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.73);
--moz-box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.3);
+    box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.73);
+    -moz-box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.3);
 }
 
 .mi-div::-webkit-scrollbar {
@@ -34,7 +24,8 @@
       width:100%;
       margin-right: 0;
       min-width:auto;
-      min-height:auto;
+      min-height:min-content;
+      margin-top:5vh;
     }
 }
 
@@ -45,6 +36,5 @@
       min-width:0;
       display:flex;
       min-height:auto;
-      
      }
 }

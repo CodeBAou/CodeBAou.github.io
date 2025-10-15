@@ -4,6 +4,6 @@ Disallow: /servicios
 Disallow: /apps
 Disallow: /terminos-y-condiciones
 Allow: /
-Allow: /ofertas-web
+Allow: /promocion-pagina-web
 
 Sitemap: https://dwba.es/sitemap.xml

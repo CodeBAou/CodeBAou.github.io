@@ -23,7 +23,6 @@ export default function Content_section_detalles({servicios=[], duracion="", pre
                 })
             }
           
-               
             <h3>DURACIÓN APROX.</h3>
             {
                 duracion.map( (duracion,index) => {
@@ -31,7 +30,6 @@ export default function Content_section_detalles({servicios=[], duracion="", pre
                 })
             }
             
-
             <h3>PRECIO</h3>
             {
                 precio.map( (precio,index) => {

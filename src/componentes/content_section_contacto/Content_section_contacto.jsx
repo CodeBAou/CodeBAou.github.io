@@ -10,7 +10,6 @@ export default function Content_section_contacto(){
             <h2 >Información de contacto</h2>
 
             <div>
-
                 <div className="content_datos_contacto">
 
                     <div>
@@ -18,8 +17,7 @@ export default function Content_section_contacto(){
                         <div>
                             <img src="/icon/movil.svg" alt="Icono de movil" />
                             <img src="/icon/whatssap.svg" alt="Icono de whatssap" />
-                            <p className="numeroTelefono">+34 644 81 42 58</p>
-                            <img className="qrcontacto" src="/image/qr_whatssap_contacto.webp" alt="QR para contacto de whatssap de dwba"/>
+                            <p className="numeroTelefono">+34 644 81 42 58</p> 
                         </div>
                     </div>
 
@@ -31,7 +29,7 @@ export default function Content_section_contacto(){
                         </div>
                     </div>
 
-                     <div>
+                    <div>
                         <h3>Horario</h3> 
                         <div>
                             <img src="/icon/horario.svg" alt="icono de horario" />
@@ -39,10 +37,13 @@ export default function Content_section_contacto(){
                         </div>
                     </div>
 
+                    <div className="qrcontactocontent">
+                        <h3>Enlaces QR</h3>
+                        <div>
+                            <img className="qrcontacto" src="/image/qr_whatssap_contacto.webp" alt="QR para contacto de whatssap de dwba"/>
+                        </div>
+                    </div>
                 </div>
-
-              
-, 
             </div>
 
                 <div className="content_datos_localizacion">

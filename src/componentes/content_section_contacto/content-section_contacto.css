@@ -11,7 +11,7 @@
 
 .section_contacto > h2{
     color:var(--primary-color);
-    font-size:var( --font-size-large);
+    font-size:var(--font-sizes-title-h2-large);
     font-family:'lombok';
     margin-top:5vh;
     margin-bottom:2vh;
@@ -49,7 +49,7 @@
 }
 
 .section_contacto > div > div.content_datos_contacto > div > h3{
-    font-size:var( --font-size-large);
+    font-size:var(--font-sizes-title-h3-large);
     color:var(--tertiary-color);
     font-family:'lombok';
 }
@@ -59,12 +59,13 @@
     display:flex;
     flex-direction: row;
     align-items: center;
+    padding-left:5vw;
 }
 
 .section_contacto > div > div.content_datos_contacto > div > div > p{
     color:white;
     margin-left:30px;
-    font-size:1.4rem;
+    font-size:var(--font-sizes-p-large);
     vertical-align: bottom;
     max-height: 40px;
 }
@@ -77,12 +78,12 @@
     color:var(--primary-color);
     text-align:center;
     margin-top:2em;
-    font-size:2.2em;
+    font-size:var(--font-sizes-title-h3-large);
 }
 
 .section_contacto .content_datos_localizacion p{
     color:white;
-    font-size:1.2rem;
+    font-size:var(--font-sizes-p-large);
 }
 
 .qrcontacto{
@@ -105,8 +106,7 @@
     }
 
     .section_contacto > h2{
-        font-size:1.5rem;
-       
+        font-size:var(--font-sizes-title-h2-medium);
     }
 
     .section_contacto > div{
@@ -114,25 +114,22 @@
     }
 
     .section_contacto > div > div.content_datos_contacto > div > h3{
-        font-size:1.2rem;
+        font-size:var(--font-sizes-title-h3-medium);
     }
 
     .section_contacto > div > div.content_datos_contacto > div > div > p{
-        font-size:1.4rem;
-
+        font-size:var(--font-sizes-p-medium);
     }
 
     .section_contacto > div > div.content_datos_contacto > div > div > img{
         width:40px;
     }
 
-     .content_datos_localizacion p{
-        font-size:1.1em;
+    .section_contacto .content_datos_localizacion p{
+        font-size:var(--font-sizes-p-medium);
         color:white;
      }
-
 }
-
 
 @media(max-width:780px){
 
@@ -143,17 +140,18 @@
 
     .section_contacto > h2{
         text-align:center !important;
+        font-size:var(--font-sizes-title-h2-small);
     }
 
     .section_contacto .content_datos_localización h3{
         color:var(--primary-color);
         text-align:center;
         margin-top:2em;
-        font-size:2.2em;
+        font-size:var(--font-sizes-title-h3-small);
     }
 
      .section_contacto .content_datos_localización p{
-        font-size:1.2em;
+        font-size:var(----font-sizes-p-small);
      }
 
      .section_contacto > div{
@@ -163,24 +161,31 @@
         margin-bottom:2vh;
     }
 
+    .section_contacto > div > div.content_datos_contacto > div > div{
+        justify-content: left;
+        
+    }
+
      .section_contacto > div > div.content_datos_contacto > div > div > img{
         width:30px;
      }
 
       .section_contacto > div > div.content_datos_contacto > div > div > p{
-        font-size:1.2rem;
+        font-size:var(--font-sizes-p-small);
       }
 
-      .qrcontacto{
-        display:none;
+      .qrcontactocontent{
+         display:none;
       }
-
+   
       .numeroTelefono{
         padding:0;
       }
 
       .section_contacto .content_datos_localizacion p{
-        font-size:1.1em;
+        font-size:var(--font-sizes-p-small);
+        text-align:left;
+        padding-left:5vw;
       }
 
 }

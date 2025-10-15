@@ -1,9 +1,61 @@
 :root{
+
+    /** COLORS */
     --primary-color:rgb(251, 236, 139);
     --second-color:white;
     --tertiary-color:#c4a557;
-    --font-size-large:2rem;
-    --font-size-small:2rem;
+
+    /** FONT FAMILY*/
+    --font-family-titles:'lombok';
+
+    /** FONT SIZES**/
+
+    /** FONT SIZE MENU*/
+    /** Level 1*/
+    --font-size-menu-lv1:1.4rem;
+    
+    /** FONT SIZE TITLE*/
+    --font-sizes-title-h1-large:4rem;
+    --font-sizes-title-h1-medium:2.8rem;
+    --font-sizes-title-h1-small:1.8rem;
+
+    --font-sizes-title-h2-large:2rem;
+    --font-sizes-title-h2-medium:2rem;
+    --font-sizes-title-h2-small:1.5rem;
+
+    --font-sizes-title-h3-large:1.8rem;
+    --font-sizes-title-h3-medium:1.8rem;
+    --font-sizes-title-h3-small:1.3rem;
+
+    --font-sizes-title-detalles-large:1.3rem;
+    --font-sizes-title-detalles-medium:1rem;
+    --font-sizes-title-detalles-small:0.8rem;
+
+    /** FONT SIZE PARRAFOS */
+    --font-sizes-p-large:1.35rem;
+    --font-sizes-p-medium:1.3rem;
+    --font-sizes-p-small:1.2rem;
+
+    --font-sizes-p-detalles-large:1rem;
+    --font-sizes-p-detalles-medium:1rem;
+    --font-sizes-p-detalles-small:0.8rem;
+
+    /** FONT SIZE ESPECIAL*/
+    --font-size-price-large:0;
+    --font-size-price-medium:0;
+    --font-size-price-small:0;
+
+    --font-size-gratis-large:0;
+    --font-size-gratis-medium:0;
+    --font-size-gratis-small:0;
+
+    --font-size-copyright-large:0.8rem;
+    --font-size-copyright-medium:0.8rem;
+    --font-size-copyright-small:0.8rem;
+}
+
+*{
+    max-width:100vw;
 }
 
 @font-face{
@@ -30,11 +82,14 @@
     font-display:swap;
 }
 
+html{
+    max-width:1920px!important;  
+}
 body{
     margin:0;
     padding:0;
     background-image: url('/image/TEXTURA_FONDO_LOGO_PUZZLE_1920.webp');
-    max-width:1920px;
+    
 }
 
 .content-scroll-page{
@@ -51,33 +106,32 @@ body{
 }
 
 .content-scroll-page::-webkit-scrollbar {
-  display: none; /* Chrome, Safari */
+    display: none; /* Chrome, Safari */
 }
 
-p{
+p.description-page-inicio{
     color:var(--primary-color);
     padding-left:10%;
     padding-right:10%;
-    font-size:1.6em;
+    font-size:var(--font-sizes-p-large);
     font-family:'nowyouseeme';
 }
 
 @media(max-width:1200px){
     body{
         max-width:100vw;
-      background-image: url('/image/TEXTURA_FONDO_LOGO_PUZZLE_1920.webp');
+        background-image: url('/image/TEXTURA_FONDO_LOGO_PUZZLE_1920.webp');
     }
-
-    .content-scroll-page{
-        width:70vw;
-    }
-}
-
-@media(max-width:1200px){
 
     .content-scroll-page{
         width:60vw;
+        column-gap: 10vh;
     }
+
+     .p.description-page-inicio{
+        font-size:var(--font-sizes-p-medium);
+    }
+
 }
 
 @media(max-width:780px){
@@ -86,9 +140,16 @@ p{
         width:100%;
         max-width:100vw;
     }
+
+    p.description-page-inicio{
+        font-size: var( --font-sizes-p-small );
+    }
+
     .content-scroll-page{
         width:100vw;
         max-width:100vw;
         padding-right:0;
+        align-items:center;
+        
     }
 }
