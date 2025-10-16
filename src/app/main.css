@@ -1,3 +1,4 @@
+
 :root{
 
     /** COLORS */
@@ -82,14 +83,12 @@
     font-display:swap;
 }
 
-html{
-    max-width:1920px!important;  
-}
-body{
-    margin:0;
+
+html, body{
     padding:0;
-    background-image: url('/image/TEXTURA_FONDO_LOGO_PUZZLE_1920.webp');
-    
+    margin:0;
+    background-image: url('/image/TEXTURA_FONDO_LOGO_PUZZLE_1920.webp'); 
+    overflow-x: clip !important; /** scroll horizontal fantasma, se elimina*/
 }
 
 .content-scroll-page{
@@ -102,7 +101,7 @@ body{
     display:flex;
     flex-direction:column;
     align-items:end;
-    padding-right:5vw;
+    padding-right:5em;
 }
 
 .content-scroll-page::-webkit-scrollbar {
@@ -119,7 +118,7 @@ p.description-page-inicio{
 
 @media(max-width:1200px){
     body{
-        max-width:100vw;
+       
         background-image: url('/image/TEXTURA_FONDO_LOGO_PUZZLE_1920.webp');
     }
 
@@ -136,18 +135,15 @@ p.description-page-inicio{
 
 @media(max-width:780px){
 
-    body{
-        width:100%;
-        max-width:100vw;
-    }
+
 
     p.description-page-inicio{
         font-size: var( --font-sizes-p-small );
     }
 
     .content-scroll-page{
-        width:100vw;
-        max-width:100vw;
+        width:100%;
+        max-width:100%;
         padding-right:0;
         align-items:center;
         

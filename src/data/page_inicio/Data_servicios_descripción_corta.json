@@ -4,18 +4,21 @@
     "ancla":"servicio-de-diseño-web",
     "enlace":"#",
     "descripcion":[
-      "Si estás buscando una agencia de diseño web, este servicio es para ofrecer servicios de diseño para marca y páginas web.",
-      "Diseño web wordpress,cubrimos la creación temas propios, diseñamos bloques de Gutenberg y creamos diseño para otros temas ya instalados.",
-      "Diseños inspirados en estudios, marcas importantes y novedades en el mundo del diseño.",
-      "Diseño UX/UI.",
-      "Responsive Design (diseño adaptativo para diferentes dispositivos)",
-      "■ Paginas web  ■ Interfaces software  ■ Aquitectura contenido  ■ Plantillas Emails  ■ QR Servicios  ■ Marca  ■ Iconos/Logos" 
+      "Si estás buscando una agencia de diseño web y necesitas ayuda con la Marca o página web.",
+      "Diseño web WordPress, un diseño teniendo en cuenta las peculiaridades del CMS.",
+      "Diseño de Themes para instalar en el CMS WordPress.",
+      "Diseños basados en las necesidades de los diferentes tipos de webs, ■ corporativas, ■ servicios, ■ marca personal, ■ tiendas.",
+      "Seguimiento de estudios, marcas importantes y novedades en el mundo del diseño en este ámbito.",
+      "Además nos ocupamos de diseñar logos, iconos, plantillas para emails... Útiles para fortalecer la marca digital.",
+      "■ UX/UI  ■ Diseño Responsivo  ■ Aquitectura contenido  ■ Actulización continua" 
     ],
     "servicio":[
-        "Diseño de logos",
-        "Diseño de paleta de colores ",
-        "Diseño de interfaz/paginas ux/ui",
-        "Diseño de imagenes"
+        "■ Diseño Web",
+        "■ Diseño Interfaz",
+        "■ Diseño Marca",
+        "■ Diseño Iconos/Logos",
+        "■ Imagen",
+        "■ Plantillas Emails"
     ],
     "duracion":[
         "-",
@@ -61,7 +64,6 @@
       "/image/servicios/mobile/Muestra-paleta-colores-diseño-pagina-web_DWBA_mobile_500px.webp",
       "/image/servicios/mobile/Muestra-diseño-web-y-diseño-catálogo_mobile_500px.webp"
     ]
-    
 },
 {
     "name":"Desarrollo Web",
@@ -71,7 +73,7 @@
     "descripcion":[
       "Si estás buscando una agencia para desarrollar un proyecto web wordpress o a medida.",
       "Desarrollar una web a medida que se ajuste a tus necesidades con wordpress.",
-      "Desarrollar una web corporativa con gestor de contenido (CMS WordPress)",
+      "Desarrollar una web corporativa con gestor de contenido (CMS WordPress).",
       "Desarrollar una web con gestor de contenido (CMS WordPress), te facilita la autogestión de tu web.",
       "Desarrollar una tienda online para tu negocio y que puedas vender en internet.",
       "Desarrollar un plugin a medida como una solucción a una necesidad bajo el CMS WordPress.",
@@ -194,7 +196,7 @@
       "Si estás buscando una agencia web para el posicionamiento en buscadores, podemos ayudarte con tus apariciones en las búsquedas de Google.",
       "El servicio de SEO Básico, una optimización de SEO puntual en tu página web, para que los algoritmos de Google no te penalicen en el ranking pageRank de los resultados de búsqueda. Google puntúa tu página web tanto en el contenido como en la calidad técnica, es importante cumplir los estándares para que no te penalice en los resultados de búsqueda.",
       "El servicio de SEO Avanzado se realiza de forma mensual, analizando el tráfico, el mercado y la competencia para posicionar tu web y captar la mayor cantidad de usuarios locales para tu negocio. Además, se aplican mejoras técnicas en la web para que los algoritmos de Google no te penalicen."
-  ],
+    ],
     "servicio":[
         "Seo Básico",
         "Seo Avanzado",
@@ -243,7 +245,6 @@
       "/image/servicios/mobile/Estadisticas-google-search-console-impresiones-subiendo-click-subiendo_mobile_500px.webp"
     ]
 },
-
 {
     "name":"SEM - Marketing Digital",
     "ancla":"seo",

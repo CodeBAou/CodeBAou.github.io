@@ -18,7 +18,7 @@
     animation-name:AnimationAviso;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    max-width:100vw;
+    max-width:100%;
 }
 
 .content-oferta .destacar{
@@ -136,6 +136,7 @@
     .content-oferta > div{
         flex-grow:1;
         height:auto;
+        width:100%;
     }
 
     .content-oferta > div > a{
@@ -182,13 +183,14 @@
     }
 
      .content-oferta *{
-        max-width:100vw;
+        max-width:100%;
         margin:0;
         padding:0;
      }
 
      .content-oferta > div{
         margin-top:0;
+        width:100%;
      }
     
     .content-oferta > figure{   

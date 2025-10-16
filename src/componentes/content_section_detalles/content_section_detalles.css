@@ -30,8 +30,11 @@
     color:white;
     font-size:1rem;
     font-family:'optimist';
+    width:100%;
 }
-
+.detalles > div{
+    width:100%;
+}
 .detalles ul{
     list-style:none;
     margin:0;
@@ -120,6 +123,11 @@
         font-size:0.8rem;
         margin-bottom:2vh;
         text-align: left;
+        padding-left:1px;
+    }
+
+    .detalles > div{
+        padding-bottom:2em;
     }
 
     .detalles ul li{

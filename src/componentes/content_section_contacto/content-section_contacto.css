@@ -136,11 +136,13 @@
     .section_contacto{
         width:100%;
         position:relative;
+        padding-bottom:2em;
     }
 
     .section_contacto > h2{
         text-align:center !important;
         font-size:var(--font-sizes-title-h2-small);
+        padding-bottom:1em;
     }
 
     .section_contacto .content_datos_localización h3{
@@ -150,11 +152,15 @@
         font-size:var(--font-sizes-title-h3-small);
     }
 
-     .section_contacto .content_datos_localización p{
-        font-size:var(----font-sizes-p-small);
+    .section_contacto .content_datos_localizacion p{
+        font-size:var(--font-sizes-p-small) !important;
+        text-align:left;
+        padding:0.5em;
+        padding-top:2em;
+        padding-bottom:0.5em;
      }
 
-     .section_contacto > div{
+    .section_contacto > div{
         width:100%;
         padding:0;
         margin:0;
@@ -163,7 +169,6 @@
 
     .section_contacto > div > div.content_datos_contacto > div > div{
         justify-content: left;
-        
     }
 
      .section_contacto > div > div.content_datos_contacto > div > div > img{
@@ -181,11 +186,4 @@
       .numeroTelefono{
         padding:0;
       }
-
-      .section_contacto .content_datos_localizacion p{
-        font-size:var(--font-sizes-p-small);
-        text-align:left;
-        padding-left:5vw;
-      }
-
 }
