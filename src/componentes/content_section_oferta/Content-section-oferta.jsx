@@ -7,7 +7,7 @@ export default function Content_section_oferta( {enlaceofertadisplay = true}){
             <section className="content-oferta">
                
                 <div>
-                    <h2>PROMOCIÓN <span class="destacar">ACTIVA</span></h2>
+                    <h2>PROMOCIÓN <span className="destacar">ACTIVA</span></h2>
                     <p>Lanza tu web a un costo reducido y llega a más clientes.</p>
                     <p>Negocios con &lt; 4 empleados</p>
                     <p>+ seo + mantenimiento</p>

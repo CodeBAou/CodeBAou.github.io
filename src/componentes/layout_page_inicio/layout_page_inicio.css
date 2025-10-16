@@ -1,6 +1,6 @@
 .layout_inicio{
     height:86.8vh;
-    width:100vw;
+    width:100%;
     margin-top:5vh;
     display:flex;
     flex-direction:row;
@@ -10,7 +10,7 @@
 @media(max-width:780px){
     .layout_inicio{
         height:100vh;
-        margin-top:5vh;
-        margin-bottom:5vh;
+        margin-top:0;
+       
     }
 }

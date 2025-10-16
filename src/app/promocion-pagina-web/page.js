@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React, {useState, useEffect} from 'react'
 import './promocion.css';
 import Content_section_oferta from '@/componentes/content_section_oferta/Content-section-oferta';
@@ -27,9 +27,9 @@ export default function Page(){
                 <p>Esta promoción te permite mostrar quién eres y qué ofreces a usuarios que están buscando tus servicios a través de internet.</p>
                
                 <ul>
-                    <li>Diseño web wordpress</li>
-                    <li>Mantenimiento</li>
-                    <li>SEO, para posicionar tu web en las búsquedas de Google</li>
+                    <li>Diseño web WordPress.</li>
+                    <li>Mantenimiento.</li>
+                    <li>SEO, para posicionar tu web en las búsquedas de Google.</li>
                 </ul>
 
                 <ul className="gratis-content">
