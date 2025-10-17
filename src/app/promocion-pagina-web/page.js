@@ -8,14 +8,17 @@ export default function Page(){
     return(
         <div className="ofertas-web-limitadas">
 
-            <img className="logo_dwba" src="/image/logo_DWBA_sin_fondo.webp" alt="Logo DWBA"/>
+            <img className="logo_dwba" src="/image/logo_DWBA_sin_fondo.webp" alt="Logo de la marca dwba"/>
 
             <Content_section_oferta enlaceofertadisplay={false} />
 
             <section>
                 <h2>Promoción para una página web corporativa</h2>
                 <figure>
-                    <img src="/image/Ejemplos_de_web_corporativas_de_DWBA.webp" alt="" loading="lazy"/>
+                    <img 
+                        src="/image/Ejemplos_de_web_corporativas_de_DWBA.webp" 
+                        alt="Dos capturas de la página de inicio de una web corporativa de un despacho de abogados y otra de una empresa de marketing digital." 
+                        loading="lazy"/>
                     <figcaption>
                         Capturas de dos páginas corporativas como ejemplo para esta promoción.
                     </figcaption>
@@ -46,7 +49,7 @@ export default function Page(){
             <section>
                 <h2>Oferta para una página web de servicios</h2>
                 <figure>
-                    <img src="/image/Ejemplos_de_web_servicios_de_DWBA.webp" alt="" loading="lazy"/> 
+                    <img src="/image/Ejemplos_de_web_servicios_de_DWBA.webp" alt="Una captura de la página con un servicio de reservas online para un hotel." loading="lazy"/> 
                     <figcaption>
                         Una captura de una página de inicio de una web con la funcionalidad de reservas online mediate calendario.
                     </figcaption> 
@@ -55,7 +58,7 @@ export default function Page(){
                 <p>Esta promoción te permite mostrar quién eres y qué ofreces y contar con alguna funcionalidad avanzada como mostrar un menú online o un sistema de reservas, entre otros.</p>          
                
                 <ul>
-                    <li>Diseño web wordpress</li>.
+                    <li>Diseño web wordpress</li>
                     <li>Desarrollo de una funcionalidad avanzada.</li>
                     <li>Mantenimiento.</li>
                     <li>SEO, aumento de la visibilidad en los buscadores.</li>
@@ -78,7 +81,7 @@ export default function Page(){
 
                 <figure>
 
-                    <img src="/image/Ejemplos_de_web_tienda_online_de_DWBA.webp" alt="" loading="lazy"/>  
+                    <img src="/image/Ejemplos_de_web_tienda_online_de_DWBA.webp" alt="Logo de la marca dwba" loading="lazy"/>  
                     
                     <figcaption>
                         Captura de la página de productos de una tienda online para una charcutería de Madrid.
@@ -166,7 +169,7 @@ export default function Page(){
                 <a href="https://dwba.es/#contacto" >Contactar</a>
             </section>
 
-            <img className="logo_dwba" src="/image/logo_DWBA.png" alt="Logo DWBA"/>
+            <img className="logo_dwba" src="/image/logo_DWBA_sin_fondo.webp" alt="Logo de la marca dwba"/>
         </div>
 
     )

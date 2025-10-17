@@ -1,6 +1,4 @@
-
 :root{
-
     /** COLORS */
     --primary-color:rgb(251, 236, 139);
     --second-color:white;
@@ -83,7 +81,6 @@
     font-display:swap;
 }
 
-
 html, body{
     padding:0;
     margin:0;
@@ -117,25 +114,22 @@ p.description-page-inicio{
 }
 
 @media(max-width:1200px){
-    body{
-       
+    body{  
         background-image: url('/image/TEXTURA_FONDO_LOGO_PUZZLE_1920.webp');
     }
 
     .content-scroll-page{
-        width:60vw;
+        width:65%;
         column-gap: 10vh;
+        padding-right:0;
     }
 
-     .p.description-page-inicio{
+    .p.description-page-inicio{
         font-size:var(--font-sizes-p-medium);
     }
-
 }
 
 @media(max-width:780px){
-
-
 
     p.description-page-inicio{
         font-size: var( --font-sizes-p-small );
@@ -146,6 +140,5 @@ p.description-page-inicio{
         max-width:100%;
         padding-right:0;
         align-items:center;
-        
     }
 }

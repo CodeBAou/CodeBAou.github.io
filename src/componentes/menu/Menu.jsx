@@ -5,7 +5,7 @@ import './menu.css'
 
 export default function Menu(){
 
-    const [menustate,setMenuState]        = useState(false);
+    const [menustate,setMenuState]       = useState(false);
     const [menuclassstate,setClassState] = useState("menu_close_start");
 
     const changeStateMenu = ()=>{
@@ -19,16 +19,12 @@ export default function Menu(){
         }
     }
 
-    useEffect(()=>{
-
-    });
-
     return(
 
         <>
             <nav id="menuprincipal" className={menuclassstate}> 
                 <ul>
-                    <li><Link href="/#dwba">DWBA</Link></li>
+                    <li><Link href="/">DWBA</Link></li>
                     <li><Link href="/servicios">SERVICIOS</Link></li>
                     <li><Link href="/apps">APPS</Link></li>
                     { 
@@ -36,7 +32,6 @@ export default function Menu(){
                     }
                     <li><Link href="/#contacto">CONTACTO</Link></li>
                 </ul>
-            
             </nav>
 
             <img id="pagemenuid" className="icon_menu_mobile" src="/icon/menu.svg" alt="Icono menu mobile" onClick={changeStateMenu}/>

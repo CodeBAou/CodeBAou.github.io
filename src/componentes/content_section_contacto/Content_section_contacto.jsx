@@ -15,8 +15,8 @@ export default function Content_section_contacto(){
                     <div>
                         <h3>TELEFONO</h3> 
                         <div>
-                            <img src="/icon/movil.svg" alt="Icono de movil" />
-                            <img src="/icon/whatssap.svg" alt="Icono de whatssap" />
+                            <img src="/icon/movil.svg" alt="Icono de movil" loading="lazy"/>
+                            <img src="/icon/whatssap.svg" alt="Icono de whatssap" loading="lazy"/>
                             <p className="numeroTelefono">+34 644 81 42 58</p> 
                         </div>
                     </div>
@@ -24,7 +24,7 @@ export default function Content_section_contacto(){
                     <div>
                         <h3>EMAIL</h3> 
                         <div>
-                            <img src="/icon/email.svg" alt="icono de correo electronico" />
+                            <img src="/icon/email.svg" alt="icono de correo electronico" loading="lazy"/>
                             <p>dwba.soporte@gmail.com</p>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ export default function Content_section_contacto(){
                     <div>
                         <h3>Horario</h3> 
                         <div>
-                            <img src="/icon/horario.svg" alt="icono de horario" />
+                            <img src="/icon/horario.svg" alt="icono de horario" loading="lazy"/>
                             <p>8:30 - 14:00 | 15:00 - 17:30</p>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ export default function Content_section_contacto(){
                     <div className="qrcontactocontent">
                         <h3>Enlaces QR</h3>
                         <div>
-                            <img className="qrcontacto" src="/image/qr_whatssap_contacto.webp" alt="QR para contacto de whatssap de dwba"/>
+                            <img className="qrcontacto" src="/image/qr_whatssap_contacto.webp" alt="QR para contacto de whatssap de dwba" loading="lazy"/>
                         </div>
                     </div>
                 </div>
