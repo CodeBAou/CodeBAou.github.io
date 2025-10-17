@@ -14,7 +14,15 @@ export default function Content_section_oferta( {enlaceofertadisplay = true}){
                 </div>
 
                 <figure>
-                    <img className="imagenoferta" src="/image/Dwba-esquema-fases-desarrollo-oferta.webp" alt="Las fases de la promoción son, reunión, desarrollo, conformidad y periodo de 1 año de servicio y facturación"/> 
+                    <img 
+                        className="imagenoferta" 
+                        src="/image/Dwba-esquema-fases-desarrollo-oferta.webp" 
+                        alt="Las fases de la promoción son, reunión, desarrollo, conformidad y periodo de 1 año de servicio y facturación"
+                        srcSet=" /image/Dwba-esquema-fases-desarrollo-oferta.webp 1200w,
+                                 /image/Dwba-esquema-fases-desarrollo-oferta-480.webp 480w"
+                        sizes="(max-width:765px) 480px, (min-width:765px) 1200px"
+                        loading="lazy"
+                    /> 
                     <figcaption>
                         Fases de desarrollo y periodo del servicio.
                     </figcaption>

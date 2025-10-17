@@ -26,6 +26,7 @@
       min-width:auto;
       min-height:min-content;
       margin-top:5vh;
+      justify-content: center;
     }
 }
 

@@ -7,9 +7,8 @@ export default function Content_section_footer(){
         <footer>
 
             <div className="content_enlaces">
-
                 <div className="footer_logo_content">
-                    <img src="/image/LOGO_DWBA_Transparente.webp" alt="" />
+                    <img src="/image/LOGO_DWBA_Transparente.webp" alt="" loading="lazy" />
                 </div>
 
                 <div className="footer_paginas_Legales">

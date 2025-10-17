@@ -3,6 +3,7 @@
     width:40%;
     height:100%;
     min-width:23%;
+    max-width:230px;
     display:flex;
     flex-direction:column;
     justify-content: start;
@@ -69,8 +70,7 @@
     .detalles{
         display:flex;
         height:auto;
-        max-width:30%;
-      
+        max-width:40%;
     }
 
     .detalles > .content-icons > img{
