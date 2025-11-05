@@ -4,26 +4,22 @@
     "ancla":"servicio-de-diseño-web",
     "enlace":"#",
     "descripcion":[
-      "Si estás buscando una agencia de diseño web y necesitas ayuda con la Marca o página web.",
-      "Diseño web WordPress, un diseño teniendo en cuenta las peculiaridades del CMS.",
-      "Diseño de Themes para instalar en el CMS WordPress.",
-      "Diseños basados en las necesidades de los diferentes tipos de webs, ■ corporativas, ■ servicios, ■ marca personal, ■ tiendas.",
-      "Seguimiento de estudios, marcas importantes y novedades en el mundo del diseño en este ámbito.",
-      "Además nos ocupamos de diseñar logos, iconos, plantillas para emails... Útiles para fortalecer la marca digital.",
-      "■ UX/UI  ■ Diseño Responsivo  ■ Aquitectura contenido  ■ Actulización continua" 
+      "Diseño web pensando en que destaque y te guste, aunque a veces arriesgamos en el proceso creativo, el proceso de diseño asegura que tu web cumpla con los estándares de UX/UI (Experiencia del usuario), WCAG AA (Accesibilidad), RESPONSIVE DESIGN (Diseño pensando primero en móvil). Además cubrimos el diseño de imágenes, logotipos y iconos para aportar valor al contenido.",
+      "Este servicio se incluye en el desarrollo de una web pero además del diseño web, realizamos diseños de iconos, logos, imágenes, emails para la creación de contenido y ayudar a fortalecer una marca.",
+      "Diseño apps, diseño para web a medida y diseño web wordpress"
     ],
     "servicio":[
-        "■ Diseño Web",
-        "■ Diseño Interfaz",
-        "■ Diseño Marca",
-        "■ Diseño Iconos/Logos",
-        "■ Imagen",
-        "■ Plantillas Emails"
+        "Diseño Web",
+        "Diseño Interfaz",
+        "Diseño Marca",
+        "Diseño Iconos/Logos",
+        "Imagen",
+        "Plantillas Emails"
     ],
     "duracion":[
-        "-",
-        "-",
-        "-"
+        "1h",
+        "1 semana",
+        ">1 semana"
     ],
     "precio":[
       "presupuesto"
@@ -71,14 +67,12 @@
     "enlace":"#",
     
     "descripcion":[
-      "Si estás buscando una agencia para desarrollar un proyecto web wordpress o a medida.",
-      "Desarrollar una web a medida que se ajuste a tus necesidades con wordpress.",
-      "Desarrollar una web corporativa con gestor de contenido (CMS WordPress).",
-      "Desarrollar una web con gestor de contenido (CMS WordPress), te facilita la autogestión de tu web.",
-      "Desarrollar una tienda online para tu negocio y que puedas vender en internet.",
-      "Desarrollar un plugin a medida como una solucción a una necesidad bajo el CMS WordPress.",
-      "Desarrollar una web a medida basada en React y Node."
-  ],
+      "Si buscas una agencia de diseño web para desarrollar tu página y alojarla, nos ocupamos del diseño, cración de contenido, desarrollo web y su alojamiento.",
+      "Desarrollo para el CMS Wordpress de forma profesional, desarrollo de páginas web, bloques personalizados, themes y plugins.",
+      "Desarrollo de webapps y sitios webs a medida con tecnología React/Node, este tipo de web son mas ligeras y rápidas.",
+      "Puede ser un poco dificil decidir que tipo de web desarrollar o que funcionalidad necesitas, en este caso lo mejor es que contactes y preguntes para poder ofrecerte una solucción personalizada para tu caso."
+      
+    ],
     "servicio":[
         "web Corporativa",
         "web Servicio",
@@ -88,11 +82,13 @@
         "web a medida"
     ],
     "duracion":[
-        "-",
-        "-",
-        "-"
+        "5 días",
+        "4 semanas",
+        "o más."
     ],
-    "precio":["Presupuesto"],
+    "precio":[
+      "Presupuesto"
+    ],
     "tecnologias_icons":[
         { 
           "path": "/icon/wordpress.svg",
@@ -124,15 +120,16 @@
 },
   {
     "name":"Mantenimiento web",
-    "ancla":"soporte-web",
+    "ancla":"mantenimiento web",
     "enlace":"#",
     "descripcion":[
-      "Si estás buscando una empresa para el mantenimiento de tu página web, puedes contratar este servicio de forma mensual para no tener preocupaciones y mantener tu web en funcionamiento sin complicaciones."
+      "Si estás buscando una empresa para el mantenimiento de tu página web, puedes contratar este servicio de forma mensual para no tener preocupaciones y mantener tu web en funcionamiento sin complicaciones.",
+      "Este servicio incluye, solucción de problemas, mantenimiento, actualizaciones, seguridad, copia de seguridad mensual y una revisión mensual con sugerencias de mejora por email.",
+      "La contratación de este servicio es puntual o mensual."
     ],
     "servicio":[
         "Puntual",
-        "Mensual",
-        "A medida"
+        "Mensual"
     ],
     "duracion":[
         "Puntual: (Evaluación)",
@@ -140,8 +137,8 @@
         "A medida: (Evaluación)"
     ],
     "precio":[
-      "Puntual: presupuesto",
-      "Mensual: "
+      "Puntual: 55€",
+      "Mensual: 36€"
     ],
     "tecnologias_icons":[
         { 
@@ -189,13 +186,14 @@
     ]
 },
 {
-    "name":"SEO - Marketing Digital",
+    "name":"Marketing Digital, posicionamiento web (SEO)",
     "ancla":"seo",
     "enlace":"#",
     "descripcion":[
-      "Si estás buscando una agencia web para el posicionamiento en buscadores, podemos ayudarte con tus apariciones en las búsquedas de Google.",
-      "El servicio de SEO Básico, una optimización de SEO puntual en tu página web, para que los algoritmos de Google no te penalicen en el ranking pageRank de los resultados de búsqueda. Google puntúa tu página web tanto en el contenido como en la calidad técnica, es importante cumplir los estándares para que no te penalice en los resultados de búsqueda.",
-      "El servicio de SEO Avanzado se realiza de forma mensual, analizando el tráfico, el mercado y la competencia para posicionar tu web y captar la mayor cantidad de usuarios locales para tu negocio. Además, se aplican mejoras técnicas en la web para que los algoritmos de Google no te penalicen."
+      "Si buscas una agencia de poscionamiento web para tener tu sitio optimizado para buscadores puedes contratar el servicio completo o ajustamos las tareas mensuales a un presupuesto.",
+      "Este servicio de seo incluye, un estudios de la intención de búsqueda de los usuarios en tu nicho y teniendo en cuenta la localidad (seo local). Se aplica optimizaciones técnicas teniendo en cuenta, la velocidad de carga, experiencia de usuario, accesibilidad y análisis para asegurar que Google no penalizará la web.",
+      "Se aplica creación de contenido pensando en el usuario y que responda a las intenciones de búsqueda, aplicando las recomendaciones de Google y otras técnicas como el copywriting entre otros.",
+      "Puedes pedir una auditoría SEO gratis, no hace falta que nos des acceso a tu web, analizamos la web de forma externa incluido el código, contamos con herramientas para sacar las métricas que necesitamos y te enviaremos un informe al email sin compromiso."
     ],
     "servicio":[
         "Seo Básico",
@@ -244,58 +242,5 @@
       "/image/servicios/mobile/Estadisticas-LightHouse-98-puntos-buen-redimiento-velocidad-de-carga_mobile_500px.webp",
       "/image/servicios/mobile/Estadisticas-google-search-console-impresiones-subiendo-click-subiendo_mobile_500px.webp"
     ]
-},
-{
-    "name":"SEM - Marketing Digital",
-    "ancla":"seo",
-    "enlace":"#",
-    "descripcion":[
-      "Si estás buscando una agencia de marketing digital para posicionamiento en buscadores, podemos ayudarte a crear tu campaña y llegar a más personas.",
-      "Mediante Google Ads, realizamos campañas para posicionarte frente a tus clientes potenciales en internet.",
-      "Esto no va dirigido solo a grandes empresas. Es posible adoptar estrategías mas pequeñas y que sean muy efectivas.",
-      "No solo se trata de invertir dinero para aparecer, existen muchas estrategias que se pueden implementar que mejoran tanto la imagen de la marca como su posicionamiento y alcance en internet."
-  ],
-    "servicio":[
-        "Campaña marketing"
-    ],
-    "duracion":[
-        "Depende de la campaña"
-    ],
-    "precio":[
-        "Presupuesto"
-    ],
-    "tecnologias_icons":[
-        { 
-          "path": "/icon/wordpress.svg",
-          "alt": "Icono Logo de wordpress",
-          "width":50,
-          "height":80
-        },
-         { 
-          "path": "/icon/seo.svg",
-          "alt": "Icono Logo, un portatil que pone 'SEO' en la pantalla.",
-          "width":50,
-          "height":80
-        },
-        { 
-          "path": "/icon/react.svg",
-          "alt": "Icono Logo de React",
-          "width":50,
-          "height":80
-        },
-        { 
-          "path": "/icon/crecimiento.svg",
-          "alt": "Icono Logo de React",
-          "width":50,
-          "height":80
-        }
-    ],
-    "images_muestra_servicios":[
-      "/image/servicios/Captura_plan_de_marketing_en_google_ADS.webp"
-    ],
-    "imagesMobile":[
-      "/image/servicios/mobile/Captura_plan_de_marketing_en_google_ADS_mobile_500px.webp"
-    ]
 }
-
 ]
