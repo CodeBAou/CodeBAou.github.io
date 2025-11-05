@@ -3,6 +3,8 @@ User-agent: *
 Disallow: /servicios
 Disallow: /apps
 Disallow: /terminos-y-condiciones
+Disallow: /politica-de-privacidad
+Disallow: /politica-de-cookies
 Allow: /
 Allow: /promocion-pagina-web
 

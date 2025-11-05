@@ -5,8 +5,8 @@ import Content_section_footer from '@/componentes/content_section_footer/Content
 import './main.css';
 
 export const metadata = {
-  title: 'DWBA | CRECE EN INTERNET - Diseño Web y Marketing Digital | OURENSE - PONTEVEDRA',
-  description: 'Nos centramos en ofrecer servicios web y ayudarte a crecer en internet. ■ DISEÑO WEB ■ DESARROLLO ■ MARKETING DIGITAL ■ DISEÑO WORDPRESS ■ DISEÑO',
+  title: 'DWBA Diseño web y Marketing Digital | Desde Ourense, servicio online.',
+  description: 'Descubre los servicios de diseño web y marketing digital que te podemos ofrecer. No importa donde estés, trabajamos de forma telemática.',
   icons: {
     icon: 'https://dwba.es/icon/LOGO_DWBA_simbolo_48.png',
   }
@@ -44,8 +44,7 @@ export default function RootLayout({ children }) {
         <Header>
             <Menu/>
         </Header>
-        {children}
-        
+        {children}    
       </body>
     </html>
   )
