@@ -1,0 +1,23 @@
+.portafolioLinkweb{
+    position:relative;
+    display:flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    flex-grow: 1/3;
+    justify-content: center;
+}
+
+.portafolioLinkweb >  h3{
+    color:white;
+}
+
+@media(max-width:768px){
+    .portafolioLinkweb{
+        width:100%;
+    }
+
+    .portafolioLinkweb >  h3{
+        margin-bottom:2rem;
+        margin-top:4rem;
+    }
+}

@@ -2,7 +2,7 @@
 import React, {useState, useEffect} from 'react'
 import Link from 'next/link'
 import './menu.css'
-
+<Link href="/">DWBA</Link>
 export default function Menu(){
 
     const [menustate,setMenuState]       = useState(false);

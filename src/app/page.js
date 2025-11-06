@@ -20,10 +20,6 @@ export default function Page(){
 
                         <Section_header/>
                     
-                        <Layout_section_inicio key={`section-description`}>
-                            <p className="description-page-inicio">Desarrollo profesional de páginas web, app y funcionalidades para tu negocio. Creación de estrategias de marketing digital para captar nuevos clientes a través de internet.</p>
-                        </Layout_section_inicio>
-
                         <Layout_section_inicio key={`section-OFERTA`}>
                                 <Content_section_oferta/>
                         </Layout_section_inicio>
@@ -50,7 +46,6 @@ export default function Page(){
                                                     ancla={servicio_data.ancla}
                                                 />
                                         </Layout_section_inicio>
-                                
                                 })
                             }
 

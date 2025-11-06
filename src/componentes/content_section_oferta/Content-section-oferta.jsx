@@ -11,6 +11,15 @@ export default function Content_section_oferta( {enlaceofertadisplay = true}){
                     <p>Lanza tu web a un costo reducido y llega a más clientes.</p>
                     <p>Negocios con &lt; 4 empleados</p>
                     <p>+ seo + mantenimiento</p>
+                     <ul>
+                        <li>WEB CORPORATIVA</li>
+                        <li>WEB SERVICIOS</li>
+                        <li>WEB TIENDA ONLINE</li>
+                    </ul>      
+
+                      {
+                        (enlaceofertadisplay == true) ?  <a className="link" href="/paginas-web-economicas-promo"> VER PROMOCIÓN</a> : null
+                    }
                 </div>
 
                 <figure>
@@ -23,21 +32,13 @@ export default function Content_section_oferta( {enlaceofertadisplay = true}){
                         sizes="(max-width:765px) 480px, (min-width:765px) 1200px"
                         loading="lazy"
                     /> 
-                    <figcaption>
-                        Fases de desarrollo y periodo del servicio.
-                    </figcaption>
+                    
                 </figure>   
 
                 <div>
-                    <ul>
-                        <li>WEB CORPORATIVA</li>
-                        <li>WEB SERVICIOS</li>
-                        <li>WEB TIENDA ONLINE</li>
-                    </ul>                     
+                                  
 
-                    {
-                        (enlaceofertadisplay == true) ?  <a className="link" href="/promocion-pagina-web"> VER PROMOCIÓN</a> : null
-                    }
+                  
                 </div>
             </section>
     )

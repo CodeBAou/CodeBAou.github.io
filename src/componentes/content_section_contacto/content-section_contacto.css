@@ -14,15 +14,14 @@
     font-size:var(--font-sizes-title-h2-large);
     font-family:'lombok';
     margin-top:5vh;
-    margin-bottom:2vh;
+    margin-bottom:2em;
 }
 
 .section_contacto > div{
    /* background-color: aqua;*/
-    width:70%;
+    width:60%;
     display:flex;
     flex-direction:row;
-    padding:10%;
     padding-top:0;
     border-radius: 12%;
 }
@@ -34,18 +33,27 @@
 
 .section_contacto > div > div.content_imagen_dwba > img{
    position:relative;
-   width:100%;
+  
    margin-right:10px;
 }
 
 .section_contacto > div > div.content_datos_contacto{
-    flex-grow: 4;
+   display:flex;
+   flex-direction: column;
+   width:100%;
+  
 }
 
 .section_contacto > div > div.content_datos_contacto > div{
     position:relative;
     width:100%;
     padding-left:2vw;
+    display: flex;
+    flex-direction: row;
+    margin-top:2em;
+    margin-bottom:2em;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .section_contacto > div > div.content_datos_contacto > div > h3{
@@ -62,16 +70,21 @@
     padding-left:5vw;
 }
 
-.section_contacto > div > div.content_datos_contacto > div > div > p{
+.section_contacto > div > div.content_datos_contacto > div > p{
     color:white;
     margin-left:30px;
     font-size:var(--font-sizes-p-large);
     vertical-align: bottom;
     max-height: 40px;
 }
-.section_contacto > div > div.content_datos_contacto > div > div > img{
+.section_contacto > div > div.content_datos_contacto > div > img{
     width:60px;
     margin-left:2vw;
+}
+
+.section_contacto .content_datos_localizacion{
+    padding-bottom:4em;
+    text-align: center;
 }
 
 .section_contacto .content_datos_localizacion h3{
@@ -86,9 +99,8 @@
     font-size:var(--font-sizes-p-large);
 }
 
-.qrcontacto{
-        width:80px !important;
-        
+.section_contacto > div > div.content_datos_contacto > div > .qrcontacto{
+        min-width:100px;
         height:auto;
         padding:0;
         padding-left:0;
