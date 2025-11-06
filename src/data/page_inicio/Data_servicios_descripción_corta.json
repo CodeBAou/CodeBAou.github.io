@@ -4,9 +4,9 @@
     "ancla":"servicio-de-diseño-web",
     "enlace":"#",
     "descripcion":[
-      "Diseño web pensando en que destaque y te guste, aunque a veces arriesgamos en el proceso creativo, el proceso de diseño asegura que tu web cumpla con los estándares de UX/UI (Experiencia del usuario), WCAG AA (Accesibilidad), RESPONSIVE DESIGN (Diseño pensando primero en móvil). Además cubrimos el diseño de imágenes, logotipos y iconos para aportar valor al contenido.",
-      "Este servicio se incluye en el desarrollo de una web pero además del diseño web, realizamos diseños de iconos, logos, imágenes, emails para la creación de contenido y ayudar a fortalecer una marca.",
-      "Diseño apps, diseño para web a medida y diseño web wordpress"
+      "Diseño web pensando en que destaque y te guste, aunque a veces arriesgamos en el proceso creativo, el proceso de diseño asegura que tu web cumpla con los estándares de UX/UI (Experiencia del usuario), WCAG AA (Accesibilidad), RESPONSIVE DESIGN (Diseño pensando primero en móvil). Además, cubrimos el diseño de imágenes, logotipos y iconos para aportar valor al contenido.",
+      "Este servicio se incluye en el desarrollo de una web, pero además del diseño web, realizamos diseños de iconos, logos, imágenes, emails para la creación de contenido y ayudar a fortalecer una marca.",
+      "Diseño apps, diseño para web a medida y diseño web WordPress."
     ],
     "servicio":[
         "Diseño Web",
@@ -67,10 +67,10 @@
     "enlace":"#",
     
     "descripcion":[
-      "Si buscas una agencia de diseño web para desarrollar tu página y alojarla, nos ocupamos del diseño, cración de contenido, desarrollo web y su alojamiento.",
-      "Desarrollo para el CMS Wordpress de forma profesional, desarrollo de páginas web, bloques personalizados, themes y plugins.",
-      "Desarrollo de webapps y sitios webs a medida con tecnología React/Node, este tipo de web son mas ligeras y rápidas.",
-      "Puede ser un poco dificil decidir que tipo de web desarrollar o que funcionalidad necesitas, en este caso lo mejor es que contactes y preguntes para poder ofrecerte una solucción personalizada para tu caso."
+      "Si buscas una agencia de diseño web para desarrollar tu página y alojarla, nos ocupamos del diseño, creación de contenido, desarrollo web y su alojamiento.",
+      "Desarrollo para el CMS WordPress de forma profesional, desarrollo de páginas web, bloques personalizados, themes y plugins.",
+      "Desarrollo de webapps y sitios webs a medida con tecnología React/Node, este tipo de web son más ligeras y rápidas.",
+      "Puede ser un poco difícil decidir que tipo de web desarrollar o qué funcionalidad necesitas, en este caso lo mejor es que contactes y preguntes para poder ofrecerte una solución personalizada para tu caso."
       
     ],
     "servicio":[
@@ -124,7 +124,7 @@
     "enlace":"#",
     "descripcion":[
       "Si estás buscando una empresa para el mantenimiento de tu página web, puedes contratar este servicio de forma mensual para no tener preocupaciones y mantener tu web en funcionamiento sin complicaciones.",
-      "Este servicio incluye, solucción de problemas, mantenimiento, actualizaciones, seguridad, copia de seguridad mensual y una revisión mensual con sugerencias de mejora por email.",
+      "Este servicio incluye, solución de problemas, mantenimiento, actualizaciones, seguridad, copia de seguridad mensual y una revisión mensual con sugerencias de mejora por email.",
       "La contratación de este servicio es puntual o mensual."
     ],
     "servicio":[
@@ -190,10 +190,10 @@
     "ancla":"seo",
     "enlace":"#",
     "descripcion":[
-      "Si buscas una agencia de poscionamiento web para tener tu sitio optimizado para buscadores puedes contratar el servicio completo o ajustamos las tareas mensuales a un presupuesto.",
-      "Este servicio de seo incluye, un estudios de la intención de búsqueda de los usuarios en tu nicho y teniendo en cuenta la localidad (seo local). Se aplica optimizaciones técnicas teniendo en cuenta, la velocidad de carga, experiencia de usuario, accesibilidad y análisis para asegurar que Google no penalizará la web.",
-      "Se aplica creación de contenido pensando en el usuario y que responda a las intenciones de búsqueda, aplicando las recomendaciones de Google y otras técnicas como el copywriting entre otros.",
-      "Puedes pedir una auditoría SEO gratis, no hace falta que nos des acceso a tu web, analizamos la web de forma externa incluido el código, contamos con herramientas para sacar las métricas que necesitamos y te enviaremos un informe al email sin compromiso."
+      "Si buscas una agencia de posicionamiento web para tener tu sitio optimizado para buscadores, puedes contratar el servicio completo o ajustamos las tareas mensuales a un presupuesto.",
+      "Este servicio de seo incluye, un estudio de la intención de búsqueda de los usuarios en tu nicho y teniendo en cuenta la localidad (seo local). Se aplica optimizaciones técnicas teniendo en cuenta, la velocidad de carga, experiencia de usuario, accesibilidad y análisis para asegurar que Google no penalizará la web.",
+      "Se aplica creación de contenido pensando en el usuario y que responda a las intenciones de búsqueda, aplicando las recomendaciones de Google y otras técnicas como el copywriting, entre otros.",
+      "Puedes pedir una auditoría SEO gratis, no hace falta que nos des acceso a tu web, analizamos la web de forma externa, incluido el código, contamos con herramientas para sacar las métricas que necesitamos y te enviaremos un informe al email sin compromiso."
     ],
     "servicio":[
         "Seo Básico",

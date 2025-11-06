@@ -6,6 +6,6 @@ Disallow: /terminos-y-condiciones
 Disallow: /politica-de-privacidad
 Disallow: /politica-de-cookies
 Allow: /
-Allow: /promocion-pagina-web
+Allow: /paginas-web-economicas-promo
 
 Sitemap: https://dwba.es/sitemap.xml
