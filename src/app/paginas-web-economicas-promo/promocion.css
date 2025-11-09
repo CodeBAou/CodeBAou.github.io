@@ -407,7 +407,8 @@ section.detalles-oferta > div > div > p{
     }
 
     .ofertas-web-limitadas > section.promocion-content > article{
-        width:90%;
+        width:100%;
+        min-width:0;
     }
 
     .ofertas-web-limitadas > section.promocion-content > article > h3{
@@ -425,7 +426,7 @@ section.detalles-oferta > div > div > p{
 
     .ofertas-web-limitadas > section > img{
         display:flex;
-        max-width:95%;
+        max-width:100%;
         margin:0;
         margin-bottom:2em;
     }
@@ -450,17 +451,19 @@ section.detalles-oferta > div > div > p{
     }
 
     .ofertas-web-limitadas > section > h2{
-        text-align:left;
+        text-align: center;
         margin-top:3em;
-        max-width:98%;
+        max-width:100%;
         font-size:var(--font-sizes-title-h2-small);
+        width:100%;
     }
 
     .ofertas-web-limitadas > section > h3{
         text-align:center;
-        max-width:98%;
+        max-width:100%;
         font-size:var(--font-sizes-title-h3-small);
         margin-top:2em;
+        
     }
 
     .ofertas-web-limitadas p{
@@ -525,7 +528,7 @@ section.detalles-oferta > div > div > p{
     }
 
     .ofertas-web-limitadas > section.contacto-content article{
-        width:90%;
+        width:100%;
         text-align: left;
     }
 
@@ -548,12 +551,15 @@ section.detalles-oferta > div > div > p{
         width:80%;
     }
 
-    .section.detalles-oferta > div > figure{
+   
+
+    section.detalles-oferta > div > figure{
+        width:100%;
+        max-width:100%!important;
+    }
+    section.detalles-oferta > div > figure > img{
         width:100%;
     }
 
    
-    section.detalles-oferta > div > figure > img{
-        width:100%;
-    }
 }

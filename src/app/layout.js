@@ -5,8 +5,8 @@ import Content_section_footer from '@/componentes/content_section_footer/Content
 import './main.css';
 
 export const metadata = {
-  title: 'DWBA Diseño web y Marketing Digital | Desde Ourense, servicio online.',
-  description: 'Descubre los servicios de diseño web y marketing digital que te podemos ofrecer. No importa donde estés, trabajamos de forma telemática.',
+  title: 'DWBA Diseño web y Marketing Digital | Desde Ourense.',
+  description: 'Descubre los servicios de diseño web y marketing digital que te podemos ofrecer. Servicio Online.',
   icons: {
     icon: 'https://dwba.es/icon/LOGO_DWBA_simbolo_48.png',
   }

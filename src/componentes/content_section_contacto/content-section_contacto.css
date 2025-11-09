@@ -179,23 +179,27 @@
         margin-bottom:2vh;
     }
 
-    .section_contacto > div > div.content_datos_contacto > div > div{
+    .section_contacto > div > div.content_datos_contacto > div{
         justify-content: left;
+        padding-left:0;
     }
-
-     .section_contacto > div > div.content_datos_contacto > div > div > img{
-        width:30px;
-     }
+    
+    .section_contacto > div > div.content_datos_contacto > div > img{
+        width:40px;
+    }
+     
 
       .section_contacto > div > div.content_datos_contacto > div > div > p{
         font-size:var(--font-sizes-p-small);
       }
 
-      .qrcontactocontent{
+      .qrcontacto{
          display:none;
       }
    
       .numeroTelefono{
         padding:0;
       }
+
+
 }
