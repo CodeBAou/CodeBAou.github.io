@@ -1,11 +1,13 @@
 User-agent: *
 
+Allow: /
+Allow: /paginas-web-economicas-promo
+
 Disallow: /servicios
 Disallow: /apps
 Disallow: /terminos-y-condiciones
 Disallow: /politica-de-privacidad
 Disallow: /politica-de-cookies
-Allow: /
-Allow: /paginas-web-economicas-promo
+Disallow: /promocion-pagina-web
 
 Sitemap: https://dwba.es/sitemap.xml

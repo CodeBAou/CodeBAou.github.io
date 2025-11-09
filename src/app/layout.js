@@ -8,7 +8,7 @@ export const metadata = {
   title: 'DWBA Diseño web y Marketing Digital | Desde Ourense.',
   description: 'Descubre los servicios de diseño web y marketing digital que te podemos ofrecer. Servicio Online.',
   icons: {
-    icon: 'https://dwba.es/icon/LOGO_DWBA_simbolo_48.png',
+    icon: 'https://dwba.es/icon/LOGO_DWBA_simbolo_32.webp',
   }
 }
 
