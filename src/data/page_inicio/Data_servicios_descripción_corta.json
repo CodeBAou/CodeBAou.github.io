@@ -1,28 +1,26 @@
 [
   {
-    "name":"Diseño web",
-    "ancla":"servicio-de-diseño-web",
+    "name":"Presencia Básica en Internet",
+    "ancla":"presencia en internet",
     "enlace":"#",
     "descripcion":[
-      "Diseño web pensando en que destaque y te guste, aunque a veces arriesgamos en el proceso creativo, el proceso de diseño asegura que tu web cumpla con los estándares de UX/UI (Experiencia del usuario), WCAG AA (Accesibilidad), RESPONSIVE DESIGN (Diseño pensando primero en móvil). Además, cubrimos el diseño de imágenes, logotipos y iconos para aportar valor al contenido.",
-      "Este servicio se incluye en el desarrollo de una web, pero además del diseño web, realizamos diseños de iconos, logos, imágenes, emails para la creación de contenido y ayudar a fortalecer una marca.",
-      "Diseño apps, diseño para web a medida y diseño web WordPress."
+      "Este es un plan para tener una presencia básica en internet y llegar con lo mínimo necesario a clientes potenciales a través de internet.",
+      "Incluye, diseño web de 1 página, con el servidor de alojamiento, dominio y correo.",
+      "La información de tu empresa será consistente y optimizada para las búsquedas, incluyendo una estrategia de links.",
+      "Soporte, para mantener todo funcionando."
     ],
     "servicio":[
-        "Diseño Web",
-        "Diseño Interfaz",
-        "Diseño Marca",
-        "Diseño Iconos/Logos",
-        "Imagen",
-        "Plantillas Emails"
+        "1 lading page",
+        "Perfil Empresa",
+        "Hosting / Dominio",
+        "Correo Empresa",
+        "Soporte"
     ],
     "duracion":[
-        "1h",
-        "1 semana",
-        ">1 semana"
+      "mensual" 
     ],
     "precio":[
-      "presupuesto"
+      "43€"
     ],
     "tecnologias_icons":[
         { 
@@ -62,16 +60,12 @@
     ]
 },
 {
-    "name":"Desarrollo Web",
-    "ancla":"desarrollo-web",
+    "name":"Diseño web",
+    "ancla":"diseño web",
     "enlace":"#",
     
     "descripcion":[
-      "Si buscas una agencia de diseño web para desarrollar tu página y alojarla, nos ocupamos del diseño, creación de contenido, desarrollo web y su alojamiento.",
-      "Desarrollo para el CMS WordPress de forma profesional, desarrollo de páginas web, bloques personalizados, themes y plugins.",
-      "Desarrollo de webapps y sitios webs a medida con tecnología React/Node, este tipo de web son más ligeras y rápidas.",
-      "Puede ser un poco difícil decidir que tipo de web desarrollar o qué funcionalidad necesitas, en este caso lo mejor es que contactes y preguntes para poder ofrecerte una solución personalizada para tu caso."
-      
+      "Diseño web para crear marca en internet, presentar tus servicios o productos y llegar a mas gente. Hoy en día en internet es donde se buscan, comparan y deciden las compras. Una web te quita la dependencia de un tercero y convierte tu identidad digital en algo propio y escalable."
     ],
     "servicio":[
         "web Corporativa",
@@ -79,15 +73,15 @@
         "web Ecommerce",
         "web Blog",
         "web Marca Personal",
-        "web a medida"
+        "a medida"
     ],
     "duracion":[
-        "5 días",
-        "4 semanas",
-        "o más."
+      "mensual",
+      "depende del proyecto"
     ],
     "precio":[
-      "Presupuesto"
+      "Tienda básica: 99,90€ /mes",
+      "A medida: presupuesto"
     ],
     "tecnologias_icons":[
         { 
@@ -118,27 +112,157 @@
       "/image/servicios/mobile/capturas-escritorio-wordpress_mobile_500px.webp"
     ]
 },
-  {
+{
+    "name":"Desarrollo",
+    "ancla":"desarrollo",
+    "enlace":"#",
+    "descripcion":[
+      "Se realizan otros desarrollos para cubrir necesidades más específicas.",
+      "Desarrollo de bloques y plugins para el CMS WordPress y extender funcionalidades.",
+      "Apps de escritorio y movil.",
+      "Procesos IA para ahorrar tiempo automatizando tareas."
+    ],
+    "servicio":[
+        "WordPress",
+        "App escritorio",
+        "Movil",
+        "IA"
+    ],
+    "duracion":[
+        "Seo Empresa: 1h",
+        "Seo Web : N/F",
+        "Seo Producto: 1h",
+        "SEM : N/F"
+    ],
+    "precio":[
+        "presupuesto"
+    ],
+    "tecnologias_icons":[
+        { 
+          "path": "/icon/wordpress.svg",
+          "alt": "Icono Logo de wordpress",
+          "width":50,
+          "height":80
+        },
+         { 
+          "path": "/icon/js.svg",
+          "alt": "Icono Logo de javascript",
+          "width":50,
+          "height":80
+        },
+        { 
+          "path": "/icon/react.svg",
+          "alt": "Icono Logo de React",
+          "width":50,
+          "height":80
+        },
+         { 
+          "path": "/icon/electron.svg",
+          "alt": "Icono Logo de electron",
+          "width":50,
+          "height":80
+        },
+         { 
+          "path": "/icon/desarrollo.svg",
+          "alt": "Icono Logo, un editor con codigo de programación.",
+          "width":50,
+          "height":80
+        }
+    ],
+    "images_muestra_servicios":[
+      "/image/servicios/Estadisticas-LightHouse-98-puntos-buen-redimiento-velocidad-de-carga.webp",
+      "/image/servicios/Estadisticas-google-search-console-impresiones-subiendo-click-subiendo.webp"
+    ],
+    "imagesMobile":[
+      "/image/servicios/mobile/Estadisticas-LightHouse-98-puntos-buen-redimiento-velocidad-de-carga_mobile_500px.webp",
+      "/image/servicios/mobile/Estadisticas-google-search-console-impresiones-subiendo-click-subiendo_mobile_500px.webp"
+    ]
+},
+{
+    "name":"Posicionamiento web (SEO)",
+    "ancla":"seo",
+    "enlace":"#",
+    "descripcion":[
+      "SEO para el perfil de Empresa. Se crea una identidad fuerte de la empresa en internet, ajustando la información  para las búsquedas de los usuarios, asegurando la consistencia de la información y que Google entienda tu empresa correctamente para posicionarte mejor.",
+      "SEO para una WEB. Aplicar SEO en una web aumentando su posicionamiento en los resultados de Google llegando a más usuarios.",
+      "SEO para PRODUCTOS. Optimización de productos para que coincidan con tendencias y búsquedas de los usuarios, aumentando su visibilidad en internet",
+      "SEM. Campañas de pago en Google.",
+      "Pide una auditoría GRATIS, para saber como podríamos mejorar el posicionamiento."
+    ],
+    "servicio":[
+        "Seo Google Empresa",
+        "Seo Web",
+        "Seo Producto",
+        "SEM, CAMPAÑA"
+    ],
+    "duracion":[
+        "Seo Empresa: 1h",
+        "Seo Web : N/F",
+        "Seo Producto: 1h",
+        "SEM : N/F"
+    ],
+    "precio":[
+        "Empresa: 10€ /mes",
+        "Web: 35€ /h",
+        "Producto: 35€",
+        "SEM: presupuesto"
+    ],
+    "tecnologias_icons":[
+        { 
+          "path": "/icon/wordpress.svg",
+          "alt": "Icono Logo de wordpress",
+          "width":50,
+          "height":80
+        },
+         { 
+          "path": "/icon/seo.svg",
+          "alt": "Icono Logo, un portatil que pone 'SEO' en la pantalla.",
+          "width":50,
+          "height":80
+        },
+        { 
+          "path": "/icon/react.svg",
+          "alt": "Icono Logo de React",
+          "width":50,
+          "height":80
+        },
+        { 
+          "path": "/icon/crecimiento.svg",
+          "alt": "Icono Logo de React",
+          "width":50,
+          "height":80
+        }
+    ],
+    "images_muestra_servicios":[
+      "/image/servicios/Estadisticas-LightHouse-98-puntos-buen-redimiento-velocidad-de-carga.webp",
+      "/image/servicios/Estadisticas-google-search-console-impresiones-subiendo-click-subiendo.webp"
+    ],
+    "imagesMobile":[
+      "/image/servicios/mobile/Estadisticas-LightHouse-98-puntos-buen-redimiento-velocidad-de-carga_mobile_500px.webp",
+      "/image/servicios/mobile/Estadisticas-google-search-console-impresiones-subiendo-click-subiendo_mobile_500px.webp"
+    ]
+},
+{
     "name":"Mantenimiento web",
     "ancla":"mantenimiento web",
     "enlace":"#",
     "descripcion":[
-      "Si estás buscando una empresa para el mantenimiento de tu página web, puedes contratar este servicio de forma mensual para no tener preocupaciones y mantener tu web en funcionamiento sin complicaciones.",
-      "Este servicio incluye, solución de problemas, mantenimiento, actualizaciones, seguridad, copia de seguridad mensual y una revisión mensual con sugerencias de mejora por email.",
-      "La contratación de este servicio es puntual o mensual."
+      "Mantener una web operativa y soluccionando cualquier incidencia.",
+      "Puedes contractar este servicio de forma mensual para 1h y tener prioridad en la solucción del problema.",
+      "Puedes contactar para una solucción puntual si lo prefieres."
     ],
     "servicio":[
         "Puntual",
         "Mensual"
     ],
     "duracion":[
-        "Puntual: (Evaluación)",
-        "Mensual: 1h",
-        "A medida: (Evaluación)"
+        "Puntual: 1h",
+        "Mensual: 1h /mes",
+        "A medida: (Presupuesto)"
     ],
     "precio":[
       "Puntual: 55€",
-      "Mensual: 36€"
+      "Mensual: 35€"
     ],
     "tecnologias_icons":[
         { 
@@ -183,64 +307,6 @@
     ],
     "imagesMobile":[
       "/image/servicios/mobile/Capturas-de-errores-console-y-error-404-para-servicio-soporte-web_mobile_500px.webp"
-    ]
-},
-{
-    "name":"Marketing Digital, posicionamiento web (SEO)",
-    "ancla":"seo",
-    "enlace":"#",
-    "descripcion":[
-      "Si buscas una agencia de posicionamiento web para tener tu sitio optimizado para buscadores, puedes contratar el servicio completo o ajustamos las tareas mensuales a un presupuesto.",
-      "Este servicio de seo incluye, un estudio de la intención de búsqueda de los usuarios en tu nicho y teniendo en cuenta la localidad (seo local). Se aplica optimizaciones técnicas teniendo en cuenta, la velocidad de carga, experiencia de usuario, accesibilidad y análisis para asegurar que Google no penalizará la web.",
-      "Se aplica creación de contenido pensando en el usuario y que responda a las intenciones de búsqueda, aplicando las recomendaciones de Google y otras técnicas como el copywriting, entre otros.",
-      "Puedes pedir una auditoría SEO gratis, no hace falta que nos des acceso a tu web, analizamos la web de forma externa, incluido el código, contamos con herramientas para sacar las métricas que necesitamos y te enviaremos un informe al email sin compromiso."
-    ],
-    "servicio":[
-        "Seo Básico",
-        "Seo Avanzado",
-        "Seo ecommerce"
-    ],
-    "duracion":[
-        "Seo básico 8h",
-        "Seo avanzado (presupuesto)",
-        "Seo woocommerce (presupuesto)"
-    ],
-    "precio":[
-
-    ],
-    "tecnologias_icons":[
-        { 
-          "path": "/icon/wordpress.svg",
-          "alt": "Icono Logo de wordpress",
-          "width":50,
-          "height":80
-        },
-         { 
-          "path": "/icon/seo.svg",
-          "alt": "Icono Logo, un portatil que pone 'SEO' en la pantalla.",
-          "width":50,
-          "height":80
-        },
-        { 
-          "path": "/icon/react.svg",
-          "alt": "Icono Logo de React",
-          "width":50,
-          "height":80
-        },
-        { 
-          "path": "/icon/crecimiento.svg",
-          "alt": "Icono Logo de React",
-          "width":50,
-          "height":80
-        }
-    ],
-    "images_muestra_servicios":[
-      "/image/servicios/Estadisticas-LightHouse-98-puntos-buen-redimiento-velocidad-de-carga.webp",
-      "/image/servicios/Estadisticas-google-search-console-impresiones-subiendo-click-subiendo.webp"
-    ],
-    "imagesMobile":[
-      "/image/servicios/mobile/Estadisticas-LightHouse-98-puntos-buen-redimiento-velocidad-de-carga_mobile_500px.webp",
-      "/image/servicios/mobile/Estadisticas-google-search-console-impresiones-subiendo-click-subiendo_mobile_500px.webp"
     ]
 }
 ]

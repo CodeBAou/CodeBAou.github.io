@@ -28,15 +28,20 @@ footer > div.content_enlaces > div > ul{
     list-style:none;
 }
 
-footer > div.content_enlaces > div > ul > li > a{
+footer > div.content_enlaces div > ul > li > a{
     text-decoration:none;
     color:white;
     margin-top:10px;
-   
+    font-size:15px;
 }
 
 footer > div.content_enlaces > div > ul > li > a:visited{
     color:var(--tertiary-color);
+}
+
+
+footer > div .footer_ultimas_paginas{
+    font-size:15px;
 }
 
 footer > div.content_enlaces > div.footer_logo_content > img{

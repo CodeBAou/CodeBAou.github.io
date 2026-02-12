@@ -6,19 +6,23 @@ export default function Content_section_oferta( {enlaceofertadisplay = true}){
         return(
             <section className="content-oferta">
                
-                <div>
-                    <h2>PROMOCIÓN <span className="destacar">ACTIVA</span></h2>
-                    <p>Lanza tu web a un costo reducido y llega a más clientes.</p>
-                    <p>Negocios con &lt; 4 empleados</p>
-                    <p>+ seo + mantenimiento</p>
-                     <ul>
+                <div className="text-content">
+                    <h2> Consigue tu web </h2>
+
+                    <ul className="ulventajas">
+                        <li>Más clientes</li>
+                        <li>Ventas 24/7</li>
+                        <li>Mayor visibilidad</li>
+                    </ul>  
+                   
+                     <ul className="ultiposwebs">
                         <li>WEB CORPORATIVA</li>
                         <li>WEB SERVICIOS</li>
                         <li>WEB TIENDA ONLINE</li>
                     </ul>      
 
                       {
-                        (enlaceofertadisplay == true) ?  <a className="link" href="/paginas-web-economicas-promo"> VER PROMOCIÓN</a> : null
+                        (enlaceofertadisplay == true) ?  <a className="link" href="/paginas-web-economicas-promo"> SABER MÁS</a> : null
                     }
                 </div>
 
@@ -35,11 +39,6 @@ export default function Content_section_oferta( {enlaceofertadisplay = true}){
                     
                 </figure>   
 
-                <div>
-                                  
-
-                  
-                </div>
             </section>
     )
 }

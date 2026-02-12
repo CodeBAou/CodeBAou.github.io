@@ -113,6 +113,13 @@ p.description-page-inicio{
     font-family:'nowyouseeme';
 }
 
+@media(max-width:1500px){
+      .content-scroll-page{
+       
+        padding-right:0;
+    }
+}
+
 @media(max-width:1200px){
     body{  
         background-image: url('/image/TEXTURA_FONDO_LOGO_PUZZLE_1920.webp');

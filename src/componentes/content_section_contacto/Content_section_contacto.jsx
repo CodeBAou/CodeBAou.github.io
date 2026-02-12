@@ -7,7 +7,7 @@ export default function Content_section_contacto(){
 
         <div id="contacto" className="section_contacto">
 
-            <h2 >Información de contacto</h2>
+            <h2 >Contacto</h2>
 
             <div>
                 <div className="content_datos_contacto">
@@ -27,7 +27,7 @@ export default function Content_section_contacto(){
 
                     <div>
                         <img src="/icon/horario.svg" alt="icono de horario" loading="lazy"/>
-                        <p>8:30 - 14:00 | 15:00 - 17:30</p>
+                        <p> Lun - Sab | 8:30 - 14:00 | 15:00 - 17:30</p>
                     </div>
                 </div>
             </div>
