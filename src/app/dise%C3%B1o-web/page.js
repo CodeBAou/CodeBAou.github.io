@@ -2,108 +2,23 @@
 import React, {useState, useEffect} from 'react'
 import Link from 'next/link'
 import './promocion.css';
-import Content_section_oferta from '@/componentes/content_section_oferta/Content-section-oferta';
+import Content_section_oferta from '@/componentes/callAction_diseño_web/Content-section-oferta';
 import Article_portafolio_linkweb from '@/componentes/article_portafolio_linkweb/Article_portafolio_linkweb';
 
 export default function Page(){
 
     return(
         <div className="ofertas-web-limitadas">
+
             <h1>Oferta para una página web económica</h1>
             <section className="promocion-content">
-              <h2>Consigue una pagina web económica y llega a más personas.</h2>
-              <article>
-                    <h3>Página web económica corporativa</h3>
-                    <figure>
-                        <img 
-                            src="/image/Ejemplos_de_web_corporativas_de_DWBA.webp" 
-                            alt="Dos capturas de la página de inicio de una web corporativa de un despacho de abogados y otra de una empresa de marketing digital." 
-                            loading="lazy"/>
-                        <figcaption>
-                            Capturas de dos páginas corporativas como ejemplo para esta promoción.
-                        </figcaption>
-                    </figure>
-                 
-                    <p>Esta página web económica puedes mostrar tu empresa y presentarte a los usuarios que buscan esos servicios a través de internet.</p>
+            <h2>Servicio de diseño web</h2>
+            <p>Diseñamos tu página web </p>
+            <table>
                 
-                    <ul>
-                        <li>Diseño web WordPress.</li>
-                        <li>Mantenimiento.</li>
-                        <li>SEO, para posicionar tu web en las búsquedas de Google.</li>
-                    </ul>
-
-                    <ul className="gratis-content">
-                        <li>DESARROLLO</li>
-                        <li>+</li>
-                        <li>SERVICIO SEO <span>GRATIS</span></li>
-                        <li>+</li>
-                        <li>SERVICIO DE SOPORTE <span>GRATIS</span></li>
-                    </ul>
-                  
-                    <p className="oferta_precio">Desde 31€/mes </p>
-              </article>
-
-              <article>
-                    <h3>Página web económica con servicio</h3>
-                    <figure>
-                        <img src="/image/Ejemplos_de_web_servicios_de_DWBA.webp" alt="Una captura de la página con un servicio de reservas online para un hotel." loading="lazy"/> 
-                        <figcaption>
-                            Una captura de una página de inicio de una web con la funcionalidad de reservas online mediate calendario.
-                        </figcaption> 
-                    </figure>
-                    
-                    <p>Este diseño de página web económica te permite tener de forma online un servicio para ofrecer a usuarios en internet, como reservar una habitación o un menú online.</p>          
-                
-                    <ul>
-                        <li>Diseño web WordPress.</li>
-                        <li>Desarrollo de una funcionalidad avanzada.</li>
-                        <li>Mantenimiento.</li>
-                        <li>SEO, aumento de la visibilidad en los buscadores.</li>
-                    </ul>
-
-                    <ul className="gratis-content">
-                        <li>DESARROLLO</li>
-                        <li>+</li>
-                        <li>SERVICIO SEO <span>GRATIS</span></li>
-                        <li>+</li>
-                        <li>SERVICIO DE SOPORTE <span>GRATIS</span></li>
-                    </ul>
-                   
-                    <p className="oferta_precio">Desde 79€/mes</p>
-              </article>
-
-              <article>
-                    <h3>Tienda online ecommerce económica</h3>
-
-                    <figure>
-                        <img src="/image/Ejemplos_de_web_tienda_online_de_DWBA.webp" alt="Una captura de la página con un servicio de reservas online para un hotel." loading="lazy"/> 
-                        <figcaption>
-                            Captura de la página de productos de una tienda online para una charcutería de Madrid.
-                        </figcaption>
-                    </figure>
-                    
-                    <p>Esta promoción te permite mostrar quién eres y qué ofreces y contar con un sistema completo para vender en internet con mantenimiento web y seo.</p>
-                    
-                    <ul>
-                        <li>Diseño Web WordPress</li>
-                        <li>Sistema para gestión de productos, pagos y envíos.</li>
-                        <li>Mantenimiento.</li>
-                        <li>SEO, aumento de la visibilidad en los buscadores.</li>
-                    </ul>
-
-                    <ul className="gratis-content">
-                        <li>DESARROLLO</li>
-                        <li>+</li>
-                        <li>SERVICIO SEO <span>GRATIS</span></li>
-                        <li>+</li>
-                        <li>SERVICIO DE SOPORTE <span>GRATIS</span></li>
-                    </ul>
-                   
-                    <p className="oferta_precio">Desde 123€/mes</p>
-
-              </article>
-
-            </section>
+            </table>
+            
+            </section>   
 
            <section className="portafolio">
                 <h2>Últimas páginas webs creadas</h2>        

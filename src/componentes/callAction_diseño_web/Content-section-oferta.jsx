@@ -22,7 +22,7 @@ export default function Content_section_oferta( {enlaceofertadisplay = true}){
                     </ul>      
 
                       {
-                        (enlaceofertadisplay == true) ?  <a className="link" href="/paginas-web-economicas-promo"> SABER MÁS</a> : null
+                        (enlaceofertadisplay == true) ?  <a className="link" href="/dise%C3%B1o-web"> SABER MÁS</a> : null
                     }
                 </div>
 

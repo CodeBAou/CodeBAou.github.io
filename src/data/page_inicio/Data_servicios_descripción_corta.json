@@ -6,7 +6,7 @@
     "descripcion":[
       "Este es un plan para tener una presencia básica en internet y llegar con lo mínimo necesario a clientes potenciales a través de internet.",
       "Incluye, diseño web de 1 página, con el servidor de alojamiento, dominio y correo.",
-      "La información de tu empresa será consistente y optimizada para las búsquedas, incluyendo una estrategia de links.",
+      "Perfil de Empresa con la información consistente y optimizada para las búsquedas, incluyendo una estrategia de links.",
       "Soporte, para mantener todo funcionando."
     ],
     "servicio":[
@@ -57,7 +57,12 @@
       "/image/servicios/mobile/Muestra-diseños-interfaces-pagina-web-responsive_DWBA_mobile_500px.webp",
       "/image/servicios/mobile/Muestra-paleta-colores-diseño-pagina-web_DWBA_mobile_500px.webp",
       "/image/servicios/mobile/Muestra-diseño-web-y-diseño-catálogo_mobile_500px.webp"
-    ]
+    ],
+    "Image_Content_Description":{
+      "src":"/image/servicios/Perfil-google-empresa-ejemplo.webp",
+      "Width":"212",
+      "Height":"427px"
+    }
 },
 {
     "name":"Diseño web",
