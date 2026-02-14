@@ -41,7 +41,7 @@ export default function Page(){
                     <Article_portafolio_linkweb title="Sitio" link="https://pezendesierto.org/" src="/image/portafolio/miniatura_web_maite_de_leon.webp" Width="200px"/>
                 </div>
                 <div>
-                    <a className="enlace-portafolio" href="/portafolio">Ver portafolio</a>
+                  
                 </div>
            </section>
 
