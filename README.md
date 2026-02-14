@@ -31,6 +31,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy git pages
 package gh-pages
-
+ /diseño-web : cambiar la ruta para que funcion el enlace del menu en el servidor
  npm run build
  npm run deploy
