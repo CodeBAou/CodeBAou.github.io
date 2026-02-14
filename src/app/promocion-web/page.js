@@ -1,9 +1,6 @@
 "use client";
 import React, {useState, useEffect} from 'react'
 
-export const metadata = {
-  title: 'Redirigiendo...',
-};
 
 export default function Page(){
 
