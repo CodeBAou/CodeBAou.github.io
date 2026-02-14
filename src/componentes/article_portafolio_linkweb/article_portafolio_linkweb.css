@@ -1,14 +1,30 @@
 .portafolioLinkweb{
     position:relative;
     display:flex !important;
-    flex-direction: row !important;
+    flex-direction: column!important;
     flex-wrap: wrap;
     flex-grow: 1/3;
     justify-content: center;
+    align-items: center;
 }
 
 .portafolioLinkweb >  h3{
     color:white;
+}
+
+.portafolioLinkweb img{
+    border-radius:12px;
+     box-shadow:
+    0 0 10px rgb(35, 34, 34),
+    0 0 20px rgb(24, 24, 24),
+    0 0 30px rgb(207, 194, 207);
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.portafolioLinkweb {
+    padding-top:20px;
+
 }
 
 @media(max-width:768px){

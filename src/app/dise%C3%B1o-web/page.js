@@ -1,35 +1,52 @@
 "use client";
 import React, {useState, useEffect} from 'react'
 import Link from 'next/link'
-import './promocion.css';
+import './diseñoweb.css';
 import Content_section_oferta from '@/componentes/callAction_diseño_web/Content-section-oferta';
 import Article_portafolio_linkweb from '@/componentes/article_portafolio_linkweb/Article_portafolio_linkweb';
+import Cubot from '@/componentes/cubot/Cubot';
 
 export default function Page(){
 
     return(
-        <div className="ofertas-web-limitadas">
 
-            <h1>Oferta para una página web económica</h1>
-            <section className="promocion-content">
-            <h2>Servicio de diseño web</h2>
-            <p>Diseñamos tu página web </p>
-            <table>
+        <div className="ofertas-web-limitadas">
+        
+            <section className="diseñoweb-content">
+                <h1>Diseño Web</h1>
+                <h2>Desarrollo profesional</h2>
+                <p>Diseño web para crear marca en internet, presentar tus servicios o productos y llegar a mas gente. Hoy en día en internet es donde se buscan, comparan y deciden las compras. Una web te quita la dependencia de un tercero y convierte tu identidad digital en algo propio y escalable.</p>
+                <p>Entender tu modelo de negocio, tu marca, gustos y las búsquedas de los usuarios para diseñar tu web acorde a tu visión.</p>
                 
-            </table>
+                <div className="tiposWebs">
+                    <Cubot items={["Sitio Web","Tienda Online","Servicio Web", "WordPress"]}/>
+                    <div>
+                        <h3>Tipo de diseño web</h3>
+                        <ul>
+                            <li>Sitio Web</li>
+                            <li>Tienda Online</li>
+                            <li>Servicios Web</li>
+                            <li>CMS Wordpress</li>
+                            <li>Funcionalidad a medida</li>
+                        </ul>
+                    </div>
+                </div>
             
             </section>   
 
            <section className="portafolio">
                 <h2>Últimas páginas webs creadas</h2>        
                 <div>
-                    <Article_portafolio_linkweb title="Tienda Online Charcutería" link="https://charcuteriauria.es/"/>
-                    <Article_portafolio_linkweb title="Marketing digital pagina web minimalista" link="https://outubro.es/"/>
+                    <Article_portafolio_linkweb title="Tienda" link="https://charcuteriauria.es/" src="/image/portafolio/miniatura_web_uriahnos.webp" Width="200px"/>
+                    <Article_portafolio_linkweb title="Sitio" link="https://pezendesierto.org/" src="/image/portafolio/miniatura_web_maite_de_leon.webp" Width="200px"/>
+                </div>
+                <div>
+                    <a className="enlace-portafolio" href="/portafolio">Ver portafolio</a>
                 </div>
            </section>
 
            <section className="detalles-oferta">
-                <h2>Etapas diseño de pagina web económica</h2>
+                <h2>Etapas de desarrollo en el diseño web</h2>
                 <div>
                     <figure>
                         <img 
@@ -43,13 +60,11 @@ export default function Page(){
                         />      
                     </figure>   
                     <div>
-                        <p>Esta oferta de diseño web económica va dirigida al pequeño negocio con menos de 4 empleados y será limitada, estará disponible de forma temporal.</p>
-                        <p>Para disfrutar de un desarrollo web WordPress, simplemente contacta y pregunta sobre el, si te decides a crear una web, estaremos en contacto para el contenido y diseño.</p>
-                        <p>Las etapas del servicio son las que se indican en la imagen, la facturación no empieza hasta que resives la web y lo comuniques.
-                            Después, firmaremos el documento de conformidad y empezará el servicio, hosting, indexación en los motores de búsqueda, mantenimiento web y seo, con el precio indicado al principio de esta página.
-                        </p>
-                        <p>Revisaremos la web de forma mensual, pero tienes soporte y si detectas una incidencia nos llamas para que las resolvamos</p>
-                        <p>Aplicaremos SEO básico de forma mensual, para que la web vaya creciendo y Google la vaya evaluando.</p>
+                        <p>Trabajamos de forma telématica ofreciendo reuniones online para entender el proyecto.</p>
+                        <p>Una vez tenemos los requerimientos empezamos la etapa de desarrollo, prototipo y diseño, creando una idea visual para revisar antes de producción.</p>
+                        <p>Cuando estamos de acuerdo con el diseño, empezamos la producción.</p>
+                        <p>Acordamos una reunión con la web y la revisamos, asegurando que todo está bien cumpliendo lo acordado.</p>
+                        <p>Una vez nos des tú conformidad, se factura mensualmente o puntualmente dependiendo del servicio y lo acordado.</p>
                     </div>
                 </div>
            </section>
@@ -101,10 +116,8 @@ export default function Page(){
 
                <article>
                     <h2>Contacto</h2>
-                    <p>Esta promoción está pensada para ayudar al pequeño negocio a beneficiarse de internet con una web económica.</p>
-                    <p>Enviamos las condiciones del servicio sin compromiso por email.</p>
-                    <p>¿Listo para crecer en internet?</p>
-                    <p>Creamos tu página web, hablemos de tu proyecto.</p>    
+                    <p>Pregunta cualquier duda.</p>
+                    <p>Podemos trabajar a partir de un presupuesto.</p>
                     <Link href="/#contacto">CONTACTO</Link>
                </article>
 
