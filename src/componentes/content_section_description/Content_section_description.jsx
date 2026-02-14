@@ -25,14 +25,13 @@ export default function Content_section_description({
                     && Image_Content_Description.src 
                     && Image_Content_Description.Width 
                     && Image_Content_Description.Height
-                    ?<Image3DHoverEffect src={Image_Content_Description.src} Width={Image_Content_Description.Width} Height={Image_Content_Description.Height}/>
+                    ?<Image3DHoverEffect src={Image_Content_Description.src} Width={Image_Content_Description.Width} Height={Image_Content_Description.Height} MarginTop={Image_Content_Description.MarginTop}/>
                     :  null
                 }
                
             </div>  
-            <div>
-                <a  className="enlace-entrar" href={enlace}> Detalles {nombreEnlace}</a>
-            </div>   
+            {(enlace!='#')?  <a  className="enlace-entrar" href={enlace}> Más Info</a>   :null}
+           
         </div>
     )
 }

@@ -58,7 +58,11 @@
 }
 
 .enlace-entrar{
-    display:none;
+    color:black;
+    padding:25px;
+    background-color:var(--primary-color) ;
+    max-width:auto;
+    font-size:var(--font-sizes-p-large);
 }
 
 @media(max-width:1200px){
