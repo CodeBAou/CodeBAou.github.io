@@ -147,7 +147,6 @@
 
 .ofertas-web-limitadas > section.diseñoweb-content > article > figure > figcaption{
     color:gray;
-
 }
 
 .ofertas-web-limitadas > section.diseñoweb-content > article > figure img{
@@ -424,9 +423,9 @@ section.detalles-oferta > div > div > p{
     .ofertas-web-limitadas > section.diseñoweb-content > article{
         width:90%;
     }
-
-    .ofertas-web-limitadas > section.diseñoweb-content > p{
-        max-width:50%;
+    
+    .ofertas-web-limitadas > section.diseñoweb-content  p{
+        width:90%;
     }
 
     .ofertas-web-limitadas > section.diseñoweb-content > article > h3{

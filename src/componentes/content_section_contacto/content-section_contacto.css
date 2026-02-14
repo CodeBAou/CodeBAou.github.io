@@ -183,11 +183,12 @@
         margin-bottom:2vh;
     }
 
-    .section_contacto > div > div.content_datos_contacto > div > div{
+    .section_contacto > div > div.content_datos_contacto  div{
         justify-content: left;
+        flex-direction: column;
     }
 
-     .section_contacto > div > div.content_datos_contacto > div > div > img{
+     .section_contacto > div > div.content_datos_contacto > div > img{
         width:30px;
      }
 
