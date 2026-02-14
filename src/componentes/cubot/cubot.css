@@ -1,0 +1,57 @@
+.espacio3D{
+    display:flex;
+    justify-content: center;
+    color:white;
+    position:relative;
+}
+
+@keyframes gira {
+  0% {
+    transform: translateZ(-100px) rotateY(0deg);
+  }
+  100% {
+    transform: translateZ(-100px) rotateY(360deg);
+  }
+}
+
+.cubo3D{
+    width:300px;
+    height:300px;
+    transform-style: preserve-3d;
+    animation-name: gira;
+    animation-duration: 5000ms;
+    animation-iteration-count:infinite;
+    
+}
+
+.cubo3D:hover{
+    animation-duration: 2000ms;
+}
+
+aside.cara {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: var(--primary-color);
+  border: 1px solid rgba(217, 175, 117, 0.75);
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+  text-shadow: #020202 5px 0 10px;
+  text-align: center;
+  line-height: 200px;
+  box-shadow: 0px 0px 5px rgba(255,150,0,0.75);
+  box-shadow: rgba(217, 175, 117, 0.75) 10px 0 16px;
+}
+
+/** Aumentar brillo al pasar el raton*/
+.cubo3D:hover aside.cara{
+    box-shadow: rgba(217, 175, 117, 0.75) 10px 0 40px;
+}
+
+/** Las caras del cubo */
+aside.cara1 { transform: translateZ(100px); }              /* frente */
+aside.cara2 { transform: rotateY(180deg) translateZ(100px); } /* atrás */
+aside.cara3 { transform: rotateY(-90deg) translateZ(100px); } /* izquierda */
+aside.cara4 { transform: rotateY(90deg) translateZ(100px); }  /* derecha */
+aside.cara5 { transform: rotateX(-90deg) translateZ(100px); } /* abajo */
+aside.cara6 { transform: rotateX(90deg) translateZ(100px); }  /* arriba */

@@ -1,8 +1,8 @@
 .section_contacto{
   /*  background-color: red;*/
     position:relative;
-    min-width:90%;
-    min-height:90%;
+    min-width:100%;
+    min-height:10%;
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -26,6 +26,10 @@
     border-radius: 12%;
 }
 
+.section_contacto > div {
+    width:80%;
+}
+
 .section_contacto > div > div.content_imagen_dwba{
    /* background-color: blue;*/
    max-width:20%;
@@ -40,16 +44,17 @@
 .section_contacto > div > div.content_datos_contacto{
    display:flex;
    flex-direction: column;
+   background-color: black;
    width:100%;
-  
+   padding-left:2em;
+   padding-right:2em;
 }
 
 .section_contacto > div > div.content_datos_contacto > div{
     position:relative;
-    width:100%;
-    padding-left:2vw;
     display: flex;
     flex-direction: row;
+    width:100%;
     margin-top:2em;
     margin-bottom:2em;
     justify-content: space-between;
@@ -79,24 +84,23 @@
 }
 .section_contacto > div > div.content_datos_contacto > div > img{
     width:60px;
-    margin-left:2vw;
 }
 
 .section_contacto .content_datos_localizacion{
     padding-bottom:4em;
-    text-align: center;
+    text-align:left;
 }
 
 .section_contacto .content_datos_localizacion h3{
     color:var(--primary-color);
-    text-align:center;
+    text-align:left;
     margin-top:2em;
     font-size:var(--font-sizes-title-h3-large);
 }
 
 .section_contacto .content_datos_localizacion p{
     color:white;
-    font-size:var(--font-sizes-p-large);
+    font-size:15px;
 }
 
 .section_contacto > div > div.content_datos_contacto > div > .qrcontacto{
@@ -179,27 +183,24 @@
         margin-bottom:2vh;
     }
 
-    .section_contacto > div > div.content_datos_contacto > div{
+    .section_contacto > div > div.content_datos_contacto  div{
         justify-content: left;
-        padding-left:0;
+        flex-direction: column;
     }
-    
-    .section_contacto > div > div.content_datos_contacto > div > img{
-        width:40px;
-    }
-     
+
+     .section_contacto > div > div.content_datos_contacto > div > img{
+        width:30px;
+     }
 
       .section_contacto > div > div.content_datos_contacto > div > div > p{
         font-size:var(--font-sizes-p-small);
       }
 
-      .qrcontacto{
+      .qrcontactocontent{
          display:none;
       }
    
       .numeroTelefono{
         padding:0;
       }
-
-
 }

@@ -25,11 +25,12 @@ export default function Menu(){
             <nav id="menuprincipal" className={menuclassstate}> 
                 <ul>
                     <li><Link href="/">DWBA</Link></li>
-                    <li><Link href="/servicios">SERVICIOS</Link></li>
+                    <li><Link href="/diseño-web">Diseño Web</Link></li>
+                   { /* <li><Link href="/portafolio">Portafolio</Link></li> */} 
                     <li><Link href="/apps">APPS</Link></li>
-                    { 
-                     // <li><Link href="/revista">REVISTA</Link></li>
-                    }
+                    { /* <li><Link href="/revista">REVISTA</Link></li> */ }
+                     
+                    
                     <li><Link href="/#contacto">CONTACTO</Link></li>
                 </ul>
             </nav>

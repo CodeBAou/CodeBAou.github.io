@@ -37,7 +37,7 @@
     flex-direction: column;
 }
 
-.description > div > a{
+.description > div.content-text > a{
     position:relative;
     padding:8px;
     background-color:var(--primary-color);
@@ -57,8 +57,12 @@
     text-decoration:wavy;
 }
 
-.enlace-entrar{
-    display:none;
+ .description >  a.enlace-entrar{
+    color:black;
+    padding:25px;
+    background-color:var(--primary-color) ;
+    max-width:auto;
+    font-size:var(--font-sizes-p-large);
 }
 
 @media(max-width:1200px){
@@ -116,7 +120,7 @@
         
      }
 
-     .description > .content-text > p{
+     .description > div.content-text > p{
        position:relative;
        width:100%;
        max-width:100%;
@@ -127,5 +131,9 @@
        margin-top:2em;
        margin-left:3px;
        
+     }
+
+    .description >  a.enlace-entrar{
+        position:relative;
      }
 }
