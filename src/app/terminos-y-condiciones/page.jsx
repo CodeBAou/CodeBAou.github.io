@@ -1,6 +1,4 @@
 "use client";
-
-
 import './terminosycondiciones.css';
 
 export default function Page(){
