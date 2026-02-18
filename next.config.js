@@ -3,8 +3,8 @@ const nextConfig = {
     async redirects() {
         return [
         {
-            source: '/promocion-pagina-web',
-            destination: '/paginas-web-economicas-promo', // Matched parameters can be used in the destination
+            source: '/paginas-web-economicas-promo',
+            destination: '/diseño-web', // Matched parameters can be used in the destination
             permanent: true,
         },
         ]
