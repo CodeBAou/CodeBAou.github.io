@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+
+https://dwba.es/
+
+
 ## Getting Started
 
 First, run the development server:
@@ -29,8 +33,16 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy git pages
-package gh-pages
- /diseño-web : cambiar la ruta para que funcion el enlace del menu en el servidor
- npm run build
- npm run deploy
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+
+#Ruta /diseño-web
+En develop ->  usar código correcto para la "ñ" minúscula es %C3%B1     Nombre de la carpeta : dise%C3%B1o-web para que funcione la ruta
+
+En main renombrar a diseño-web

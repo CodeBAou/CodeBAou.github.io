@@ -99,6 +99,7 @@ html, body{
     flex-direction:column;
     align-items:end;
     padding-right:5em;
+   
 }
 
 .content-scroll-page::-webkit-scrollbar {
@@ -123,6 +124,7 @@ p.description-page-inicio{
 @media(max-width:1200px){
     body{  
         background-image: url('/image/TEXTURA_FONDO_LOGO_PUZZLE_1920.webp');
+       
     }
 
     .content-scroll-page{
@@ -137,7 +139,12 @@ p.description-page-inicio{
 }
 
 @media(max-width:780px){
-
+    body{
+         overflow-x: hidden;
+        max-width:100vw;
+        width:100vw;
+        overflow: hidden;
+    }
     p.description-page-inicio{
         font-size: var( --font-sizes-p-small );
     }
@@ -147,5 +154,6 @@ p.description-page-inicio{
         max-width:100%;
         padding-right:0;
         align-items:center;
+        
     }
 }
