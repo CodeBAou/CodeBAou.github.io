@@ -117,7 +117,10 @@
         min-height:none;
         max-height:none;
         display:flex;
-        
+        height: 100%;
+        max-height: none;
+        display: flex;
+        overflow:hidden;
      }
 
      .description > div.content-text > p{
