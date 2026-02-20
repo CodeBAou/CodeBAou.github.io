@@ -18,31 +18,25 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Learn More
-
-To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Proyecto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### problema 'ñ'
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Para desarrollo  -> %C3%B1 sustituye a la ñ  en la rutas, en produccion poner la 'ñ'.
+
+### Almacenamiento de datos para la construcción del sitio
+Los datos para el contenido del sitio se almacenan como json en la carpeta ./data/, se componen por array de json.
+
+#### ./data/servicios
+#### ./data/posts
 
 
-
-
-#Ruta /diseño-web
-En develop ->  usar código correcto para la "ñ" minúscula es %C3%B1     Nombre de la carpeta : dise%C3%B1o-web para que funcione la ruta
-
-En main renombrar a diseño-web

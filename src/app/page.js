@@ -4,7 +4,7 @@ import Menu_ancla from '@/componentes/menu_ancla/Menu_ancla.jsx';
 import Layout_section_inicio from '@/componentes/layout_section_inicio/Layout_section_inicio.jsx';
 import Content_section_detalles from '@/componentes/content_section_detalles/Content_section_detalles.jsx';
 import Content_section_description from '@/componentes/content_section_description/Content_section_description';
-import Data_servicos_descripcion_corta from '@/data/page_inicio/Data_servicios_descripción_corta.json';
+import Data_servicos from '@/data/servicios.json';
 import Section_header from '@/componentes/section_header/Section_header.jsx';
 import Content_section_contacto from '@/componentes/content_section_contacto/Content_section_contacto';
 import Content_section_oferta from '@/componentes/callAction_diseño_web/Content-section-oferta';
@@ -27,7 +27,7 @@ export default function Page(){
                         
                         {/*SectionS*/}
                             {
-                                Data_servicos_descripcion_corta.map( (servicio_data,index) => {
+                                Data_servicos.map( (servicio_data,index) => {
 
                                     return <Layout_section_inicio key={`section-${index}`}>
 
