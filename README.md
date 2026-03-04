@@ -1,6 +1,5 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-
 https://dwba.es/
 
 
@@ -28,15 +27,31 @@ http://localhost:3000
 
 
 ## Proyecto
+/inicio $\color{green}{\text{IMPLEMENTADO}}$, /diseño-web $\color{green}{\text{IMPLEMENTADO}}$, /Desarrollo $\color{red}{\text{NO IMPLEMENTADO}}$, /Seo $\color{red}{\text{NO IMPLEMENTADO}}$, /Presencia-basica $\color{red}{\text{NO IMPLEMENTADO}}$, /apps $\color{red}{\text{NO IMPLEMENTADO}}$, /mantenimiento-web $\color{red}{\text{NO IMPLEMENTADO}}$
 
-### problema 'ñ'
-
+### problema 'ñ' $\color{green}{\text{IMPLEMENTADO}}$
 Para desarrollo  -> %C3%B1 sustituye a la ñ  en la rutas, en produccion poner la 'ñ'.
 
 ### Almacenamiento de datos para la construcción del sitio
 Los datos para el contenido del sitio se almacenan como json en la carpeta ./data/, se componen por array de json.
 
-#### ./data/servicios
-#### ./data/posts
+- ./data/servicios $\color{green}{\text{IMPLEMENTADO}}$
+    - Se almacenan los servicios que se listarán en la página de inicio.
+
+- ./data/posts $\color{red}{\text{NO IMPLEMENTADO}}$
+    - Se almacenan las entradas para el blog
+    - Se utiliza la api de Blogger mediante GoogleCloud
+
+- ./data/portafolio #### ./data/posts $\color{red}{\text{NO IMPLEMENTADO}}$
+    - Se almacenan las entradas de portafolio
+
+- ./data/legal/ #### ./data/legal $\color{red}{\text{NO IMPLEMENTADO}}$
+    - Se almacenan las paginas legales y datos para crear un menu-legal
+
+
+
+
+
+
 
 
