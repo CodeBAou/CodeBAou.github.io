@@ -68,7 +68,7 @@ export default function Page(){
             {
                 postsPortafolio.map((post)=>{
                     return (
-                        <div className="content-post">
+                        <div key={post.id} className="content-post">
                             {post.updated}
                             {parse(post.content)}
                         </div>

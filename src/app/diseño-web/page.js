@@ -74,7 +74,7 @@ export default function Page(){
                         <p><b>Desarrollo y Producción:</b> Cuando estamos de acuerdo con el diseño, empezamos la producción.</p>
                         <p><b>Revisión y Control de Calidad:</b> Acordamos una reunión con la web y la revisamos, asegurando que todo está bien cumpliendo lo acordado.</p>
                         <p><b>Entrega y Soporte:</b> Una vez nos des tú conformidad, se factura mensualmente o puntualmente dependiendo del servicio y lo acordado.</p>  
-                        <p>Pregunta cualquier duda: -----&gt;    <a href="/#contacto">contacto</a></p>  
+                        <p>Pregunta cualquier duda: -----&gt;    <Link href="/#contacto">contacto</Link></p>  
                     </div>
                     
                 </div>
