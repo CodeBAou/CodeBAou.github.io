@@ -79,7 +79,6 @@ jobs:
           NEXT_PUBLIC_BLOGGER_BLOG_ID: ${{ secrets.NEXT_PUBLIC_BLOGGER_BLOG_ID }}
         run: |
           echo "Verificando variables de entorno..."
-          echo "ID del Blog: ${NEXT_PUBLIC_BLOGGER_BLOG_ID:+'Configurado'}"
           ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
