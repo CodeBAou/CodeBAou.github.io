@@ -11,8 +11,8 @@ export default function Page(){
     let [pagePrev, setPagePrev]                 = useState(""); // paginacion anterior
     let [pageNext, setPageNext]                 = useState(""); // Paginacion siguiente
 
-    const API_KEY           = 'AIzaSyAqOO5A5Kpr6geCb3YhEg8E3pI9VvPevTc';
-    const BLOG_ID           = '470073143992962612';
+    const API_KEY           = process.env.NEXT_PUBLIC_BLOGGER_API_KEY;
+    const BLOG_ID           = process.env.BLOGGER_BLOG_ID;
     const params = new URLSearchParams({
         maxResults: 10,
         key: API_KEY
