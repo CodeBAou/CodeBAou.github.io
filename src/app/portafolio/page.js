@@ -12,7 +12,7 @@ export default function Page(){
     let [pageNext, setPageNext]                 = useState(""); // Paginacion siguiente
 
     const API_KEY           = process.env.NEXT_PUBLIC_BLOGGER_API_KEY;
-    const BLOG_ID           = process.env.BLOGGER_BLOG_ID;
+    const BLOG_ID           = process.env.NEXT_PUBLIC_BLOGGER_BLOG_ID;
     const params = new URLSearchParams({
         maxResults: 10,
         key: API_KEY
@@ -68,7 +68,7 @@ export default function Page(){
             {
                 postsPortafolio.map((post)=>{
                     return (
-                        <div className="content-post">
+                        <div key={post.id} className="content-post">
                             {post.updated}
                             {parse(post.content)}
                         </div>
