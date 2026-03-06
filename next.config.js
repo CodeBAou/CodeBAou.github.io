@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    output: 'export', // <--- Obligatorio para GitHub Pages y variables
+    images: {
+        unoptimized: true, // Requerido si usas <Image /> de Next.js en sitios estáticos
+    },
     async redirects() {
         return [
         {
