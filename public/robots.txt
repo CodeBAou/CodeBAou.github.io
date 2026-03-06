@@ -2,18 +2,10 @@ User-agent: *
 
 Allow: /
 Allow: /diseño-web
-<<<<<<< HEAD
-
-=======
->>>>>>> release/0.1.0
 Disallow: /servicios
 Disallow: /apps
 Disallow: /terminos-y-condiciones
 Disallow: /politica-de-privacidad
 Disallow: /politica-de-cookies
-<<<<<<< HEAD
-
-=======
->>>>>>> release/0.1.0
 
 Sitemap: https://dwba.es/sitemap.xml
