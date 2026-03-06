@@ -12,6 +12,13 @@
     margin-top:10vh;
     font-family:'lombok' ;
     font-size:6rem;
+    mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+}
+
+.diseñoweb-content > .portada-diseño-web{
+    opacity:0.6;
+    max-width:60%;
+    mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
 }
 
 .ofertas-web-limitadas > section{
@@ -408,6 +415,11 @@ section.detalles-oferta > div > div > p{
     .ofertas-web-limitadas h1{
         font-size: 3rem;
         padding-left:2vw;
+    }
+
+    .diseñoweb-content > .portada-diseño-web{
+        width:100%;
+        max-width:100%;
     }
 
     .ofertas-web-limitadas > section.diseñoweb-content{

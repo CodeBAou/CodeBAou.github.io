@@ -15,6 +15,7 @@
     font-family:'lombok';
     margin-top:5vh;
     margin-bottom:2em;
+    mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
 }
 
 .section_contacto > div{
@@ -46,8 +47,11 @@
    flex-direction: column;
    background-color: black;
    width:100%;
+   opacity:0.9;
    padding-left:2em;
    padding-right:2em;
+   mask-image: linear-gradient(to top, black 80%, transparent 100%);
+   border-radius:12px;
 }
 
 .section_contacto > div > div.content_datos_contacto > div{
@@ -65,6 +69,7 @@
     font-size:var(--font-sizes-title-h3-large);
     color:var(--tertiary-color);
     font-family:'lombok';
+    mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
 }
 
 .section_contacto > div > div.content_datos_contacto > div > div{

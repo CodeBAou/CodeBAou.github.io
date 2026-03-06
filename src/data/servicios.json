@@ -4,10 +4,10 @@
     "ancla":"presencia en internet",
     "enlace":"#",
     "descripcion":[
-      "Este es un plan para tener una presencia básica en internet y llegar con lo mínimo necesario a clientes potenciales a través de internet.",
+      "Todo lo que necesitas para tener una presencia básica en internet con la seguridad de que Google obtiene la información de forma óptima para darte visibilidad.",
       "Incluye, diseño web de 1 página, con el servidor de alojamiento, dominio y correo.",
       "Perfil de Empresa con la información consistente y optimizada para las búsquedas, incluyendo una estrategia de links.",
-      "Soporte, para mantener todo funcionando."
+      "Soporte, para mantener atender incidencias."
     ],
     "servicio":[
         "1 lading page",
@@ -71,7 +71,9 @@
     "enlace":"/diseño-web",
     
     "descripcion":[
-      "Diseño web para crear marca en internet, presentar tus servicios o productos y llegar a mas gente. Hoy en día en internet es donde se buscan, comparan y deciden las compras. Una web te quita la dependencia de un tercero y convierte tu identidad digital en algo propio y escalable."
+      "Un buen diseño es importántisimo, permite que veas la web de forma visual antes de invertir tiempo en su desarrollo y crear un plan para estructurar la información de forma correcta permitiendo que sea escalable sin tener que invertir nuevos desarrollos para escalar.",
+      "Se respecta las preferencias del cliente, su marca junto a las recomendaciones de diseño de interfaces para el beneficio del usuario.",
+      "Diseño UI/UX, Responsive y aplicación de las Normas de accesibilidad."
     ],
     "servicio":[
         "web Corporativa",
@@ -129,10 +131,10 @@
     "ancla":"desarrollo",
     "enlace":"#",
     "descripcion":[
-      "Se realizan otros desarrollos para cubrir necesidades más específicas.",
-      "Desarrollo de bloques y plugins para el CMS WordPress y extender funcionalidades.",
-      "Apps de escritorio y movil.",
-      "Procesos IA para ahorrar tiempo automatizando tareas."
+      "No solo se crean webs, se pueden crear sistemas completos con funcionalidades para la automatización de procesos que te ayuden a organizarte con los clientes.",
+      "Para los proyectos basados en Wordpress se cuenta con conocimiento avanzado con la posibilidad de desarrollar solucciones a medida, tanto para el diseño como para funcionalidades.",
+      "Desarrollo de sistemas completos como reservas, tienda o venta de entradas entre otros.",
+      "Desarrollos con IA integrada para la automatización de tareas."
     ],
     "servicio":[
         "WordPress",
@@ -202,7 +204,7 @@
     "enlace":"#",
     "descripcion":[
       "SEO para el perfil de Empresa. Se crea una identidad fuerte de la empresa en internet, ajustando la información  para las búsquedas de los usuarios, asegurando la consistencia de la información y que Google entienda tu empresa correctamente para posicionarte mejor.",
-      "SEO para una WEB. Aplicar SEO en una web aumentando su posicionamiento en los resultados de Google llegando a más usuarios.",
+      "SEO local, optimizaciones seo para las búsquedas locales.",
       "SEO para PRODUCTOS. Optimización de productos para que coincidan con tendencias y búsquedas de los usuarios, aumentando su visibilidad en internet",
       "SEM. Campañas de pago en Google.",
       "Pide una auditoría GRATIS, para saber como podríamos mejorar el posicionamiento."
@@ -271,9 +273,9 @@
     "ancla":"mantenimiento web",
     "enlace":"#",
     "descripcion":[
-      "Mantener una web operativa y soluccionando cualquier incidencia.",
-      "Puedes contractar este servicio de forma mensual para 1h y tener prioridad en la solucción del problema.",
-      "Puedes contactar para una solucción puntual si lo prefieres."
+      "Mantenimineto web, correción de cualquier bug que aparezca en la web.",
+      "Actualizaciones web soluccionando cualquier bug que provoquen.",
+      "Copias de seguridad y almacenamiento seguro de las mismas."
     ],
     "servicio":[
         "Puntual",
