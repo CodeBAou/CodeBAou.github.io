@@ -2,6 +2,7 @@ User-agent: *
 
 Allow: /
 Allow: /diseño-web
+Allow: /portafolio
 Disallow: /servicios
 Disallow: /apps
 Disallow: /terminos-y-condiciones
