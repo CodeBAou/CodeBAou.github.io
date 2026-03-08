@@ -32,6 +32,9 @@ http://localhost:3000
 ### problema 'ñ' $\color{green}{\text{IMPLEMENTADO}}$
 Para desarrollo  -> %C3%B1 sustituye a la ñ  en la rutas, en produccion poner la 'ñ'.
 
+###  antes de subir a produccion 
+ poner  output: 'export' en next.config.js
+ 
 ### Almacenamiento de datos para la construcción del sitio
 Los datos para el contenido del sitio se almacenan como json en la carpeta ./data/, se componen por array de json.
 

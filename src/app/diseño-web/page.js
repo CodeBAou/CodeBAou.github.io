@@ -17,15 +17,11 @@ export default function Page(){
                 <h1>Diseño Web Ourense</h1>
                 <h2>Páginas web a medida y optimizadas.</h2>
                 <img className="portada-diseño-web" src="/image/servicios/Imagen_apartado_diseño.webp" alt="La interfaz para el diseño de páginas web, captura durante el diseño web de una página para una bodega."/>
-               <p>
-                    Una web es la herramienta principal para aumentar la <strong>visibilidad de tu negocio</strong> y mejorar la tasa de conversión. 
-                    No basta con tener una web barata <strong>hecha</strong> a base de plantillas que ralentizan la carga. Para ser visible en internet 
-                    es necesario trabajar el posicionamiento, entender qué busca tu audiencia y aparecer como la <strong>solución</strong> a su problema. 
-                    </p>
-                    <p>
+            
+                <p>
                     En DWBA, el diseño respeta la identidad de tu marca, mientras que nuestro desarrollo técnico ofrece a Google una web de alta calidad, 
                     segura y profesional. Gracias al <strong>SEO técnico</strong>, se logra que tu empresa aparezca justo cuando el usuario más te necesita.
-                    </p>
+                </p>
                
                 <div className="tiposWebs">
                     <Cubot items={["Sitio Web","Tienda Online","Servicio Web", "WordPress"]}/>
@@ -40,7 +36,12 @@ export default function Page(){
                         </ul>
                     </div>
                 </div>
-            
+
+                <p>
+                    Una web es la herramienta principal para aumentar la <strong>visibilidad de tu negocio</strong> y mejorar la tasa de conversión. 
+                    No basta con tener una web barata <strong>hecha</strong> a base de plantillas que ralentizan la carga. Para ser visible en internet 
+                    es necesario trabajar el posicionamiento, entender qué busca tu audiencia y aparecer como la <strong>solución</strong> a su problema. 
+                </p>
             </section>   
 
            <section className="portafolio">
@@ -55,8 +56,11 @@ export default function Page(){
            </section>
 
            <section className="detalles-oferta">
-                <h2>Nuestro proceso: De la idea a la web final</h2>
+
+                <h2>Proceso: De la idea a la web final</h2>
+
                 <div>
+                    
                     <figure>
                         <img 
                             className="imagenoferta" 
@@ -68,13 +72,13 @@ export default function Page(){
                             loading="lazy"
                         />      
                     </figure>   
+
                     <div>
                         <p><b>Estrategia y Requerimientos:</b> Trabajamos de forma telématica ofreciendo reuniones online para entender el proyecto.</p>
                         <p><b>Prototipado y Diseño:</b> Una vez tenemos los requerimientos empezamos la etapa de desarrollo, prototipo y diseño, creando una idea visual para revisar antes de producción.</p>
                         <p><b>Desarrollo y Producción:</b> Cuando estamos de acuerdo con el diseño, empezamos la producción.</p>
                         <p><b>Revisión y Control de Calidad:</b> Acordamos una reunión con la web y la revisamos, asegurando que todo está bien cumpliendo lo acordado.</p>
                         <p><b>Entrega y Soporte:</b> Una vez nos des tú conformidad, se factura mensualmente o puntualmente dependiendo del servicio y lo acordado.</p>  
-                        <p>Pregunta cualquier duda: -----&gt;    <Link href="/#contacto">contacto</Link></p>  
                     </div>
                     
                 </div>
