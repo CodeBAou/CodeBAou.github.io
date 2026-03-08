@@ -1,10 +1,12 @@
 "use client";
 import React, {useState, useEffect} from 'react'
 import parse from 'html-react-parser';
+import { useRouter, useSearchParams } from 'next/navigation';
 import './portafolio.css';
 
 export default function Page(){
 
+   
     const [iconLoading, setIconLoading]         = useState(true);
     const [postsPortafolio,setPostsPortafolio]  = useState([]);
     let [page, setpage]                         = useState(null);// pagina actual
@@ -12,10 +14,10 @@ export default function Page(){
     let [pageNext, setPageNext]                 = useState(""); // Paginacion siguiente
     let [post, setPost]                         = useState(0); //post actual vista
     const [menuPortafolio, setMenuPortafolio]   = useState("display-menu-none");
-
+    const router = useRouter();
+    const searchParams = useSearchParams();
     const API_KEY           = process.env.NEXT_PUBLIC_BLOGGER_API_KEY;
     const BLOG_ID           = process.env.NEXT_PUBLIC_BLOGGER_BLOG_ID;
-   
    
     const fetchGetPosts = async (pagein=null) =>{
         const params = new URLSearchParams({
@@ -51,7 +53,9 @@ export default function Page(){
     }
     
     const changePostview = (e) =>{
-        setPost( e.target.id.split("-")[1] )
+        let entrada = e.target.id.split("-")[1];
+        //setPost(numeroEntrada);
+        router.push(`/portafolio?page=${entrada}`, undefined, { shallow: true });
     }
 
     const openMenu = () =>{
@@ -64,6 +68,7 @@ export default function Page(){
     }
     
     useEffect(()=>{
+      
         fetchGetPosts();
     },[]);
 
@@ -118,9 +123,9 @@ export default function Page(){
                 <div className="portafolio-main">
                       {
                         (postsPortafolio.length > 0)? 
-                            <div key={postsPortafolio[post].id} className="content-post">
-                                {postsPortafolio[post].updated}
-                                {parse(postsPortafolio[post].content)}
+                            <div key={postsPortafolio[parseInt(searchParams.get('page'))].id} className="content-post">
+                                {postsPortafolio[parseInt(searchParams.get('page'))].updated}
+                                {parse(postsPortafolio[parseInt(searchParams.get('page'))].content)}
                             </div>
                         : null
                       }
