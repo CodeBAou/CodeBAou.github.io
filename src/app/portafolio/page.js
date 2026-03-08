@@ -10,21 +10,23 @@ export default function Page(){
     let [page, setpage]                         = useState(null);// pagina actual
     let [pagePrev, setPagePrev]                 = useState(""); // paginacion anterior
     let [pageNext, setPageNext]                 = useState(""); // Paginacion siguiente
+    let [post, setPost]                         = useState(0); //post actual vista
+    const [menuPortafolio, setMenuPortafolio]   = useState("display-menu-none");
 
     const API_KEY           = process.env.NEXT_PUBLIC_BLOGGER_API_KEY;
     const BLOG_ID           = process.env.NEXT_PUBLIC_BLOGGER_BLOG_ID;
-    const params = new URLSearchParams({
-        maxResults: 10,
-        key: API_KEY
-    });
-    let url                 = `https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts?${params.toString()}`;
+   
    
     const fetchGetPosts = async (pagein=null) =>{
-
-     
+        const params = new URLSearchParams({
+            maxResults: 10,
+            key: API_KEY
+        });
+       
+      let url                 = `https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts?${params.toString()}`;
         // Solo añadimos el token si existe (no será null en la 2da petición)
         if (pagein) {
-            params.append('pageToken', pagenin);
+            params.append('pageToken', pagein);
         }
 
         try {
@@ -48,12 +50,25 @@ export default function Page(){
         }
     }
     
+    const changePostview = (e) =>{
+        setPost( e.target.id.split("-")[1] )
+    }
+
+    const openMenu = () =>{
+        console.log(menuPortafolio);
+        if(menuPortafolio === "display-menu-none"){
+            setMenuPortafolio("display-menu-flex");
+        }else{
+            setMenuPortafolio("display-menu-none");
+        }   
+    }
+    
     useEffect(()=>{
         fetchGetPosts();
     },[]);
 
     return(
-        <div className="portafolio-list-content">
+        <div className="portafolio">
             <h1>Últimos Proyectos de Diseño Web y Marketing Digital:</h1>
             <h2>Los útimos trabajos realizados.</h2>
           
@@ -65,21 +80,55 @@ export default function Page(){
                     </div>
                 : null
             }
-            {
-                postsPortafolio.map((post)=>{
-                    return (
-                        <div key={post.id} className="content-post">
-                            {post.updated}
-                            {parse(post.content)}
-                        </div>
-                    )
-                })
-            }
+           <div className="portafolio-content">
 
-            <div className="paginacion-content">
-               <button onCLick={()=>fetchGetPosts(pagePrev)}>Anterior</button>
-               <button onClick={()=>fetchGetPosts(pageNext)}>Siguiente</button>
-            </div>
+
+                <img className="icono-lista-portafolio" width="50px" src="/icon/portafolio-list-icon.svg" onClick={()=> openMenu()}/>
+
+                <div className={`portafolio-menu ${menuPortafolio}` } id="menu-mobile">
+                       
+                        <div className="portafolio-menu-title">
+                            <div>
+                                <h3>Indice de Proyectos</h3>
+                                <p>Proyectos en esta página</p>
+                            </div>
+                            <div>
+                                <img alt="Logo dwba" src="/image/logo_DWBA_sin_fondo.webp" />
+                            </div>
+                        </div>
+
+                        {(postsPortafolio.length > 0)? 
+                        <ul>
+                            
+                            {
+                                postsPortafolio.map( (post,i) => {
+                                    return <li id={post.id+"-"+i} key={post.id} onClick={(e)=>changePostview(e)}> {post.title} </li>
+                                })
+                            }
+                        </ul>
+                        : null }
+
+                        <div className="paginacion-content">
+                            <button onClick={()=>fetchGetPosts(pagePrev)}>Página Anterior</button>
+                            <span>{(page)? page : 0}</span>
+                            <button onClick={()=>fetchGetPosts(pageNext)}>Siguiente Página</button>
+                        </div>
+                </div>
+
+                <div className="portafolio-main">
+                      {
+                        (postsPortafolio.length > 0)? 
+                            <div key={postsPortafolio[post].id} className="content-post">
+                                {postsPortafolio[post].updated}
+                                {parse(postsPortafolio[post].content)}
+                            </div>
+                        : null
+                      }
+                   
+                </div>
+           </div>
+
+          
         </div>
         
 
