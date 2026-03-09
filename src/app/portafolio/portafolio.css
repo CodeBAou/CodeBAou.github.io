@@ -201,9 +201,9 @@
 }
 
 .portafolio-content > .portafolio-menu > ul > li:hover{
-    color:rgb(241, 239, 187);
+    color:rgb(47, 45, 45);
+    text-decoration:underline;
 }
-
 .portafolio-content > .portafolio-menu  .paginacion-content {
     position:relative;
     width:100%;
