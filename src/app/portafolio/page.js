@@ -1,10 +1,11 @@
 "use client";
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, Suspense} from 'react'
 import parse from 'html-react-parser';
 import { useRouter, useSearchParams } from 'next/navigation';
 import './portafolio.css';
 
-export default function Page(){
+
+function PageBuild(){
 
     const [iconLoading, setIconLoading]           = useState(true);
     const [postsPortafolio,setPostsPortafolio]    = useState([]);//todos las entradas
@@ -216,5 +217,15 @@ export default function Page(){
                : null
              }     
         </div>
+    )
+}
+
+
+export default function Page(){
+
+    return(
+        <Suspense>
+            <PageBuild />
+        </Suspense>
     )
 }
