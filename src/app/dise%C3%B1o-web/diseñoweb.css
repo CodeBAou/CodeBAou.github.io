@@ -1,0 +1,816 @@
+.diseñoweb-page{
+    min-width:100vw;
+    max-width:100vw;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    max-width:1920px;
+}
+
+.diseñoweb-page h1.titlepage{
+    color:rgb(237, 237, 105);
+    margin-top:10vh;
+    font-family:'lombok' ;
+    font-size:5rem;
+    mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+    margin-top:-24vh;
+    opacity:0.7;
+}
+
+.diseñoweb-page h2.titlepage{
+    margin-bottom:20vh;
+}
+
+.diseñoweb-content > .portada-diseño-web{
+    opacity:0.6;
+    max-width:60%;
+    mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+}
+
+.diseñoweb-page > section{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    max-width:100%;
+    justify-items: center;
+    background-color: rgba(0,0,0,0.7);
+    padding:4em;
+    padding-left:30%;
+    padding-right:30%;
+    flex-wrap: wrap;
+}
+
+.diseñoweb-page > section > img{
+   
+}
+
+.diseñoweb-page > section > figure{
+    max-width: 100%;
+    padding-bottom:25px;
+}
+
+.diseñoweb-page > section > figure > img{
+    max-width:100vw;
+    margin-top:50px;
+}
+
+.diseñoweb-page > section > figure > figcaption{
+    max-width:100%;
+    color:gray;
+    font-size:15px;
+    text-align: center;
+}
+
+.diseñoweb-page > section > h1{
+    margin-top:var(--font-sizes-title-h1-large);
+    font-size:2.5rem;
+    color:var(--primary-color);
+    text-align:center;
+}
+
+.diseñoweb-page > section > h2{
+    text-align:center;
+    width:100%;
+    font-size:var(--font-sizes-title-h2-large);
+}
+
+.diseñoweb-page > section > h3{
+    text-align:center;
+    font-size:var( --font-sizes-title-h3-large);
+    margin-bottom:3em;
+    color:white;
+}
+
+.diseñoweb-page > section  p{
+    color:white;
+}
+
+.diseñoweb-page  h2{
+    color:var(--primary-color);
+    font-size:var(--font-sizes-title-h2-large);
+    font-size:3em;
+    font-family:'lombok' ;
+}
+
+.diseñoweb-page  h3{
+    color:var(--primary-color);
+    font-size:var(--font-sizes-title-h3-large);
+    padding:0;
+    margin:0;
+}
+
+.diseñoweb-page  h4{
+    font-size:1.2em;
+    color:rgb(237, 237, 105);
+}
+
+.diseñoweb-page > section.diseñoweb-content{
+    display:flex;
+   flex-direction:column;
+}
+
+
+.diseñoweb-page > section.diseñoweb-content > article{
+    width:none;
+    height:none;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:start;
+    flex-grow: calc(1/3);
+    padding:2vw;
+}
+
+.diseñoweb-page > section.diseñoweb-content  h3{
+    margin-bottom:2vh;
+}
+
+.diseñoweb-page > section.diseñoweb-content   p{
+    color:rgb(255, 255, 255);
+    font-size:var(--font-sizes-p-large);
+    padding-bottom:2vh;
+    width:60%;
+    margin-top:8%;
+    margin-bottom:5%;
+}
+.diseñoweb-page > section.diseñoweb-content  img{
+    width:100%;
+    margin-bottom:100px;
+}
+
+.diseñoweb-page > section.diseñoweb-content > article > p.oferta_precio{
+    color:rgb(27, 212, 27);
+}
+
+.diseñoweb-page > section.diseñoweb-content > article > ul{
+    font-size: var(--font-sizes-p-large);
+    margin:0;
+    padding:0;
+    list-style: none;
+    margin-bottom:3vh;
+    padding-left:2vw;
+}
+
+.diseñoweb-page > section.diseñoweb-content > article > ul > li{
+    color:white;
+    font-size:1rem;
+}
+
+.diseñoweb-page > section.diseñoweb-content > article > figure {
+    width:100%;
+    position:relative;
+    margin:0;
+    padding:0;
+}
+
+.diseñoweb-page > section.diseñoweb-content > article > figure > figcaption{
+    color:gray;
+}
+
+.diseñoweb-page > section.diseñoweb-content > article > figure img{
+   position:relative;
+   width:100%;
+   margin:0;
+}
+
+.diseñoweb-page > section.diseñoweb-content > article > div{
+    width:100%;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items:center;
+}
+
+.diseñoweb-page > section.diseñoweb-content > article > div > p{
+    color:white;
+}
+
+.diseñoweb-page > section.diseñoweb-content > article > p.oferta_precio{
+    font-size:3rem;
+    color:green;
+    width:100%; 
+}
+
+.diseñoweb-page > section.diseñoweb-content div.tiposWebs{
+   width:100%;
+   display:flex;
+   flex-wrap:wrap;
+   flex-direction:row;
+   justify-content: center;
+   width:100%;
+   font-family:'optimist';
+   gap:10%;
+}
+
+.diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web{
+    width:60%;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web div:nth-child(1){
+    padding-right:20px;
+    padding-top:20px;
+    text-align:left;
+    grid-column:span 2;
+}
+
+.diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web div:nth-child(1) h3{
+    text-align:left;
+}
+.diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web h3{
+    font-size:3.2em;
+}
+
+.diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web h4{
+     color:var(--primary-color);
+}
+
+.diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web p{
+    font-size:1.2em;
+}
+
+.diseñoweb-page > section.diseñoweb-content div.tiposWebs ul{
+    list-style:none;
+    text-align:left;
+}
+
+.diseñoweb-page > section.diseñoweb-content div.tiposWebs ul li{
+    color:white;
+    font-size:var(--font-sizes-p-large);
+    margin-top:20px;
+    font-family:'optimist';
+}
+
+.diseñoweb-page > section > article{
+    width:50%;
+}
+
+.diseñoweb-page > section  h2{
+    margin-bottom:2rem;
+}
+
+.diseñoweb-page > section > article h3{
+    text-align:left;
+}
+
+.diseñoweb-page > section > article p{
+    text-align:left;
+    font-size:var(--font-sizes-p-large);
+}
+
+.diseñoweb-page > section > div{
+    margin-top:3em;
+    position:relative;
+    width:100%;
+}
+
+.diseñoweb-page > section > ul{
+    color:white;
+    list-style:none;
+    font-size:var(--font-sizes-p-large);
+    padding:0;
+    width:100%;
+    padding-left:20%;
+    list-style: none;
+}
+
+.diseñoweb-page > section.contacto-content{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.diseñoweb-page > section.contacto-content > article{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    width:765px;
+    margin-left:5vw;
+}
+
+.diseñoweb-page > section.contacto-content > article > p{
+    width:auto;
+}
+
+.diseñoweb-page  a {
+    padding:20px;
+    text-decoration:none;
+    color:var(--primary-color);
+    min-width:80px;
+    text-align: center;
+    border:1px solid var(--primary-color);
+    margin-top:1em;
+    width:80%;
+    max-width:100px;
+}
+
+.diseñoweb-page  a:hover{
+    color:rgb(237, 226, 98);
+    border-color: rgb(50, 45, 1);
+}
+
+.diseñoweb-page  .logo_dwba{
+    width:200px;
+    position:fixed;
+    left:10vw;
+    top:40vh;
+    opacity:0.3;
+    border-radius:26px;
+}
+
+.diseñoweb-page .oferta_precio{
+    width:100%;
+    color:yellow;
+    font-size:3em;
+    opacity:0.6;
+}
+
+.gratis-content{
+    display:flex;
+    flex-direction: row;
+    max-width:100%;
+    margin-top:2vh;
+}
+
+.gratis-content > li{
+    margin-left:0.5em;
+    font-size:0.9em;
+    max-width:100%;
+}
+
+.gratis-content > li > span{
+    color:green;
+}
+
+.diseñoweb-page > section.portafolio{
+    padding-bottom:10vh;
+    gap:50px;
+}
+
+.diseñoweb-page > section.portafolio > h2{
+    margin-bottom:2em;
+}
+
+.diseñoweb-page > section.portafolio > div{
+    margin-top:0;
+    position:relative;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap:50px;
+    row-gap: 5vh;
+    justify-content: center;
+}
+
+section.detalles-oferta > div{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    max-width:1400px;
+
+}
+
+section.detalles-oferta > div > figure{
+    max-width:50% !important;
+}
+
+
+section.detalles-oferta > div > figure img{
+    max-width:none;
+}
+
+section.detalles-oferta > div > div{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top:10vh;
+}
+
+.diseñoweb-page > section.beneficios h3{
+    margin-top:5vh;
+}
+
+section.detalles-oferta > div > div > p{
+    font-size:var(--font-sizes-p-large);
+    padding-left:2vw;
+    padding-right:2vw;
+    padding-top:1.8em;
+}
+
+section.tipos-tecnologias-content {
+    color:white;
+    display:flex;
+    flex-direction:column;
+}
+
+section.tipos-tecnologias-content > h3{
+    color:var(--primary-color);
+    font-size:2.8em;
+}
+
+section.tipos-tecnologias-content > p{
+    font-size:1.5em;
+    max-width:60%;
+}
+
+section.tipos-tecnologias-content > div.wordpress-react-content{
+    display:flex;
+    flex-direction:row;
+    max-width:1200px;
+}
+
+section.tipos-tecnologias-content > div.wordpress-react-content > div{
+    margin:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    min-width:350px;
+}
+
+section.tipos-tecnologias-content > div.wordpress-react-content > div > h4{
+    font-size:2.6;
+    color:var(--primary-color);
+}
+
+section.tipos-tecnologias-content > div.wordpress-react-content > div > div > h5{
+    font-size:1.2em;
+    width:100%;
+    text-align:center;
+}
+
+section.tipos-tecnologias-content > div.wordpress-react-content > div > div > ul{
+    list-style:none;
+}
+
+section.tipos-tecnologias-content > div.wordpress-react-content > div > div > ul > li{
+    margin-top:25px;
+    margin-bottom:10px;
+    font-size:1.2em;
+}
+
+section.tipos-tecnologias-content > div.wordpress-react-content > div > div.ventajas{
+    border:1px solid rgb(78, 98, 78);
+}
+
+section.tipos-tecnologias-content > div.wordpress-react-content > div > div.ventajas > h5{
+    color:rgb(78, 98, 78);
+}
+
+section.tipos-tecnologias-content > div.wordpress-react-content > div > div.desventajas{
+    border:1px solid rgb(188, 133, 133);
+    margin-top:5px;
+}
+
+section.tipos-tecnologias-content > div.wordpress-react-content > div > div.desventajas > h5{
+    color:rgb(188, 133, 133);
+}
+
+@media(max-width:1200px){
+
+    .diseñoweb-page h1.titlepage{
+        font-size:3em;
+        margin-top:-20vh;
+    }
+
+    section.diseñoweb-content > section{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .diseñoweb-page  .logo_dwba{
+        display:none;
+    }
+
+    .gratis-content{
+        flex-direction:column;
+    }
+
+    .gratis-content > li{
+        margin-left:0;
+    }
+
+
+    .diseñoweb-page > section > figure > img{
+        margin-top:50px;
+    }
+
+    section.beneficios > article{
+        padding:0;
+        padding-left:0;
+        padding-right:0;
+        width:80%;
+     }
+
+    section.detalles-oferta > div{
+        flex-direction:column;
+      
+    }
+
+    section.detalles-oferta > div > figure{
+        max-width:90% !important;
+        text-align: center;
+        margin:0;
+    }
+
+    section.detalles-oferta > div > figure > img{
+        width:60%;
+    }
+
+
+    section.detalles-oferta > div > div > p{
+        padding-top:20px;
+    }
+
+    .diseñoweb-page > section.beneficios h3{
+        margin-top:4rem;
+    }
+
+    .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web{
+        width:100%;
+        max-width:100%;
+        display:grid;
+        grid-template-columns:auto auto auto;
+        grid-template-rows: auto auto;
+        padding:20px;
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+
+    .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web div:nth-child(1){
+        grid-column:span 3;
+    }
+
+    section.tipos-tecnologias-content{
+        width:95%;
+        max-width:90%;
+    }
+
+    section.tipos-tecnologias-content > div.wordpress-react-content{
+        flex-direction:column;
+        margin-left:0;
+        max-width:90%;
+
+    }
+
+    section.tipos-tecnologias-content > h3{
+        font-size:2em;
+        text-align:left;
+    }
+
+    section.tipos-tecnologias-content > p{
+        margin-bottom:10vh;
+        width:100%;
+        max-width:100%;
+    }
+
+    section.tipos-tecnologias-content > div.wordpress-react-content > div {
+        width:100%;
+    }
+    section.tipos-tecnologias-content > div.wordpress-react-content > div > div {width:100%;}
+}
+
+@media(max-width:765px){
+
+    .diseñoweb-page{
+        padding:0;
+        max-width:100vw;
+        column-gap: 10vh;
+    }
+
+    .diseñoweb-page h1{
+        font-size: 3rem;
+        padding-left:2vw;
+    }
+
+    .diseñoweb-content > .portada-diseño-web{
+        width:100%;
+        max-width:100%;
+    }
+
+    .diseñoweb-page > section.diseñoweb-content{
+        max-width:100%;
+        flex-direction:column;
+        justify-content: left;
+        align-content: center;
+        padding:0;
+        margin:0;
+        padding-top:1em;
+    }
+
+    .diseñoweb-page > section.diseñoweb-content > article{
+        width:90%;
+    }
+    
+    .diseñoweb-page > section.diseñoweb-content  p{
+        width:90%;
+    }
+
+    .diseñoweb-page > section.diseñoweb-content > article > h3{
+        margin-top:3em;
+    }
+
+    .diseñoweb-page > section > article{
+        width:90%;
+    }
+
+    .diseñoweb-page > section > div{
+        margin-top:0;
+       
+    }
+
+    .diseñoweb-page > section > img{
+        display:flex;
+        max-width:95%;
+        margin:0;
+        margin-bottom:2em;
+    }
+
+    .diseñoweb-page > section > figure {
+        padding-bottom:0;
+        margin-bottom:50px;
+    }
+
+    .diseñoweb-page > section > figure > figcaption{
+        text-align:left;
+        height:50px;
+    }
+
+    .diseñoweb-page > section > figure > img{
+        margin-top:0;
+    }
+
+    .diseñoweb-page h2{
+        text-align:left;
+        margin-top:10vh;
+    }
+
+    .diseñoweb-page > section > h2{
+        text-align:left;
+        margin-top:3em;
+        max-width:98%;
+        font-size:var(--font-sizes-title-h2-small);
+    }
+
+    .diseñoweb-page > section > h3{
+        text-align:center;
+        max-width:98%;
+        font-size:var(--font-sizes-title-h3-small);
+        margin-top:2em;
+    }
+
+    .diseñoweb-page p{
+        max-width:90%;
+        position:relative;
+        font-size:var(--font-sizes-p-small);
+        padding-left:5px;
+    }
+
+    .diseñoweb-page{
+        padding:0;
+        margin:0;
+    }
+
+    .diseñoweb-page > section > ul{
+        padding-left:10px;
+    }
+
+    .diseñoweb-page ul li{
+        font-size:0.8em;
+        margin-bottom:30px;
+        padding-left:0;
+        width:100%;
+    }
+
+    .diseñoweb-page  .logo_dwba{
+        display:none;
+    }
+
+  .diseñoweb-page > section.diseñoweb-content > article > p.oferta_precio{
+        font-size:3rem;
+        color:green;
+        width:100%;
+        text-align: center;
+    }
+    .diseñoweb-page > section.diseñoweb-content div.tiposWebs{
+        flex-direction:column;
+        text-align:left;
+        font-family:'lombok' ;
+    }
+
+    .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web{
+        width:100%;
+        max-width:95%;
+        display:grid;
+        grid-template-columns:auto auto;
+        grid-template-rows: auto auto auto;
+        padding:20px;
+        padding-top:50px;
+        padding-bottom:50px;
+        padding-left:2vw;
+    }
+
+    .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web div:nth-child(1){
+        grid-column:span 2;
+    }
+
+    .gratis-content > li{
+        margin-left:0;
+    }
+    
+    .beneficios h2{
+        font-size:1.6em;
+        text-align:left !important;
+    }
+
+    .beneficios h3{
+        font-size:1.3em;
+        text-align:left;
+    }
+
+    .diseñoweb-page .contacto-content  h2{
+        text-align:center;
+        font-size:2em;
+    }
+
+    .diseñoweb-page .contacto-content p{
+        text-align:left;
+    }
+
+    .diseñoweb-page > section.contacto-content{
+        flex-direction: column;
+    }
+
+    .diseñoweb-page > section.contacto-content article{
+        width:90%;
+        text-align: left;
+    }
+
+    .diseñoweb-page > section.contacto-content article > p{
+        width:100%;
+    }
+
+    .diseñoweb-page > section.beneficios p{
+        color:white;
+        width:100%;
+       
+    }
+
+    .diseñoweb-page > section.beneficios h3{
+        margin-top:4rem;
+    }
+   
+    .diseñoweb-page  a {
+        max-width: none;
+        width:80%;
+    }
+
+    .section.detalles-oferta > div > figure{
+        width:100%;
+    }
+
+   
+    section.detalles-oferta > div > figure > img{
+        width:100%;
+    }
+
+    .diseñoweb-page > section.portafolio > h2{
+        margin-bottom:0!important;
+    }
+
+    section.tipos-tecnologias-content{
+        width:95%;
+        max-width:90%;
+    }
+
+    section.tipos-tecnologias-content > div.wordpress-react-content{
+        flex-direction:column;
+        margin-left:0;
+        max-width:90%;
+    }
+
+    section.tipos-tecnologias-content > h3{
+        font-size:2em;
+        text-align:left;
+    }
+
+    section.tipos-tecnologias-content > p{
+        margin-bottom:10vh;
+        width:100%;
+        max-width:100%;
+    }
+
+    section.tipos-tecnologias-content > div.wordpress-react-content > div {width:100%;}
+    section.tipos-tecnologias-content > div.wordpress-react-content > div > div {width:100%;}
+}
