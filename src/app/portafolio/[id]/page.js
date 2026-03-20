@@ -9,7 +9,7 @@ const SERVER  = process.env.NEXT_PUBLIC_SERVER;
 
 export const dynamicParams = false;
 
-export async function generateStaticParams() {
+export const generateStaticParams = async () => {
     try {
         const res = await fetch(  
             `https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/?key=${API_KEY}`,
@@ -30,7 +30,7 @@ export async function generateStaticParams() {
         }
 
         return data.items.map((post) => ({
-            id: String(post.id)
+            id: post.id.toString()
         }));
 
     } catch (error) {
