@@ -11,6 +11,14 @@ export const dynamicParams = false;
 
 export const generateStaticParams = async () => {
     try {
+
+
+        // Añadimos un timeout o verificamos que las variables existan
+        if (!API_KEY || !BLOG_ID) {
+            console.warn("⚠️ Variables de entorno faltantes en el Build.");
+            return [{ id: '404' }]; // Retornamos un ID falso para salvar el build
+        }
+
         const res = await fetch(  
             `https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/?key=${API_KEY}`,
             {
