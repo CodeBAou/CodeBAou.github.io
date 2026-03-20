@@ -30,7 +30,7 @@ export async function generateStaticParams() {
         }
 
         return data.items.map((post) => ({
-            id: post.id
+            id: String(post.id)
         }));
 
     } catch (error) {
