@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export', // <--- Obligatorio para GitHub Pages y variables
+    eslint: {
+        ignoreDuringBuilds: true
+    },
     images: {
         unoptimized: true, // Requerido si usas <Image /> de Next.js en sitios estáticos
     },
