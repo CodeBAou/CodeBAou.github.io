@@ -1,86 +1,94 @@
-
 import React from 'react'
 import './portafolio-post.css';
 
+// Usamos exactamente los nombres que tienes en GitHub Secrets
+const API_KEY = process.env.NEXT_PUBLIC_BLOGGER_API_KEY;
+const BLOG_ID = process.env.NEXT_PUBLIC_BLOGGER_BLOG_ID;
+const SERVER  = process.env.NEXT_PUBLIC_SERVER;
 
-    const API_KEY = process.env.NEXT_PUBLIC_BLOGGER_API_KEY;
-    const BLOG_ID = process.env.NEXT_PUBLIC_BLOGGER_BLOG_ID;
-    const SERVER  = process.env.NEXT_PUBLIC_SERVER;
+// Configuraciones para que funcione fuera del build manual
+export const dynamicParams = true;
+export const revalidate = 3600; 
 
 export async function generateStaticParams() {
-
-
-    // 1. Fetch directo (sin useEffect)
-    const res = await fetch(  
-        `https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/?key=${API_KEY}`,
-        {
-            method: 'GET',
-            headers: {
-            'Referer': `${SERVER}`, // Pon aquí lo que tengas en Google Cloud
+    try {
+        const res = await fetch(  
+            `https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/?key=${API_KEY}`,
+            {
+                method: 'GET',
+                headers: {
+                    'Referer': `${SERVER}`,
+                }
             }
+        );
+
+        const data = await res.json();
+
+        // 🛡️ SEGURIDAD: Si data.items no existe, devolvemos array vacío para no romper el build
+        if (!data || !data.items) {
+            console.warn("⚠️ No se encontraron posts o la API falló. Saltando generación estática.");
+            return [];
         }
-    );
 
-  
-    const data = await res.json();
+        return data.items.map((post) => ({
+            id: post.id
+        }));
 
-    return data.items.map((post)=>({
-        id:post.id
-    }))
-  
-
-   
-  
- 
+    } catch (error) {
+        console.error("❌ Error en generateStaticParams:", error);
+        return [];
+    }
 }
 
+export default async function Post({ params }) {
+    // En Next.js 15+, params es una Promise
+    const { id } = await params;
 
-export default async function Post({params}){
-    
-    const {id} = await params;
-
-    // 1. Fetch directo (sin useEffect)
-    const res =  await fetch(  
+    const res = await fetch(  
         `https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/${id}?key=${API_KEY}`,
         {
             method: 'GET',
+            next: { revalidate: 3600 }, // Revalidación a nivel de fetch
             headers: {
-            'Referer': `${SERVER}`, // Pon aquí lo que tengas en Google Cloud
+                'Referer': `${SERVER}`,
             }
         }
     );
 
     const data = await res.json();
 
-    console.log(data);
-
-    return(
-           <div className="portafolio-page-post">
-                <article
-                        className="post-content" 
-                        dangerouslySetInnerHTML={{ __html: data.content }}
-                >
-                </article>
-
-                <div className="servicios-content">
-                    <div className="callAction">     
-                        <a href="/diseño-web"> Diseño web</a>
-                    </div>
-
-                    <div className="callAction">     
-                        <a href="/"> Más servicios</a>
-                    </div>
-
-                     <div className="callAction">     
-                        <a href="/portafolio"> Portafolio</a>
-                    </div>
-
-                    <div className="callAction">   
-                        <a href="/#contacto"> Contactar</a>
-                    </div>
-                </div>
-                <img width="365px" src="/image/logo_DWBA_sin_fondo.png"/>
+    // 🛡️ Manejo de error si el post específico no carga
+    if (!data || data.error || !data.content) {
+        return (
+            <div className="portafolio-page-post">
+                <p>El contenido no está disponible en este momento.</p>
+                <a href="/portafolio">Volver al portafolio</a>
             </div>
-      
-    )
+        );
+    }
+
+    return (
+        <div className="portafolio-page-post">
+            <article
+                className="post-content" 
+                dangerouslySetInnerHTML={{ __html: data.content }}
+            />
+
+            <div className="servicios-content">
+                <div className="callAction">     
+                    <a href="/diseño-web"> Diseño web</a>
+                </div>
+                <div className="callAction">     
+                    <a href="/"> Más servicios</a>
+                </div>
+                <div className="callAction">     
+                    <a href="/portafolio"> Portafolio</a>
+                </div>
+                <div className="callAction">   
+                    <a href="/#contacto"> Contactar</a>
+                </div>
+            </div>
+            <img width="365px" src="/image/logo_DWBA_sin_fondo.png" alt="Logo" />
+        </div>
+    );
 }
