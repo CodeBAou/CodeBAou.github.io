@@ -6,9 +6,8 @@ const API_KEY = process.env.NEXT_PUBLIC_BLOGGER_API_KEY;
 const BLOG_ID = process.env.NEXT_PUBLIC_BLOGGER_BLOG_ID;
 const SERVER  = process.env.NEXT_PUBLIC_SERVER;
 
-// Configuraciones para que funcione fuera del build manual
-export const dynamicParams = true;
-export const revalidate = 3600; 
+
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
     try {
