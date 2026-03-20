@@ -11,8 +11,6 @@ export const dynamicParams = false;
 
 export const generateStaticParams = async () => {
     try {
-
-
         // Añadimos un timeout o verificamos que las variables existan
         if (!API_KEY || !BLOG_ID) {
             console.warn("⚠️ Variables de entorno faltantes en el Build.");
