@@ -1,0 +1,98 @@
+.portafolio-page-post .post-content h1{
+    color:rgb(237, 237, 105);
+    margin-top:10vh;
+    font-family:'lombok' ;
+    font-size:4rem;
+    mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+}
+
+.portafolio-page-post{
+    max-width:100vw;
+    min-height:100vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    background:rgba(0, 0, 0, 0.7);
+    padding-top:100px;
+    padding:5%;
+    min-height:100vh;
+}
+
+.post-content{
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    justify-items: center;
+    align-items: left;
+    width:auto;
+    max-width:1200px;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+.servicios-content{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width:1200px;
+    align-items:center;
+    text-align:center;
+}
+
+.servicios-content > div{
+    margin-top:20px;
+    width:100%;
+    height:80px;
+    background-color: red;
+    justify-content: center;
+    align-items:center;
+    align-content:center;
+    background-color: var(--primary-color);
+    border:3px solid black;
+}
+
+.servicios-content > div > a{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    position:relative;
+    color:black;
+}
+
+@media(max-width:765px){
+    .portafolio-page-post{
+        padding-left:0;
+        padding-right:0;
+    }
+
+    .post-content{
+        width:100%;
+        padding-left:5px;
+        padding-right:5px;
+    }
+
+    /* contenedor que pone bloguer para envolver la imagen*/
+    .separator{
+        padding:0;
+        width:100%;
+        height:auto;
+        margin:0;
+    }
+
+   article.post-content  div > a{
+        margin:0;
+        margin-left:0!important;
+        padding:0;
+     }
+
+    .post-content img{
+        width:100%;
+        height:auto;
+    }
+
+
+    .servicios-content{
+        grid-template-columns:1fr 1fr;
+    }
+}

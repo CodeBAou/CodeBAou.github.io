@@ -95,11 +95,12 @@ html, body{
     overflow: auto;        /** permite scroll */
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE y Edge antiguos */
+    overflow-x: hidden; /* Corta el ancho sobrante (el fantasma de la derecha) */
+    overflow-y: auto;
     display:flex;
     flex-direction:column;
     align-items:end;
     padding-right:5em;
-   
 }
 
 .content-scroll-page::-webkit-scrollbar {
@@ -113,6 +114,9 @@ p.description-page-inicio{
     font-size:var(--font-sizes-p-large);
     font-family:'nowyouseeme';
 }
+
+
+
 
 @media(max-width:1500px){
       .content-scroll-page{
