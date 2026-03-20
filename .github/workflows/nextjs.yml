@@ -77,6 +77,7 @@ jobs:
         env:
           NEXT_PUBLIC_BLOGGER_API_KEY: ${{ secrets.NEXT_PUBLIC_BLOGGER_API_KEY }}
           NEXT_PUBLIC_BLOGGER_BLOG_ID: ${{ secrets.NEXT_PUBLIC_BLOGGER_BLOG_ID }}
+          NEXT_PUBLIC_SERVER: ${{ secrets.NEXT_PUBLIC_SERVER }}
         run: |
           echo "Verificando variables de entorno..."
           ${{ steps.detect-package-manager.outputs.runner }} next build
