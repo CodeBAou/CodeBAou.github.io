@@ -578,6 +578,7 @@ section.tipos-tecnologias-content > div.wordpress-react-content > div > div.desv
     section.tipos-tecnologias-content > div.wordpress-react-content > div {
         width:100%;
     }
+
     section.tipos-tecnologias-content > div.wordpress-react-content > div > div {width:100%;}
 }
 
@@ -790,14 +791,15 @@ section.tipos-tecnologias-content > div.wordpress-react-content > div > div.desv
     }
 
     section.tipos-tecnologias-content{
-        width:95%;
-        max-width:90%;
+        width:100%;
+        max-width:100%;
+        padding:0;
     }
 
     section.tipos-tecnologias-content > div.wordpress-react-content{
         flex-direction:column;
         margin-left:0;
-        max-width:90%;
+        max-width:100%;
     }
 
     section.tipos-tecnologias-content > h3{
@@ -811,6 +813,17 @@ section.tipos-tecnologias-content > div.wordpress-react-content > div > div.desv
         max-width:100%;
     }
 
-    section.tipos-tecnologias-content > div.wordpress-react-content > div {width:100%;}
-    section.tipos-tecnologias-content > div.wordpress-react-content > div > div {width:100%;}
+    section.tipos-tecnologias-content > div.wordpress-react-content > div {
+        width:100%;
+    }
+
+    section.tipos-tecnologias-content > div.wordpress-react-content > div > div {
+        width:100%;
+    }
+
+    section.tipos-tecnologias-content > div.wordpress-react-content > div > div ul {
+        margin:0;
+        padding:0;
+        max-width:96vw;
+    }
 }
