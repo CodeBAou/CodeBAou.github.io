@@ -41,11 +41,11 @@ Los datos para el contenido del sitio se almacenan como json en la carpeta ./dat
 - ./data/servicios $\color{green}{\text{IMPLEMENTADO}}$
     - Se almacenan los servicios que se listarán en la página de inicio.
 
-- ./data/posts $\color{red}{\text{NO IMPLEMENTADO}}$
+- ./data/posts $\color{red}{\text{IMPLEMENTADO}}$
     - Se almacenan las entradas para el blog
     - Se utiliza la api de Blogger mediante GoogleCloud
 
-- ./data/portafolio #### ./data/posts $\color{red}{\text{NO IMPLEMENTADO}}$
+- ./data/portafolio #### ./data/posts $\color{red}{\text{IMPLEMENTADO}}$
     - Se almacenan las entradas de portafolio
 
 - ./data/legal/ #### ./data/legal $\color{red}{\text{NO IMPLEMENTADO}}$
