@@ -166,11 +166,12 @@
         padding-bottom:1em;
     }
 
-    .section_contacto .content_datos_localización h3{
+    .section_contacto .content_datos_localizacion h3{
         color:var(--primary-color);
         text-align:center;
         margin-top:2em;
         font-size:var(--font-sizes-title-h3-small);
+       
     }
 
     .section_contacto .content_datos_localizacion p{
