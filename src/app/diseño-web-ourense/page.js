@@ -29,8 +29,8 @@ export default function Page(){
                     load:"eager"
                 }}/>
 
-                <h1 className="titlepage">Diseño web </h1>
-                <h2 className="titlepage"> Desde Ourense, creamos un diseño web basado en tu modelo de negocio.</h2>
+                <h1 className="titlepage">Diseño Web en Ourense: Páginas Web y Soluciones WordPress </h1>
+                <h2 className="titlepage">Es diseño web, diseño de contenido y diseño para el correcto posicionamiento web.</h2>
             
                 <div className="tiposWebs">
 
@@ -38,12 +38,12 @@ export default function Page(){
 
                     <div>
                         <ul>
-                            <li>Web 1 página</li>
-                            <li>Web corporativa</li>
-                            <li>Tienda Online</li>
-                            <li>Web servicios</li>
-                            <li>Aplicacion web - WEBAPP</li>
-                            <li>a medida</li>
+                            <li><b>Web 1 página:</b> lo básico para conversión.</li>
+                            <li><b>Web corporativa:</b> para existir en internet.</li>
+                            <li><b>Web servicios:</b> digitaliza tu oferta y automatiza procesos.</li>
+                            <li><b>Tienda Online:</b> tu tienda visible en cada móvil.</li>
+                            <li><b>Aplicacion web:</b> Una aplicación con tecnologías web.</li>
+                            <li><b>A medida:</b> Una web a medida, que se ajusta al 100% a los requerimientos.</li>
                         </ul>
                     </div>
                 </div>
@@ -52,37 +52,37 @@ export default function Page(){
                         
                         <div>
                              <h3>Tipos de página web</h3>
-                             <p> Diseño web respectando la identidad de tu marca, diseñamos una web profesional que cumple con los estádares de la W3C, Google y UI/UX.</p>
+                             <p> Diseño web respectando la identidad de tu marca, diseñamos una web profesional que cumple con los estándares de la W3C, Google y UI/UX.</p>
                         </div>
                     
                         <div>
                             <h4>Diseño web de 1 página</h4>
-                            <p>Una web de una sola página como complemento a tu perfil de empresa en Google. Esta web es más económica, sirve para complementar tu perfil de empresa en Google mediante enlace.</p>
+                            <p>Una web de una sola página como complemento a tu perfil de empresa en Google. Echa para estar presente en internet a bajo coste.</p>
                         </div>
                        
                         <div>
                             <h4>Diseño web corporativa</h4>
-                            <p>Una web completa para generar autoridad con un blog para generar contenido útil para SEO y que puede funcionar como portafolio digital.</p>
+                            <p>Una web corporativa, muestras tu empresa de forma profesional, te vendes y cuentas con un blog para mostrar contenido útil a tus clientes.</p>
                         </div>
                         
                         <div>
                             <h4>Diseño web ecommerce</h4>
-                            <p>Un sistema que te permite vender por internet pero que a veces funciona como un simple catálogo para tus clientes habituales.</p>
+                            <p>Una tienda online con todas las funcionalidades necesarias para vender y con la posibilidad de soluccionar problemas desarrollando solucciones específicas. </p>
                         </div>
                        
                         <div>
                             <h4>Diseño web servicios</h4>
-                            <p>Una web con un sistema que ofrece un servicio determinado, por ejemplo, un sistema para reservar online.</p>
+                            <p>Una web para ofrecer un servicio o autmatizar procesos como reservas online entre otros.</p>
                         </div>
                        
                         <div>
                             <h4>Diseño de aplicación web</h4> 
-                            <p>Como una aplicación de escritorio o movil, pero servida como web.</p>
+                            <p>Como una aplicación de escritorio o móvil, pero servida como web.</p>
                         </div>
                        
                         <div>
                             <h4>Diseño a medida</h4>
-                            <p>Solucciones muy específicas, incluyendo solucciones con IA implementada.</p>
+                            <p>Solucciones muy específicas según tus necesidades, incluyendo solucciones con IA implementada.</p>
                         </div>  
                 </div>
 
@@ -91,8 +91,8 @@ export default function Page(){
 
             <section className="tipos-tecnologias-content">
 
-                <h3>Tecnologías que podemos emplear en el diseño de tu web</h3>
-                <p>A la hora de crear un proyecto podemos usar dos tecnologías diferentes, CMS WordPress y React, cada una tiene una serie de ventajas y desventajas a tener en cuenta.</p>
+                <h3>No dependemos de una tecnología, elegimos el stack tecnológico más adecuado para el proyecto y para ti.</h3>
+                <p>A la hora de crear un proyecto podemos usar dos tecnologías diferentes, CMS WordPress y React, cada una cubre una serie de necesidades diferentes y cuentan con ventajas y desventajas</p>
 
                 <div className="wordpress-react-content">
 
@@ -133,10 +133,7 @@ export default function Page(){
 
                             <ul>
                                 <li>Son webs construidas con código; esto hace que el sitio solo cargue lo necesario para funcionar, obteniendo una web ultrarrápida.</li>
-                                <li>El límite del desarrollo lo pone la capacidad del desarrollador, no un ecosistema como WordPress. Además, desarrollamos patrones de 
-                                    diseño que permiten abaratar costes sin sacrificar la calidad.</li>
-                                <li>Un desarrollo a medida se adapta a tu estructura empresarial; no te adaptas tú al sistema. Esto ahorra costes y tiempo, además, 
-                                    garantiza que la web funcionará exactamente como tú quieres.</li>
+                                <li>Un desarrollo a medida se adapta a tu estructura empresarial; no te adaptas tú al ecosistema como en wordpress.</li>
                                 <li>A veces, lo que ahorras al adquirir una web lo acabas gastando de forma periódica en licencias a terceros (plugins licencia). 
                                     Con un desarrollo a medida, solo tienes el coste de mantenimiento necesario para estar al día y garantizar la seguridad.</li>
                             </ul>
@@ -149,7 +146,7 @@ export default function Page(){
                             <ul>
                                 <li>Estas web se contruyen a medida según las necesidades específicas del proyecto, esto hace que el desarrollo lleve más tiempo, se necesita diseño y desarrollo avanzado, 
                                     esto eleva el coste.</li>
-                                <li>No todos ofrecen soporte para este tipo de proyectos, se Requiere especialización para porder dar soporte a un precio Razonable.</li>
+                                <li>Muchas agencias o desarrolladores se especializan en wordpress y puede ser más complicado encontrar un servicio de soporte adecuado.</li>
                             </ul>
 
                         </div>
@@ -249,21 +246,18 @@ export default function Page(){
 
                <article>
                     <h2>Contacto</h2>
-                    <h3>Diseño Web Ourense</h3>
-                    <p>Pregunta cualquier duda.</p>
-                    <p>Podemos trabajar a partir de un presupuesto.</p>
+                    <p>Si tienes alguna duda contacta sin compromiso y pregúntanos.</p>
+                    <p>Desde Ourense, colaboramos en proyectos de cualquier lugar de forma telemática.</p>
                     <Link href="/#contacto">CONTACTO</Link>
                </article>
 
                <article>
-                    <h2>Mas servicios como complemento a tu página web.</h2>
-                    <p>Quizás ya tengas una web y no estés pensando en comprar una nueva, contamos con otros servicios de mantenimiento web, diseño web y posicionamiento en buscadores con seo.</p>
+                    <h2>Otros servicios para tu página web</h2>
+                    <p>Quizás no necesitas un diseño web, pero contamos con otros servicios para mejorarla y mantenerla.</p>
                     <Link href="/#servicio-de-diseño-web">VER SERVICIOS</Link>
                </article>
 
             </section>
-
-         
         </div>
 
     )
