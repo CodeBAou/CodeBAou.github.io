@@ -67,13 +67,8 @@ h1{
         filter:blur(0px); 
     }
     100%{
-        filter:blur(10px);
+        filter:blur(4px);
     }
-}
-
-.portafolio > nav > div.tarjeta-post > div.tarjeta-texto{
-   animation-name:animation-hover-tarjeta;
-   animation-duration:3s;
 }
 
 .portafolio > nav > .tarjeta-post:hover img{
@@ -95,7 +90,8 @@ h1{
 .portafolio > nav > .tarjeta-post:hover .tarjeta-texto > a{
     display:block;
     animation-name:animation-title;
-    animation-duration:3s;
+    animation-duration:1s;
+    animation-delay:1s;
     animation-fill-mode: forwards;
 }
 
@@ -107,10 +103,6 @@ h1{
         font-family:'lombok' ;
         font-size:2rem;
         mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
-    }
-
-    .portafolio{
-      
     }
 
     .portafolio nav{
