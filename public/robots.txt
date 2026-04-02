@@ -1,8 +1,8 @@
 User-agent: *
 
 Allow: /
-Allow: /diseño-web
-Allow: /portafolio
+Allow: /diseño-web-orense
+Allow: /portafolio/*
 Disallow: /servicios
 Disallow: /apps
 Disallow: /terminos-y-condiciones
