@@ -25,7 +25,7 @@ export default function Menu(){
             <nav id="menuprincipal" className={menuclassstate}> 
                 <ul>
                     <li><Link href="/">DWBA</Link></li>
-                    <li><Link href="/diseño-web-ourense">Diseño Web</Link></li>
+                    <li><Link href="/diseño-web-orense">Diseño Web</Link></li>
                    { /* <li><Link href="/portafolio">Portafolio</Link></li> */} 
                     <li><Link href="/portafolio">Portafolio</Link></li>
                     { /* <li><Link href="/revista">REVISTA</Link></li> */ }
