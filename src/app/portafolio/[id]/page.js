@@ -56,8 +56,7 @@ export default async function Post({ params }) {
             next: { revalidate: 3600 }, // Revalidación a nivel de fetch
             headers: {
                 'Referer': `${SERVER}`,
-            },
-            cache: 'no-store'
+            }
         }
     );
 
