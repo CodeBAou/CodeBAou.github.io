@@ -57,7 +57,7 @@ export default async function Post({ params }) {
             headers: {
                 'Referer': `${SERVER}`,
             },
-            cache: 'force-cache'
+            cache: 'no-store'
         }
     );
 
