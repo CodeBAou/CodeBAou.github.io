@@ -75,5 +75,7 @@ footer  > div.copyright > span{
 
 @media(max-width:780px){
 
-   
+   footer > div.content_enlaces > div.footer_logo_content > img {
+        display:none;
+   }
 }
