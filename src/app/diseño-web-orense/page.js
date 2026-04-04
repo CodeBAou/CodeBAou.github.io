@@ -29,7 +29,7 @@ export default function Page(){
                     load:"eager"
                 }}/>
 
-                <h1 className="titlepage">Diseño Web en Ourense: Páginas Web y Soluciones WordPress </h1>
+                <h1 className="titlepage">Diseño Web en Ourense: Páginas Web y Soluciones </h1>
                 <h2 className="titlepage">Es diseño web, diseño de contenido y diseño para el correcto posicionamiento web.</h2>
             
                 <div className="tiposWebs">
@@ -38,12 +38,12 @@ export default function Page(){
 
                     <div>
                         <ul>
-                            <li><b>Web 1 página:</b> lo básico para conversión.</li>
-                            <li><b>Web corporativa:</b> para existir en internet.</li>
-                            <li><b>Web servicios:</b> digitaliza tu oferta y automatiza procesos.</li>
-                            <li><b>Tienda Online:</b> tu tienda visible en cada móvil.</li>
-                            <li><b>Aplicacion web:</b> Una aplicación con tecnologías web.</li>
-                            <li><b>A medida:</b> Una web a medida, que se ajusta al 100% a los requerimientos.</li>
+                            <li><b>Web 1 página:</b> lo básico para mostrar tu servicio.</li>
+                            <li><b>Web corporativa:</b> Una web corporativa.</li>
+                            <li><b>Web servicios:</b> Una web con algún servicio.</li>
+                            <li><b>Tienda Online:</b> Una tienda online.</li>
+                            <li><b>Aplicacion web:</b> Una aplicación web.</li>
+                            <li><b>A medida:</b> Una web a medida.</li>
                         </ul>
                     </div>
                 </div>
@@ -92,67 +92,39 @@ export default function Page(){
             <section className="tipos-tecnologias-content">
 
                 <h3>No dependemos de una tecnología, elegimos el stack tecnológico más adecuado para el proyecto y para ti.</h3>
-                <p>A la hora de crear un proyecto podemos usar dos tecnologías diferentes, CMS WordPress y React, cada una cubre una serie de necesidades diferentes y cuentan con ventajas y desventajas</p>
-
-                <div className="wordpress-react-content">
-
-                    <div className="wordpress">
-
-                        <h4>Desarrollo Web con WordPress: Flexibilidad y Autogestión</h4>
-
-                        <div className="ventajas">
-                            <p>Ventajas</p>
-                            <ul>
-                                <li>WordPress ofrece ventajas tanto para el desarrollador como para el cliente, ya que evita tener que escribir código desde cero y facilita la autogestión.</li>
-                                <li>Obtener una web en WordPress suele ser más económico, tanto en el desarrollo como en el mantenimiento, gracias a un ecosistema de plugins y bloques 
-                                    reutilizables que se pueden implementar desde el repositorio oficial.</li>
-                                <li>Además, requiere una dificultad técnica menor, lo que facilita encontrar profesionales especializados en este CMS.</li>
-                            </ul>
+                <p>A la hora de crear un proyecto podemos usar dos tecnologías diferentes, CMS WordPress y React para cubrir necesidades diferentes.</p>
+                <div className="esquema-tecnologias">
+                    <div>
+                        <div className="point"></div>
+                    </div>
+                    <div>
+                        <div>
+                            <div className="linea"></div>
                         </div>
-
-                        <div className="desventajas">
-                            <p>Desventajas</p>
-                            <ul>
-                                <li>WordPress es un ecosistema que permite la autogestión y la instalación de funcionalidades que facilitan la implementación; sin embargo, esto puede hacer que la 
-                                    web sea muy pesada y el precio a pagar sea la velocidad de carga, algo que Google tiene muy en cuenta para el posicionamiento. </li>
-                                <li>Aunque esto no es culpa de WordPress y no todos realizan esta mala práctica, a menudo se utiliza para vender las famosas webs “Low Cost”. Son sitios muy económicos
-                                     que consisten en instalar una plantilla que no respeta tu marca en 5 minutos. El resultado es una web que nadie visita y que Google evalúa como de baja calidad y 
-                                     contenido pobre, decidiendo no mostrarla.</li>
-                                <li>Muchas funcionalidades avanzadas que ofrece WordPress son desarrollos ya hechos que te hacen depender de una licencia.</li>
-                            </ul>
+                        <div>
+                            <div className="linea"></div>
                         </div>
                     </div>
-
-                    <div className="react">
-
-                        <h4>Desarrollo a Medida con React: Velocidad y Escalabilidad</h4>
-
-                        <div className="ventajas">
-
-                            <p>Ventajas</p>
-
-                            <ul>
-                                <li>Son webs construidas con código; esto hace que el sitio solo cargue lo necesario para funcionar, obteniendo una web ultrarrápida.</li>
-                                <li>Un desarrollo a medida se adapta a tu estructura empresarial; no te adaptas tú al ecosistema como en wordpress.</li>
-                                <li>A veces, lo que ahorras al adquirir una web lo acabas gastando de forma periódica en licencias a terceros (plugins licencia). 
-                                    Con un desarrollo a medida, solo tienes el coste de mantenimiento necesario para estar al día y garantizar la seguridad.</li>
-                            </ul>
+                    <div className="icons-tecnologias">
+                        <div>
+                            <img 
+                                width="60px;"
+                                className="imagenoferta" 
+                                src="/icon/wordpress.svg" 
+                                alt="Logo de wordpress"
+                                loading="lazy"
+                            />    
                         </div>
-
-                        <div className="desventajas">
-
-                            <p>Desventajas</p>
-
-                            <ul>
-                                <li>Estas web se contruyen a medida según las necesidades específicas del proyecto, esto hace que el desarrollo lleve más tiempo, se necesita diseño y desarrollo avanzado, 
-                                    esto eleva el coste.</li>
-                                <li>Muchas agencias o desarrolladores se especializan en wordpress y puede ser más complicado encontrar un servicio de soporte adecuado.</li>
-                            </ul>
-
+                        <div>
+                            <img 
+                                width="60px;"
+                                className="imagenoferta" 
+                                src="/icon/react.svg" 
+                                alt="Logo de React"
+                                loading="lazy"
+                            />   
                         </div>
-
                     </div>
-
                 </div>
             
             </section>
@@ -189,11 +161,11 @@ export default function Page(){
                     </figure>   
 
                     <div>
-                        <p><b>Estrategia y Requerimientos:</b> Trabajamos de forma telématica ofreciendo reuniones online para entender el proyecto.</p>
-                        <p><b>Prototipado y Diseño:</b> Una vez tenemos los requerimientos empezamos la etapa de desarrollo, prototipo y diseño, creando una idea visual para revisar antes de producción.</p>
-                        <p><b>Desarrollo y Producción:</b> Cuando estamos de acuerdo con el diseño, empezamos la producción.</p>
-                        <p><b>Revisión y Control de Calidad:</b> Acordamos una reunión con la web y la revisamos, asegurando que todo está bien cumpliendo lo acordado.</p>
-                        <p><b>Entrega y Soporte:</b> Una vez nos des tú conformidad, se factura mensualmente o puntualmente dependiendo del servicio y lo acordado.</p>  
+                        <p><b className="definicion-clave">Estrategia y Requerimientos:</b> Trabajamos de forma telématica ofreciendo reuniones online para entender el proyecto.</p>
+                        <p><b className="definicion-clave">Prototipado y Diseño:</b> Una vez tenemos los requerimientos empezamos la etapa de desarrollo, prototipo y diseño, creando una idea visual para revisar antes de producción.</p>
+                        <p><b className="definicion-clave">Desarrollo y Producción:</b> Cuando estamos de acuerdo con el diseño, empezamos la producción.</p>
+                        <p><b className="definicion-clave">Revisión y Control de Calidad:</b> Acordamos una reunión con la web y la revisamos, asegurando que todo está bien cumpliendo lo acordado.</p>
+                        <p><b className="definicion-clave">Entrega y Soporte:</b> Una vez nos des tú conformidad, se factura mensualmente o puntualmente dependiendo del servicio y lo acordado.</p>  
                     </div>
                     
                 </div>

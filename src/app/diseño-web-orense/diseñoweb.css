@@ -396,6 +396,10 @@ section.detalles-oferta > div > div{
     padding-top:10vh;
 }
 
+section.detalles-oferta > div > div > p > b.definicion-clave{
+    color:var(--primary-color)
+}
+
 .diseñoweb-page > section.beneficios h3{
     margin-top:5vh;
 }
@@ -474,6 +478,124 @@ section.tipos-tecnologias-content > div.wordpress-react-content > div > div.desv
 
 section.tipos-tecnologias-content > div.wordpress-react-content > div > div.desventajas > h5{
     color:rgb(188, 133, 133);
+}
+
+/** Esquema tipos de tecnologia*/
+section.tipos-tecnologias-content > div.esquema-tecnologias{
+    width:80%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.tipos-tecnologias-content > p{
+        padding:0;
+}
+
+section.tipos-tecnologias-content > div.esquema-tecnologias > div{
+    width:100%;
+    height:50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-end;
+   
+  
+}
+
+section.tipos-tecnologias-content > div.esquema-tecnologias > div > div.point{
+    width:20px;
+    height:20px;
+    background-color: var(--primary-color);
+    border-radius:50%;
+}
+
+section.tipos-tecnologias-content > div.esquema-tecnologias > div > div{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+section.tipos-tecnologias-content > div.esquema-tecnologias > div > div > div.linea{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100px;
+    height:5px;
+    background-color: var(--primary-color);
+}
+
+section.tipos-tecnologias-content > div.esquema-tecnologias > div > div:nth-child(1){
+    justify-content: right;
+}
+
+section.tipos-tecnologias-content > div.esquema-tecnologias > div > div:nth-child(2){
+    justify-content:left;
+}
+
+@keyframes Animation-linea-giro{
+    0%{
+        transform: rotate(-20deg);
+    }
+    30%{
+        transform: rotate(-360deg);
+    }
+    100%{
+        transform: rotate(-20deg);
+    }
+}
+
+@keyframes Animation-linea-tiembla{
+    0%{
+        transform: rotate(20deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    60%{
+        transform:rotate(20deg);
+    }
+    100%{
+        transform: rotate(20deg);
+    }
+}
+
+section.tipos-tecnologias-content > div.esquema-tecnologias > div > div:nth-child(1) .linea{
+    transform: rotate(-20deg);
+    margin-right:5%;
+    animation-name:Animation-linea-giro;
+    animation-duration: 9s;
+    animation-fill-mode: infinite;
+    animation-iteration-count:infinite;
+}
+
+section.tipos-tecnologias-content > div.esquema-tecnologias > div > div:nth-child(2) .linea{
+    transform: rotate(20deg);
+    margin-left:5%;
+    animation-name:Animation-linea-tiembla;
+    animation-duration: 10s;
+    animation-fill-mode: infinite;
+    animation-iteration-count: infinite;
+}
+
+section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnologias > div{
+    display:flex;
+    justify-content:center;
+}
+
+section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnologias > div:nth-child(1){
+    justify-content:right;
+    padding-right:15%;
+}
+
+section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnologias > div:nth-child(2){
+    justify-content:left;
+    padding-left:10%;
 }
 
 @media(max-width:1200px){
@@ -698,7 +820,7 @@ section.tipos-tecnologias-content > div.wordpress-react-content > div > div.desv
         display:none;
     }
 
-  .diseñoweb-page > section.diseñoweb-content > article > p.oferta_precio{
+    .diseñoweb-page > section.diseñoweb-content > article > p.oferta_precio{
         font-size:3rem;
         color:green;
         width:100%;
@@ -777,13 +899,15 @@ section.tipos-tecnologias-content > div.wordpress-react-content > div > div.desv
         width:80%;
     }
 
-    .section.detalles-oferta > div > figure{
+    section.detalles-oferta > div > figure{
         width:100%;
+        max-width:100% !important;
     }
 
    
     section.detalles-oferta > div > figure > img{
         width:100%;
+        max-width:100%;
     }
 
     .diseñoweb-page > section.portafolio > h2{
@@ -805,6 +929,7 @@ section.tipos-tecnologias-content > div.wordpress-react-content > div > div.desv
     section.tipos-tecnologias-content > h3{
         font-size:2em;
         text-align:left;
+        margin-bottom:1em;
     }
 
     section.tipos-tecnologias-content > p{
@@ -825,5 +950,30 @@ section.tipos-tecnologias-content > div.wordpress-react-content > div > div.desv
         margin:0;
         padding:0;
         max-width:96vw;
+    }
+
+    section.tipos-tecnologias-content > div.esquema-tecnologias > div > div:nth-child(1) .linea{
+        transform: rotate(-20deg);
+        margin-right:5%;
+    }
+
+    section.tipos-tecnologias-content > div.esquema-tecnologias > div > div:nth-child(2) .linea{
+        transform: rotate(20deg);
+        margin-left:5%;
+    }
+
+    section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnologias > div{
+        display:flex;
+        justify-content:center;
+    }
+
+    section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnologias > div:nth-child(1){
+        justify-content:right;
+        padding-right:50%;
+    }
+
+    section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnologias > div:nth-child(2){
+        justify-content:left;
+        padding-left:10%;
     }
 }
