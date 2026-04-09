@@ -39,14 +39,9 @@ export default function Page(){
                     <Cubot items={["Sitio Web","Tienda Online","Servicio Web", "WordPress"]}/>
 
                     <div>
-                        <ul>
-                            <li><b>Web 1 página:</b> lo básico para mostrar tu servicio.</li>
-                            <li><b>Web corporativa:</b> Una web corporativa.</li>
-                            <li><b>Web servicios:</b> Una web con algún servicio.</li>
-                            <li><b>Tienda Online:</b> Una tienda online.</li>
-                            <li><b>Aplicacion web:</b> Una aplicación web.</li>
-                            <li><b>A medida:</b> Una web a medida.</li>
-                        </ul>
+                        <figure>
+                            <img src="/image/diseño-web/screenshop-diseño-web-y-logo-dwba.webp" alt="Un screenshot de un diseño web en miniatura junto al logo de dwba." />
+                        </figure>
                     </div>
                 </div>
 
@@ -144,11 +139,11 @@ export default function Page(){
                     <MuestraVerticalDwba title="Sitio" link="https://habitarqestudio.com/" src="/image/portafolio/miniatura_web_habitarq.webp" Width="200px"/>
                 </div>
                 <div>
-                    <Link href="/portafolio">Ver Portafolio</Link>
+                    <Link href="/portafolio" target="_blank"> Ver Portafolio </Link>
                 </div>
            </section>
      
-           <section className="detalles-oferta">
+           <section className="proceso">
 
                 <h2>Proceso: De la idea a la web final</h2>
 
