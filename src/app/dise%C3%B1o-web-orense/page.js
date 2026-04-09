@@ -6,6 +6,8 @@ import Content_section_oferta from '@/componentes/callAction_diseño_web/Content
 import MuestraVerticalDwba from '@/componentes/muestra-vertical-dwba/MuestraVerticalDwba.jsx';
 import Cubot from '@/componentes/cubot/Cubot';
 import ImageDwba from '@/componentes/Image-dwba/Image.jsx';
+import Section_diseño_web_responsive from '@/componentes/section_diseño_web_responsive/Section_diseño_web_responsive';
+
 export default function Page(){
 
     return(
@@ -88,6 +90,10 @@ export default function Page(){
 
                
             </section>   
+
+            <section>
+                    <Section_diseño_web_responsive/>
+            </section>
 
             <section className="tipos-tecnologias-content">
 

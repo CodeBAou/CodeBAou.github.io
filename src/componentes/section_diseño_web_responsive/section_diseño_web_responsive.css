@@ -1,0 +1,117 @@
+div.responsive {
+    position:relative;
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap:5vw;
+}
+
+div.responsive > div{
+    position:relative;
+    padding-top:5vh;
+    padding-left:1vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color: black;
+}
+
+div.responsive > div > h3, div.responsive > div p {
+    font-family:var('font-family');
+}
+
+div.responsive > div.escritorio{
+    width:40vw;
+    height:60vh;
+    justify-content:space-between;
+}
+
+div.responsive > div.tablet{
+    width:25vw;
+    height:60vh;
+    justify-content:center;
+}
+
+div.responsive > div.mobile{
+    width:14vw;
+    height:60vh;
+    justify-content:flex-end;
+}
+
+div.responsive > div > h3, div.responsive > div > h4{
+    font-family:'lombok';
+    color:var(--primary-color);   
+}
+
+div.responsive > div > h3{
+   font-size:4.8rem;
+}
+
+div.responsive > div h4{
+    font-size:2.8rem;
+}
+
+
+@media(max-width:1200px){
+    div.responsive {
+        flex-wrap: wrap;
+        column-gap:1vw;
+    }
+
+    div.responsive > div.escritorio{
+        width:90vw;
+        height:40vh;
+        justify-content:space-between;
+        margin-bottom:5em;
+    }
+
+    div.responsive > div.tablet{
+        width:65vw;
+        height:30vh;
+        justify-content:center;
+    }
+
+    div.responsive > div.mobile{
+        width:20vw;
+        height:30vh;
+        justify-content:flex-end;
+    }
+}
+
+
+@media(max-width:769px){
+
+    div.responsive {
+        flex-wrap: wrap;
+    }
+
+    div.responsive > div.escritorio{
+        width:100vw;
+        height:40vh;
+        justify-content:space-between;
+        margin-bottom:1em;
+    }
+
+    div.responsive > div.tablet{
+        width:60vw;
+        height:50vh;
+        justify-content:center;
+    }
+
+    div.responsive > div.mobile{
+        width:35vw;
+        height:50vh;
+        justify-content:flex-start;
+    }
+
+    div.responsive > div > h3{
+        font-size:4.2rem;
+    }
+
+    div.responsive > div h4{
+        font-size:2.2rem;
+    }
+}
