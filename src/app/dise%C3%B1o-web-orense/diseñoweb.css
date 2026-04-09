@@ -204,13 +204,17 @@
    gap:10%;
 }
 
+.diseñoweb-page > section.diseñoweb-content div.tiposWebs > div > figure > img{
+    opacity:0.6;
+    margin:0;
+    max-width:500px;
+}
+
 .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web{
     width:60%;
     display:grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: auto auto;
-    padding-top:100px;
-    padding-bottom:100px;
 }
 
 .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web div:nth-child(1){
@@ -372,7 +376,11 @@
     justify-content: center;
 }
 
-section.detalles-oferta > div{
+.section.proceso {
+    min-height:100vh !important;
+}
+
+section.proceso > div{
     display:flex;
     flex-direction:row;
     justify-content: center;
@@ -380,23 +388,23 @@ section.detalles-oferta > div{
 
 }
 
-section.detalles-oferta > div > figure{
+section.proceso > div > figure{
     max-width:50% !important;
 }
 
 
-section.detalles-oferta > div > figure img{
+section.proceso > div > figure img{
     max-width:none;
 }
 
-section.detalles-oferta > div > div{
+section.proceso > div > div{
     display:flex;
     flex-direction: column;
     justify-content: start;
     padding-top:10vh;
 }
 
-section.detalles-oferta > div > div > p > b.definicion-clave{
+section.proceso > div > div > p > b.definicion-clave{
     color:var(--primary-color)
 }
 
@@ -404,7 +412,7 @@ section.detalles-oferta > div > div > p > b.definicion-clave{
     margin-top:5vh;
 }
 
-section.detalles-oferta > div > div > p{
+section.proceso > div > div > p{
     font-size:var(--font-sizes-p-large);
     padding-left:2vw;
     padding-right:2vw;
@@ -415,6 +423,7 @@ section.tipos-tecnologias-content {
     color:white;
     display:flex;
     flex-direction:column;
+    max-width:1200px;
 }
 
 section.tipos-tecnologias-content > h3{
@@ -635,23 +644,23 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
         width:80%;
      }
 
-    section.detalles-oferta > div{
+    section.proceso > div{
         flex-direction:column;
       
     }
 
-    section.detalles-oferta > div > figure{
+    section.proceso > div > figure{
         max-width:90% !important;
         text-align: center;
         margin:0;
     }
 
-    section.detalles-oferta > div > figure > img{
+    section.proceso > div > figure > img{
         width:60%;
     }
 
 
-    section.detalles-oferta > div > div > p{
+    section.proceso > div > div > p{
         padding-top:20px;
     }
 
@@ -826,6 +835,7 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
         width:100%;
         text-align: center;
     }
+
     .diseñoweb-page > section.diseñoweb-content div.tiposWebs{
         flex-direction:column;
         text-align:left;
@@ -842,6 +852,19 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
         padding-top:50px;
         padding-bottom:50px;
         padding-left:2vw;
+    }
+
+    .diseñoweb-page > section.diseñoweb-content div.tiposWebs > div > figure{
+        padding:0;
+        margin-top:0;
+        margin-bottom:0;
+        margin-left:0;
+        margin-right:0;
+        width: 100%;
+    }
+
+    .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web > div > figure > img{
+        width:100%;
     }
 
     .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web div:nth-child(1){
@@ -899,13 +922,12 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
         width:80%;
     }
 
-    section.detalles-oferta > div > figure{
+    section.proceso > div > figure{
         width:100%;
         max-width:100% !important;
     }
 
-   
-    section.detalles-oferta > div > figure > img{
+    section.proceso > div > figure > img{
         width:100%;
         max-width:100%;
     }
