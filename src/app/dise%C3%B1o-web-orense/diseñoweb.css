@@ -207,6 +207,7 @@
 .diseñoweb-page > section.diseñoweb-content div.tiposWebs > div > figure > img{
     opacity:0.6;
     margin:0;
+    max-width:500px;
 }
 
 .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web{
@@ -853,8 +854,17 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
         padding-left:2vw;
     }
 
+    .diseñoweb-page > section.diseñoweb-content div.tiposWebs > div > figure{
+        padding:0;
+        margin-top:0;
+        margin-bottom:0;
+        margin-left:0;
+        margin-right:0;
+        width: 100%;
+    }
+
     .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web > div > figure > img{
-        max-width:100px;
+        width:100%;
     }
 
     .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web div:nth-child(1){
