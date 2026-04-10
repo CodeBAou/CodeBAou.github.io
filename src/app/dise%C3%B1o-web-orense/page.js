@@ -7,6 +7,7 @@ import MuestraVerticalDwba from '@/componentes/muestra-vertical-dwba/MuestraVert
 import Cubot from '@/componentes/cubot/Cubot';
 import ImageDwba from '@/componentes/Image-dwba/Image.jsx';
 import Section_diseño_web_responsive from '@/componentes/section_diseño_web_responsive/Section_diseño_web_responsive';
+import Section_diseño_web_apisGoogle from '@/componentes/section_diseño_web_apisGoogle/Section_diseño_web_apisGoogle';
 
 export default function Page(){
 
@@ -87,7 +88,11 @@ export default function Page(){
             </section>   
 
             <section>
-                    <Section_diseño_web_responsive/>
+                <Section_diseño_web_responsive/>
+            </section>
+            
+            <section>
+                <Section_diseño_web_apisGoogle/>
             </section>
 
             <section className="tipos-tecnologias-content">

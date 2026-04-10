@@ -27,18 +27,21 @@ div.responsive > div.escritorio{
     width:40vw;
     height:60vh;
     justify-content:space-between;
+    box-shadow: 10px 2px 30px 20px rgba(241, 241, 241, 0.05);
 }
 
 div.responsive > div.tablet{
     width:25vw;
     height:60vh;
     justify-content:center;
+    box-shadow: 10px 2px 30px 20px rgba(241, 241, 241, 0.05);
 }
 
 div.responsive > div.mobile{
     width:14vw;
     height:60vh;
     justify-content:flex-end;
+    box-shadow: 10px 2px 30px 20px rgba(241, 241, 241, 0.05);
 }
 
 div.responsive > div > h3, div.responsive > div > h4{
