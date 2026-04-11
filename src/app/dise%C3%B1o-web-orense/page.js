@@ -134,19 +134,6 @@ export default function Page(){
                 </div>
             
             </section>
-
-           <section className="portafolio">
-
-                <h2>Últimos diseños Web WordPress </h2>    
-                    
-                <div>
-                    <MuestraVerticalDwba title="Tienda" link="https://charcuteriauria.es/" src="/image/portafolio/miniatura_web_uriahnos.webp" Width="200px"/>
-                    <MuestraVerticalDwba title="Sitio" link="https://habitarqestudio.com/" src="/image/portafolio/miniatura_web_habitarq.webp" Width="200px"/>
-                </div>
-                <div>
-                    <Link href="/portafolio" target="_blank"> Ver Portafolio </Link>
-                </div>
-           </section>
      
            <section className="proceso">
 
@@ -176,6 +163,19 @@ export default function Page(){
                     
                 </div>
            </section>
+
+            <section className="portafolio">
+
+                <h2>Últimos diseños Web WordPress </h2>    
+                    
+                <div>
+                    <MuestraVerticalDwba title="Tienda" link="https://charcuteriauria.es/" src="/image/portafolio/miniatura_web_uriahnos.webp" Width="200px"/>
+                    <MuestraVerticalDwba title="Sitio" link="https://habitarqestudio.com/" src="/image/portafolio/miniatura_web_habitarq.webp" Width="200px"/>
+                </div>
+                <div>
+                    <Link href="/portafolio" target="_blank"> Ver Portafolio </Link>
+                </div>
+            </section>
 
            <section className="beneficios">
                 <h2>Beneficios al tener una página web, bien cuidada, actualizada y optimizada.</h2>
