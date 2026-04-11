@@ -4,10 +4,8 @@
     "ancla":"presencia en internet",
     "enlace":"#",
     "descripcion":[
-      "Todo lo que necesitas para tener una presencia básica en internet con la seguridad de que Google obtiene la información de forma óptima para darte visibilidad.",
-      "Incluye, diseño web de 1 página, con el servidor de alojamiento, dominio y correo.",
-      "Perfil de Empresa con la información consistente y optimizada para las búsquedas, incluyendo una estrategia de links.",
-      "Soporte, para mantener atender incidencias."
+      "El servicio de presencia básica en internet está destinado a darte lo mínimo necesario para hacer ruido en internet y hacerte más visible. Incluye: ",
+      "ONEPAGE | GOOGLE EMPRESA | SERVIDOR | DOMINIO  | DOMINIO DE CORREO | SOPORTE"
     ],
     "servicio":[
         "1 lading page",
@@ -70,7 +68,8 @@
     "ancla":"diseño web",
     "enlace":"/diseño-web-orense",
     "descripcion":[
-      "Diseño profesional en wordpress y react a medida con dominio CSS Avanzado para animaciones y estilos, UI/UX, Responsive (móvil) y accesibilidad web con respecto por tu diseño de Marca."
+      " El servicio de diseño web está destinado a establecer las reglas para comunicar tu producto de forma efectiva y con mayor visibilidad en internet a través de tu web. Incluye: ",
+      " MARCA | DISEÑO DE CONTENIDO | UX/UI | RESPONSIVE DESIGN | ACCESIBILIDAD WEB WCAG 2.1/2.2 "
     ],
     "servicio":[
         "web Corporativa",
@@ -128,10 +127,8 @@
     "ancla":"desarrollo",
     "enlace":"#",
     "descripcion":[
-      "No solo se crean webs, se pueden crear sistemas completos con funcionalidades para la automatización de procesos que te ayuden a organizarte con los clientes.",
-      "Para los proyectos basados en Wordpress se cuenta con conocimiento avanzado con la posibilidad de desarrollar soluciones a medida, tanto para el diseño como para funcionalidades.",
-      "Desarrollo de sistemas completos como reservas, tienda o venta de entradas entre otros.",
-      "Desarrollos con IA integrada para la automatización de tareas."
+      "El servicio de desarrollo está destinado a la creación de alguna solución, desde la creación de un componente de diseño wordpress o plugin para añadir funcionalidad, hasta una App completa a medida que puedas necesitar.",
+      "WORDPRESS THEMES | WORDPRESS COMPONENTS | WORDPRESS PLUGINS | REACT & NODE | PHP | REACT NATIVE "
     ],
     "servicio":[
         "WordPress",
@@ -141,9 +138,9 @@
     ],
     "duracion":[
         "Seo Empresa: 1h",
-        "Seo Web : N/F",
+        "Seo Web : Presupuesto",
         "Seo Producto: 1h",
-        "SEM : N/F"
+        "SEM : Presupuesto"
     ],
     "precio":[
         "presupuesto"
@@ -196,15 +193,12 @@
     }
 },
 {
-    "name":"Posicionamiento web (SEO)",
+    "name":"Posicionamiento web",
     "ancla":"seo",
     "enlace":"#",
     "descripcion":[
-      "SEO para el perfil de Empresa. Se crea una identidad fuerte de la empresa en internet, ajustando la información  para las búsquedas de los usuarios, asegurando la consistencia de la información y que Google entienda tu empresa correctamente para posicionarte mejor.",
-      "SEO local, optimizaciones seo para las búsquedas locales.",
-      "SEO para PRODUCTOS. Optimización de productos para que coincidan con tendencias y búsquedas de los usuarios, aumentando su visibilidad en internet",
-      "SEM. Campañas de pago en Google.",
-      "Pide una auditoría GRATIS, para saber como podríamos mejorar el posicionamiento."
+      "El servicio de posicionamiento web está destinado a ofrecer cualquier técnica o desarrollo que aumente tu visibilidad en internet para posicionarte más arriba en el ranking de Google. Hacemos seguimiento de las actualizaciones que publica GOOGLE sobre sus algoritmos para tomar las mejores decisiones, además de que interpretamos los datos mediante la análitica web para detectar fallas y entender lo que el usuario necesita.",
+      "MARKETING | SEO | SEM"
     ],
     "servicio":[
         "Seo Google Empresa",
@@ -214,15 +208,15 @@
     ],
     "duracion":[
         "Seo Empresa: 1h",
-        "Seo Web : N/F",
+        "Seo Web : Presupuesto",
         "Seo Producto: 1h",
-        "SEM : N/F"
+        "SEM : Presupuesto"
     ],
     "precio":[
         "Empresa: 10€ /mes",
         "Web: 35€ /h",
         "Producto: 35€",
-        "SEM: presupuesto"
+        "SEM: Presupuesto"
     ],
     "tecnologias_icons":[
         { 
@@ -270,9 +264,9 @@
     "ancla":"mantenimiento web",
     "enlace":"#",
     "descripcion":[
-      "Mantenimineto web, correción de cualquier bug que aparezca en la web.",
-      "Actualizaciones web soluccionando cualquier bug que provoquen.",
-      "Copias de seguridad y almacenamiento seguro de las mismas."
+      "Solucionamos incidencias para que tu web esté operativa, no solo aplicamos una solución, sinó que diseñamos la forma CORRECTA de aplicarla para que perdure en el tiempo.",
+      "SOPORTE WORDPRESS | SOPORTE REACT | SOPORTE PLUGIN DWBA Y APPS DWBA",
+      "COPIAS DE SEGURIDAD | SEGURIDAD | ACTUALIZACIONES | SERVIDOR | DESARROLLO DE PARCHES"
     ],
     "servicio":[
         "Puntual",
@@ -281,7 +275,7 @@
     "duracion":[
         "Puntual: 1h",
         "Mensual: 1h /mes",
-        "A medida: (Presupuesto)"
+        "A medida: Presupuesto"
     ],
     "precio":[
       "Puntual: 55€",

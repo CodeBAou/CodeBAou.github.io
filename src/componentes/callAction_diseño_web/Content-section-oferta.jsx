@@ -7,20 +7,20 @@ export default function Content_section_oferta( {enlaceofertadisplay = true}){
             <section className="content-oferta">
                
                 <div className="text-content">
-                    <h2> Consigue tu web </h2>
 
-                    <ul className="ulventajas">
-                        <li>Más clientes</li>
-                        <li>Ventas 24/7</li>
-                        <li>Mayor visibilidad</li>
-                    </ul>  
-                   
-                     <ul className="ultiposwebs">
-                        <li>WEB CORPORATIVA</li>
-                        <li>WEB SERVICIOS</li>
-                        <li>WEB TIENDA ONLINE</li>
-                    </ul>      
+                    <h2> DWBA | Soluciones Web </h2>
+                    <img src="" alt="" />
 
+                    <p>Ofrecemos soluciones web para tu negocio, de forma online, desde Ourense.</p>
+
+                    <ul>
+                        <li>Diseño Web</li>
+                        <li>Wordpress Avanzado</li>
+                        <li>Desarrollos a medida</li>
+                        <li>Apps</li>
+                        <li>Marketing, SEO, SEM</li>
+                        <li>Solución de problemas</li>
+                    </ul>
                       {
                         (enlaceofertadisplay == true) ?  <a className="link" href="/diseño-web-orense">SABER MÁS</a> : null
                     }
