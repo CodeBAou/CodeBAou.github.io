@@ -15,6 +15,8 @@ async function GetPost() {
         `https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/?key=${API_KEY}`,
         {
             method: 'GET',
+            cache: 'force-cache', 
+            next: { revalidate: 3600 },
             headers: {
             'Referer': `${SERVER}`, // Pon aquí lo que tengas en Google Cloud
             }
