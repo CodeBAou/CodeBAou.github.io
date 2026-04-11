@@ -6,6 +6,9 @@ import Content_section_oferta from '@/componentes/callAction_diseño_web/Content
 import MuestraVerticalDwba from '@/componentes/muestra-vertical-dwba/MuestraVerticalDwba.jsx';
 import Cubot from '@/componentes/cubot/Cubot';
 import ImageDwba from '@/componentes/Image-dwba/Image.jsx';
+import Section_diseño_web_responsive from '@/componentes/section_diseño_web_responsive/Section_diseño_web_responsive';
+import Section_diseño_web_apisGoogle from '@/componentes/section_diseño_web_apisGoogle/Section_diseño_web_apisGoogle';
+
 export default function Page(){
 
     return(
@@ -37,14 +40,9 @@ export default function Page(){
                     <Cubot items={["Sitio Web","Tienda Online","Servicio Web", "WordPress"]}/>
 
                     <div>
-                        <ul>
-                            <li><b>Web 1 página:</b> lo básico para mostrar tu servicio.</li>
-                            <li><b>Web corporativa:</b> Una web corporativa.</li>
-                            <li><b>Web servicios:</b> Una web con algún servicio.</li>
-                            <li><b>Tienda Online:</b> Una tienda online.</li>
-                            <li><b>Aplicacion web:</b> Una aplicación web.</li>
-                            <li><b>A medida:</b> Una web a medida.</li>
-                        </ul>
+                        <figure>
+                            <img src="/image/diseño-web/screenshop-diseño-web-y-logo-dwba.webp" alt="Un screenshot de un diseño web en miniatura junto al logo de dwba." />
+                        </figure>
                     </div>
                 </div>
 
@@ -89,6 +87,14 @@ export default function Page(){
                
             </section>   
 
+            <section>
+                <Section_diseño_web_responsive/>
+            </section>
+            
+            <section>
+                <Section_diseño_web_apisGoogle/>
+            </section>
+
             <section className="tipos-tecnologias-content">
 
                 <h3>No dependemos de una tecnología, elegimos el stack tecnológico más adecuado para el proyecto y para ti.</h3>
@@ -128,21 +134,8 @@ export default function Page(){
                 </div>
             
             </section>
-
-           <section className="portafolio">
-
-                <h2>Últimos diseños Web WordPress </h2>    
-                    
-                <div>
-                    <MuestraVerticalDwba title="Tienda" link="https://charcuteriauria.es/" src="/image/portafolio/miniatura_web_uriahnos.webp" Width="200px"/>
-                    <MuestraVerticalDwba title="Sitio" link="https://habitarqestudio.com/" src="/image/portafolio/miniatura_web_habitarq.webp" Width="200px"/>
-                </div>
-                <div>
-                    <Link href="/portafolio">Ver Portafolio</Link>
-                </div>
-           </section>
      
-           <section className="detalles-oferta">
+           <section className="proceso">
 
                 <h2>Proceso: De la idea a la web final</h2>
 
@@ -170,6 +163,19 @@ export default function Page(){
                     
                 </div>
            </section>
+
+            <section className="portafolio">
+
+                <h2>Últimos diseños Web WordPress </h2>    
+                    
+                <div>
+                    <MuestraVerticalDwba title="Tienda" link="https://charcuteriauria.es/" src="/image/portafolio/miniatura_web_uriahnos.webp" Width="200px"/>
+                    <MuestraVerticalDwba title="Sitio" link="https://habitarqestudio.com/" src="/image/portafolio/miniatura_web_habitarq.webp" Width="200px"/>
+                </div>
+                <div>
+                    <Link href="/portafolio" target="_blank"> Ver Portafolio </Link>
+                </div>
+            </section>
 
            <section className="beneficios">
                 <h2>Beneficios al tener una página web, bien cuidada, actualizada y optimizada.</h2>

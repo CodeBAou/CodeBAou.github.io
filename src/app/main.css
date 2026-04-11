@@ -116,11 +116,8 @@ p.description-page-inicio{
 }
 
 
-
-
 @media(max-width:1500px){
-      .content-scroll-page{
-       
+      .content-scroll-page{   
         padding-right:0;
     }
 }
