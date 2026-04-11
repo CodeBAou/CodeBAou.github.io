@@ -44,8 +44,8 @@
 }
 
 .content-oferta > figure > img{
-  flex-grow:1;
-width:100%; 
+    flex-grow:1;
+    width:100%; 
 }
 
 .content-oferta > div {
@@ -58,30 +58,33 @@ width:100%;
 }
 
 .content-oferta * h2,h3{
-   color:white;
+   color:rgb(237, 237, 105);
+   mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
    width:100%;
    text-align:center;
    font-size:var(--font-sizes-title-h2-large);
+   font-weight: 100;
 }
 
-.content-oferta > div > p{
+.content-oferta > div.text-content > p{
     color:white;
     font-family:'optimist';
-    font-size:1.2em;
-   
+    font-size:1.2em;    
     margin-bottom:1em;
     margin-top:1em;
     width:100%;
 }
 
 
-.content-oferta > div > ul{
+.content-oferta > div.text-content > ul{
     list-style: none;
     margin:0;
     padding:0;
     margin-top:5vh;
     margin-bottom:1em;
     width:90%;
+    color:rgb(237, 237, 105);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
 }
 
 

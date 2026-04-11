@@ -13,7 +13,7 @@ export default function Section_diseño_web_apisGoogle(){
             </div>
             <div>
                 <h3>Diseño para contenido dinámico</h3>
-                <p>APROBECHA LAS PODEROSAS APIS DE GOOGLE AL MÁXIMO</p>
+                <p>APROVECHA LAS PODEROSAS APIS DE GOOGLE AL MÁXIMO</p>
             </div>
             <div>
                 <img src="/icons_apis_google/icon-google_analytics-icon-old.svg" alt="" width="50px" height="50px"/>
