@@ -201,20 +201,33 @@ div.content-apisGoogle > div:nth-child(3) > img:hover{
 
     div.content-apisGoogle > div:nth-child(1){
         margin-left:0;
-        min-height:500px;
+        height:30vh;
+        min-height:30vh;
     }
 
     div.content-apisGoogle > div:nth-child(2){
-        
+        height:30vh;
+        min-height:30vh;
         padding:0;
-        padding-top:5vh;
-        padding-bottom:5vh;
+        padding-top:0;
+        padding-bottom:0;
+    }
+
+    div.content-apisGoogle > div:nth-child(2) h3{
+        font-size:2em;
+    }
+
+    div.content-apisGoogle > div:nth-child(2) p{
+        font-size:1.2em;
+        text-align:center;
     }
 
     div.content-apisGoogle > div:nth-child(3){
         margin-right:0;
-        padding-top:5vh;
-        padding-bottom:5vh;
+        padding-top:1vh;
+        padding-bottom:1vh;
+        margin-top:0vh;
+        margin-bottom:0vh;
     }
 
 }
