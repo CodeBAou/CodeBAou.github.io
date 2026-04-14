@@ -4,8 +4,8 @@
     "ancla":"presencia en internet",
     "enlace":"#",
     "descripcion":[
-      "El servicio de presencia básica en internet está destinado a darte lo mínimo necesario para hacer ruido en internet y hacerte más visible. Incluye: ",
-      "ONEPAGE | GOOGLE EMPRESA | SERVIDOR | DOMINIO  | DOMINIO DE CORREO | SOPORTE"
+      "El servicio de presencia básica en internet está destinado a darte lo mínimo necesario para hacer ruido en internet. Incluye: ",
+      "onepage + google Empresa + servidor + dominio + dominio de correo + soporte"
     ],
     "servicio":[
         "1 lading page",
@@ -68,8 +68,8 @@
     "ancla":"diseño web",
     "enlace":"/diseño-web-orense",
     "descripcion":[
-      " El servicio de diseño web está destinado a establecer las reglas para comunicar tu producto de forma efectiva y con mayor visibilidad en internet a través de tu web. Incluye: ",
-      " MARCA | DISEÑO DE CONTENIDO | UX/UI | RESPONSIVE DESIGN | ACCESIBILIDAD WEB WCAG 2.1/2.2 "
+      " El servicio de diseño web está destinado a establecer las reglas para comunicar tu producto de forma efectiva y conseguir mayor visibilidad en internet. Incluye: ",
+      " Marca | diseño contenido, UX/UI, responsive, accesibilidad web"
     ],
     "servicio":[
         "web Corporativa",
@@ -128,7 +128,7 @@
     "enlace":"#",
     "descripcion":[
       "El servicio de desarrollo está destinado a la creación de alguna solución, desde la creación de un componente de diseño wordpress o plugin para añadir funcionalidad, hasta una App completa a medida que puedas necesitar.",
-      "WORDPRESS THEMES | WORDPRESS COMPONENTS | WORDPRESS PLUGINS | REACT & NODE | PHP | REACT NATIVE "
+      " WordPress Avanzado | Mantenimiento | webapp | Soluciones a medida | Apps"
     ],
     "servicio":[
         "WordPress",
@@ -198,7 +198,7 @@
     "enlace":"#",
     "descripcion":[
       "El servicio de posicionamiento web está destinado a ofrecer cualquier técnica o desarrollo que aumente tu visibilidad en internet para posicionarte más arriba en el ranking de Google. Hacemos seguimiento de las actualizaciones que publica GOOGLE sobre sus algoritmos para tomar las mejores decisiones, además de que interpretamos los datos mediante la análitica web para detectar fallas y entender lo que el usuario necesita.",
-      "MARKETING | SEO | SEM"
+      "Marketing Campañas| SEO | SEM | Redes Sociales"
     ],
     "servicio":[
         "Seo Google Empresa",
@@ -264,9 +264,8 @@
     "ancla":"mantenimiento web",
     "enlace":"#",
     "descripcion":[
-      "Solucionamos incidencias para que tu web esté operativa, no solo aplicamos una solución, sinó que diseñamos la forma CORRECTA de aplicarla para que perdure en el tiempo.",
-      "SOPORTE WORDPRESS | SOPORTE REACT | SOPORTE PLUGIN DWBA Y APPS DWBA",
-      "COPIAS DE SEGURIDAD | SEGURIDAD | ACTUALIZACIONES | SERVIDOR | DESARROLLO DE PARCHES"
+      "Mantenimiento web para wordpress y otros desarrollos a medida.",
+      "Solucciones | Copias de Seguridad | Seguridad | Actualizaciones | Servicio | Plugin para solucciones"
     ],
     "servicio":[
         "Puntual",

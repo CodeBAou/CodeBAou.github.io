@@ -6,7 +6,7 @@ import './main.css';
 
 export const metadata = {
   title: 'Ofrecemos servicios de Diseño Web y Marketing Digital desde Ourense',
-  description: 'Desarrollo web y soluciones avanzadas para ayudarte a convertir visitas en clientes | WordPress y React WebApps.',
+  description: 'ofrecemos servicios profesionales de diseño web y posicionamiento web para crecer en internet. Sevicio Online desde Ourense.',
   keywords: 'diseño web Ourense, desarrollo web a medida, SEO, SEM, mantenimiento web, soporte técnico, marketing digital España, DWBA, desarrollo web ourense, marketing digital ourense, diseño web wordpress ourense, diseño app ourense, diseñador web ourense',
   robots: 'index, follow',
   icons: {
