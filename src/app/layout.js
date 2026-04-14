@@ -5,34 +5,28 @@ import Content_section_footer from '@/componentes/content_section_footer/Content
 import './main.css';
 
 export const metadata = {
-title: 'DWBA | Diseño web y Marketing Digital en Ourense | Servicios en toda España',
-description: 'DWBA ofrece servicios profesionales de diseño web, desarrollo a medida, SEO, SEM, mantenimiento y soporte técnico desde Ourense con alcance en toda España. Impulsa tu negocio online con nosotros.',
-keywords: 'diseño web Ourense, desarrollo web a medida, SEO, SEM, mantenimiento web, soporte técnico, marketing digital España, DWBA, desarrollo web ourense, marketing digital ourense, diseño web wordpress ourense, diseño app ourense, diseñador web ourense',
-robots: 'index, follow',
-icons: {
-icon: 'https://dwba.es/icon/LOGO_DWBA_simbolo_32.webp',
-},
-openGraph: {
-title: 'DWBA | Diseño web y Marketing Digital en Ourense | Servicios en toda España',
-description: 'DWBA ofrece servicios profesionales de diseño web, desarrollo a medida, SEO, SEM, mantenimiento y soporte técnico desde Ourense con alcance en toda España. Impulsa tu negocio online con nosotros.',
-url: 'https://dwba.es',
-siteName: 'DWBA',
-images: [
-{
-url: 'https://dwba.es/icon/LOGO_DWBA_simbolo_32.webp',
-width: 32,
-height: 32,
-},
-],
-locale: 'es_ES',
-type: 'website',
-},
-twitter: {
-card: 'summary_large_image',
-title: 'DWBA | Diseño web y Marketing Digital en Ourense | Servicios en toda España',
-description: 'DWBA ofrece servicios profesionales de diseño web, desarrollo a medida, SEO, SEM, mantenimiento y soporte técnico desde Ourense con alcance en toda España. Impulsa tu negocio online con nosotros.',
-images: ['https://dwba.es/icon/LOGO_DWBA_simbolo_32.webp'],
-},
+  title: 'Ofrecemos servicios de Diseño Web y Marketing Digital desde Ourense',
+  description: 'Desarrollo web y soluciones avanzadas para ayudarte a convertir visitas en clientes | WordPress y React WebApps.',
+  keywords: 'diseño web Ourense, desarrollo web a medida, SEO, SEM, mantenimiento web, soporte técnico, marketing digital España, DWBA, desarrollo web ourense, marketing digital ourense, diseño web wordpress ourense, diseño app ourense, diseñador web ourense',
+  robots: 'index, follow',
+  icons: {
+  icon: 'https://dwba.es/icon/LOGO_DWBA_simbolo_32.webp',
+  },
+  openGraph: {
+  title: 'Ofrecemos servicios de diseño web y Marketing Digital',
+  description: 'Diseñamos páginas webs y soluciones avanzadas para ayudarte a convertir visitas en clientes | Desde Ourense',
+  url: 'https://dwba.es',
+  siteName: 'DWBA',
+  images: [
+  {
+  url: 'https://dwba.es/icon/LOGO_DWBA_simbolo_32.webp',
+  width: 32,
+  height: 32,
+  },
+  ],
+  locale: 'es_ES',
+  type: 'website',
+  }
 };
 
 export default function RootLayout({ children }) {
