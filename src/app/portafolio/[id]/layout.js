@@ -1,8 +1,8 @@
 
 
 export const metadata = {
-  title: 'Portafolio DWBA y Notas del desarrollador.',
-  description: 'Nuestro portafolio junto a notas del desarrollador.',
+  title: 'Proyecto | Notas de desarrollador',
+  description: 'Notas sobre el proyecto',
   icons: '/icon/LOGO_DWBA_simbolo_32.webp'
 }
 

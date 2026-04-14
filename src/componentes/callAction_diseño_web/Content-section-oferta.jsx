@@ -11,7 +11,7 @@ export default function Content_section_oferta( {enlaceofertadisplay = true}){
                     <h2> DWBA | Soluciones Web </h2>
                     <img src="" alt="" />
 
-                    <p>Ofrecemos soluciones web para tu negocio, de forma online, desde Ourense.</p>
+                    <p>Servicios para impulsarte en internet | <b>WordPress</b> | <b>WebApps React</b></p>
 
                     <ul>
                         <li>Diseño Web</li>
