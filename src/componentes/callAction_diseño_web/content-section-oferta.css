@@ -58,7 +58,7 @@
 }
 
 .content-oferta * h2,h3{
-   color:rgb(237, 237, 105);
+   color:var(--primary-color);
    mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
    width:100%;
    text-align:center;
@@ -83,7 +83,7 @@
     margin-top:5vh;
     margin-bottom:1em;
     width:90%;
-    color:rgb(237, 237, 105);
+    color:var(--primary-color);
     mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
 }
 
