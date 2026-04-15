@@ -1,6 +1,5 @@
 .description{
     position:relative;
-   /* width:100%; */
     max-height:100%;
     display:flex;
     flex-direction:column;
@@ -10,8 +9,7 @@
 }
 
 .description > h2{
-
-     font-family:'lombok';
+     font-family:var(--font-family-titles);
      font-size:var(--font-sizes-title-h2-large);
      color:var(--primary-color);
      width:100%;
@@ -42,11 +40,10 @@
     position:relative;
     padding:8px;
     background-color:var(--primary-color);
-    /*padding:1vw 3vw 1vw 3vw;*/
+    font-size:var(--font-sizes-p-large);
     text-align:center;
     font-family:'lombok';
     color:rgb(0,0,0);
-    font-size:var( --font-size-large);
     text-decoration:none;
     font-weight: 800;
 }
@@ -58,12 +55,12 @@
     text-decoration:wavy;
 }
 
- .description >  a.enlace-entrar{
+.description >  a.enlace-entrar{
+    font-size:var(--font-sizes-p-large);
+    background-color:var(--primary-color);
     color:black;
     padding:25px;
-    background-color:var(--primary-color) ;
     max-width:auto;
-    font-size:var(--font-sizes-p-large);
 }
 
 @media(max-width:1200px){
@@ -80,17 +77,16 @@
     }
 
     .description > .content-text > p{
-        font-size:1.3rem;
+        font-size:var(--font-sizes-p-medium);
         margin-top:1vh;
     }
 
     .description > div > a{
-        font-size:1.2rem;
+        font-size:var(--font-sizes-p-medium);
         margin-top:4vh;
         
     }
 }
-
 
 @media(max-width:789px){
 
@@ -105,16 +101,15 @@
         min-height:0;
     }
 
-     .description > h2{
+    .description > h2{
         font-size:var(--font-sizes-title-h2-small);
         margin:0;
         padding:0;
         margin-bottom:5vh;
         margin-top:1rem;
-        font-family:'lombok';
-     }
+    }
 
-     .description > .content-text{
+    .description > .content-text{
         min-height:none;
         max-height:none;
         display:flex;
