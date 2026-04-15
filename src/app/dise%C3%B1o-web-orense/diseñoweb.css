@@ -8,10 +8,9 @@
 }
 
 .diseñoweb-page h1.titlepage{
-    color:rgb(237, 237, 105);
-   
-    font-family:'lombok' ;
-    font-size:5rem;
+    color:var(--primary-color);
+    font-family:var(--font-family-titles) ;
+    font-size:var(--font-sizes-title-h1-large);
     mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
     margin-top:-50vh;
     opacity:0.7;
@@ -86,7 +85,7 @@
     color:var(--primary-color);
     font-size:var(--font-sizes-title-h2-large);
     font-size:3em;
-    font-family:'lombok' ;
+    font-family:var(--font-family-titles);
 }
 
 .diseñoweb-page  h3{
@@ -197,12 +196,13 @@
    width:100%;
    font-family:'optimist';
    gap:10%;
+   margin-top:200px;
 }
 
 .diseñoweb-page > section.diseñoweb-content div.tiposWebs > div > figure > img{
-    opacity:0.6;
+    opacity:0.5;
     margin:0;
-    max-width:500px;
+    max-width:769;
 }
 
 .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web{
@@ -227,7 +227,7 @@
 }
 
 .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web h4{
-     color:var(--primary-color);
+    color:var(--primary-color);
 }
 
 .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web p{
@@ -380,16 +380,11 @@ section.proceso > div{
     flex-direction:row;
     justify-content: center;
     max-width:1400px;
-
 }
 
 section.proceso > div > figure{
-    max-width:50% !important;
-}
-
-
-section.proceso > div > figure img{
-    max-width:none;
+    
+    max-width:580px;
 }
 
 section.proceso > div > div{
@@ -397,6 +392,7 @@ section.proceso > div > div{
     flex-direction: column;
     justify-content: start;
     padding-top:10vh;
+   
 }
 
 section.proceso > div > div > p > b.definicion-clave{
@@ -494,7 +490,7 @@ section.tipos-tecnologias-content > div.esquema-tecnologias{
 }
 
 section.tipos-tecnologias-content > p{
-        padding:0;
+    padding:0;
 }
 
 section.tipos-tecnologias-content > div.esquema-tecnologias > div{
@@ -504,8 +500,6 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div{
     flex-direction: row;
     justify-content: center;
     align-items:flex-end;
-   
-  
 }
 
 section.tipos-tecnologias-content > div.esquema-tecnologias > div > div.point{
@@ -648,6 +642,7 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
         max-width:90% !important;
         text-align: center;
         margin:0;
+        min-width: 769px;
     }
 
     section.proceso > div > figure > img{
@@ -661,6 +656,10 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
 
     .diseñoweb-page > section.beneficios h3{
         margin-top:4rem;
+    }
+
+    .diseñoweb-page > section.diseñoweb-content div.tiposWebs{
+        margin-top:0px;
     }
 
     .diseñoweb-page > section.diseñoweb-content > div.descripcion-tipos-web{
@@ -776,6 +775,10 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
 
     .diseñoweb-page > section > figure > img{
         margin-top:0;
+    }
+
+    .diseñoweb-page > section.diseñoweb-content div.tiposWebs > div > figure > img{
+        max-width:100%;
     }
 
     .diseñoweb-page h2{
@@ -918,13 +921,17 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
     }
 
     section.proceso > div > figure{
-        width:100%;
-        max-width:100% !important;
+        width:100vw;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:left;
     }
 
-    section.proceso > div > figure > img{
-        width:100%;
-        max-width:100%;
+    section.proceso > div > figure > img{  
+        margin-left:10vw;
+        margin-right:10vw;
+        width:80vw;
     }
 
     .diseñoweb-page > section.portafolio > h2{

@@ -2,7 +2,7 @@
 import React, {useState, useEffect} from 'react'
 import Link from 'next/link'
 import './diseñoweb.css';
-import Content_section_oferta from '@/componentes/callAction_diseño_web/Content-section-oferta';
+import Content_section_oferta from '@/componentes/callAction_diseño_web/CallActionConsigueWeb';
 import MuestraVerticalDwba from '@/componentes/muestra-vertical-dwba/MuestraVerticalDwba.jsx';
 import Cubot from '@/componentes/cubot/Cubot';
 import ImageDwba from '@/componentes/Image-dwba/Image.jsx';

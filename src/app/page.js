@@ -7,7 +7,7 @@ import Content_section_description from '@/componentes/content_section_descripti
 import Data_servicos from '@/data/servicios.json';
 import Section_header from '@/componentes/section_header/Section_header.jsx';
 import Content_section_contacto from '@/componentes/content_section_contacto/Content_section_contacto';
-import Content_section_oferta from '@/componentes/callAction_diseño_web/Content-section-oferta';
+import Content_section_oferta from '@/componentes/callAction_diseño_web/CallActionConsigueWeb';
 import Content_section_footer from '@/componentes/content_section_footer/Content_section_footer';
 
 export default function Page(){
