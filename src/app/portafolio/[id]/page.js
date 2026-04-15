@@ -81,7 +81,7 @@ export default async function Post({ params }) {
 
             <div className="servicios-content">
                 <div className="callAction">     
-                    <a href="/diseño-web"> Diseño web</a>
+                    <a href="/diseño-web-orense"> Diseño web</a>
                 </div>
                 <div className="callAction">     
                     <a href="/"> Más servicios</a>
