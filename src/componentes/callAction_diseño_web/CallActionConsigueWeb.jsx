@@ -1,17 +1,17 @@
 import React from 'react';
-import './content-section-oferta.css';
+import './callAction-consigue-web.css';
 
-export default function Content_section_oferta( {enlaceofertadisplay = true}){
+export default function CallActionConsigueWeb( {enlaceofertadisplay = true}){
    
         return(
-            <section className="content-oferta">
+            <section className="content-CallAction-consigueweb">
                
                 <div className="text-content">
 
                     <h2> DWBA | Soluciones Web </h2>
                     <img src="" alt="" />
 
-                    <p>Servicios para impulsarte en internet | <b>WordPress</b> | <b>WebApps React</b></p>
+                    <p>Servicios para impulsarte en Internet | <b>WordPress</b> | <b>React</b> </p>
 
                     <ul>
                         <li>Diseño Web</li>
@@ -36,7 +36,6 @@ export default function Content_section_oferta( {enlaceofertadisplay = true}){
                         sizes="(max-width:765px) 480px, (min-width:765px) 1200px"
                         loading="lazy"
                     /> 
-                    
                 </figure>   
 
             </section>
