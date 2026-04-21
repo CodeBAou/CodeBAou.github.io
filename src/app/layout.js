@@ -5,27 +5,12 @@ import Content_section_footer from '@/componentes/content_section_footer/Content
 import './main.css';
 
 export const metadata = {
-  title: 'Ofrecemos servicios de Diseño Web y Marketing Digital desde Ourense',
-  description: 'ofrecemos servicios profesionales de diseño web y posicionamiento web para crecer en internet. Sevicio Online desde Ourense.',
-  keywords: 'diseño web Ourense, desarrollo web a medida, SEO, SEM, mantenimiento web, soporte técnico, marketing digital España, DWBA, desarrollo web ourense, marketing digital ourense, diseño web wordpress ourense, diseño app ourense, diseñador web ourense',
+  title: 'DWBA | Estudio de diseño web y marketing digital en Ourense',
+  description: 'Si buscas una agencia de diseño web y necesitas servicios que te ayuden a crecer en internet. Desde Ourense.',
+  keywords: 'agencia de diseño web,agencia páginas web, diseño web Ourense, desarrollo web a medida, SEO, SEM, mantenimiento web, soporte técnico, marketing digital España, DWBA, desarrollo web ourense, marketing digital ourense, diseño web wordpress ourense, diseño app ourense, diseñador web ourense',
   robots: 'index, follow',
   icons: {
   icon: 'https://dwba.es/icon/LOGO_DWBA_simbolo_32.webp',
-  },
-  openGraph: {
-  title: 'Ofrecemos servicios de diseño web y Marketing Digital',
-  description: 'Diseñamos páginas webs y soluciones avanzadas para ayudarte a convertir visitas en clientes | Desde Ourense',
-  url: 'https://dwba.es',
-  siteName: 'DWBA',
-  images: [
-  {
-  url: 'https://dwba.es/icon/LOGO_DWBA_simbolo_32.webp',
-  width: 32,
-  height: 32,
-  },
-  ],
-  locale: 'es_ES',
-  type: 'website',
   }
 };
 
@@ -41,7 +26,7 @@ export default function RootLayout({ children }) {
           key="canonical"
         />
 
-          <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({

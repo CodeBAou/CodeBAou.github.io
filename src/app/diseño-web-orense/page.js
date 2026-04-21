@@ -98,7 +98,7 @@ export default function Page(){
             <section className="tipos-tecnologias-content">
 
                 <h3>No dependemos de una sola tecnología: buscamos el stack más adecuado para el proyecto y para ti</h3>
-                <p>Seleccionamos las herramientas que mejor cubran las necesidades específicas de cada desarrollo:</p>
+                <p>Selecionamos las herramientas que mejor cubran las necesidades específicas de cada desarrollo:</p>
                 
                 <div className="esquema-tecnologias">
                     <div>
