@@ -9,13 +9,20 @@
     align-items:center;
 }
 
+
 .section_contacto > h2{
     color:var(--primary-color);
-    font-size:var(--font-sizes-title-h2-large);
-    font-family:var(--font-family-titles);
-    margin-top:5vh;
-    margin-bottom:2em;
+    font-size:var( --font-sizes-title-h2-large) !important;
+    font-family:'lombok';
+    margin-top:2vh;
+    margin-bottom:1em;
+    padding:0;
     mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+}
+
+.section_contacto > h3{
+    color:white;
+    font-size:var(--font-sizes-title-h3-large);
 }
 
 .section_contacto > div{
@@ -84,8 +91,17 @@
     vertical-align: bottom;
     max-height: 40px;
 }
+
+.section_contacto > div > div.content_datos_contacto > div > a{
+    color:white;
+}
+
+.section_contacto > div > div.content_datos_contacto > div > a > img{
+    width:200px;
+}
+
 .section_contacto > div > div.content_datos_contacto > div > img{
-    width:60px;
+    width:50px;
 }
 
 .section_contacto .content_datos_localizacion{
@@ -103,6 +119,7 @@
 .section_contacto .content_datos_localizacion p{
     color:white;
     font-size:var(--font-sizes-p-large);
+    font-family:'optimist';
 }
 
 .section_contacto > div > div.content_datos_contacto > div > .qrcontacto{
@@ -110,6 +127,10 @@
     height:auto;
     padding:0;
     padding-left:0;
+}
+
+.section_contacto > div > div.content_datos_contacto > div > p{
+    font-size:var(--font-sizes-p-detalles-large);
 }
 
 .numeroTelefono{
@@ -123,6 +144,11 @@
         font-size:var(--font-sizes-title-h2-medium);
     }
 
+    .section_contacto > h3{
+        color:white;
+        font-size:var(--font-sizes-title-h3-medium);
+    }
+
     .section_contacto > div{
         width:80%;
     }
@@ -130,6 +156,11 @@
     .section_contacto > div > div.content_datos_contacto > div > h3{
         font-size:var(--font-sizes-title-h3-medium);
     }
+
+    .section_contacto > div > div.content_datos_contacto > div > a > p{
+        font-size:var(--font-sizes-p-detalles-large);
+        color:var(--primary-color);
+    }   
 
     .section_contacto > div > div.content_datos_contacto > div > div > p{
         font-size:var(--font-sizes-p-medium);
@@ -157,6 +188,12 @@
         text-align:center !important;
         font-size:var(--font-sizes-title-h2-small);
         padding-bottom:1em;
+        margin-bottom:2vh;
+    }
+
+    .section_contacto > h3{
+        color:white;
+        font-size:var(--font-sizes-title-h3-small);
     }
 
     .section_contacto .content_datos_localizacion h3{
@@ -181,14 +218,52 @@
         margin-bottom:2vh;
     }
 
+    .section_contacto > div > div.content_datos_contacto{
+        padding-left:0;
+        padding-right:0;
+    }
+
     .section_contacto > div > div.content_datos_contacto  div{
         justify-content: left;
         flex-direction: column;
+        margin:0;
+        margin-bottom:1em;
     }
 
-    .section_contacto > div > div.content_datos_contacto > div > img{
+    .section_contacto > div > div.content_datos_contacto > div > a{
+        width:100%;
+        text-align:center;
+    }
+
+    @keyframes AnimationParpadeo{
+        0%{
+            opacity:1;
+        }
+
+        50%{
+            opacity:0.5;
+        }
+
+        100%{
+            opacity:1;
+        }
+    }
+
+    .section_contacto > div > div.content_datos_contacto > div > a > p{
+        font-size:var(--font-sizes-p-detalles-large);
+        color:var(--primary-color);
+        animation-name: AnimationParpadeo;
+        animation-duration:5s;
+        animation-iteration-count: infinite;
+    }   
+
+    .section_contacto > div > div.content_datos_contacto > div > img{ 
         width:30px;
-     }
+    }
+
+    .section_contacto > div > div.content_datos_contacto > div > a > img{
+        width:20vh;
+    }
 
     .section_contacto > div > div.content_datos_contacto > div > div > p{
         font-size:var(--font-sizes-p-small);

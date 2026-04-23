@@ -15,7 +15,7 @@ export default function Content_section_detalles({servicios=[], duracion="", pre
     return(
         <div className="detalles"> 
         
-            <h3>ÁMBITO</h3>
+            <h4>ÁMBITO</h4>
      
             {
                 servicios.map( (servicio,index)=> {
@@ -23,21 +23,21 @@ export default function Content_section_detalles({servicios=[], duracion="", pre
                 })
             }
           
-            <h3>DURACIÓN APROX.</h3>
+            <h4>DURACIÓN APROX.</h4>
             {
                 duracion.map( (duracion,index) => {
                     return <p key={`duracion${index}`}>{duracion}</p>
                 })
             }
             
-            <h3>PRECIO</h3>
+            <h4>PRECIO</h4>
             {
                 precio.map( (precio,index) => {
                     return <p key={`precio${index}`}>{precio}</p>
                 })
             }
           
-            <h3>TECNOLOGÍAS</h3>
+            <h4>TECNOLOGÍAS</h4>
          
             <div className="content-icons">
                 {
