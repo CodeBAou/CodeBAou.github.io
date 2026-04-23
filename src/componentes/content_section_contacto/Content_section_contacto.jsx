@@ -8,7 +8,7 @@ export default function Content_section_contacto(){
         <div id="contacto" className="section_contacto">
 
             <h2 >Contacto</h2>
-
+            <h3>Contacta por WhatssApp o Email si lo prefieres, recibirás una respuesta lo antes posible.</h3>
             <div>
                 <div className="content_datos_contacto">
 
@@ -16,13 +16,19 @@ export default function Content_section_contacto(){
                         <img src="/icon/movil.svg" alt="Icono de movil" loading="lazy"/>
                         <img src="/icon/whatssap.svg" alt="Icono de whatssap" loading="lazy"/>
                         <p className="numeroTelefono">+34 644 81 42 58</p> 
-                        <img className="qrcontacto" src="/image/qr_whatssap_contacto.webp" alt="QR para contacto de whatssap de dwba" loading="lazy"/>
+                        <a href="https://wa.me/34814258?text=Hola" Style="text-decoration: none;" target="_blank">
+                            <img className="qrcontacto" src="/image/qr_whatssap_contacto.webp" alt="QR para contacto de whatssap de dwba" loading="lazy"/>
+                             <p>Pulsa el QR para abrir WhatsApp</p>
+                        </a>
                     </div>
 
                     <div>
                         <img src="/icon/email.svg" alt="icono de correo electronico" loading="lazy"/>
                         <p>dwba.soporte@gmail.com</p>
-                        <img className="qrcontacto" src="/image/qr_email_contacto.webp" alt="QR para contacto de email de dwba" loading="lazy"/>
+                        <a href="mailto:dwba.soporte@gmail.com?subject=Consulta" Style="text-decoration: none;" target="_blank">
+                            <img className="qrcontacto" src="/image/qr_email_contacto.webp" alt="QR para contacto de email de dwba" loading="lazy"/>
+                            <p>Pulsa el QR para abrir Email</p>
+                        </a>
                     </div>
 
                     <div>
