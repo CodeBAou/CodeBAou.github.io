@@ -47,10 +47,14 @@
     --font-sizes-title-h2-large:2rem;
     --font-sizes-title-h2-medium:2rem;
     --font-sizes-title-h2-small:1.5rem;
-
+    
     --font-sizes-title-h3-large:1.8rem;
     --font-sizes-title-h3-medium:1.6rem;
     --font-sizes-title-h3-small:1.3rem;
+    
+    --font-sizes-title-h4-large:1.6rem;
+    --font-sizes-title-h4-medium:1.3rem;
+    --font-sizes-title-h4-small:0.9rem;
 
     --font-sizes-title-detalles-large:1.3rem;
     --font-sizes-title-detalles-medium:1rem;
@@ -59,7 +63,7 @@
     /** FONT SIZE PARRAFOS */
     --font-sizes-p-large:1.2rem;
     --font-sizes-p-medium:1rem;
-    --font-sizes-p-small:0.8rem;
+    --font-sizes-p-small:16px;
 
     --font-sizes-p-detalles-large:1rem;
     --font-sizes-p-detalles-medium:1rem;
