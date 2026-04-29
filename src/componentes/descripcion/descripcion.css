@@ -3,7 +3,6 @@
     height:100%;
     display:flex;
     flex-direction:row;
-    margin-bottom:50vh;
 }
 
 .sectionTextImage > div{
@@ -43,7 +42,6 @@
     opacity:0.8;
     max-width:50%;
     position:relative;
-    margin-bottom:50vh;
 }
 
 
@@ -83,6 +81,7 @@
         height:100vh;
         min-height:100vh;
         max-height:100vh;
+        margin-bottom:50vh;
     }
 
     .sectionTextImage > div > h2{
