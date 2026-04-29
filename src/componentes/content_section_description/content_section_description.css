@@ -1,5 +1,6 @@
 .description{
     position:relative;
+    min-height:50vh;
     max-height:100%;
     display:flex;
     flex-direction:column;
@@ -9,9 +10,9 @@
     width:100%;
 }
 
-.description > h2{
+.description > h3{
      font-family:var(--font-family-titles);
-     font-size:var(--font-sizes-title-h2-large);
+     font-size:var(--font-sizes-title-h3-large);
      color:var(--primary-color);
      width:100%;
      text-align:center;
@@ -61,7 +62,7 @@
     background-color:var(--primary-color);
     color:black;
     padding:25px;
-    max-width:auto;
+    max-width:200px;
 }
 
 @media(max-width:1200px){
@@ -71,10 +72,10 @@
         width:100%;
     }
 
-    .description > h2{
+    .description > h3{
         margin-top:2vh;
         margin-bottom:0;
-        font-size:var(--font-sizes-title-h2-medium);
+        font-size:var(--font-sizes-title-h3-medium);
     }
 
     .description > .content-text > p{
@@ -102,8 +103,8 @@
         min-height:0;
     }
 
-    .description > h2{
-        font-size:var(--font-sizes-title-h2-small);
+    .description > h3{
+        font-size:var(--font-sizes-title-h3-small);
         margin:0;
         padding:0;
         margin-bottom:5vh;
@@ -118,6 +119,7 @@
         max-height: none;
         display: flex;
         overflow:hidden;
+
      }
 
      .description > div.content-text > p{
