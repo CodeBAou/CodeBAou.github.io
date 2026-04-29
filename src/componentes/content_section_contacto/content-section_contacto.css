@@ -20,9 +20,10 @@
     mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
 }
 
-.section_contacto > h3{
+.section_contacto > p{
     color:white;
-    font-size:var(--font-sizes-title-h3-large);
+    font-size:var(--font-sizes-p-large);
+    text-align:center;
 }
 
 .section_contacto > div{
@@ -69,10 +70,10 @@
     align-items: center;
 }
 
-.section_contacto > div > div.content_datos_contacto > div > h3{
-    font-size:var(--font-sizes-title-h3-large);
+.section_contacto > div > div.content_datos_contacto > div > p{
+    font-size:var(--font-sizes-p-large);
     color:var(--tertiary-color);
-    font-family:var(--font-family-titles);
+    font-family:var(--font-family-parrafo);
     mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
 }
 
@@ -109,11 +110,20 @@
     text-align:left;
 }
 
-.section_contacto .content_datos_localizacion h3{
+.section_contacto .content_datos_localizacion > div{
+    padding-top:2em;
+}
+
+.section_contacto .content_datos_localizacion > div:nth-child(1){
+    width:20%;
+    margin-right:10vw;
+}
+
+.section_contacto .content_datos_localizacion h4{
     color:var(--primary-color);
     text-align:left;
-    margin-top:2em;
     font-size:var(--font-sizes-title-h3-large);
+    margin:0;
 }
 
 .section_contacto .content_datos_localizacion p{
@@ -135,7 +145,8 @@
 
 .numeroTelefono{
     min-width:160px;
-    padding-left:10px;    
+    padding-left:10px;   
+    font-size:5em;
 }  
 
 @media(max-width:1200px){
@@ -144,9 +155,8 @@
         font-size:var(--font-sizes-title-h2-medium);
     }
 
-    .section_contacto > h3{
-        color:white;
-        font-size:var(--font-sizes-title-h3-medium);
+    .section_contacto > p{
+        font-size:var(--font-sizes-p-medium);
     }
 
     .section_contacto > div{
@@ -187,13 +197,10 @@
     .section_contacto > h2{
         text-align:center !important;
         font-size:var(--font-sizes-title-h2-small);
-        padding-bottom:1em;
-        margin-bottom:2vh;
     }
 
-    .section_contacto > h3{
-        color:white;
-        font-size:var(--font-sizes-title-h3-small);
+    .section_contacto > p{
+        font-size:var(--font-sizes-p-small);
     }
 
     .section_contacto .content_datos_localizacion h3{

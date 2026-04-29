@@ -12,7 +12,7 @@ export default function Content_section_description({
     }){
     return(
         <div id={ancla} className="description">
-            <h2 >{titulo}</h2>
+            <h3>{titulo}</h3>
             <div className="content-text">
                 {
                     descripcion.map((texto,index) =>{
