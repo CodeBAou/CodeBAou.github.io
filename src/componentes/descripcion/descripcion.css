@@ -33,4 +33,65 @@
 
 .sectionTextImage  > img{
     opacity:0.8;
+    max-width:50%;
+    position:relative;
+}
+
+
+@media(max-width:1200px){
+
+     .sectionTextImage{
+        flex-direction:column;
+        height:100vh;
+        min-height:100vh;
+        max-height:100vh;
+    }
+
+    .sectionTextImage > div > h2{
+        font-size:var(--font-sizes-title-h2-medium);
+    }
+
+    .sectionTextImage > div > p{ 
+        font-size:var(--font-sizes-p-medium);
+    }
+
+     .sectionTextImage  > img{
+        width:100%;
+        max-width:100%;
+    }
+
+    .sectionTextImage > div{
+        max-width:100%;
+        width: 100%;
+
+    }
+}
+
+@media(max-width:769px){
+
+    .sectionTextImage{
+        flex-direction:column;
+        height:100vh;
+        min-height:100vh;
+        max-height:100vh;
+    }
+
+    .sectionTextImage > div > h2{
+        font-size:var(--font-sizes-title-h2-small);
+    }
+
+    .sectionTextImage > div > p{ 
+        font-size:var(--font-sizes-p-small);
+    }
+
+    .sectionTextImage  > img{
+        width:100%;
+        max-width:100%;
+    }
+
+    .sectionTextImage > div{
+        max-width:100%;
+        width: 100%;
+
+    }
 }
