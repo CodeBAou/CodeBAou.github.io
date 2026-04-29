@@ -3,7 +3,7 @@
     height:100%;
     display:flex;
     flex-direction:row;
-
+    margin-bottom:50vh;
 }
 
 .sectionTextImage > div{
@@ -15,6 +15,7 @@
     padding-left:1vw;
     padding-right:1vw;
     align-items: center;
+    margin-bottom:10vh;
 }
 
 
@@ -35,7 +36,6 @@
 
 .sectionTextImage > div > img{
     opacity:0.8;
-   
     position:relative;
 }
 
@@ -43,6 +43,7 @@
     opacity:0.8;
     max-width:50%;
     position:relative;
+    margin-bottom:50vh;
 }
 
 

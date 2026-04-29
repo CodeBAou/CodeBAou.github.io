@@ -56,16 +56,7 @@ export default function Page(){
                                                     ancla={servicio_data.ancla}
                                                     Image_Content_Description = {servicio_data.Image_Content_Description}
                                                 />
-
-                                                <Content_section_detalles
-                                                    servicios={servicio_data.servicio}
-                                                    duracion={servicio_data.duracion}
-                                                    precio={servicio_data.precio}
-                                                    tecnologias={servicio_data.tecnologias_icons}
-                                                    ancla={servicio_data.ancla}
-                                                />
-
-                                        </Layout_section_inicio>
+                                            </Layout_section_inicio>
                                 })
                             }
 
