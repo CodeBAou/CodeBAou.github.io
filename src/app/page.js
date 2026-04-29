@@ -29,7 +29,8 @@ export default function Page(){
                                 <p>Este bloque de texto es totalmente correcto. No presenta faltas de ortografía, errores de acentuación ni de puntuación.</p>
                                 <p>Nuestras webs no se generan con IA, algo que nos permitió esquivar la caída en el posicionamiento de los resultado de busqueda de Google después de la actualización de marzo de 2026, donde Google empezó a penalizar este tipo de páginas web. Ofrecemos servicios de IA en otras cuestiones donde sí son útiles, pero nunca sustituyen el estudio, documentación y valor humano.</p>
                                 <p>No contamos con una infraestructura donde poder atender a todos los clientes ni podemos viajar por España para cada reunión; por eso, realizamos atención online, reuniones y atención cercana y personalizada.</p>
-                                <img src="" alt=""/>
+                                <img  src="/image/reseña_dwba_5_eestrellas.webp" alt="Reseña que dice: rápido, eficiente y muy muy cercano! así da gusto trabajar. Gracias por solucionarnos el problema y además dejarnos por escrito la solución para el que pueda venir detrás.
+"/>
                             </Descripcion>
                         </Layout_section_inicio>
                     
