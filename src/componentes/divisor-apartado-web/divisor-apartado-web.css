@@ -22,7 +22,6 @@
     width:100%;
 }
 
-
 .content-main > div.text-content{
     background-color: black !important;
     position:relative;
@@ -48,6 +47,12 @@
     flex-direction:row;
     justify-content: space-around;
     align-items:center;
+}
+
+.content-main > div.content-hijos > p{
+    color:white;
+    font-size:var(  --font-sizes-p-large);
+    font-family:var(--font-family-parrafo);
 }
 
 @media(max-width:1200px){
