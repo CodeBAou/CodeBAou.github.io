@@ -1,0 +1,101 @@
+.textChildren{
+    width:100%;
+    height:auto;
+    min-height:600px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.textChildren > div{
+    width:40vw;
+}
+
+
+.textChildren > div:nth-child(1){
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height:50vh;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.textChildren > div:nth-child(1) > h3{
+    font-size:4.8rem;
+    font-family:var(--font-family-titles);
+    color:var(--primary-color);
+    text-align:center;
+    mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+}
+
+.textChildren > div:nth-child(1) > p{
+    font-size:var(--font-sizes-p-large);
+    font-family:var(--font-family-parrafo);
+}
+
+.textChildren p{
+    padding-left:5vw;
+    padding-right:5vw;
+    font-size:var(--font-sizes-p-large);
+    font-family:var(--font-family-parrafo);
+}
+
+@media(max-width:1200px){
+    .textChildren{
+       width:100vw;
+       flex-direction:column;
+    }
+
+    .textChildren p{
+        font-size:var(--font-sizes-p-medium);
+    }
+
+    .textChildren > div:nth-child(1){
+        width:80vw;
+        margin-bottom:5vh;
+    }
+
+    .textChildren > div:nth-child(1) > h3{
+       font-size:4.8rem;
+    }
+
+    .textChildren > div:nth-child(1) > p{
+        font-size:var(--font-sizes-p-medium);
+    }
+}
+
+@media(max-width:769px){
+    .textChildren{
+        padding-top:5vh;
+        flex-direction:column;
+    }
+
+    .textChildren p{
+        font-size:var(--font-sizes-p-small);
+    }
+
+    .textChildren > div:nth-child(1){
+        width:100vw;
+        padding-left:1vw;
+        padding-right:1vw;
+    }
+
+    .textChildren > div:nth-child(1) > h3{
+        font-size:4.2rem;
+    }
+
+    .textChildren > div:nth-child(1) > p{
+        font-size:var(--font-sizes-p-small);
+    }
+
+    .textChildren > div:nth-child(2){
+        width:100vw;
+        height:50vh;
+        margin-top:5vh;
+    }
+}
