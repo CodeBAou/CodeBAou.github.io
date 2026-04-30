@@ -8,16 +8,22 @@
 }
 
 .diseñoweb-page h1.titlepage{
-    color:var(--primary-color);
-    font-family:var(--font-family-titles) ;
-    font-size:var(--font-sizes-title-h1-large);
-    mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
     margin-top:-50vh;
-    opacity:0.7;
+    font-family:var(--font-family-titles);
+    font-size:var(--font-sizes-title-h1-large);
+    color:var(--primary-color);
+    width:100%;
+    text-align:center;
+    mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
 }
 
 .diseñoweb-page h2.titlepage{
-    margin-bottom:20vh;
+    font-family:var(--font-family-titles);
+    font-size:var(--font-sizes-title-h2-large);
+    color:var(--primary-color);
+    width:80vw;
+    text-align:center;
+    mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
 }
 
 .diseñoweb-content > .portada-diseño-web{
@@ -57,19 +63,6 @@
     text-align: center;
 }
 
-.diseñoweb-page > section > h1{
-    margin-top:var(--font-sizes-title-h1-large);
-    font-size:2.5rem;
-    color:var(--primary-color);
-    text-align:center;
-}
-
-.diseñoweb-page > section > h2{
-    text-align:center;
-    width:100%;
-    font-size:var(--font-sizes-title-h2-large);
-}
-
 .diseñoweb-page > section > h3{
     text-align:center;
     font-size:var( --font-sizes-title-h3-large);
@@ -101,7 +94,7 @@
 }
 
 .diseñoweb-page > section.diseñoweb-content{
-    display:flex;
+   display:flex;
    flex-direction:column;
 }
 
@@ -351,24 +344,37 @@
 }
 
 .diseñoweb-page > section.portafolio{
-    padding-bottom:10vh;
-    gap:50px;
+   width:100vw;
+   height:100vh;
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
 }
 
-.diseñoweb-page > section.portafolio > h2{
-    margin-bottom:2em;
-}
-
-.diseñoweb-page > section.portafolio > div{
-    margin-top:0;
-    position:relative;
-    width:100%;
+.diseñoweb-page > section.portafolio > div.webs{
     display:flex;
-    flex-direction:row;
     flex-wrap: wrap;
-    gap:50px;
-    row-gap: 5vh;
-    justify-content: center;
+    justify-content:center;
+    align-items:center;
+    width:100vw;
+    gap:10vw;
+}
+
+.diseñoweb-page > section.portafolio > div.enlaces{
+    width:60vw;
+    height:20vh;
+    display:flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    gap:5vw;
+}
+
+.diseñoweb-page > section.portafolio > div.enlaces > p{
+    font-size:var(--font-sizes-p-large);
+    color:var(--second-color);
+    font-family: var(--font-family-parrafo);
 }
 
 .section.proceso {
@@ -596,6 +602,15 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
     padding-left:10%;
 }
 
+/* PARA QUE LA SECCIÓN OCUPE EL ALTO DE LA PANTALLA */
+.maxheight{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content:center;
+}
+
 @media(max-width:1200px){
 
     .diseñoweb-page h1.titlepage{
@@ -705,6 +720,10 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
     }
 
     section.tipos-tecnologias-content > div.wordpress-react-content > div > div {width:100%;}
+
+    .diseñoweb-page > section.portafolio > div.enlaces > p{
+        font-size:var(--font-sizes-p-medium);
+    }
 }
 
 @media(max-width:765px){
@@ -908,7 +927,6 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
     .diseñoweb-page > section.beneficios p{
         color:white;
         width:100%;
-       
     }
 
     .diseñoweb-page > section.beneficios h3{
@@ -932,6 +950,19 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
         margin-left:10vw;
         margin-right:10vw;
         width:80vw;
+    }
+
+    .diseñoweb-page > section.portafolio{
+        flex-direction: row;
+        height:auto;
+    }
+
+    .diseñoweb-page > section.portafolio > div.enlaces{
+        width:90vw;
+    }
+
+    .diseñoweb-page > section.portafolio > div.enlaces > p{
+        font-size:var(--font-sizes-p-small);
     }
 
     .diseñoweb-page > section.portafolio > h2{
