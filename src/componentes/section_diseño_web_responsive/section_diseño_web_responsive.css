@@ -44,13 +44,15 @@ div.responsive > div.mobile{
     box-shadow: 10px 2px 30px 20px rgba(241, 241, 241, 0.05);
 }
 
+div.responsive > div > h3{
+   font-size:4.8rem;
+   color:var(--primary-color);  
+   mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+}
+
 div.responsive > div > h3, div.responsive > div > h4{
     font-family:'lombok';
     color:var(--primary-color);   
-}
-
-div.responsive > div > h3{
-   font-size:4.8rem;
 }
 
 div.responsive > div h4{

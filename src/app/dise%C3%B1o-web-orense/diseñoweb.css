@@ -21,7 +21,7 @@
     font-family:var(--font-family-titles);
     font-size:var(--font-sizes-title-h2-large);
     color:var(--primary-color);
-    width:100%;
+    width:80vw;
     text-align:center;
     mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
 }
@@ -38,7 +38,6 @@
     align-items:center;
     width:100%;
     max-width:100%;
-    height:100vh;
     justify-items: center;
     background-color: rgba(0,0,0,0.7);
     padding:4em;
@@ -603,6 +602,15 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
     padding-left:10%;
 }
 
+/* PARA QUE LA SECCIÓN OCUPE EL ALTO DE LA PANTALLA */
+.maxheight{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content:center;
+}
+
 @media(max-width:1200px){
 
     .diseñoweb-page h1.titlepage{
@@ -712,6 +720,10 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
     }
 
     section.tipos-tecnologias-content > div.wordpress-react-content > div > div {width:100%;}
+
+    .diseñoweb-page > section.portafolio > div.enlaces > p{
+        font-size:var(--font-sizes-p-medium);
+    }
 }
 
 @media(max-width:765px){
@@ -915,7 +927,6 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
     .diseñoweb-page > section.beneficios p{
         color:white;
         width:100%;
-       
     }
 
     .diseñoweb-page > section.beneficios h3{
@@ -939,6 +950,19 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
         margin-left:10vw;
         margin-right:10vw;
         width:80vw;
+    }
+
+    .diseñoweb-page > section.portafolio{
+        flex-direction: row;
+        height:auto;
+    }
+
+    .diseñoweb-page > section.portafolio > div.enlaces{
+        width:90vw;
+    }
+
+    .diseñoweb-page > section.portafolio > div.enlaces > p{
+        font-size:var(--font-sizes-p-small);
     }
 
     .diseñoweb-page > section.portafolio > h2{
