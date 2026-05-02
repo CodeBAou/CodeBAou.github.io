@@ -57,25 +57,21 @@ export default function Page(){
             </section>
 
             <section className="maxheight">
-                <TextChild title="CSS Avanzado profesional" parrafo="Ofrecemos estilos y animaciones avanzados y no dependemos de temas o frameworks 
-                podemos construir lo que quieras y como lo quieras sin limitaciones y ofreciendo nuestra opinión para ayudarte a decidirte.">
+                <TextChild title="CSS Avanzado profesional" parrafo="Ofrecemos estilos y animaciones avanzados y no dependemos de temas o frameworks. Podemos construir lo que quieras y como lo quieras, sin limitaciones y ofreciendo nuestra opinión para ayudarte a decidirte.">
                     <Cubot items={["DISEÑO","WORDPRESS","A MEDIDA", "SOLUCIONES"]}/>
                 </TextChild>
             </section>
 
             <section className="maxheight">
                 <TextChild title="UX/UI Y CALIDAD DE CONTENIDO" parrafo="EXPERIENCIA DE USUARIO Y DISEÑO DE INTERFAZ INTUITIVA">
-                     <p>Trabajamos la calidad del contenido para que tu página transmita de forma óptima lo que quieras. Ofrecemos embudos de venta con
-                        con técnicas para aumentar la probabilidad de que un usuario compre en tu sitio. Optimizamos el contenido para aumentar las impresiones y clicks.
+                     <p>Trabajamos la calidad del contenido para que tu página transmita de forma óptima lo que quieras. Ofrecemos embudos de venta con técnicas para aumentar la probabilidad de que un usuario compre en tu sitio. Optimizamos el contenido para aumentar las impresiones y clics.
                      </p>
                 </TextChild>
             </section>
 
             <section className="maxheight">
                 <TextChild title="DISEÑO PENSANDO EN SEO" parrafo="Un diseño preparado para Google y los usuarios.">
-                     <p>Diseño pensando en SEO, para optimizar tu posición en los resultados de búsqueda y con la seguridad de que Google no te penalize 
-                        por incumplir algunos de sus estándares SEO.
-                     </p>
+                    <p>Diseño pensado en SEO para optimizar tu posición en los resultados de búsqueda y con la seguridad de que Google no te penalice por incumplir algunos de sus estándares SEO.</p>
                 </TextChild>
             </section>
 
@@ -88,30 +84,23 @@ export default function Page(){
             </section>
 
             <section className="maxheight">
-                <TextChild title="ALOJAMIENTO WEB" parrafo="Nos ocupamos del proceso completo.">
-                     <p> Podemos ocuparnos de todo el proceso para que obtenegas tu web, incluido el servidor para desplegar tu web en producción 
-                        y que esté disponible en internet.
-                     </p>
-                </TextChild>
-            </section>
-
-            <section className="maxheight">
                 <TextChild title="¿QUIERES UN DISEÑO WEB EN WORDPRESS?" parrafo="Un diseño web para wordpress.">
-                     <p> Si necesitas una web autogestionable con CMS WordPress podemos diseñar temas o webs completas, bloques Gutemberg para incluir apartados 
-                        separados, bloques Gutemberg para integrar apis de Google, o bloques basado en animaciones CSS.
-                     </p>
-                     <p> Cubrimos todo en wordpress, incluido plugins para solucionar algo o añadir una foncionalidad a medida.</p>
+                     <p>Si necesitas una web autogestionable con CMS WordPress, podemos diseñar temas o webs completas, bloques Gutenberg para incluir apartados separados, bloques Gutenberg para integrar APIs de Google o bloques basados en animaciones CSS.</p>
+                     <p>Cubrimos todo en WordPress, incluidos plugins para solucionar algo o añadir una funcionalidad a medida.</p>
                 </TextChild>
             </section>
 
              <section className="maxheight">
                 <TextChild title="¿QUIERES UN DISEÑO WEB A MEDIDA O WEBAPP?" parrafo="Un diseño basado en React.">
-                     <p> Podemos ocuparnos de todo el proceso para que obtenegas tu web, incluido el servidor para desplegar tu web en producción 
-                        y que esté disponible en internet.
-                     </p>
+                     <p>Podemos ocuparnos de todo el proceso para que obtengas tu web, incluido el servidor para desplegar tu web en producción y que esté disponible en internet.</p>          
                 </TextChild>
             </section>
 
+            <section className="maxheight">
+                <TextChild title="ALOJAMIENTO WEB" parrafo="Nos ocupamos del proceso completo.">
+                     <p>Podemos ocuparnos de todo el proceso para que obtengas tu web, incluido el servidor para desplegar tu web y que esté disponible en internet. </p>
+                </TextChild>
+            </section>
 
             <section className="contacto-content">
 
