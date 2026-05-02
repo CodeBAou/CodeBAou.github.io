@@ -92,7 +92,7 @@ export default function Page(){
 
              <section className="maxheight">
                 <TextChild title="¿QUIERES UN DISEÑO WEB A MEDIDA O WEBAPP?" parrafo="Un diseño basado en React.">
-                     <p>Podemos ocuparnos de todo el proceso para que obtengas tu web, incluido el servidor para desplegar tu web en producción y que esté disponible en internet.</p>          
+                     <p>Una web a medida basada en React o webApp, aplicación basada en web.</p>          
                 </TextChild>
             </section>
 

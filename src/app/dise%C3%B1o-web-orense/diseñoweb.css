@@ -603,12 +603,14 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
 }
 
 /* PARA QUE LA SECCIÓN OCUPE EL ALTO DE LA PANTALLA */
-.maxheight{
-    height:100vh;
+section.maxheight{
+   
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-content:center;
+    padding:none;
+  
 }
 
 @media(max-width:1200px){
@@ -724,6 +726,11 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
     .diseñoweb-page > section.portafolio > div.enlaces > p{
         font-size:var(--font-sizes-p-medium);
     }
+
+    .diseñoweb-page .contacto-content  h2{
+        font-size:var(--font-sizes-title-h2-medium);
+        font-size:var(--font-sizes-title-h2-small);
+    }
 }
 
 @media(max-width:765px){
@@ -737,6 +744,18 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
     .diseñoweb-page h1{
         font-size: 3rem;
         padding-left:2vw;
+    }
+
+    .diseñoweb-page h2.titlepage{
+        font-size:var(--font-sizes-title-h2-small);
+        padding-top:-30vh;
+
+    }
+
+    .diseñoweb-page > section {
+        padding:0;
+        padding-top:5vh;
+        padding-bottom:5vh;
     }
 
     .diseñoweb-content > .portada-diseño-web{
@@ -772,7 +791,6 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
 
     .diseñoweb-page > section > div{
         margin-top:0;
-       
     }
 
     .diseñoweb-page > section > img{
@@ -904,11 +922,12 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
 
     .diseñoweb-page .contacto-content  h2{
         text-align:center;
-        font-size:2em;
+        font-size:var(--font-sizes-title-h2-small);
     }
 
     .diseñoweb-page .contacto-content p{
         text-align:left;
+        font-size:var(--font-sizes-p-small)
     }
 
     .diseñoweb-page > section.contacto-content{
@@ -959,6 +978,8 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
 
     .diseñoweb-page > section.portafolio > div.enlaces{
         width:90vw;
+        padding-top:5vh;
+        padding-bottom:10vh;
     }
 
     .diseñoweb-page > section.portafolio > div.enlaces > p{

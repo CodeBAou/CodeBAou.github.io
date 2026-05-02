@@ -112,14 +112,13 @@ div.responsive > div h4{
         justify-content:flex-start;
     }
 
-    
-
-    div.responsive > div > h3{
-        font-size:4.2rem;
+    div.responsive > div > h4{
+        font-size:var(--font-sizes-title-h4-small);
     }
 
     div.responsive > div.escritorio > h3{
-        font-size:2.8em;
+         font-size:var(--font-sizes-title-h3-small);
+        
     }
 
     div.responsive > div.escritorio > p{
