@@ -9,6 +9,7 @@ import Section_diseño_web_apisGoogle from '@/componentes/section_diseño_web_ap
 import SectionTipos from '@/componentes/section_tipo_webs/SectionTipos';
 import TextChild from '@/componentes/section_text_child/TextChild';
 import Cubot from '@/componentes/cubot/Cubot';
+import HaderPageUnica from '@/componentes/header-page-unica/HeaderPageUnica';
 
 export default function Page(){
 
@@ -16,28 +17,14 @@ export default function Page(){
 
         <div className="diseñoweb-page">
         
-            <section className="diseñoweb-content">
-
-                <ImageDwba data={{
-                    mobile : {
-                        media:765,
-                        src:"/image/diseño-web/Imagen_apartado_diseño_765.webp"
-                    },
-                    tablet : {
-                        media:1200,
-                        src:"/image/diseño-web/Imagen_apartado_diseño_1200.webp",
-                    },
-                    src:"/image/diseño-web/Imagen_apartado_diseño.webp",
-                    className:"portada-diseño-web",
-                    alt:"La interfaz para el diseño de páginas web, captura durante el diseño web de una página para una bodega.",
-                    load:"eager"
-                }}/>
-
-                <h1 className="titlepage">Servicio de diseño web desde Ourense </h1>
-               
-                <h2 className="titlepage">Nuestros diseños webs están pensados para que te encuentren en Google, ofrecer la funcionalidad que quieras y convertir usuarios en clientes</h2>
-                
-            </section>   
+            <HaderPageUnica 
+                imageSrc="/image/diseño-web/Imagen_apartado_diseño.webp" 
+                imageSrcTablet="/image/diseño-web/Imagen_apartado_diseño_1200.webp" 
+                imageSrcMobile="/image/diseño-web/Imagen_apartado_diseño_765.webp" 
+                alt="La interfaz para el diseño de páginas web, captura durante el diseño web de una página para una bodega."
+                title="Servicio de diseño web desde Ourense"
+                subtitle="Nuestros diseños webs están pensados para que te encuentren en Google, ofrecer la funcionalidad que quieras y convertir usuarios en clientes"
+                />
 
             <section className="portafolio">
                     <h3>Algunos diseños webs</h3>

@@ -638,7 +638,6 @@ section.maxheight{
         margin-left:0;
     }
 
-
     .diseñoweb-page > section > figure > img{
         margin-top:50px;
     }
@@ -749,7 +748,6 @@ section.maxheight{
     .diseñoweb-page h2.titlepage{
         font-size:var(--font-sizes-title-h2-small);
         padding-top:-30vh;
-
     }
 
     .diseñoweb-page > section {
