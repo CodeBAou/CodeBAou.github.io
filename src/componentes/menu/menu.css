@@ -16,11 +16,10 @@ nav#menuprincipal{
     box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.73);
     -webkit-box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.73);
     -moz-box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.73);
+    z-index: 1000;
+    
 }
 
-.icon_menu_mobile{
-    display:none;
-}
 
 nav#menuprincipal > ul {
     display:flex;
@@ -34,6 +33,7 @@ nav#menuprincipal > ul {
 }
 
 nav#menuprincipal > ul > li{
+    display:flex;
     margin:0;
     padding:0;
     margin-right:1vw;
@@ -53,6 +53,76 @@ nav#menuprincipal > ul > li > a:hover{
     color:var(--tertiary-color);
 }
 
+@keyframes animation_open_submenu{
+    0%{
+        opacity:0.0;
+        height:0vh;
+    }
+
+    100%{
+        opacity:1;
+        height:14vh;
+    }
+}
+
+/** Submenu */
+nav#menuprincipal > ul > li > ul.submenu{
+    position: absolute;
+    margin-top: 7vh;
+    padding:20px;
+    padding-top:2em;
+    width: 35vw;
+    height: 14vh;
+    background-color: black;
+    margin-right: 5vw;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    opacity:0.9;
+    list-style: none;
+    border:1px solid var(--tertiary-color);
+    filter: drop-shadow(
+        0 0 10px rgba(0,0,0,0.9)
+    );
+    animation-name:animation_open_submenu;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+nav#menuprincipal > ul > li > ul.submenu_close{
+    display:none;
+}
+
+nav#menuprincipal > ul > li > ul.submenu > li{
+    height:auto;
+}
+
+nav#menuprincipal > ul > li > ul.submenu > li > a{
+    position:relative;
+    text-decoration: none;
+    color:var(--primary-color);
+    width:25%;
+    height:auto;
+    padding:20px;
+    font-family:'lombok'; 
+}
+
+nav#menuprincipal > ul > li > ul.submenu > li > a:hover{
+    background-color: rgba(82, 82, 22, 0.281);
+    color:var(--primary-color);
+}
+
+.button_submenu{
+    color:var(--primary-color);
+    font-size:2em;
+}
+.menu-close{
+    display:none;
+}
+
+
 @media(max-width:1200px){
    nav#menuprincipal{
         position:relative;
@@ -68,6 +138,24 @@ nav#menuprincipal > ul > li > a:hover{
    nav#menuprincipal > ul > li > a{
     font-size:1.7rem;
    }
+
+    /** Submenu */
+    nav#menuprincipal > ul > li > ul.submenu{
+        width:80vw;
+        left:0;
+    }
+
+    nav#menuprincipal > ul > li > ul.submenu > li{
+        
+    }
+
+    nav#menuprincipal > ul > li > ul.submenu > li > a{
+    
+    }
+
+    nav#menuprincipal > ul > li > ul.submenu > li > a:hover{
+    
+    }
 }
 
 @media(max-width:780px){
@@ -83,6 +171,7 @@ nav#menuprincipal > ul > li > a:hover{
         padding:0;
         background-color: var(--primary-color);
         min-height:100vh;
+        overflow: hidden;
     }
 
     nav#menuprincipal > ul{
@@ -105,9 +194,10 @@ nav#menuprincipal > ul > li > a:hover{
         text-align:center;
         padding-top:2vh;
         padding-bottom:2vh;
+        justify-content: center;
     }
 
-   nav#menuprincipal > ul > li > a{
+    nav#menuprincipal > ul > li > a{
         color:black;
         font-weight: bold;
     }
@@ -170,4 +260,63 @@ nav#menuprincipal > ul > li > a:hover{
         animation-duration:200ms;
     }
 
+    /** Submenu */
+    @keyframes animation_open_submenuContent_mobile{
+        0%{
+            height:4vh;
+        }
+
+        100%{
+            height:40vh;
+        }
+    }
+
+    nav#menuprincipal > ul > li.submenucontent{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        height:auto;
+        min-height:4vh;
+        animation-name:animation_open_submenu_mobile;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+    }
+
+    nav#menuprincipal > ul > li > ul.submenu{
+        position:relative;
+        background-color: var(--primary-color);
+        left:0;
+        width:100%;
+        margin-top:0;
+        padding:0;
+        filter:none;
+        overflow: hidden;
+    }
+
+    nav#menuprincipal > ul > li > ul.submenu > li{
+        display:flex;
+        justify-content:center;
+        width:100%;
+    }
+
+    nav#menuprincipal > ul > li > ul.submenu > li > a{
+        font-size:0.3em;
+        color:black;
+        text-align:center;
+        width:100%;
+        border-bottom:1px solid rgba(47, 47, 47, 0.464);
+        font-family:var(--font-family-parrafo);
+    }
+
+    nav#menuprincipal > ul > li > ul.submenu > li > a:hover{
+        background-color: none;
+        color:black;
+    }
+
+    .button_submenu{
+        color:var(--primary-color);
+        font-size:25px;
+        height:40px;
+        color:black;
+    }
 }

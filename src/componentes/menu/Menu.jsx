@@ -6,8 +6,10 @@ import './menu.css'
 
 export default function Menu(){
 
-    const [menustate,setMenuState]       = useState(false);
-    const [menuclassstate,setClassState] = useState("menu_close_start");
+    const [menustate,setMenuState]                     = useState(false);
+    const [menuclassstate,setClassState]               = useState("menu_close_start");
+    const [submenustate,setSubmenuState]               = useState(false);
+    const [menuclassstateSubmenu,setClassStateSubmenu] = useState("submenu_close");
 
     const changeStateMenu = ()=>{
         if(menustate){
@@ -20,13 +22,30 @@ export default function Menu(){
         }
     }
 
+    const changeStateSubmenu =() =>{
+        if(submenustate){
+            setClassStateSubmenu("submenu_close");
+            setSubmenuState(false);
+        }else{
+            setClassStateSubmenu("submenu");
+            setSubmenuState(true);
+        }
+    }
+
     return(
 
         <>
             <nav id="menuprincipal" className={menuclassstate}> 
                 <ul>
                     <li><Link href="/">DWBA</Link></li>
-                    <li><Link href="/diseño-web-orense">Diseño Web</Link></li>
+                    <li className="submenucontent">
+                        <Link onClick={changeStateSubmenu} href="#">Servicios</Link>
+                        <span id="btnsubmenuid" className="button_submenu">&#8964;</span>
+                        <ul className={menuclassstateSubmenu}>
+                            <li> <Link href="/diseño-web-orense">Diseño Web</Link></li>
+                            <li> <Link href="/#">Diseño web WordPress</Link></li>
+                        </ul>
+                    </li>
                    { /* <li><Link href="/portafolio">Portafolio</Link></li> */} 
                     <li><Link href="/portafolio">Portafolio</Link></li>
                     { /* <li><Link href="/revista">REVISTA</Link></li> */ }
