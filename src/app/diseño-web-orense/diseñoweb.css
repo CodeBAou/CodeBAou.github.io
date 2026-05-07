@@ -4,6 +4,7 @@
     display:flex;
     flex-direction:column;
     align-items: center;
+    justify-content:center;
     max-width:1920px;
 }
 
@@ -604,13 +605,11 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
 
 /* PARA QUE LA SECCIÓN OCUPE EL ALTO DE LA PANTALLA */
 section.maxheight{
-   
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-content:center;
     padding:none;
-  
 }
 
 @media(max-width:1200px){
@@ -637,7 +636,6 @@ section.maxheight{
     .gratis-content > li{
         margin-left:0;
     }
-
 
     .diseñoweb-page > section > figure > img{
         margin-top:50px;
@@ -749,7 +747,6 @@ section.maxheight{
     .diseñoweb-page h2.titlepage{
         font-size:var(--font-sizes-title-h2-small);
         padding-top:-30vh;
-
     }
 
     .diseñoweb-page > section {

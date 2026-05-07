@@ -28,8 +28,7 @@ export default function Page(){
                                 <p>Nos especializamos en WordPress, Google Cloud y otras tecnologías web para desarrollo dentro de páginas web, escritorio y móvil.</p>
                                 <p>Nuestras webs no se generan con IA, algo que nos permitió esquivar la caída en el posicionamiento de los resultados de búsqueda de Google después de la actualización de marzo de 2026, donde Google empezó a penalizar este tipo de páginas web. Ofrecemos servicios de IA en otras cuestiones donde sí son útiles, pero nunca sustituyen el estudio, documentación y valor humano.</p>
                                 <p>No contamos con una infraestructura donde poder atender a todos los clientes ni podemos viajar por España para cada reunión; por eso, ofrecemos atención online, reuniones y un trato cercano y personalizado.</p>
-                                <img  src="/image/reseña_dwba_5_eestrellas.webp" alt="Reseña que dice: rápido, eficiente y muy muy cercano! así da gusto trabajar. Gracias por solucionarnos el problema y además dejarnos por escrito la solución para el que pueda venir detrás.
-"/>
+                                <img  src="/image/reseña_dwba_5_eestrellas.webp" alt="Reseña que dice: rápido, eficiente y muy muy cercano! así da gusto trabajar. Gracias por solucionarnos el problema y además dejarnos por escrito la solución para el que pueda venir detrás."/>
                             </Descripcion>
                         </Layout_section_inicio>
                     
