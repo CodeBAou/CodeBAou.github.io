@@ -1,7 +1,7 @@
 export const metadata = {
-  title: 'Diseño web a medida y diseño para wordpress WordPress | DWBA',
-  description: 'Detalles sobre el servicio de diseño web a medida y diseño web en wordpress. Ourense.',
-  keywords: 'diseño web Ourense, diseño de pagina web, venta de páginas web.',
+  title: 'Servicio de diseño web | DWBA',
+  description: 'Descubre lo que podemos ofrecerte para tu diseño web. Servicio desde Ourense.',
+  keywords: 'diseño web Ourense, diseño de pagina web, venta de páginas web., diseñador web',
   robots: 'index, follow',
 };
 

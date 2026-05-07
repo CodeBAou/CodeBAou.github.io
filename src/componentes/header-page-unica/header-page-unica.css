@@ -3,12 +3,21 @@ section.header-page-unica-content{
    display:flex;
    flex-direction:column;
    background-color: black;
+   justify-content: center;
+   align-items:center;
+   width: 100%;
+   padding-top:5vh;
 }
 
 section.header-page-unica-content > .image-header-page-unica{
     opacity:0.6;
     max-width:100%;
+    width:100%;
     mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+}
+
+section.header-page-unica-content > .image-header-page-unica > img{
+    width:100%;
 }
 
 section.header-page-unica-content > h1.title-header-page-unica{
@@ -30,6 +39,12 @@ section.header-page-unica-content > h2.subtitle-header-page-unica{
     mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
 }
 
+
+.image-section{
+    height:100%;
+    margin-left:5vw;
+}
+
 @media(max-width:1200px){
     section.header-page-unica-content > h1.title-header-page-unica{
         font-size:3em;
@@ -48,6 +63,8 @@ section.header-page-unica-content > h2.subtitle-header-page-unica{
         max-width:100vw;
         column-gap: 10vh;
         min-height:100vh;
+        justify-content: flex-start;
+        padding-top:8vh;
     }
 
     section.header-page-unica-content > h1.title-header-page-unica{

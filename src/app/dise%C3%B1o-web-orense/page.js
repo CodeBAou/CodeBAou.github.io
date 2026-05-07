@@ -1,15 +1,15 @@
 "use client";
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import Link from 'next/link'
 import './diseñoweb.css';
 import MuestraVerticalDwba from '@/componentes/muestra-vertical-dwba/MuestraVerticalDwba.jsx';
-import ImageDwba from '@/componentes/Image-dwba/Image.jsx';
 import Section_diseño_web_responsive from '@/componentes/section_diseño_web_responsive/Section_diseño_web_responsive';
 import Section_diseño_web_apisGoogle from '@/componentes/section_diseño_web_apisGoogle/Section_diseño_web_apisGoogle';
 import SectionTipos from '@/componentes/section_tipo_webs/SectionTipos';
 import TextChild from '@/componentes/section_text_child/TextChild';
 import Cubot from '@/componentes/cubot/Cubot';
 import HaderPageUnica from '@/componentes/header-page-unica/HeaderPageUnica';
+import OtrosServicios from '@/componentes/section_otros_servicios/OtrosServicios';
 
 export default function Page(){
 
@@ -24,20 +24,7 @@ export default function Page(){
                 alt="La interfaz para el diseño de páginas web, captura durante el diseño web de una página para una bodega."
                 title="Servicio de diseño web desde Ourense"
                 subtitle="Nuestros diseños webs están pensados para que te encuentren en Google, ofrecer la funcionalidad que quieras y convertir usuarios en clientes"
-                />
-
-            <section className="portafolio">
-                    <h3>Algunos diseños webs</h3>
-                    <div className="webs">
-                        <MuestraVerticalDwba title="Tienda" link="https://charcuteriauria.es/" src="/image/portafolio/miniatura_web_uriahnos.webp" Width="200px"/>
-                        <MuestraVerticalDwba title="Sitio" link="https://habitarqestudio.com/" src="/image/portafolio/miniatura_web_habitarq.webp" Width="200px"/>
-                    </div>
-
-                    <div className="enlaces">
-                        <p> En nuestro portafolio mostramos notas de desarrollador y comentamos proyectos, funcionalidades y soluciones que te pueden interesar para incluir en tu página web. </p>
-                        <Link href="/portafolio" target="_blank"> Ver Portafolio </Link>
-                    </div>
-            </section>
+            />
 
             <section className="maxheight">
                 <SectionTipos/>
@@ -70,6 +57,19 @@ export default function Page(){
                 <Section_diseño_web_apisGoogle/>
             </section>
 
+            <section className="portafolio">
+                <h3>Algunos diseños webs</h3>
+                <div className="webs">
+                    <MuestraVerticalDwba title="Tienda" link="https://charcuteriauria.es/" src="/image/portafolio/miniatura_web_uriahnos.webp" Width="200px"/>
+                    <MuestraVerticalDwba title="Sitio" link="https://habitarqestudio.com/" src="/image/portafolio/miniatura_web_habitarq.webp" Width="200px"/>
+                </div>
+
+                <div className="enlaces">
+                    <p> En nuestro portafolio mostramos notas de desarrollador y comentamos proyectos, funcionalidades y soluciones que te pueden interesar para incluir en tu página web. </p>
+                    <Link href="/portafolio" target="_blank"> Ver Portafolio </Link>
+                </div>
+            </section>
+
             <section className="maxheight">
                 <TextChild title="¿QUIERES UN DISEÑO WEB EN WORDPRESS?" parrafo="Un diseño web para wordpress.">
                      <p>Si necesitas una web autogestionable con CMS WordPress, podemos diseñar temas o webs completas, bloques Gutenberg para incluir apartados separados, bloques Gutenberg para integrar APIs de Google o bloques basados en animaciones CSS.</p>
@@ -89,21 +89,8 @@ export default function Page(){
                 </TextChild>
             </section>
 
-            <section className="contacto-content">
-
-               <article>
-                    <h2>Contacto</h2>
-                    <p>Si tienes alguna duda, contacta sin compromiso y pregúntanos.</p>
-                    <p>Desde Ourense, colaboramos en proyectos de cualquier lugar de forma telemática.</p>
-                    <Link href="/#contacto">CONTACTO</Link>
-               </article>
-
-               <article>
-                    <h2>Otros servicios para tu página web</h2>
-                    <p>Quizá no necesitas un diseño web, pero contamos con otros servicios para mejorarla y mantenerla.</p>
-                    <Link href="/#servicio-de-diseño-web">VER SERVICIOS</Link>
-               </article>
-
+            <section className="contacto-content">       
+                    <OtrosServicios />
             </section>
         </div>
 
