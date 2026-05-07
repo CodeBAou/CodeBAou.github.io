@@ -9,6 +9,7 @@ import SectionTipos from '@/componentes/section_tipo_webs/SectionTipos';
 import TextChild from '@/componentes/section_text_child/TextChild';
 import Cubot from '@/componentes/cubot/Cubot';
 import HaderPageUnica from '@/componentes/header-page-unica/HeaderPageUnica';
+import OtrosServicios from '@/componentes/section_otros_servicios/OtrosServicios';
 
 export default function Page(){
 
@@ -88,20 +89,8 @@ export default function Page(){
                 </TextChild>
             </section>
 
-            <section className="contacto-content">
-               <article>
-                    <h2>Contacto</h2>
-                    <p>Si tienes alguna duda, contacta sin compromiso y pregúntanos.</p>
-                    <p>Desde Ourense, colaboramos en proyectos de cualquier lugar de forma telemática.</p>
-                    <Link href="/#contacto">CONTACTO</Link>
-               </article>
-
-               <article>
-                    <h2>Otros servicios para tu página web</h2>
-                    <p>Quizá no necesitas un diseño web, pero contamos con otros servicios para mejorarla y mantenerla.</p>
-                    <Link href="/#servicio-de-diseño-web">VER SERVICIOS</Link>
-               </article>
-
+            <section className="contacto-content">       
+                    <OtrosServicios />
             </section>
         </div>
 
