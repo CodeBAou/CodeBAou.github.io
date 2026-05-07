@@ -4,6 +4,7 @@
     display:flex;
     flex-direction:column;
     align-items: center;
+    justify-content:center;
     max-width:1920px;
 }
 
@@ -604,13 +605,11 @@ section.tipos-tecnologias-content > div.esquema-tecnologias > div.icons-tecnolog
 
 /* PARA QUE LA SECCIÓN OCUPE EL ALTO DE LA PANTALLA */
 section.maxheight{
-   
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-content:center;
     padding:none;
-  
 }
 
 @media(max-width:1200px){
