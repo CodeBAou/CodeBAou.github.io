@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Servicio de diseño web WordPress | DWBA',
-  description: 'Diseño web para WordPress, diseño de bloques y plugins. Servicio desde Ourense.',
+  title: 'Te ayudamos con el diseño de tu página web en WordPress.',
+  description: 'Diseñamos web wordpress completas, bloques y plugins. Visita esta página para descubrir como podemos ayudarte.',
   keywords: 'diseño web wordpress Ourense, diseño de pagina web wordpress, venta de páginas web wordpress, diseñador WordPress',
   robots: 'index, follow',
 };

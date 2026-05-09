@@ -1,4 +1,3 @@
-
 import Layout_page_inicio from '@/componentes/layout_page_inicio/Layout_page_inicio.jsx';
 import Menu_ancla from '@/componentes/menu_ancla/Menu_ancla.jsx';
 import Layout_section_inicio from '@/componentes/layout_section_inicio/Layout_section_inicio.jsx';
@@ -10,6 +9,7 @@ import Content_section_contacto from '@/componentes/content_section_contacto/Con
 import DivisorApartadoWeb from '@/componentes/divisor-apartado-web/DivisorApartadoWeb.jsx';
 import Content_section_footer from '@/componentes/content_section_footer/Content_section_footer';
 import Descripcion from '@/componentes/descripcion/Descripcion';
+import Link from '@/componentes/Link/Link.jsx';
 
 export default function Page(){
 
@@ -23,11 +23,11 @@ export default function Page(){
                         <Section_header/>
 
                         <Layout_section_inicio >
-                            <Descripcion title="DWBA"  imagen="/image/servicios/mobile/servicios-soluciones-crecimiento-introducción-mobile.webp" alt="">
+                            <Descripcion title="DWBA"  imagen="/image/servicios/mobile/servicios-soluciones-crecimiento-introducción-mobile.webp" alt="DWBA : Desarrollo y Marketing Digital">
                                 <p>Ofrecemos los servicios de una agencia web, brindando soluciones de desarrollo y estrategias digitales para crecer en internet.</p>
                                 <p>Nos especializamos en WordPress, Google Cloud y otras tecnologías web para desarrollo dentro de páginas web, escritorio y móvil.</p>
                                 <p>Nuestras webs no se generan con IA, algo que nos permitió esquivar la caída en el posicionamiento de los resultados de búsqueda de Google después de la actualización de marzo de 2026, donde Google empezó a penalizar este tipo de páginas web. Ofrecemos servicios de IA en otras cuestiones donde sí son útiles, pero nunca sustituyen el estudio, documentación y valor humano.</p>
-                                <p>No contamos con una infraestructura donde poder atender a todos los clientes ni podemos viajar por España para cada reunión; por eso, ofrecemos atención online, reuniones y un trato cercano y personalizado.</p>
+                                <p>No contamos con una infraestructura donde poder atender a todos los clientes ni podemos viajar por España para cada reunión; por eso, ofrecemos atención online, pero con un trato cercano y personalizado.</p>
                                 <img  src="/image/reseña_dwba_5_eestrellas.webp" alt="Reseña que dice: rápido, eficiente y muy muy cercano! así da gusto trabajar. Gracias por solucionarnos el problema y además dejarnos por escrito la solución para el que pueda venir detrás."/>
                             </Descripcion>
                         </Layout_section_inicio>
@@ -46,17 +46,25 @@ export default function Page(){
 
                                     return <Layout_section_inicio key={`section-${index}`}>
 
-                                                <Content_section_description
-                                                    titulo={servicio_data.name}
-                                                    descripcion={servicio_data.descripcion}
-                                                    nombreEnlace={servicio_data.name}
-                                                    enlace={servicio_data.enlace}
-                                                    ancla={servicio_data.ancla}
-                                                    Image_Content_Description = {servicio_data.Image_Content_Description}
-                                                />
-                                            </Layout_section_inicio>
+                                        <Content_section_description
+                                            titulo={servicio_data.name}
+                                            descripcion={servicio_data.descripcion}
+                                            nombreEnlace={servicio_data.name}
+                                            enlace={servicio_data.enlace}
+                                            ancla={servicio_data.ancla}
+                                            Image_Content_Description = {servicio_data.Image_Content_Description}
+                                        />
+                                    </Layout_section_inicio>
                                 })
                             }
+                        <Layout_section_inicio >
+                            <Descripcion title="Portafolio : Notas de desarrollador"  imagen="/image/servicios/mobile/Pagina-portafolio-capturas-de-algunos-proyectos.webp" alt="Se muestran dos proyectos que exiten en nuestra página de portafolio, 'El binomio de oro de américa' y 'CharcuteríaUría'">
+                                <p>En el portafolio resumimos las soluciones que aplicamos en cada proyecto.</p>
+                                <p>Puedes descubrir alguna solución que puedas necesitar.</p>
+                                <p>Nos ayuda a ser transparentes con nuestro trabajo.</p>
+                                <Link texto="Ver portafolio" enlace="/portafolio"/>
+                            </Descripcion>
+                        </Layout_section_inicio>
 
                         <Layout_section_inicio>
                             <Content_section_contacto/>
