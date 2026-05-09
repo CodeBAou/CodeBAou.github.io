@@ -13,7 +13,7 @@
     flex-direction:column;
     padding-left:1vw;
     padding-right:1vw;
-    align-items: center;
+    align-items: left;
     margin-bottom:10vh;
 }
 
@@ -34,6 +34,10 @@
 }
 
 .sectionTextImage > div > img{
+    margin-top:5vh;
+}
+
+.sectionTextImage > div > img{
     opacity:0.8;
     position:relative;
 }
@@ -49,9 +53,9 @@
 
      .sectionTextImage{
         flex-direction:column;
-        height:100vh;
-        min-height:100vh;
-        max-height:100vh;
+        height:auto;
+        min-height:none;
+        max-height:none;
     }
 
     .sectionTextImage > div > h2{
@@ -78,10 +82,14 @@
 
     .sectionTextImage{
         flex-direction:column;
-        height:100vh;
-        min-height:100vh;
-        max-height:100vh;
-        margin-bottom:50vh;
+        height:auto;
+        min-height:none;
+        max-height:none;
+        padding-bottom:10vh;
+    }
+
+    .sectionTextImage > div {
+        height:auto;
     }
 
     .sectionTextImage > div > h2{
@@ -91,6 +99,10 @@
     .sectionTextImage > div > p{ 
         font-size:var(--font-sizes-p-small);
     }
+
+     .sectionTextImage > div > img{
+        margin-top:5vh;
+     }
 
     .sectionTextImage  > img{
         width:100%;

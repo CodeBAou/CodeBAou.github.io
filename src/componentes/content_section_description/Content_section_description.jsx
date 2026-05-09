@@ -1,7 +1,7 @@
 import React from 'react'
 import Image3DHoverEffect from '@/componentes/Image3DHoverEffect/Image3DHoverEffect'
 import './content_section_description.css';
-
+import Link from '@/componentes/Link/Link.jsx';
 export default function Content_section_description({
     titulo, 
     descripcion,
@@ -30,7 +30,7 @@ export default function Content_section_description({
                 }
                
             </div>  
-            {(enlace!='#')?  <a  className="enlace-entrar" href={enlace}> Más Info</a>   :null}
+            {(enlace!='#')?  <Link maxWidth="300px" texto="Ver servicio" enlace={enlace}/>:null}
            
         </div>
     )

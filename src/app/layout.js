@@ -5,8 +5,8 @@ import Content_section_footer from '@/componentes/content_section_footer/Content
 import './main.css';
 
 export const metadata = {
-  title: 'DWBA | Estudio de diseño web y marketing digital en Ourense',
-  description: 'Si buscas una agencia de diseño web y necesitas servicios que te ayuden a crecer en internet. Desde Ourense.',
+  title: 'DWBA | Desarrollo web y Marketing Digital',
+  description: 'Te ayudamos con el diseño web, desarrollo web y Marketing Digital. Atendemos de forma Online desde Ourense.',
   keywords: 'agencia de diseño web,agencia páginas web, diseño web Ourense, desarrollo web a medida, SEO, SEM, mantenimiento web, soporte técnico, marketing digital España, DWBA, desarrollo web ourense, marketing digital ourense, diseño web wordpress ourense, diseño app ourense, diseñador web ourense',
   robots: 'index, follow',
   icons: {
