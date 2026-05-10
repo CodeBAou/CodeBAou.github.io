@@ -294,18 +294,6 @@
     width:auto;
 }
 
-.diseñoweb-page  a {
-    padding:20px;
-    text-decoration:none;
-    color:var(--primary-color);
-    min-width:80px;
-    text-align: center;
-    border:1px solid var(--primary-color);
-    margin-top:1em;
-    width:80%;
-    max-width:100px;
-}
-
 .diseñoweb-page  a:hover{
     color:rgb(237, 226, 98);
     border-color: rgb(50, 45, 1);
@@ -701,7 +689,6 @@ section.maxheight{
         flex-direction:column;
         margin-left:0;
         max-width:90%;
-
     }
 
     section.tipos-tecnologias-content > h3{
@@ -947,11 +934,6 @@ section.maxheight{
 
     .diseñoweb-page > section.beneficios h3{
         margin-top:4rem;
-    }
-   
-    .diseñoweb-page  a {
-        max-width: none;
-        width:80%;
     }
 
     section.proceso > div > figure{

@@ -260,26 +260,30 @@ nav#menuprincipal > ul > li > ul.submenu > li > a:hover{
         animation-duration:200ms;
     }
 
-    /** Submenu */
-    @keyframes animation_open_submenuContent_mobile{
-        0%{
-            height:4vh;
-        }
-
-        100%{
-            height:40vh;
-        }
-    }
-
     nav#menuprincipal > ul > li.submenucontent{
         display:flex;
         flex-direction:column;
         justify-content: center;
+        height:4vh;
         height:auto;
-        min-height:4vh;
-        animation-name:animation_open_submenu_mobile;
         animation-duration: 2s;
         animation-fill-mode: forwards;
+    }
+
+    nav#menuprincipal > ul > li > a:hover{
+        color:black;
+    }   
+
+    @keyframes animation_open_submenu_mobile{
+        0%{
+            opacity:0.0;
+            height:0vh;
+        }
+
+        100%{
+            opacity:1;
+            height:30vh;
+        }
     }
 
     nav#menuprincipal > ul > li > ul.submenu{
@@ -291,6 +295,7 @@ nav#menuprincipal > ul > li > ul.submenu > li > a:hover{
         padding:0;
         filter:none;
         overflow: hidden;
+        animation-name:animation_open_submenu_mobile;
     }
 
     nav#menuprincipal > ul > li > ul.submenu > li{
@@ -306,6 +311,11 @@ nav#menuprincipal > ul > li > ul.submenu > li > a:hover{
         width:100%;
         border-bottom:1px solid rgba(47, 47, 47, 0.464);
         font-family:var(--font-family-parrafo);
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900;
     }
 
     nav#menuprincipal > ul > li > ul.submenu > li > a:hover{

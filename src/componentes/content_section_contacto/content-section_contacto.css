@@ -216,6 +216,7 @@
         padding:0.5em;
         padding-top:2em;
         padding-bottom:0.5em;
+        width:100%;
     }
 
     .section_contacto > div{
@@ -235,6 +236,11 @@
         flex-direction: column;
         margin:0;
         margin-bottom:1em;
+    }
+
+    .section_contacto .content_datos_localizacion > div:nth-child(1){
+        width:30%;
+        margin-right:5vw;
     }
 
     .section_contacto > div > div.content_datos_contacto > div > a{

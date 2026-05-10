@@ -1,5 +1,6 @@
 import React from 'react';
 import './muestra-vertical-dwba.css';
+import Link from '@/componentes/Link/Link';
 
 export default function MuestraVerticalDwba({title,link, src, alt, Width, Height}){
     return(
@@ -7,7 +8,7 @@ export default function MuestraVerticalDwba({title,link, src, alt, Width, Height
                 <h3>{title}</h3>
                 <br/>
                 <img src={(src)?src:""} alt={(alt)? alt : ""} width={(Width)? Width : "" }/>
-                <a href={link} className="linkweb" target="_blank" >visitar</a>  
+                <Link maxwidth="400px" texto="Visitar web" enlace={link} target="_blank"/>
             </article>    
     )
 }

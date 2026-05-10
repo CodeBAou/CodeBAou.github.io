@@ -39,8 +39,8 @@ export default function Menu(){
                 <ul>
                     <li><Link href="/">DWBA</Link></li>
                     <li className="submenucontent">
-                        <Link onClick={changeStateSubmenu} href="#">Servicios</Link>
-                        <span id="btnsubmenuid" className="button_submenu">&#8964;</span>
+                        <Link onClick={changeStateSubmenu} href="#">Servicios &#8964;</Link>
+                     
                         <ul className={menuclassstateSubmenu}>
                             <li> <Link href="/diseño-web-orense">Diseño Web</Link></li>
                             <li> <Link href="/diseño-web-wordpress-ourense">Diseño web WordPress</Link></li>
