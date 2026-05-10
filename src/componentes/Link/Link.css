@@ -16,7 +16,16 @@
     }
 }
 
-.link{
+.link-content{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:25px;
+    width:100%;
+    height:auto; 
+}
+
+.link-content > a.link{
     color:var(--tertiary-color);
     padding:12px;
     font-size:var(--font-sizes-p-large);
@@ -29,6 +38,8 @@
     animation-duration: 4s;
     animation-iteration-count:infinite;
     margin-top:25px;
+    width:auto;
+   
 }
 
 @keyframes agitado{

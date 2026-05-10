@@ -1,8 +1,10 @@
 import React from 'react';
 import "./Link.css";
 
-export default function Link({texto,enlace}){
+export default function Link({texto,enlace, maxwidth="auto", target="_self"}){
     return(
-        <a  className="link" href={enlace}> {texto} </a>
+       <div className="link-content">
+            <a  style={{maxWidth: maxwidth}} className="link"  target={target} href={enlace}> {texto} </a>
+       </div>
     )
 }

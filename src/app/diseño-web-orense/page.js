@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import Link from 'next/link'
+
 import './diseñoweb.css';
 import MuestraVerticalDwba from '@/componentes/muestra-vertical-dwba/MuestraVerticalDwba.jsx';
 import Section_diseño_web_responsive from '@/componentes/section_diseño_web_responsive/Section_diseño_web_responsive';
@@ -10,7 +10,7 @@ import TextChild from '@/componentes/section_text_child/TextChild';
 import Cubot from '@/componentes/cubot/Cubot';
 import HaderPageUnica from '@/componentes/header-page-unica/HeaderPageUnica';
 import OtrosServicios from '@/componentes/section_otros_servicios/OtrosServicios';
-
+import Link from '@/componentes/Link/Link';
 export default function Page(){
 
     return(
@@ -58,15 +58,17 @@ export default function Page(){
             </section>
 
             <section className="portafolio">
+
                 <h3>Algunos diseños webs</h3>
+
                 <div className="webs">
-                    <MuestraVerticalDwba title="Tienda" link="https://charcuteriauria.es/" src="/image/portafolio/miniatura_web_uriahnos.webp" Width="200px"/>
-                    <MuestraVerticalDwba title="Sitio" link="https://habitarqestudio.com/" src="/image/portafolio/miniatura_web_habitarq.webp" Width="200px"/>
+                    <MuestraVerticalDwba title="Tienda Online WordPress" link="https://charcuteriauria.es/" src="/image/portafolio/miniatura_web_uriahnos.webp" Width="200px"/>
+                    <MuestraVerticalDwba title="Web Corporatica" link="https://habitarqestudio.com/" src="/image/portafolio/miniatura_web_habitarq.webp" Width="200px"/>
                 </div>
 
                 <div className="enlaces">
                     <p> En nuestro portafolio mostramos notas de desarrollador y comentamos proyectos, funcionalidades y soluciones que te pueden interesar para incluir en tu página web. </p>
-                    <Link href="/portafolio" target="_blank"> Ver Portafolio </Link>
+                    <Link maxwidth="400px" texto="Ver portafolio" enlace="/portafolio"/>
                 </div>
             </section>
 
@@ -74,18 +76,19 @@ export default function Page(){
                 <TextChild title="¿QUIERES UN DISEÑO WEB EN WORDPRESS?" parrafo="Un diseño web para wordpress.">
                      <p>Si necesitas una web autogestionable con CMS WordPress, podemos diseñar temas o webs completas, bloques Gutenberg para incluir apartados separados, bloques Gutenberg para integrar APIs de Google o bloques basados en animaciones CSS.</p>
                      <p>Cubrimos todo en WordPress, incluidos plugins para solucionar algo o añadir una funcionalidad a medida.</p>
+                     <Link maxwidth="400px" texto="Ver diseño web WordPress" enlace="/diseño-web-wordpress-ourense"/>
                 </TextChild>
             </section>
 
              <section className="maxheight">
                 <TextChild title="¿QUIERES UN DISEÑO WEB A MEDIDA O WEBAPP?" parrafo="Un diseño basado en React.">
-                     <p>Una web a medida basada en React o webApp, aplicación basada en web.</p>          
+                     <p>Diseño web o webapp a medida con React.</p>          
                 </TextChild>
             </section>
 
             <section className="maxheight">
                 <TextChild title="ALOJAMIENTO WEB" parrafo="Nos ocupamos del proceso completo.">
-                     <p>Podemos ocuparnos de todo el proceso para que obtengas tu web, incluido el servidor para desplegar tu web y que esté disponible en internet. </p>
+                    <p>Podemos ocuparnos de todo el proceso para que obtengas tu web, incluido el servidor para desplegar tu web y que esté disponible en internet. </p>
                 </TextChild>
             </section>
 

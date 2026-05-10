@@ -40,7 +40,16 @@ export default function RootLayout({ children }) {
             })
           }}
         />
+
+        { /**Controlar fragmento de google (resultados de búsqueda) 
+         * 
+         * <meta name="robots" content="nosnippet"></meta> :: No aparece metatitulo ni metadescripción en el titulo
+         * <meta name="robots" content="max-snippet:[8]">
+         * Si queremos que algunos elementos no aparezca en el framento usamos un atributo  Ej: <span data-nosnippet></span>
+        */}
+           
       </head>
+      
       <body>
         <GoogleAnalyticsHeadScript/>
         <Header>

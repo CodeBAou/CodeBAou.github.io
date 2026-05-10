@@ -87,7 +87,7 @@ export default async function Post({ params }) {
                     <a href="/"> Más servicios</a>
                 </div>
                 <div className="callAction">     
-                    <a href="/portafolio"> Portafolio</a>
+                    <a href="/portafolio"> Volver al Portafolio</a>
                 </div>
                 <div className="callAction">   
                     <a href="/#contacto"> Contactar</a>
