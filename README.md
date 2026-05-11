@@ -21,7 +21,7 @@ http://localhost:3000
 
 
 ## Proyecto
-/inicio $\color{green}{\text{IMPLEMENTADO}}$, /diseño-web $\color{green}{\text{IMPLEMENTADO}}$, /Desarrollo $\color{red}{\text{NO IMPLEMENTADO}}$, /Seo $\color{red}{\text{NO IMPLEMENTADO}}$, /Presencia-basica $\color{red}{\text{NO IMPLEMENTADO}}$, /apps $\color{red}{\text{NO IMPLEMENTADO}}$, /mantenimiento-web $\color{red}{\text{NO IMPLEMENTADO}}$
+/inicio $\color{green}{\text{IMPLEMENTADO}}$, /diseño-web $\color{green}{\text{IMPLEMENTADO}}$, /diseño-web-wordpress-ourense $\color{green}{\text{IMPLEMENTADO}}$,  /Desarrollo $\color{red}{\text{NO IMPLEMENTADO}}$, /Seo $\color{red}{\text{NO IMPLEMENTADO}}$, /Presencia-basica $\color{red}{\text{NO IMPLEMENTADO}}$, /apps $\color{red}{\text{NO IMPLEMENTADO}}$, /mantenimiento-web $\color{red}{\text{NO IMPLEMENTADO}}$
 
 /desarrollo  > /Desarrollo web wordpress $\color{red}{\text{NO IMPLEMENTADO}}$
 /desarrollo > /Desarrollo a media $\color{red}{\text{NO IMPLEMENTADO}}$
