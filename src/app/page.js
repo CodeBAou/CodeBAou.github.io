@@ -25,9 +25,9 @@ export default function Page(){
                         <Layout_section_inicio >
                             <Descripcion title="DWBA"  imagen="/image/servicios/mobile/servicios-soluciones-crecimiento-introducción-mobile.webp" alt="DWBA : Desarrollo y Marketing Digital">
                                 <p>Ofrecemos los servicios de una agencia web, brindando soluciones de desarrollo y estrategias digitales para crecer en internet.</p>
-                                <p>Nos especializamos en WordPress, Google Cloud y otras tecnologías web para desarrollo dentro de páginas web, escritorio y móvil.</p>
-                                <p>Nuestras webs no se generan con IA, algo que nos permitió esquivar la caída en el posicionamiento de los resultados de búsqueda de Google después de la actualización de marzo de 2026, donde Google empezó a penalizar este tipo de páginas web. Ofrecemos servicios de IA en otras cuestiones donde sí son útiles, pero nunca sustituyen el estudio, documentación y valor humano.</p>
-                                <p>No contamos con una infraestructura donde poder atender a todos los clientes ni podemos viajar por España para cada reunión; por eso, ofrecemos atención online, pero con un trato cercano y personalizado.</p>
+                                <p>Nos especializamos en WordPress Avanzado, Google Cloud y React para desarrollo dentro de páginas web, escritorio y móvil.</p>
+                                <p>Contamos con la ventaja de diseñar componentes a nivel de código sin dependencia de plugins de terceros.</p>
+                                <p>Ofrecemos atención inmediata, cercana y personalizada, trabajamos en remoto desde Ourense para proyectos de toda España.</p>
                                 <img  src="/image/reseña_dwba_5_eestrellas.webp" alt="Reseña que dice: rápido, eficiente y muy muy cercano! así da gusto trabajar. Gracias por solucionarnos el problema y además dejarnos por escrito la solución para el que pueda venir detrás."/>
                             </Descripcion>
                         </Layout_section_inicio>

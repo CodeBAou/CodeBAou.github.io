@@ -28,7 +28,7 @@
 .description > .content-text > p{
     color:white;
     font-size:var(--font-sizes-p-large);
-    font-family:'optimist';
+    font-family:var(--font-family-parrafo);
     text-align:left;
 }
 
