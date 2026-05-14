@@ -129,7 +129,7 @@
 .section_contacto .content_datos_localizacion p{
     color:white;
     font-size:var(--font-sizes-p-large);
-    font-family:'optimist';
+    font-family:var(--font-family-parrafo);
 }
 
 .section_contacto > div > div.content_datos_contacto > div > .qrcontacto{
