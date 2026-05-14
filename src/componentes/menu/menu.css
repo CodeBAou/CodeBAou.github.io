@@ -122,6 +122,9 @@ nav#menuprincipal > ul > li > ul.submenu > li > a:hover{
     display:none;
 }
 
+.icon_menu_mobile{
+    display:none;
+}
 
 @media(max-width:1200px){
    nav#menuprincipal{
@@ -328,5 +331,9 @@ nav#menuprincipal > ul > li > ul.submenu > li > a:hover{
         font-size:25px;
         height:40px;
         color:black;
+    }
+
+    .icon_menu_mobile{
+        display:block;
     }
 }

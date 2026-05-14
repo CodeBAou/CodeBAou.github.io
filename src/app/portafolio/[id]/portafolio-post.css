@@ -38,9 +38,11 @@
     width:1200px;
     align-items:center;
     text-align:center;
+    
 }
 
 .servicios-content > div{
+    max-width:100%;
     margin-top:20px;
     width:100%;
     height:80px;
@@ -58,6 +60,12 @@
     text-decoration:none;
     position:relative;
     color:black;
+    max-width:100%;
+}
+
+/** que las imágenes no sobresalgan*/
+a, img{
+    max-width:100%;
 }
 
 @media(max-width:765px){
