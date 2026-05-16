@@ -91,6 +91,7 @@
         width:100vw;
         padding-left:1vw;
         padding-right:1vw;
+        margin-bottom:0;
     }
 
     .textChildren > div:nth-child(1) > h3{
@@ -101,9 +102,12 @@
         font-size:var(--font-sizes-p-small);
     }
 
+    .textChildren > div > picture.image-section{
+        padding-left:0;
+        margin-left:0;
+    }
+
     .textChildren > div:nth-child(2){
         width:100vw;
-      
-        margin-top:5vh;
     }
 }

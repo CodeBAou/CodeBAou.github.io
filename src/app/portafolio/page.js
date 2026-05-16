@@ -3,16 +3,19 @@ import { Suspense } from 'react';
 import parse from 'html-react-parser';
 import './portafolio.css'
 
+
+//Creamos la lista de proyectos
 async function GetPost() {
 
     // Estas variables se leen durante el 'npm run build'
-    const API_KEY = process.env.NEXT_PUBLIC_BLOGGER_API_KEY;
-    const BLOG_ID = process.env.NEXT_PUBLIC_BLOGGER_BLOG_ID;
-    const SERVER  = process.env.NEXT_PUBLIC_SERVER;
+    const API_KEY   = process.env.NEXT_PUBLIC_BLOGGER_API_KEY;
+    const BLOG_ID   = process.env.NEXT_PUBLIC_BLOGGER_BLOG_ID;
+    const SERVER    = process.env.NEXT_PUBLIC_SERVER;
+    const CATEGORIA = 'portafolio';
 
     // 1. Fetch directo (sin useEffect)
     const res = await fetch(  
-        `https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/?key=${API_KEY}`,
+        `https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/?labels=${CATEGORIA}&key=${API_KEY}`,
         {
             method: 'GET',
             cache: 'force-cache', 
@@ -24,6 +27,7 @@ async function GetPost() {
     );
     
     const data = await res.json();
+    console.log(data.items);
     
     // Si no hay items, evitamos errores
     const posts = data.items || [];

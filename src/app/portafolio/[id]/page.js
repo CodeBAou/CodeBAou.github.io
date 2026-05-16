@@ -9,6 +9,53 @@ const SERVER  = process.env.NEXT_PUBLIC_SERVER;
 
 export const dynamicParams = false;
 
+// FUNCIÓN PARA GENERAR METADATOS DINÁMICOS (SEO) Metatitles , Metadescription unicos
+export async function generateMetadata({ params }) {
+
+    const { id } = await params;
+
+    // Si estás en el build y no hay variables, evitamos romperlo
+    if (!API_KEY || !BLOG_ID || id === '404') {
+        return { title: "Post no disponible - Portafolio" };
+    }
+
+    try {
+        const res = await fetch(  
+            `https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/${id}?key=${API_KEY}`,
+            {
+                method: 'GET',
+                next: { revalidate: 3600 },
+                headers: { 'Referer': `${SERVER}` }
+            }
+        );
+        const data = await res.json();
+
+        if (!data || data.error) {
+            return { title: "Post no encontrado - Portafolio" };
+        }
+
+        // Extraemos texto limpio del contenido para la descripción (eliminando etiquetas HTML)
+        const cleanDescription = data.content 
+            ? data.content.replace(/<[^>]*>/g, '').substring(0, 160) + '...'
+            : "Descubre nuestro último proyecto en el portafolio.";
+
+        return {
+            title: `${data.title} | Mi Portafolio`,
+            description: cleanDescription,
+            openGraph: {
+                title: data.title,
+                description: cleanDescription,
+                url: `${SERVER}/portafolio/${id}`,
+                type: 'article',
+            },
+        };
+    } catch (error) {
+        console.error("❌ Error generando metadata:", error);
+        return { title: "Portafolio" };
+    }
+}
+
+//FUNCIÓN PARA GENERAR LOS PARÁMETROS ESTÁTICOS (BUILD Pages)
 export const generateStaticParams = async () => {
     try {
         // Añadimos un timeout o verificamos que las variables existan
@@ -45,10 +92,22 @@ export const generateStaticParams = async () => {
     }
 }
 
+//COMPONENTE PRINCIPAL DE LA PÁGINA
 export default async function Post({ params }) {
+
     // En Next.js 15+, params es una Promise
     const { id } = await params;
 
+    // 🛡️ CONTROL DE SEGURIDAD: Si es el ID de escape del build, no llamamos a la API
+    if (id === '404' || !API_KEY || !BLOG_ID) {
+        return (
+            <div className="portafolio-page-post">
+                <p>El contenido no está disponible en este momento.</p>
+                <a href="/portafolio">Volver al portafolio</a>
+            </div>
+        );
+    }
+    
     const res = await fetch(  
         `https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/${id}?key=${API_KEY}`,
         {
