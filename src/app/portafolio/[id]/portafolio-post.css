@@ -2,7 +2,7 @@
     color:rgb(133, 133, 59);
     margin-top:10vh;
     font-family:'lombok' ;
-    font-size:4rem;
+    font-size:var( --font-sizes-title-h1-large);
     mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
 }
 
@@ -68,6 +68,12 @@ a, img{
     max-width:100%;
 }
 
+@media(max-width:1200px){
+    .portafolio-page-post .post-content h1{
+        font-size:var( --font-sizes-title-h1-medium );
+    }
+}
+
 @media(max-width:765px){
     .portafolio-page-post{
         padding-left:0;
@@ -102,5 +108,9 @@ a, img{
 
     .servicios-content{
         grid-template-columns:1fr 1fr;
+    }
+
+    .portafolio-page-post .post-content h1{
+        font-size:var(--font-sizes-title-h1-small);
     }
 }
