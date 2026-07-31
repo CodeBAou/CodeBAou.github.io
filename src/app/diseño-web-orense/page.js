@@ -57,27 +57,18 @@ export default function Page(){
                 <Section_diseño_web_apisGoogle/>
             </section>
 
-            <section className="portafolio">
-
-                <h3>Algunos diseños webs</h3>
-
-                <div className="webs">
-                    <MuestraVerticalDwba title="Tienda Online WordPress" link="https://charcuteriauria.es/" src="/image/portafolio/miniatura_web_uriahnos.webp" Width="200px"/>
-                    <MuestraVerticalDwba title="Web Corporatica" link="https://habitarqestudio.com/" src="/image/portafolio/miniatura_web_habitarq.webp" Width="200px"/>
-                </div>
-
-                <div className="enlaces">
-                    <p> En nuestro portafolio mostramos notas de desarrollador y comentamos proyectos, funcionalidades y soluciones que te pueden interesar para incluir en tu página web. </p>
-                    <Link maxwidth="400px" texto="Ver portafolio" enlace="/portafolio"/>
-                </div>
-            </section>
-
             <section className="maxheight">
                 <TextChild title="¿QUIERES UN DISEÑO WEB EN WORDPRESS?" parrafo="Un diseño web para wordpress.">
                      <p>Si necesitas una web autogestionable con CMS WordPress, podemos diseñar temas o webs completas, bloques Gutenberg para incluir apartados separados, bloques Gutenberg para integrar APIs de Google o bloques basados en animaciones CSS.</p>
                      <p>Cubrimos todo en WordPress, incluidos plugins para solucionar algo o añadir una funcionalidad a medida.</p>
                      <Link maxwidth="400px" texto="Ver diseño web WordPress" enlace="/diseño-web-wordpress-ourense"/>
                 </TextChild>
+                  <div className="webs_muestras">
+                    <MuestraVerticalDwba  alt="Diseño web en wordpress para una tienda online" link="https://charcuteriauria.es/" src="/image/portafolio/miniatura_web_uriahnos.webp" Width="200px"/>
+                    <MuestraVerticalDwba  alt="Diseño web en wordpress para una web corporativa de arquitectos" link="https://habitarqestudio.com/" src="/image/portafolio/miniatura_web_habitarq.webp" Width="200px"/>
+                    <MuestraVerticalDwba  alt="Diseño web en wordpress para venta de entradas online" link="https://entradaselite.com/" src="/image/portafolio/miniatura_web_entradasElite.webp" Width="200px"/>
+                    <MuestraVerticalDwba  alt="Diseño web en wordpress para una agencia de modelos" link="#" src="/image/portafolio/miniatura_web_maite_de_leon.webp" Width="200px"/>
+                 </div>
             </section>
 
              <section className="maxheight">
@@ -87,8 +78,9 @@ export default function Page(){
             </section>
 
             <section className="maxheight">
-                <TextChild title="ALOJAMIENTO WEB" parrafo="Nos ocupamos del proceso completo.">
-                    <p>Podemos ocuparnos de todo el proceso para que obtengas tu web, incluido el servidor para desplegar tu web y que esté disponible en internet. </p>
+                <TextChild title="PORTAFOLIO">
+                    <p>En el portafolio encontraras notas de desarrollo y soluciones aplicadas en algunos proyectos.</p>
+                    <Link maxwidth="400px" texto="Ver portafolio" enlace="/portafolio"/>
                 </TextChild>
             </section>
 
