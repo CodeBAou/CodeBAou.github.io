@@ -3,38 +3,38 @@
     display:flex !important;
     flex-direction: column!important;
     flex-wrap: wrap;
-    flex-grow: 1/3;
     justify-content: center;
     align-items: center;
-}
-
-.portafolioLinkweb >  h3{
-    color:white;
+    width:auto;
 }
 
 .portafolioLinkweb img{
     border-radius:12px;
-     box-shadow:
+    box-shadow:
     0 0 10px rgb(35, 34, 34),
     0 0 20px rgba(24, 24, 24, 0.4),
     0 0 100px rgba(207, 194, 207,0.4);
-    margin-bottom:20px;
-    margin-top:20px;
     transition: transform 1.2s ease;
+    marign:0;
 }
 
 .portafolioLinkweb img:hover{
     transform: scale(0.90) ;
 }
 
-.portafolioLinkweb {
-    padding-top:20px;
-
+.portafolioLinkweb > a.link{
+    width:auto;
+    border:none;
 }
+
 
 @media(max-width:768px){
     .portafolioLinkweb{
-        width:100%;
+        width:50%;
+    }
+
+    .portafolioLinkweb > a{
+        width:auto;
     }
 
     .portafolioLinkweb >  h3{
