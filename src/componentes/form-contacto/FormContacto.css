@@ -47,6 +47,8 @@ form textarea{
 form input[type="submit"]{
     background-color: var(--primary-color);
     color:black;
+    height:auto;
+    padding:20px;
 };
 
 form input[type="submit"]:invalid{
