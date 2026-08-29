@@ -5,13 +5,15 @@ import Content_section_detalles from '@/componentes/content_section_detalles/Con
 import Content_section_description from '@/componentes/content_section_description/Content_section_description';
 import Data_servicos from '@/data/servicios.json';
 import Section_header from '@/componentes/section_header/Section_header.jsx';
-import Content_section_contacto from '@/componentes/content_section_contacto/Content_section_contacto';
+import Content_section_contacto2 from '@/componentes/content_contacto_2/content-section-contacto2.jsx';
 import DivisorApartadoWeb from '@/componentes/divisor-apartado-web/DivisorApartadoWeb.jsx';
 import Content_section_footer from '@/componentes/content_section_footer/Content_section_footer';
 import Descripcion from '@/componentes/descripcion/Descripcion';
 import Link from '@/componentes/Link/Link.jsx';
 
 export default function Page(){
+    
+    
 
     return(
          <Layout_page_inicio>
@@ -67,8 +69,9 @@ export default function Page(){
                         </Layout_section_inicio>
 
                         <Layout_section_inicio>
-                            <Content_section_contacto/>
-                        </Layout_section_inicio>     
+                            <Content_section_contacto2/>
+                        </Layout_section_inicio>  
+
                         <Content_section_footer/>             
                 </div>
          </Layout_page_inicio>  

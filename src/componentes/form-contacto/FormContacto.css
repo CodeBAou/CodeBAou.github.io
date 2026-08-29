@@ -1,0 +1,99 @@
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:90%;
+    height:auto;
+}
+
+form label{
+    width:100%;
+    color:white;
+    font-family:var(--font-family-parrafo);
+    font-size:var(--font-sizes-p-large);
+    margin-bottom:40px;
+}
+
+form input{
+    width:100%;
+    height:40px;
+    font-family:var(--font-family-parrafo);
+    font-size:var(--font-sizes-p-large);
+    background-color: rgb(0, 0, 0);
+    color:var(--primary-color);
+    border:none;
+    border-bottom:1px solid var(--primary-color);
+}
+
+/* Quita el borde de enfoque en inputs y textarea */
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border: none; /* Por si el navegador aplica border en lugar de outline */
+}
+
+form textarea{
+    width:100%;
+    height:300px;
+    font-family:var(--font-family-parrafo);
+    font-size:var(--font-sizes-p-large);
+    background-color: rgba(0, 0, 0, 0.54);
+    color:var(--primary-color);
+    resize: none;
+    border:none;
+    border-bottom:1px solid var(--primary-color);
+}
+
+form input[type="submit"]{
+    background-color: var(--primary-color);
+    color:black;
+};
+
+form input[type="submit"]:invalid{
+    border:1px solid rgb(40, 6, 6);
+}
+
+form textarea:invalid{
+    border:2px solid rgb(40, 6, 6);
+}
+
+form input:valid{
+    background-color: rgb(0, 0, 0);
+    color:var(--primary-color);
+}
+
+form .Mesageform{
+    color:rgb(24, 76, 24);
+    font-size:1.2em;
+}
+
+
+@media(max-width:1200px){
+    form{
+        margin-top:5vh;
+    }
+}
+
+@media(max-width:780px){
+    form{
+        margin-top:5vh;
+        width:90%;
+    }
+
+    form label{
+        margin-bottom:20px;
+    }
+
+    form textarea{
+        height:250px;
+    }
+
+    form input[type="submit"]{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        padding:15px;
+        height: auto;
+    }
+}
