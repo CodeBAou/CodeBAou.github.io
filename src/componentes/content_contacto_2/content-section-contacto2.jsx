@@ -1,0 +1,40 @@
+'use client'; // 1. Directiva correcta en inglés
+import './content-section-contacto2.css';
+import FormContacto from '@/componentes/form-contacto/FormContacto';
+
+export default function Content_section_contacto(){
+  
+    return(
+
+        <div id="contacto" className="section-contacto">
+            <h2>Contacto</h2>
+            
+            <div className="content-data">
+                <div className="content-datos-contacto">
+                    <div>
+                        <img src="/icon/whatssap.svg" alt="Icono de whatssap" loading="lazy"/>
+                        <p className="numeroTelefono">+34 644 81 42 58</p> 
+                        <a href="https://wa.me/34814258?text=Hola" Style="text-decoration: none;" target="_blank">
+                            <img className="qrcontacto" src="/image/qr_whatssap_contacto.webp" alt="QR para contacto de whatssap de dwba" loading="lazy"/>
+                             <p>Pulsa el QR para abrir WhatsApp</p>
+                        </a>
+                    </div>
+
+                    <div>
+                        <img src="/icon/email.svg" alt="icono de correo electronico" loading="lazy"/>
+                        <p>dwba.soporte@gmail.com</p>
+                        <a href="mailto:dwba.soporte@gmail.com?subject=Consulta" Style="text-decoration: none;" target="_blank">
+                            <img className="qrcontacto" src="/image/qr_email_contacto.webp" alt="QR para contacto de email de dwba" loading="lazy"/>
+                            <p>Pulsa el QR para abrir Email</p>
+                        </a>
+                    </div>        
+                </div>
+                <div className="content-form">
+                    <FormContacto/>
+                </div>
+            </div>
+        </div>
+
+    )
+
+}

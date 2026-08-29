@@ -1,0 +1,137 @@
+
+.section-contacto{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:10vh;
+}
+
+.section-contacto > h2{
+    color:var(--primary-color);
+    font-size:var( --font-sizes-title-h2-large) !important;
+    font-family:'lombok';
+    justify-content: center;
+    margin-top:2vh;
+    margin-bottom:1em;
+    padding:0;
+    mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+}
+
+.section-contacto > .content-data{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    padding-top:5vh;
+}
+
+.section-contacto > .content-data > div{
+    min-width:50%;
+}
+
+/** Content de los datos del contacto de la izquierda*/
+.section-contacto > .content-data > .content-datos-contacto{
+    display:flex;
+    flex-direction:row;
+    justify-content: left;
+    align-items:center;
+}
+
+.section-contacto > .content-data > .content-datos-contacto > div{
+    position:relative;
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;   
+}
+
+/** Iconos */
+.section-contacto > .content-data > .content-datos-contacto > div > img{
+    width:80px;
+}
+
+/** Imagen QR */
+.section-contacto > .content-data > .content-datos-contacto > div a img{
+    max-width:200px;
+}
+
+.section-contacto > .content-data > .content-datos-contacto > div p{
+    color:white;
+    font-family:var(--font-family-parrafo);
+    font-size:var(--font-sizes-p-large);
+}
+
+.section-contacto > .content-data > .content-datos-contacto > div a{
+    text-decoration:none;
+    color:var(--primary-color);
+    font-family:var(--font-family-parrafo);
+    font-size:var(--font-sizes-p-large);
+}
+
+.section-contacto > .content-data > .content-datos-contacto > div a:visited{
+    color:white;
+}
+
+/** content derecho del formulario*/
+.section-contacto > .content-data > .content-form{
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-contacto > .content-data > .content-datos-contacto > div a{
+        text-align:center;
+}
+
+@media (max-width: 1200px) {
+    .section-contacto > .content-data{
+        flex-direction: column ;
+    }
+
+    .section-contacto > .content-data > .content-datos-contacto > div a img{
+        width:90px;
+    }
+
+    .section-contacto > .content-data > .content-form form{
+        margin-top:5vh;
+    }
+}
+
+@media (max-width: 780px) {
+     .section-contacto > .content-data{
+        flex-direction:column;
+        padding-top:5vh;
+     }
+
+    .section-contacto > .content-data > .content-datos-contacto{
+        flex-direction: row;
+    }
+
+    .section-contacto > .content-data > .content-form form{
+        margin-top:5vh;
+        width:90%;
+    }
+
+    .section-contacto > .content-data > .content-form form label{
+        margin-bottom:20px;
+    }
+
+    .section-contacto > .content-data > .content-form form textarea{
+        height:250px;
+    }
+
+    .section-contacto > .content-data > .content-form form input[type="submit"]{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+        padding:15px;
+        height: auto;
+    }
+}
