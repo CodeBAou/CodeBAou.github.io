@@ -1,7 +1,6 @@
 .Image3DHoverEffect_container{
     position:relative;
     transform:  rotate(-30deg) skew(25deg) scale(0.8);
-    margin-top:2em;
     padding-top:100px;
 }
 
