@@ -16,7 +16,7 @@ export default function FormContacto(){
     e.preventDefault();
 
     emailjs
-      .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+      .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, "q_sawiCA32Es570j4")
       .then(
         () => {
           console.log('SUCCESS!');
