@@ -5,7 +5,7 @@ import './FormContacto.css';
 export default function FormContacto(){
 
     //https://dashboard.emailjs.com/ Envio Gmail
-    const [aviso, setAviso] = useState("Hemos recibido tu mensaje");
+    const [aviso, setAviso] = useState("");
     const form              = useRef();
     // En lugar de escribir las claves a mano, las leemos desde el .env / GitHub Variables
     const SERVICE_ID  = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;

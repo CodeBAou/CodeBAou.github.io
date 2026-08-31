@@ -7,7 +7,8 @@ import TextChild from '@/componentes/section_text_child/TextChild';
 import Image from '@/componentes/Image-dwba/Image';
 import Cubot from '@/componentes/cubot/Cubot';
 import OtrosServicios from '@/componentes/section_otros_servicios/OtrosServicios';
-
+import Link from '@/componentes/Link/Link';
+import MuestraVerticalDwba from '@/componentes/muestra-vertical-dwba/MuestraVerticalDwba.jsx';
 /**
  * JSON {media: Number (px responsive) ,  src: String }
  * @param mobile JSON { media ,src } IMAGEN DIMENSION MOBILE
@@ -37,7 +38,15 @@ export default function Page(){
                 >
                     <Cubot items={["Diseño","Contenido","Bloques", "Plugins"]}/>
                 </TextChild>
+                <h4>Algunos diseños wordpress...</h4>
+                  <div className="row_muestras">
+                    <MuestraVerticalDwba  alt="Diseño web en wordpress para una tienda online" link="https://charcuteriauria.es/" src="/image/portafolio/miniatura_web_uriahnos.webp" Width="200px"/>
+                    <MuestraVerticalDwba  alt="Diseño web en wordpress para una web corporativa de arquitectos" link="https://habitarqestudio.com/" src="/image/portafolio/miniatura_web_habitarq.webp" Width="200px"/>
+                    <MuestraVerticalDwba  alt="Diseño web en wordpress para venta de entradas online" link="https://entradaselite.com/" src="/image/portafolio/miniatura_web_entradasElite.webp" Width="200px"/>
+                    <MuestraVerticalDwba  alt="Diseño web en wordpress para una agencia de modelos" link="#" src="/image/portafolio/miniatura_web_maite_de_leon.webp" Width="200px"/>
+                </div>
             </section>
+
 
             <section className="maxheight">
                  <TextChild

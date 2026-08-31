@@ -8,7 +8,6 @@
     align-items: center;
 }
 
-
 .textChildren > div{
     width:40vw;
 }
@@ -51,7 +50,6 @@
     .textChildren{
        width:100vw;
        flex-direction:column;
-       padding-bottom:10vh;
        min-height:auto;
     }
 
@@ -107,7 +105,5 @@
         margin-left:0;
     }
 
-    .textChildren > div:nth-child(2){
-        width:100vw;
-    }
+
 }

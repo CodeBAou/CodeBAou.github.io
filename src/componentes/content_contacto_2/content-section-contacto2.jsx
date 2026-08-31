@@ -33,6 +33,24 @@ export default function Content_section_contacto(){
                     <FormContacto/>
                 </div>
             </div>
+
+            <div className="content_datos_localizacion">
+
+                <div>
+                    <img width="50px" height="50px" src="/icon/horario.svg" alt="icono de horario" loading="lazy"/>
+                    <h4>Horario</h4>
+                    <p> Lun - Sab</p>
+                    <p>| 8:30 - 14:00 |</p>
+                    <p>15:00 - 17:30</p>
+                </div>
+
+                <div>
+                    <h4>Áreas de servicio</h4>
+                    <p>Trabajamos desde Ourense, pero atendemos de forma online y aceptamos trabajos de cualquier ciudad.</p>
+                    <p>Zonas cercanas: <strong>A Cañiza</strong>, <strong>Celanova</strong>, <strong>Ribadavia</strong>, <strong>Ourense</strong>, <strong>Ponteareas</strong>, <strong>Salvaterra de Miño</strong>, <strong>Xinzo de Limia</strong> y <strong>Verín</strong>.</p>
+                    <p><strong>Dirección:</strong> 32200 Cortegada, Ourense.</p>
+                </div>
+            </div>
         </div>
 
     )
