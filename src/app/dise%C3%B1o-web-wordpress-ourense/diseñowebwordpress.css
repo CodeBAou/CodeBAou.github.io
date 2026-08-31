@@ -17,6 +17,31 @@ section.maxheight{
     min-height:100vh;
     background-color: rgba(0, 0, 0, 0.7);
     width:100%;
+    padding-top:5vh;
+    padding-bottom:5vh;
+}
+section.maxheight > h4{
+    color:var(--primary-color);
+    font-size:var(--font-sizes-title-h4-large);
+    text-align:left;
+    padding-left:5vw;
+    padding-right:5vw;
+}
+
+section.maxheight > .row_muestras{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    height:500px;
+    min-height:0px;
+    width:100vw;
+    padding-top:10vh;
+    padding-bottom:10vh;
+}
+
+.row_muestras > article{
+    margin-left:1vw;
+    margin-right:2vw;
 }
 
 @media(max-width:1200px){
@@ -27,4 +52,15 @@ section.maxheight{
 
 @media(max-width:769px){
     
+    .row_muestras{
+        width:100vw;
+        height:auto;
+        flex-wrap: wrap;
+        column-gap: 5vw;
+        row-gap: 5vh;
+    }
+
+    .row_muestras article{
+        width:40vw;
+    }
 }

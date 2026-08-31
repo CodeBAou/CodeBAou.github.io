@@ -3,6 +3,8 @@
     justify-content: center;
     color:white;
     position:relative;
+    padding-top:5vh;
+    padding-bottom:5vh;
 }
 
 @keyframes gira {
@@ -21,7 +23,6 @@
     animation-name: gira;
     animation-duration: 5000ms;
     animation-iteration-count:infinite;
-    
 }
 
 .cubo3D:hover{
