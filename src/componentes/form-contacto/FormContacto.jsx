@@ -25,7 +25,7 @@ export default function FormContacto(){
           setAviso("Hemos recibido tu mendaje");
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          console.log('FAILED...', error);
         },
       );
   };
