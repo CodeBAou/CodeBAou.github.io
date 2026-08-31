@@ -23,6 +23,7 @@ form input{
     color:black;
     border:none;
     border-bottom:1px solid var(--primary-color);
+    margin-top:10px;
 }
 
 /* Quita el borde de enfoque en inputs y textarea */
@@ -42,6 +43,7 @@ form textarea{
     resize: none;
     border:none;
     border-bottom:1px solid var(--primary-color);
+    margin-top:10px;
 }
 
 form input[type="submit"]{
@@ -60,8 +62,8 @@ form textarea:invalid{
 }
 
 form input:valid{
-    background-color: rgb(239, 239, 239);
-    color:var(--primary-color);
+    background-color: rgb(255, 255, 255);
+    color:black;
 }
 
 form .Mesageform{
