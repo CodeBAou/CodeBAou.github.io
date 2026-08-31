@@ -30,7 +30,7 @@ export default function Content_section_contacto(){
                     </div>        
                 </div>
                 <div className="content-form">
-                   
+                    <FormContacto/>
                 </div>
             </div>
 
