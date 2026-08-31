@@ -1,0 +1,296 @@
+.mantenimientopage{
+    width:100%;
+    height:auto;
+    min-height:100vh;
+    min-width:100vw;
+    display:flex;
+    flex-direction:column;
+    background-color: rgba(0, 0, 0, 0.487);
+    padding-top:10vh;
+    padding-bottom:10vh;
+}
+
+.mantenimientopage h1{
+    color:var(--primary-color);
+    font-size:var(--font-sizes-title-h1-large);
+    font-family: var(--font-family-titles);
+    margin-left:10vw;
+}
+
+.mantenimientopage h2{
+    color:var(--second-color);
+    font-size:var(--font-sizes-title-h2-large);
+    margin-bottom:10vh;
+    margin-left:10vw;
+}
+
+.mantenimientopage h3{
+    color:var(--primary-color);
+    font-size:var(--font-sizes-title-h3-large);
+    font-family: var(--font-family-titles);
+    margin-top:10vh;
+    margin-left:10vw;
+}
+
+.mantenimientopage h4{
+    font-size:var( --font-sizes-title-h4-large);
+    color:var(--primary-color);
+    font-family: var(--font-family-titles);
+}
+
+.mantenimientopage p{
+    color: var(--second-color);
+    font-size: var(--font-sizes-p-large);
+    font-family: var(--font-family-parrafo);
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+.mantenimientopage ul li{
+    color: var(--second-color);
+    font-size: var(--font-sizes-p-large);
+    font-family: var(--font-family-parrafo);
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:10vw;
+}
+
+.mantenimientopage > .planes_content{
+    display:grid;
+    margin-left: 5vw;
+    max-width:800px;
+    height:auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 2vw;
+}
+
+.mantenimientopage > .planes_content .precio{
+    font-size:3em;
+    font-weight: 700;
+}
+
+.mantenimientopage > .planes_content div{
+    text-align:center;
+    padding-left:2vw;
+    padding-right:2vw;
+    padding-bottom:5vh;
+}
+
+.mantenimientopage > .planes_content div:nth-child(1){
+    grid-column: 1/1;
+    grid-row: 1/2;
+    background-color: rgb(255, 255, 255);
+    padding-bottom:10vh;
+}
+
+.mantenimientopage > .planes_content div:nth-child(2){
+    grid-column: 2 / 3;
+    grid-row: 1/2;
+    background-color: rgb(255, 250, 180);
+}
+
+.mantenimientopage > .planes_content div:nth-child(3){
+    grid-column: 3 / 3;
+    grid-row: 1/2;
+    background-color: rgb(255, 248, 152);
+}
+
+.mantenimientopage > .planes_content div:nth-child(4){
+    grid-column: 1 / 3;
+    grid-row: 2/2;
+    background-color: rgb(253, 246, 141);
+}
+
+.mantenimientopage > .planes_content div:nth-child(5){
+    grid-column: 3 / 3;
+    grid-row: 2/2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding:0;
+}
+
+.mantenimientopage > .planes_content div:nth-child(5):hover{
+    
+}
+
+.planes_content_shadow{
+    box-shadow: -11px 10px 20px 5px rgba(255, 255, 255, 0.137);
+    -webkit-box-shadow: -11px 10px 20px 5px rgba(255, 255, 255, 0.149);   
+}
+
+.mantenimientopage > div.planes_content div ul{
+    margin:0;
+    padding:0;
+    position:relative;
+  
+}
+
+.mantenimientopage > div.planes_content div ul li{
+    color: black;
+    font-size: var(--font-sizes-p-large);
+    font-family: var(--font-family-parrafo);
+    margin:0;
+    margin-top:10px;
+    padding:0;
+    text-align: left;
+  
+    list-style: none;
+}
+
+.mantenimientopage > div.planes_content div h4{
+    color: black;
+}
+
+.mantenimientopage > div.planes_content div p{
+    color:black;
+}
+
+
+@keyframes callAction_contactar {
+    0%{
+        padding:25px;
+        border-radius: 0;
+    }
+
+    50%{
+        padding:10px;
+        border-radius:12px;
+    }
+
+    100%{
+        padding:25px;
+        border-radius:0;
+    }
+}
+.call_action_contactar{
+    padding:25px;
+    background-color: rgb(247, 255, 136);
+    color:black;
+    font-size:1.6em;
+    text-decoration: none;
+    animation-name:callAction_contactar;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+}
+
+.call_action_contactar:hover{
+    animation-name:callAction_contactar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@media(max-width:1200px){
+
+    .mantenimientopage > .planes_content{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .mantenimientopage > .planes_content{
+        width:90vw;
+    }
+
+     .mantenimientopage > .planes_content div:nth-child(1){
+        grid-column: 1/2;
+        grid-row: 1/1;
+    }
+
+    .mantenimientopage > .planes_content div:nth-child(2){
+        grid-column: 2 / 2;
+        grid-row: 1/1;
+    }
+
+    .mantenimientopage > .planes_content div:nth-child(3){
+        grid-column: 1 / 2;
+        grid-row: 2/2;
+    }
+
+    .mantenimientopage > .planes_content div:nth-child(4){
+        grid-column: 2 / 2;
+        grid-row: 2/2;
+    }
+
+    .mantenimientopage > .planes_content div:nth-child(5){
+        grid-column: 2 /2 ;
+        grid-row: 3/3;
+        justify-content: center;
+    }
+
+    .call_action_contactar{
+        width:100%;
+    }
+}
+
+@media(max-width:780px){
+
+    .mantenimientopage h1{
+        font-size:var(--font-sizes-title-h1-small);
+        margin-left:5vw;
+    }
+
+    .mantenimientopage h2{
+        font-size:var(--font-sizes-title-h2-small);
+        margin-left:5vw;
+    }
+
+    .mantenimientopage h3{
+        font-size:var(--font-sizes-title-h3-small);
+        margin-left:5vw;
+    }
+
+    .mantenimientopage h4{
+        font-size:var( --font-sizes-title-h4-small);
+    }
+
+    .mantenimientopage p{      
+        font-size: var(--font-sizes-p-small);
+        margin-left:5vw;
+    }
+
+    .mantenimientopage > .planes_content{
+        grid-template-columns: 80vw ;
+        grid-template-rows: auto auto auto auto auto;
+        width:95vw;
+        grid-gap: 3vw;
+    }
+
+    .mantenimientopage > .planes_content div{
+        position:relative;
+        width:100%;
+    }
+
+     .mantenimientopage > .planes_content div:nth-child(1){
+        grid-column: 1/1;
+        grid-row: 1/1;
+    }
+
+    .mantenimientopage > .planes_content div:nth-child(2){
+        grid-column: 1 / 1;
+        grid-row: 2/2;
+        width:85vw;
+    }
+
+    .mantenimientopage > .planes_content div:nth-child(3){
+        grid-column: 1 / 1;
+        grid-row: 3/3;
+    }
+
+    .mantenimientopage > .planes_content div:nth-child(4){
+        grid-column: 1 / 3;
+        grid-row: 4/4;
+        width:auto;
+    }
+
+    .mantenimientopage > .planes_content div:nth-child(5){
+        grid-column: 1 / 1;
+        grid-row: 5/5;
+    }
+
+    .call_action_contactar{
+        animation-name: none;
+        margin-top:5vh;
+        margin-bottom:5vh;
+    }
+}
