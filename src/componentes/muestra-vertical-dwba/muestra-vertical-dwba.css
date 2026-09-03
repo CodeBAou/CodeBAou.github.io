@@ -30,7 +30,7 @@
 
 @media(max-width:768px){
     .portafolioLinkweb{
-        width:50%;
+        width:40vw;
     }
 
     .portafolioLinkweb > a{
