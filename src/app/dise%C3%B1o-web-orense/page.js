@@ -1,8 +1,6 @@
 "use client";
 import React from 'react'
-
 import './diseñoweb.css';
-import MuestraVerticalDwba from '@/componentes/muestra-vertical-dwba/MuestraVerticalDwba.jsx';
 import Section_diseño_web_responsive from '@/componentes/section_diseño_web_responsive/Section_diseño_web_responsive';
 import Section_diseño_web_apisGoogle from '@/componentes/section_diseño_web_apisGoogle/Section_diseño_web_apisGoogle';
 import SectionTipos from '@/componentes/section_tipo_webs/SectionTipos';
@@ -11,6 +9,7 @@ import Cubot from '@/componentes/cubot/Cubot';
 import HaderPageUnica from '@/componentes/header-page-unica/HeaderPageUnica';
 import OtrosServicios from '@/componentes/section_otros_servicios/OtrosServicios';
 import Link from '@/componentes/Link/Link';
+
 export default function Page(){
 
     return(
@@ -22,8 +21,8 @@ export default function Page(){
                 imageSrcTablet="/image/diseño-web/Imagen_apartado_diseño_1200.webp" 
                 imageSrcMobile="/image/diseño-web/Imagen_apartado_diseño_765.webp" 
                 alt="La interfaz para el diseño de páginas web, captura durante el diseño web de una página para una bodega."
-                title="Servicio de diseño web desde Ourense"
-                subtitle="Nuestros diseños webs están pensados para que te encuentren en Google, ofrecer la funcionalidad que quieras y convertir usuarios en clientes"
+                title="Diseño y prototipado web"
+                subtitle="Diseñamos tu idea de forma visual antes de invertir tiempo en desarrollarla."
             />
 
             <section className="maxheight">
@@ -61,14 +60,8 @@ export default function Page(){
                 <TextChild title="¿QUIERES UN DISEÑO WEB EN WORDPRESS?" parrafo="Un diseño web para wordpress.">
                      <p>Si necesitas una web autogestionable con CMS WordPress, podemos diseñar temas o webs completas, bloques Gutenberg para incluir apartados separados, bloques Gutenberg para integrar APIs de Google o bloques basados en animaciones CSS.</p>
                      <p>Cubrimos todo en WordPress, incluidos plugins para solucionar algo o añadir una funcionalidad a medida.</p>
-                     <Link maxwidth="400px" texto="Ver diseño web WordPress" enlace="/diseño-web-wordpress-ourense"/>
+                     <Link maxwidth="400px" texto="Ver diseño web WordPress" enlace="/desarrollo-web-wordpress-ourense"/>
                 </TextChild>
-                  <div className="webs_muestras">
-                    <MuestraVerticalDwba  alt="Diseño web en wordpress para una tienda online" link="https://charcuteriauria.es/" src="/image/portafolio/miniatura_web_uriahnos.webp" Width="200px"/>
-                    <MuestraVerticalDwba  alt="Diseño web en wordpress para una web corporativa de arquitectos" link="https://habitarqestudio.com/" src="/image/portafolio/miniatura_web_habitarq.webp" Width="200px"/>
-                    <MuestraVerticalDwba  alt="Diseño web en wordpress para venta de entradas online" link="https://entradaselite.com/" src="/image/portafolio/miniatura_web_entradasElite.webp" Width="200px"/>
-                    <MuestraVerticalDwba  alt="Diseño web en wordpress para una agencia de modelos" link="#" src="/image/portafolio/miniatura_web_maite_de_leon.webp" Width="200px"/>
-                 </div>
             </section>
 
              <section className="maxheight">

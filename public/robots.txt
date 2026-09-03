@@ -2,7 +2,7 @@ User-agent: *
 
 Allow: /
 Allow: /diseño-web-orense
-Allow: /diseño-web-wordpress-ourense
+Allow: /desarrollo-web-wordpress-ourense
 Allow: /mantenimiento-web
 Allow: /portafolio/*
 Disallow: /servicios

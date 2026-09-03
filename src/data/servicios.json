@@ -125,7 +125,7 @@
 {
     "name":"Desarrollo",
     "ancla":"desarrollo",
-    "enlace":"#",
+    "enlace":"/desarrollo-web-wordpress-ourense",
     "descripcion":[
       "El servicio de desarrollo está destinado a crear una solución a medida, desde una simple funcionalidad a una web o webapp completa.",
       " WordPress Avanzado | Mantenimiento | WebApp | Soluciones a medida | Apps"
@@ -262,7 +262,7 @@
 {
     "name":"Mantenimiento web",
     "ancla":"mantenimiento web",
-    "enlace":"#",
+    "enlace":"/mantenimiento-web",
     "descripcion":[
       "Mantenimiento web para WordPress y otros desarrollos a medida.",
       "Solucionamos problemas técnicos.",

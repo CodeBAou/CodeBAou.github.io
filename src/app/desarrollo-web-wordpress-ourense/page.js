@@ -27,14 +27,14 @@ export default function Page(){
                 imageSrcTablet="/image/diseño-web/Imagen_apartado_diseño_1200.webp" 
                 imageSrcMobile="/image/diseño-web/Imagen_apartado_diseño_765.webp" 
                 alt="La interfaz para el diseño de páginas web, captura durante el diseño web de una página para una bodega."
-                title="Diseño web WordPress desde Ourense"
-                subtitle="Detalles del servicio de diseñador de páginas web con WordPress"
+                title="Desarrollo y maquetación web en WordPress"
+                subtitle="Convertimos un diseño web en una pagina web real autogestionable."
             />
 
             <section className="maxheight">
                 <TextChild
-                    title="Diseñador web WordPress"
-                    parrafo="Cubrimos todas las necesidades a la hora de crear páginas web en WordPress."
+                    title="Desarrollo web en WordPress"
+                    parrafo="Desarrollo de páginas web y funcionalidades para wordpress"
                 >
                     <Cubot items={["Diseño","Contenido","Bloques", "Plugins"]}/>
                 </TextChild>
@@ -72,7 +72,7 @@ export default function Page(){
 
             <section className="maxheight">
                  <TextChild
-                    title="Tienda Online WordPress"
+                    title="Tienda Online para productos"
                     parrafo="Te diseñamos una página web pensada para vender, gestionar productos, envíos y pagos. Te acompañamos para brindarte soporte y gestionar los pedidos."
                 >
                     <Image data={{

@@ -759,7 +759,7 @@ section.maxheight{
     }
     div.webs_muestras{
         padding-left:0;  
-        column-gap: 0;
+        column-gap: 5;
         flex-direction: row;
         flex-wrap: wrap;
     }
