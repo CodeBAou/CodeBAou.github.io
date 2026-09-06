@@ -58,10 +58,11 @@ export default function Page(){
             </section>
 
             <section className="maxheight">
-                <TextChild title="¿QUIERES UN DISEÑO WEB EN WORDPRESS?" parrafo="Un diseño web para wordpress.">
-                     <p>Si necesitas una web autogestionable con CMS WordPress, podemos diseñar temas o webs completas, bloques Gutenberg para incluir apartados separados, bloques Gutenberg para integrar APIs de Google o bloques basados en animaciones CSS.</p>
-                     <p>Cubrimos todo en WordPress, incluidos plugins para solucionar algo o añadir una funcionalidad a medida.</p>
-                     <Link maxwidth="400px" texto="Ver diseño web WordPress" enlace="/desarrollo-web-wordpress-ourense"/>
+                <TextChild title="¿QUIERES UN DISEÑO WEB EN WORDPRESS?" parrafo="Desarrollamos la web con WordPress.">
+                     <p>Una vez tengamos el diseño web pasamos a desarrollar la web real autogestionable en WordPress.</p>
+                     <p>Maquetizacion, diseño, temas de terceros y propios y funcionalidades de terceros y propias.</p>
+                     <p>Wordpress Avanzado</p>
+                     <Link maxwidth="400px" texto="Más detalles WordPress" enlace="/desarrollo-web-wordpress-ourense"/>
                 </TextChild>
             </section>
 
