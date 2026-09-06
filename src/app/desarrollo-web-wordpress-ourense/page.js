@@ -22,29 +22,33 @@ import MuestraVerticalDwba from '@/componentes/muestra-vertical-dwba/MuestraVert
 export default function Page(){
     return(
         <div className="diseñowebwordpress-page">
+
             <HeaderPageUnica
-                imageSrc="/image/diseño-web/Imagen_apartado_diseño.webp" 
-                imageSrcTablet="/image/diseño-web/Imagen_apartado_diseño_1200.webp" 
-                imageSrcMobile="/image/diseño-web/Imagen_apartado_diseño_765.webp" 
-                alt="La interfaz para el diseño de páginas web, captura durante el diseño web de una página para una bodega."
-                title="Desarrollo y maquetación web en WordPress"
-                subtitle="Convertimos un diseño web en una pagina web real autogestionable."
+                imageSrc="/image/diseño-web/Cabecera_wordpress.webp" 
+                imageSrcTablet="/image/diseño-web/Cabecera_wordpress_1200.webp" 
+                imageSrcMobile="/image/diseño-web/Cabecera_wordpress_765.webp" 
+                alt="Captura del escritorio de WordPress desplegado en local dwba."
+                title="Desarrollo y maquetación web en WordPress."
+                subtitle="Convertimos un diseño web en una pagina web real y autogestionable con WordPress."
             />
 
             <section className="maxheight">
+
                 <TextChild
                     title="Desarrollo web en WordPress"
                     parrafo="Desarrollo de páginas web y funcionalidades para wordpress"
                 >
                     <Cubot items={["Diseño","Contenido","Bloques", "Plugins"]}/>
                 </TextChild>
+
                 <h4>Algunos diseños wordpress...</h4>
-                  <div className="row_muestras">
+                <div className="row_muestras">
                     <MuestraVerticalDwba  alt="Diseño web en wordpress para una tienda online" link="https://charcuteriauria.es/" src="/image/portafolio/miniatura_web_uriahnos.webp" Width="200px"/>
                     <MuestraVerticalDwba  alt="Diseño web en wordpress para una web corporativa de arquitectos" link="https://habitarqestudio.com/" src="/image/portafolio/miniatura_web_habitarq.webp" Width="200px"/>
                     <MuestraVerticalDwba  alt="Diseño web en wordpress para venta de entradas online" link="https://entradaselite.com/" src="/image/portafolio/miniatura_web_entradasElite.webp" Width="200px"/>
                     <MuestraVerticalDwba  alt="Diseño web en wordpress para una agencia de modelos" link="#" src="/image/portafolio/miniatura_web_maite_de_leon.webp" Width="200px"/>
                 </div>
+
             </section>
 
 

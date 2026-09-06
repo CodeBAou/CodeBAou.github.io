@@ -17,7 +17,6 @@ nav#menuprincipal{
     -webkit-box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.73);
     -moz-box-shadow: -16px 20px 9px 0px rgba(0,0,0,0.73);
     z-index: 1000;
-    
 }
 
 nav#menuprincipal > ul {

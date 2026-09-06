@@ -5,16 +5,16 @@ export default function SectionTipos(){
     return(
         <div className="sectiontipos">
             <div>
-                <h3>Diseño para el tipo de web que necesitas.</h3>
-                <p>IDENTIFICAMOS EL TIPO DE WEB Y CREAMOS EL DISEÑO MÁS ADECUADO</p>
+                <h3>Tipos de diseño web.</h3>
+                <p>Diseñamos teniendo en cuenta tu modelo de negocio.</p>
             </div>
             <div>
-                <div><p> 1 PÁGINA    </p></div>
-                <div><p> CORPORATIVA </p></div>
-                <div><p> TIENDA ONLINE   </p></div>
-                <div><p> RESERVAS ONLINE </p></div>
-                <div><p> CITAS ONLINE           </p></div>
-                <div><p> A MEDIDA        </p></div>
+                <div><p>landing page</p></div>
+                <div><p>corporativa</p></div>
+                <div><p>tienda online</p></div>
+                <div><p>venta de entradas</p></div>
+                <div><p>reservas</p></div>
+                <div><p>a medida</p></div>
             </div>
         </div>
     )
