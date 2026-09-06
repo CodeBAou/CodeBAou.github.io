@@ -1,14 +1,15 @@
 "use client";
 import React from 'react'
 import './diseñoweb.css';
-import Section_diseño_web_responsive from '@/componentes/section_diseño_web_responsive/Section_diseño_web_responsive';
-import Section_diseño_web_apisGoogle from '@/componentes/section_diseño_web_apisGoogle/Section_diseño_web_apisGoogle';
+import HaderPageUnica from '@/componentes/header-page-unica/HeaderPageUnica';
 import SectionTipos from '@/componentes/section_tipo_webs/SectionTipos';
+import Carrupser_miniaturas_muestras_diseño_web from '@/componentes/carrupsel_miniaturas_muestras_diseño_web/Carrupser_miniaturas_muestras_diseño';
 import TextChild from '@/componentes/section_text_child/TextChild';
 import Cubot from '@/componentes/cubot/Cubot';
-import HaderPageUnica from '@/componentes/header-page-unica/HeaderPageUnica';
-import OtrosServicios from '@/componentes/section_otros_servicios/OtrosServicios';
+import Section_diseño_web_responsive from '@/componentes/section_diseño_web_responsive/Section_diseño_web_responsive';
+import Section_diseño_web_apisGoogle from '@/componentes/section_diseño_web_apisGoogle/Section_diseño_web_apisGoogle';
 import Link from '@/componentes/Link/Link';
+import OtrosServicios from '@/componentes/section_otros_servicios/OtrosServicios';
 
 export default function Page(){
 
@@ -20,13 +21,14 @@ export default function Page(){
                 imageSrc="/image/diseño-web/Imagen_apartado_diseño.webp" 
                 imageSrcTablet="/image/diseño-web/Imagen_apartado_diseño_1200.webp" 
                 imageSrcMobile="/image/diseño-web/Imagen_apartado_diseño_765.webp" 
-                alt="La interfaz para el diseño de páginas web, captura durante el diseño web de una página para una bodega."
+                alt="Captura de la interfaz de figma con un diseño web de landing page dwba."
                 title="Diseño y prototipado web"
-                subtitle="Diseñamos tu idea de forma visual antes de invertir tiempo en desarrollarla."
+                subtitle="Convertimos una idea en un diseño web que cumpla con el objetivo deseado."
             />
 
             <section className="maxheight">
                 <SectionTipos/>
+                <Carrupser_miniaturas_muestras_diseño_web/>
             </section>
 
             <section className="maxheight">
@@ -37,8 +39,7 @@ export default function Page(){
 
             <section className="maxheight">
                 <TextChild title="UX/UI Y CALIDAD DE CONTENIDO" parrafo="EXPERIENCIA DE USUARIO Y DISEÑO DE INTERFAZ INTUITIVA">
-                     <p>Trabajamos la calidad del contenido para que tu página transmita de forma óptima lo que quieras. Ofrecemos embudos de venta con técnicas para aumentar la probabilidad de que un usuario compre en tu sitio. Optimizamos el contenido para aumentar las impresiones y clics.
-                     </p>
+                     <p>Trabajamos la calidad del contenido para que tu página transmita de forma óptima lo que quieras. Ofrecemos embudos de venta con técnicas para aumentar la probabilidad de que un usuario compre en tu sitio. Optimizamos el contenido para aumentar las impresiones y clics.</p>
                 </TextChild>
             </section>
 
