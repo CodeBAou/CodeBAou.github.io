@@ -10,15 +10,16 @@ import OtrosServicios from '@/componentes/section_otros_servicios/OtrosServicios
 import Link from '@/componentes/Link/Link';
 import MuestraVerticalDwba from '@/componentes/muestra-vertical-dwba/MuestraVerticalDwba.jsx';
 /**
- * JSON {media: Number (px responsive) ,  src: String }
- * @param mobile JSON { media ,src } IMAGEN DIMENSION MOBILE
- * @param tablet JSON{ media=(width <= 765px) , src } IMAGEN DIMENSION TABLET
- * @param src string src  IMAGEN DIMENSION ESCRITORIO
- * @param className  String    
- * @param alt String 
- * @param load  String para el atribito loading (lazy = carga cuando este cerca de salir en pantalla,  eager = carga inmediatamente, conviene al principio de la pagina)
- * @returns
- */
+* JSON {media: Number (px responsive) ,  src: String }
+* @param mobile JSON { media ,src } IMAGEN DIMENSION MOBILE
+* @param tablet JSON{ media=(width <= 765px) , src } IMAGEN DIMENSION TABLET
+* @param src string src  IMAGEN DIMENSION ESCRITORIO
+* @param className  String    
+* @param alt String 
+* @param load  String para el atribito loading (lazy = carga cuando este cerca de salir en pantalla,  eager = carga inmediatamente, conviene al principio de la pagina)
+* @returns
+*/
+
 export default function Page(){
     return(
         <div className="diseñowebwordpress-page">
@@ -30,6 +31,7 @@ export default function Page(){
                 alt="Captura del escritorio de WordPress desplegado en local dwba."
                 title="Desarrollo y maquetación web en WordPress."
                 subtitle="Convertimos un diseño web en una pagina web real y autogestionable con WordPress."
+                tagseo="Diseño web Ourense"
             />
 
             <section className="maxheight">

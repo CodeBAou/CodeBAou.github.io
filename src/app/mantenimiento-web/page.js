@@ -30,8 +30,8 @@ export default function Page(){
                 <div className="planes_content_shadow">
                     <h4>Estandar</h4>
                     <ul>
-                        <li>Soporte para incidencias</li>
-                        <li>Seguridad web básica.</li>
+                        <li>Resolver incidencias</li>
+                        <li>Seguridad</li>
                         <li>Copia de seguridad <b>MENSUAL</b></li>
                         <li>Actualizaciones</li>
                     </ul>
@@ -40,8 +40,8 @@ export default function Page(){
                 <div className="planes_content_shadow">   
                     <h4>Proactivo</h4>
                     <ul>
-                        <li>Soporte para incidencias</li>
-                        <li>Seguridad web básica.</li>
+                        <li>Resolver Incidencias</li>
+                        <li>Seguridad</li>
                         <li>Copia de seguridad <b>SEMANAL</b></li>
                         <li>Actualizaciones</li>
                         <li>Seguimiento Activo para incidencias</li>
@@ -52,21 +52,20 @@ export default function Page(){
                 <div className="planes_content_shadow">
                      <h4>Tienda Online / Servicio</h4>
                     <ul>
-                        <li>Soporte para incidencias</li>
+                        <li>Resolver Incidencias</li>
                         <li>Seguridad web básica.</li>
                         <li>Copia de seguridad <b>SEMANAL</b></li>
                         <li>Actualizaciones</li>
-                        <li>Seguimiento Activo para incidencias</li>
-                        <li>Informe Salud del sition SEMANAL</li>
-                        <li>Soporte woocommerce, fooevents o funcionalidad avanzada para comercio electrócino.</li>
+                        <li>Seguimiento activo para prevenir incidencias</li>
+                        <li>Woocommerce, fooevents o otra funcionalidad avanzada.</li>
                     </ul>
                     <p className="precio">175€</p>
                 </div>
                 <div className="planes_content_shadow">
                     <h4>BOLSA DE HORAS</h4>
                     <ul>
-                        <li>Bolsa de horas para proyectos más grandes y con un número mayor de funcionalidades que mantener.</li>
-                        <li>Solución puntual, se calcula el precio por estimación de horas</li>
+                        <li>Servicio personalizado para proyectos más grandes.</li>
+                        <li>Resolver una incidencia de forma puntual.</li>
                     </ul>
                     <p className="precio">Presupuesto</p>
                 </div>

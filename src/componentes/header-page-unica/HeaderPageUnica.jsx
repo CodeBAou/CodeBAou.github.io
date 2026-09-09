@@ -2,7 +2,7 @@ import React,{props} from 'react';
 import ImageDwba from '@/componentes/Image-dwba/Image.jsx';
 import './header-page-unica.css';
 
-export default function HeaderPageUnica({imageSrc,imageSrcTablet,imageSrcMobile,alt, title, subtitle}){
+export default function HeaderPageUnica({imageSrc,imageSrcTablet,imageSrcMobile,alt, title, subtitle, tagseo}){
     return(
          <section className="header-page-unica-content">
         
@@ -21,10 +21,9 @@ export default function HeaderPageUnica({imageSrc,imageSrcTablet,imageSrcMobile,
                             load:"eager"
                         }}/>
         
-                        <h1 className="title-header-page-unica">{title}</h1>
-                       
-                        <h2 className="subtitle-header-page-unica">{subtitle}</h2>
-                        
+                        <h1 className="title-header-page-unica">{title}</h1> 
+                        <p className="subtitle-header-page-unica">{subtitle}</p>
+                        <h2 className="tag-seo">{tagseo}</h2>
             </section>   
     )
 }
