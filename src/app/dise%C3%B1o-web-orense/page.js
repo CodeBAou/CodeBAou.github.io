@@ -24,6 +24,7 @@ export default function Page(){
                 alt="Captura de la interfaz de figma con un diseño web de landing page dwba."
                 title="Diseño y prototipado web"
                 subtitle="Convertimos una idea en un diseño web que cumpla con el objetivo deseado."
+                tagseo="Diseño web Ourense"
             />
 
             <section className="maxheight">

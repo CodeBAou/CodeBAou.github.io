@@ -85,6 +85,10 @@
     --font-size-copyright-large:0.8rem;
     --font-size-copyright-medium:0.8rem;
     --font-size-copyright-small:0.8rem;
+
+    --font-size-tagseo-large:1rem;
+    --font-size-tagseo-medium:0.8rem;
+    --font-size-tagseo-small:0.6rem;
 }
 
 *{
