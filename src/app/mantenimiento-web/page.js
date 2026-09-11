@@ -52,7 +52,7 @@ export default function Page(){
                 <div className="planes_content_shadow">
                      <h4>Tienda Online / Servicio</h4>
                     <ul>
-                        <li>Resolver Incidencias</li>
+                        <li>Resolver incidencias</li>
                         <li>Seguridad web básica.</li>
                         <li>Copia de seguridad <b>SEMANAL</b></li>
                         <li>Actualizaciones</li>
@@ -77,7 +77,7 @@ export default function Page(){
             <div>
                 <p>1º - Realizamos una auditoría y evaluamos la salud del sitio.</p>
                 <p>2º - Planificamos las soluciones según las horas disponibles del plan.</p>
-                <p>3º - Creamos un informe sobre la salud del sitio y solucciones aplicadas.</p>
+                <p>3º - Creamos un informe sobre la salud del sitio y soluciones aplicadas.</p>
             </div>
         </div>
     )
