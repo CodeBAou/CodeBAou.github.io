@@ -1,7 +1,7 @@
 export const metadata = {
-  title: 'Servicio de diseño para tu página web | CSS Avanzado, Animaciones.',
-  description: 'Te contamos todo lo que hacemos para diseñar tu página web. Servicio de diseño web desde Ourense.',
-  keywords: 'diseño web Ourense, diseño de pagina web, venta de páginas web., diseñador web',
+  title: 'DWBA - Servicio de diseño para tu página web.',
+  description: 'En DWBA diseñamos páginas web para la imagen de tu marca en internet.',
+  keywords: 'diseño web Ourense, diseño de pagina web, diseño de tiendas online, diseño wordpress',
   robots: 'index, follow',
 };
 
