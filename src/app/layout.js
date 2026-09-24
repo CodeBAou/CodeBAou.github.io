@@ -22,12 +22,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es" >
       <head>
-      
-        <link
-          rel="canonical"
-          href="https://dwba.es/"
-          key="canonical"
-        />
 
         <script
           type="application/ld+json"
