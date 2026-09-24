@@ -1,8 +1,11 @@
 export const metadata = {
-  title: 'DWBA - Servicio de diseño para tu página web.',
-  description: 'En DWBA diseñamos páginas web para la imagen de tu marca en internet.',
-  keywords: 'diseño web Ourense, diseño de pagina web, diseño de tiendas online, diseño wordpress',
+  title: 'DWBA - Servicio de diseño web.',
+  description: 'En DWBA realizamos diseños para tu web. | Ourense',
+  keywords: 'diseño web Ourense, diseño de página web, diseño de tiendas online, diseño wordpress',
   robots: 'index, follow',
+  alternates: {
+    canonical: 'https://dwba.es/diseño-web-orense',
+  }
 };
 
 export default function RootLayout({ children }) {
