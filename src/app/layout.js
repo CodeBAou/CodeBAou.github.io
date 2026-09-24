@@ -11,6 +11,9 @@ export const metadata = {
   robots: 'index, follow',
   icons: {
   icon: 'https://dwba.es/icon/LOGO_DWBA_simbolo_32.webp',
+  },
+  alternates: {
+    canonical: 'https://dwba.es/',
   }
 };
 

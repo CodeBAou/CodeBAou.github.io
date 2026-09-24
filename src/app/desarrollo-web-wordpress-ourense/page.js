@@ -31,9 +31,8 @@ export default function Page(){
                 alt="Captura del escritorio de WordPress desplegado en local dwba."
                 title="Desarrollo y maquetación web en WordPress."
                 subtitle="Convertimos un diseño web en una pagina web real y autogestionable con WordPress."
-                tagseo="Diseño web Ourense"
+                tagseo="Desarrollo web wordpress"
             />
-
             <section className="maxheight">
 
                 <TextChild
