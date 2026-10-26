@@ -14,6 +14,7 @@ import Link from '@/componentes/Link/Link.jsx';
 export default function Page(){
 
     return(
+        
          <Layout_page_inicio>
             
              <Menu_ancla/>
