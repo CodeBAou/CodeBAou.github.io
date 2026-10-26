@@ -79,6 +79,20 @@ export default function Page(){
                 <p>2º - Planificamos las soluciones según las horas disponibles del plan.</p>
                 <p>3º - Creamos un informe sobre la salud del sitio y soluciones aplicadas.</p>
             </div>
+
+            <div Style="display:flex; flex-direction:row; flex-wrap:wrap;">
+                <div>
+                    <h3>¿Aún no tienes página web?</h3>
+                    <p Style="margin-bottom:50px;">Diseños para comunicar tu marca a tus clientes potenciales de internet</p>
+                    <Link  Style="margin-left:25vw; margin-top:10vh;" className="call_action_contactar" href="/diseño-web-orense">VER SERVICIO</Link>
+                </div>
+                 <div>
+                    <h3>¿Tu proyecto web es para WordPress?</h3>
+                    <p Style="margin-bottom:50px;">Desarrollamos páginas web en WordPress, temas y plugins para tu web.</p>
+                    <Link  Style="margin-left:25vw; margin-top:10vh;" className="call_action_contactar" href="/diseño-web-orense">VER SERVICIO</Link>
+                 </div>
+
+            </div>
         </div>
     )
 }
