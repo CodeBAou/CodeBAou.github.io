@@ -25,7 +25,8 @@ export async function generateMetadata({ params }) {
             {
                 method: 'GET',
                 next: { revalidate: 3600 },
-                headers: { 'Referer': `${SERVER}` }
+                headers: { 'Referer': `${SERVER}` },
+                cache: 'no-store'
             }
         );
         const data = await res.json();
