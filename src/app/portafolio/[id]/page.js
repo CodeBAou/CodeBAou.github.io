@@ -6,7 +6,6 @@ const API_KEY = process.env.NEXT_PUBLIC_BLOGGER_API_KEY;
 const BLOG_ID = process.env.NEXT_PUBLIC_BLOGGER_BLOG_ID;
 const SERVER  = process.env.NEXT_PUBLIC_SERVER;
 
-export const fetchCache = 'force-no-store';
 export const dynamicParams = false;
 
 // FUNCIÓN PARA GENERAR METADATOS DINÁMICOS (SEO) Metatitles , Metadescription unicos
